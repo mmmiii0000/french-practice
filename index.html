@@ -118,6 +118,42 @@
       letter-spacing: 0.08em;
     }
 
+
+    .brand-actions {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      flex: 0 0 auto;
+    }
+
+    .direction-toggle {
+      min-height: 34px;
+      border: 1px solid rgba(20,33,61,.12);
+      border-radius: 999px;
+      padding: 0 13px;
+      color: var(--navy);
+      background: rgba(255,255,255,.58);
+      font-size: .75rem;
+      font-weight: 800;
+      letter-spacing: .03em;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+      transition: transform .15s ease, box-shadow .18s ease,
+                  background .18s ease, border-color .18s ease;
+    }
+
+    .direction-toggle span {
+      margin-left: 5px;
+      opacity: .6;
+    }
+
+    .direction-toggle:hover {
+      transform: translateY(-1px);
+      border-color: rgba(53,93,157,.30);
+      background: rgba(255,255,255,.90);
+      box-shadow: 0 7px 18px rgba(20,33,61,.08);
+    }
+
     .count-badge {
       flex: 0 0 auto;
       color: var(--navy);
@@ -173,7 +209,7 @@
 
     .level-group {
       display: grid;
-      grid-template-columns: repeat(4, minmax(72px, 1fr));
+      grid-template-columns: repeat(var(--visible-levels, 4), minmax(72px, 1fr));
       gap: 9px;
     }
 
@@ -378,6 +414,31 @@
       line-height: 1.5;
       letter-spacing: -0.016em;
       overflow-wrap: anywhere;
+    }
+
+
+    .french[lang="ja"] {
+      font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans",
+        "Yu Gothic", "YuGothic", "Noto Sans JP", sans-serif;
+      font-size: clamp(1.35rem, 4vw, 1.9rem);
+      font-weight: 650;
+      line-height: 1.65;
+      letter-spacing: 0;
+    }
+
+    .answer-jp[lang="fr"] {
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.18rem;
+      line-height: 1.75;
+      font-weight: 500;
+    }
+
+    .translation-label-main {
+      color: inherit !important;
+      font-size: inherit !important;
+      font-weight: inherit !important;
     }
 
     .divider {
@@ -588,6 +649,27 @@
       overflow-wrap: anywhere;
     }
 
+
+    .daily-quote-meta {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .daily-quote-meta .daily-quote-author {
+      margin: 0;
+    }
+
+    .daily-quote-number {
+      flex: 0 0 auto;
+      color: #8b8378;
+      font-size: .7rem;
+      font-weight: 800;
+      letter-spacing: .04em;
+    }
+
     .daily-quote-author {
       margin: 16px 0 0;
       color: #6e665b;
@@ -643,6 +725,16 @@
 
       .count-badge {
         display: none;
+      }
+
+      .brand-actions {
+        gap: 0;
+      }
+
+      .direction-toggle {
+        min-height: 32px;
+        padding: 0 11px;
+        font-size: .7rem;
       }
 
       .toolbar {
@@ -717,6 +809,15 @@
         font-size: 1.16rem;
         line-height: 1.65;
       }
+
+      .daily-quote-meta {
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .daily-quote-number {
+        font-size: .66rem;
+      }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -738,30 +839,40 @@
         </div>
         <div>
           <h1 class="brand-title">Traduire.</h1>
-          <p class="brand-subtitle">FRENCH → JAPANESE TRANSLATION PRACTICE</p>
+          <p id="brandSubtitle" class="brand-subtitle">FRENCH → JAPANESE TRANSLATION PRACTICE</p>
         </div>
       </div>
-      <div class="count-badge">A2 — C1 · takusan questions</div>
+      <div class="brand-actions">
+        <button id="directionToggle" class="direction-toggle" type="button"
+                aria-label="翻訳方向を切り替える" aria-pressed="false">
+          仏 → 和 <span aria-hidden="true">⇄</span>
+        </button>
+        <div id="countBadge" class="count-badge">A2 — C1 · 1,600 questions</div>
+      </div>
     </header>
 
     <section class="shell">
       <div class="toolbar">
         <div>
-          <span class="field-label">難易度を選択</span>
+          <span id="levelFieldLabel" class="field-label">難易度を選択</span>
           <div class="level-group" role="radiogroup" aria-label="難易度">
-            <div class="level-option">
+            <div class="level-option jpfr-only" data-directions="jpfr" style="display:none;">
+              <input id="levelA1" type="radio" name="level" value="A1">
+              <label for="levelA1"><strong>A1</strong><span>入門</span></label>
+            </div>
+            <div class="level-option" data-directions="frjp jpfr">
               <input id="levelA2" type="radio" name="level" value="A2">
               <label for="levelA2"><strong>A2</strong><span>基礎</span></label>
             </div>
-            <div class="level-option">
+            <div class="level-option" data-directions="frjp">
               <input id="levelB1" type="radio" name="level" value="B1">
               <label for="levelB1"><strong>B1</strong><span>中級</span></label>
             </div>
-            <div class="level-option">
+            <div class="level-option" data-directions="frjp">
               <input id="levelB2" type="radio" name="level" value="B2" checked>
               <label for="levelB2"><strong>B2</strong><span>中上級</span></label>
             </div>
-            <div class="level-option">
+            <div class="level-option" data-directions="frjp">
               <input id="levelC1" type="radio" name="level" value="C1">
               <label for="levelC1"><strong>C1</strong><span>上級</span></label>
             </div>
@@ -785,14 +896,14 @@
             <span id="questionNumber" class="pill"></span>
           </div>
 
-          <p class="question-label">Traduisez en japonais</p>
-          <p id="frenchText" class="french" lang="fr"></p>
+          <p id="questionLabel" class="question-label">Traduisez en japonais</p>
+          <p id="promptText" class="french" lang="fr"></p>
 
           <div class="divider"></div>
 
           <div class="translation-box">
             <label for="userTranslation">
-              自分の和訳
+              <span id="translationLabelText" class="translation-label-main">自分の和訳</span>
               <span>ここは保存されません</span>
             </label>
             <textarea id="userTranslation" placeholder="フランス語を日本語に訳してみましょう。"></textarea>
@@ -805,7 +916,7 @@
 
           <div id="answerBox" class="answer">
             <p class="answer-label">Modèle de traduction</p>
-            <p id="japaneseText" class="answer-jp"></p>
+            <p id="answerText" class="answer-jp"></p>
 
             <div id="pointsBox" class="points">
               <p class="points-title">POINT</p>
@@ -833,7 +944,10 @@
 
       <div class="daily-quote-body">
         <p id="dailyQuoteText" class="daily-quote-text" lang="fr"></p>
-        <p id="dailyQuoteAuthor" class="daily-quote-author"></p>
+        <div class="daily-quote-meta">
+          <p id="dailyQuoteAuthor" class="daily-quote-author"></p>
+          <span id="dailyQuoteNumber" class="daily-quote-number">No. — / —</span>
+        </div>
       </div>
     </section>
   </main>
@@ -843,18 +957,34 @@
   <script src="b1_french_translation_400.js"></script>
   <script src="b2_french_translation_400.js"></script>
   <script src="c1_french_translation_400.js"></script>
+  <script src="a1_japanese_to_french_400.js"></script>
+  <script src="a2_japanese_to_french_400.js"></script>
   <script src="quotes.js"></script>
 
   <script>
-    const QUESTION_BANK = {
+    const FRJP_BANK = {
       A2: typeof A2_QUESTIONS !== "undefined" ? A2_QUESTIONS : [],
       B1: typeof B1_QUESTIONS !== "undefined" ? B1_QUESTIONS : [],
       B2: typeof B2_QUESTIONS !== "undefined" ? B2_QUESTIONS : [],
       C1: typeof C1_QUESTIONS !== "undefined" ? C1_QUESTIONS : []
     };
 
+    const JPFR_BANK = {
+      A1: typeof A1_JPFR_QUESTIONS !== "undefined" ? A1_JPFR_QUESTIONS : [],
+      A2: typeof A2_JPFR_QUESTIONS !== "undefined" ? A2_JPFR_QUESTIONS : []
+    };
+
     const levelInputs = [...document.querySelectorAll('input[name="level"]')];
-    let currentLevel = document.querySelector('input[name="level"]:checked').value;
+    const levelOptions = [...document.querySelectorAll('.level-option[data-directions]')];
+
+    let currentDirection = "frjp";
+    let currentLevel = "B2";
+    const lastLevelByDirection = { frjp: "B2", jpfr: "A1" };
+
+    const directionToggle = document.getElementById("directionToggle");
+    const countBadge = document.getElementById("countBadge");
+    const brandSubtitle = document.getElementById("brandSubtitle");
+    const levelGroup = document.querySelector(".level-group");
     const drawBtn = document.getElementById("drawBtn");
     const emptyState = document.getElementById("emptyState");
     const quiz = document.getElementById("quiz");
@@ -863,23 +993,26 @@
     const categoryPill = document.getElementById("categoryPill");
     const registerPill = document.getElementById("registerPill");
     const questionNumber = document.getElementById("questionNumber");
-    const frenchText = document.getElementById("frenchText");
+    const questionLabel = document.getElementById("questionLabel");
+    const promptText = document.getElementById("promptText");
     const userTranslation = document.getElementById("userTranslation");
+    const translationLabelText = document.getElementById("translationLabelText");
 
     const answerBtn = document.getElementById("answerBtn");
     const nextBtn = document.getElementById("nextBtn");
     const answerBox = document.getElementById("answerBox");
-    const japaneseText = document.getElementById("japaneseText");
+    const answerText = document.getElementById("answerText");
     const pointsBox = document.getElementById("pointsBox");
     const pointsList = document.getElementById("pointsList");
 
     const dailyQuoteCard = document.getElementById("dailyQuoteCard");
     const dailyQuoteText = document.getElementById("dailyQuoteText");
     const dailyQuoteAuthor = document.getElementById("dailyQuoteAuthor");
+    const dailyQuoteNumber = document.getElementById("dailyQuoteNumber");
     const quoteRefreshBtn = document.getElementById("quoteRefreshBtn");
 
     let currentQuestion = null;
-    let lastQuestionIdByLevel = {};
+    let lastQuestionIdByMode = {};
 
     const registerNames = {
       standard: "標準",
@@ -897,12 +1030,20 @@
       if (!q) {
         dailyQuoteText.textContent = "名言データを読み込めませんでした。";
         dailyQuoteAuthor.textContent = "";
+        dailyQuoteNumber.textContent = "No. — / —";
         return;
       }
 
       currentQuoteKey = quoteKey(q);
       dailyQuoteText.textContent = `« ${q.text} »`;
       dailyQuoteAuthor.textContent = q.author || "";
+
+      const quoteBankLength =
+        typeof DAILY_QUOTES !== "undefined" && Array.isArray(DAILY_QUOTES)
+          ? DAILY_QUOTES.length
+          : 0;
+      dailyQuoteNumber.textContent =
+        q.id && quoteBankLength ? `No. ${q.id} / ${quoteBankLength}` : "No. — / —";
 
       dailyQuoteCard.classList.remove("quote-changing");
       void dailyQuoteCard.offsetWidth;
@@ -946,27 +1087,102 @@
       renderQuote(chosen);
     }
 
+    function activeBank() {
+      return currentDirection === "jpfr" ? JPFR_BANK : FRJP_BANK;
+    }
+
+    function dataFilename(level) {
+      if (currentDirection === "jpfr") {
+        return `${level.toLowerCase()}_japanese_to_french_400.js`;
+      }
+      return `${level.toLowerCase()}_french_translation_400.js`;
+    }
+
     function randomQuestion(level) {
-      const bank = QUESTION_BANK[level] || [];
+      const bank = activeBank()[level] || [];
       if (!bank.length) {
-        alert(`${level} の問題データを読み込めませんでした。\n${level.toLowerCase()}_french_translation_400.js が index.html と同じフォルダにあるか確認してください。`);
+        alert(
+          `${level} の問題データを読み込めませんでした。\n` +
+          `${dataFilename(level)} が index.html と同じフォルダにあるか確認してください。`
+        );
         return null;
       }
 
+      const modeKey = `${currentDirection}:${level}`;
       let chosen;
       do {
         chosen = bank[Math.floor(Math.random() * bank.length)];
       } while (
         bank.length > 1 &&
-        lastQuestionIdByLevel[level] === chosen.id
+        lastQuestionIdByMode[modeKey] === chosen.id
       );
 
-      lastQuestionIdByLevel[level] = chosen.id;
+      lastQuestionIdByMode[modeKey] = chosen.id;
       return chosen;
+    }
+
+    function resetQuestionArea() {
+      currentQuestion = null;
+      quiz.style.display = "none";
+      emptyState.style.display = "block";
+
+      const directionText = currentDirection === "jpfr" ? "和文仏訳" : "仏文和訳";
+      emptyState.querySelector("h2").textContent =
+        currentDirection === "jpfr"
+          ? "Une phrase japonaise vous attend."
+          : "Une phrase vous attend.";
+      emptyState.querySelector("p").innerHTML =
+        `${currentLevel}・${directionText}を選択中です。<br>` +
+        `「出題する」を押すと400問からランダムに1問表示します。`;
+    }
+
+    function applyDirectionUI() {
+      const isJpFr = currentDirection === "jpfr";
+
+      directionToggle.innerHTML =
+        isJpFr
+          ? '和 → 仏 <span aria-hidden="true">⇄</span>'
+          : '仏 → 和 <span aria-hidden="true">⇄</span>';
+      directionToggle.setAttribute("aria-pressed", String(isJpFr));
+
+      brandSubtitle.textContent =
+        isJpFr
+          ? "JAPANESE → FRENCH TRANSLATION PRACTICE"
+          : "FRENCH → JAPANESE TRANSLATION PRACTICE";
+
+      countBadge.textContent =
+        isJpFr ? "A1 — A2 · 800 questions" : "A2 — C1 · 1,600 questions";
+
+      questionLabel.textContent =
+        isJpFr ? "Traduisez en français" : "Traduisez en japonais";
+
+      translationLabelText.textContent =
+        isJpFr ? "自分の仏訳" : "自分の和訳";
+
+      userTranslation.placeholder =
+        isJpFr
+          ? "日本語をフランス語に訳してみましょう。"
+          : "フランス語を日本語に訳してみましょう。";
+
+      levelOptions.forEach(option => {
+        const directions = option.dataset.directions.split(/\s+/);
+        option.style.display = directions.includes(currentDirection) ? "" : "none";
+      });
+
+      levelGroup.style.setProperty("--visible-levels", isJpFr ? "2" : "4");
+
+      currentLevel = lastLevelByDirection[currentDirection];
+      const selected = document.querySelector(
+        `input[name="level"][value="${currentLevel}"]`
+      );
+      if (selected) selected.checked = true;
+
+      resetQuestionArea();
     }
 
     function renderQuestion() {
       const level = currentLevel;
+      const bank = activeBank()[level] || [];
       const q = randomQuestion(level);
       if (!q) return;
 
@@ -977,7 +1193,7 @@
 
       levelPill.textContent = q.level || level;
       categoryPill.textContent = q.category || "総合";
-      questionNumber.textContent = `No. ${q.id} / ${QUESTION_BANK[level].length}`;
+      questionNumber.textContent = `No. ${q.id} / ${bank.length}`;
 
       if (q.register) {
         registerPill.textContent = registerNames[q.register] || q.register;
@@ -986,10 +1202,19 @@
         registerPill.style.display = "none";
       }
 
-      frenchText.textContent = q.french;
-      userTranslation.value = "";
+      if (currentDirection === "jpfr") {
+        promptText.textContent = q.japanese || "";
+        promptText.lang = "ja";
+        answerText.textContent = "";
+        answerText.lang = "fr";
+      } else {
+        promptText.textContent = q.french || "";
+        promptText.lang = "fr";
+        answerText.textContent = "";
+        answerText.lang = "ja";
+      }
 
-      japaneseText.textContent = "";
+      userTranslation.value = "";
       pointsList.innerHTML = "";
       answerBox.style.display = "none";
       answerBtn.textContent = "模範解答を表示";
@@ -1004,7 +1229,13 @@
     function showAnswer() {
       if (!currentQuestion) return;
 
-      japaneseText.textContent = currentQuestion.japanese || "";
+      if (currentDirection === "jpfr") {
+        answerText.textContent = currentQuestion.french || "";
+        answerText.lang = "fr";
+      } else {
+        answerText.textContent = currentQuestion.japanese || "";
+        answerText.lang = "ja";
+      }
 
       const points = Array.isArray(currentQuestion.points)
         ? currentQuestion.points
@@ -1032,16 +1263,23 @@
       input.addEventListener("change", () => {
         if (!input.checked) return;
 
+        const option = input.closest(".level-option");
+        const directions = option?.dataset.directions?.split(/\s+/) || [];
+        if (!directions.includes(currentDirection)) return;
+
         currentLevel = input.value;
-        currentQuestion = null;
-        quiz.style.display = "none";
-        emptyState.style.display = "block";
-        emptyState.querySelector("p").innerHTML =
-          `${currentLevel} を選択中です。<br>「出題する」を押すとランダムに1問表示します。`;
+        lastLevelByDirection[currentDirection] = currentLevel;
+        resetQuestionArea();
       });
     });
 
+    directionToggle.addEventListener("click", () => {
+      currentDirection = currentDirection === "frjp" ? "jpfr" : "frjp";
+      applyDirectionUI();
+    });
+
     quoteRefreshBtn.addEventListener("click", refreshQuote);
+    applyDirectionUI();
     showDailyQuote();
 
     document.addEventListener("keydown", (event) => {
