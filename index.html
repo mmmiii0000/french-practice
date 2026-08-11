@@ -893,24 +893,6 @@
       return `${q.text}|||${q.author}`;
     }
 
-    function dailyQuoteIndex(length) {
-      if (!length) return 0;
-      const now = new Date();
-      const dateKey =
-        now.getFullYear() * 10000 +
-        (now.getMonth() + 1) * 100 +
-        now.getDate();
-
-      // Simple deterministic hash so the first quote changes with the date.
-      let hash = 2166136261;
-      const source = String(dateKey);
-      for (let i = 0; i < source.length; i++) {
-        hash ^= source.charCodeAt(i);
-        hash = Math.imul(hash, 16777619);
-      }
-      return (hash >>> 0) % length;
-    }
-
     function renderQuote(q) {
       if (!q) {
         dailyQuoteText.textContent = "名言データを読み込めませんでした。";
@@ -937,7 +919,8 @@
         return;
       }
 
-      renderQuote(bank[dailyQuoteIndex(bank.length)]);
+      const chosen = bank[Math.floor(Math.random() * bank.length)];
+      renderQuote(chosen);
     }
 
     function refreshQuote() {
