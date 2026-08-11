@@ -118,6 +118,43 @@
       letter-spacing: 0.08em;
     }
 
+    .brand-actions {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      flex: 0 0 auto;
+    }
+
+    .header-bonus-btn {
+      min-height: 34px;
+      border: 1px solid rgba(20,33,61,.12);
+      border-radius: 999px;
+      padding: 0 13px;
+      color: var(--navy);
+      background: rgba(255,255,255,.58);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+      transition: transform .15s ease, box-shadow .18s ease, color .18s ease,
+                  background .18s ease, border-color .18s ease;
+    }
+
+    .header-bonus-btn:hover {
+      transform: translateY(-1px);
+      border-color: rgba(53,93,157,.28);
+      box-shadow: 0 7px 18px rgba(20,33,61,.08);
+    }
+
+    .header-bonus-btn.active {
+      color: #fff;
+      border-color: var(--navy);
+      background: linear-gradient(135deg, var(--navy), var(--navy-2));
+      box-shadow: 0 8px 20px rgba(20,33,61,.16);
+    }
+
     .count-badge {
       flex: 0 0 auto;
       color: var(--navy);
@@ -488,6 +525,85 @@
       line-height: 1.8;
     }
 
+    .practice-panel {
+      display: block;
+    }
+
+    .bonus-panel {
+      display: none;
+      min-height: 560px;
+      padding: 28px 30px 30px;
+      background: rgba(255, 253, 248, 0.96);
+      animation: reveal .28s ease both;
+    }
+
+    .bonus-topbar {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 20px;
+    }
+
+    .bonus-kicker {
+      display: inline-block;
+      margin-bottom: 6px;
+      color: var(--blue);
+      font-size: .7rem;
+      font-weight: 900;
+      letter-spacing: .14em;
+    }
+
+    .bonus-title {
+      margin: 0;
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.45rem, 4vw, 1.9rem);
+      font-weight: 500;
+      letter-spacing: -.02em;
+    }
+
+    .bonus-description {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: .82rem;
+    }
+
+    .x-timeline-mount {
+      min-height: 460px;
+      overflow: hidden;
+      border: 1px solid rgba(20,33,61,.10);
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .timeline-loading {
+      min-height: 460px;
+      display: grid;
+      place-items: center;
+      padding: 32px;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    .bonus-fallback {
+      margin: 12px 2px 0;
+      color: var(--muted);
+      font-size: .74rem;
+      line-height: 1.65;
+    }
+
+    .bonus-fallback a {
+      color: var(--blue);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .bonus-fallback a:hover {
+      text-decoration: underline;
+    }
+
     .footer-note {
       margin: 18px 4px 0;
       text-align: center;
@@ -520,6 +636,16 @@
 
       .count-badge {
         display: none;
+      }
+
+      .brand-actions {
+        gap: 0;
+      }
+
+      .header-bonus-btn {
+        min-height: 32px;
+        padding: 0 12px;
+        font-size: .78rem;
       }
 
       .toolbar {
@@ -567,6 +693,16 @@
       .french {
         line-height: 1.48;
       }
+
+      .bonus-panel {
+        min-height: 500px;
+        padding: 22px 20px 24px;
+      }
+
+      .x-timeline-mount,
+      .timeline-loading {
+        min-height: 420px;
+      }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -591,11 +727,15 @@
           <p class="brand-subtitle">FRENCH → JAPANESE TRANSLATION PRACTICE</p>
         </div>
       </div>
-      <div class="count-badge">A2 — C1 · takusan questions</div>
+      <div class="brand-actions">
+        <button id="bonusToggle" class="header-bonus-btn" type="button" aria-pressed="false">omake</button>
+        <div class="count-badge">A2 — C1 · takusan questions</div>
+      </div>
     </header>
 
     <section class="shell">
-      <div class="toolbar">
+      <div id="practicePanel" class="practice-panel">
+        <div class="toolbar">
         <div>
           <span class="field-label">難易度を選択</span>
           <div class="level-group" role="radiogroup" aria-label="難易度">
@@ -664,6 +804,28 @@
           </div>
         </section>
       </div>
+      </div>
+
+      <section id="bonusPanel" class="bonus-panel" aria-live="polite">
+        <div class="bonus-topbar">
+          <div>
+            <span class="bonus-kicker">OMAKE</span>
+            <h2 class="bonus-title">Beaux Arts magazine</h2>
+            <p class="bonus-description">@BeauxArts_mag の公開ポスト</p>
+          </div>
+        </div>
+
+        <div id="xTimelineMount" class="x-timeline-mount">
+          <div class="timeline-loading">
+            タイムラインを読み込んでいます…
+          </div>
+        </div>
+
+        <p class="bonus-fallback">
+          表示されない場合は
+          <a href="https://x.com/BeauxArts_mag" target="_blank" rel="noopener noreferrer">@BeauxArts_mag をXで開く</a>
+        </p>
+      </section>
     </section>
 
     <p class="footer-note">
@@ -690,6 +852,10 @@
     const levelInputs = [...document.querySelectorAll('input[name="level"]')];
     let currentLevel = document.querySelector('input[name="level"]:checked').value;
     const drawBtn = document.getElementById("drawBtn");
+    const bonusToggle = document.getElementById("bonusToggle");
+    const practicePanel = document.getElementById("practicePanel");
+    const bonusPanel = document.getElementById("bonusPanel");
+    const xTimelineMount = document.getElementById("xTimelineMount");
     const emptyState = document.getElementById("emptyState");
     const quiz = document.getElementById("quiz");
 
@@ -709,12 +875,70 @@
 
     let currentQuestion = null;
     let lastQuestionIdByLevel = {};
+    let bonusOpen = false;
+    let xTimelineRequested = false;
 
     const registerNames = {
       standard: "標準",
       soutenu: "書き言葉",
       administratif: "行政・公的文体"
     };
+
+    function setBonusOpen(open) {
+      bonusOpen = open;
+      bonusToggle.classList.toggle("active", open);
+      bonusToggle.setAttribute("aria-pressed", String(open));
+
+      practicePanel.style.display = open ? "none" : "block";
+      bonusPanel.style.display = open ? "block" : "none";
+
+      if (open) {
+        loadXTimeline();
+      }
+    }
+
+    function loadXTimeline() {
+      if (xTimelineRequested) {
+        if (window.twttr?.widgets?.load) {
+          window.twttr.widgets.load(xTimelineMount);
+        }
+        return;
+      }
+
+      xTimelineRequested = true;
+      xTimelineMount.innerHTML = "";
+
+      const timelineLink = document.createElement("a");
+      timelineLink.className = "twitter-timeline";
+      timelineLink.href = "https://twitter.com/BeauxArts_mag";
+      timelineLink.dataset.height = "680";
+      timelineLink.dataset.theme = "light";
+      timelineLink.dataset.dnt = "true";
+      timelineLink.textContent = "Posts by @BeauxArts_mag";
+      xTimelineMount.appendChild(timelineLink);
+
+      const existing = document.querySelector(
+        'script[src="https://platform.twitter.com/widgets.js"]'
+      );
+
+      if (existing) {
+        if (window.twttr?.widgets?.load) {
+          window.twttr.widgets.load(xTimelineMount);
+        }
+        return;
+      }
+
+      const script = document.createElement("script");
+      script.src = "https://platform.twitter.com/widgets.js";
+      script.async = true;
+      script.charset = "utf-8";
+      script.onload = () => {
+        if (window.twttr?.widgets?.load) {
+          window.twttr.widgets.load(xTimelineMount);
+        }
+      };
+      document.body.appendChild(script);
+    }
 
     function randomQuestion(level) {
       const bank = QUESTION_BANK[level] || [];
@@ -797,6 +1021,7 @@
     drawBtn.addEventListener("click", renderQuestion);
     nextBtn.addEventListener("click", renderQuestion);
     answerBtn.addEventListener("click", showAnswer);
+    bonusToggle.addEventListener("click", () => setBonusOpen(!bonusOpen));
 
     levelInputs.forEach(input => {
       input.addEventListener("change", () => {
@@ -815,12 +1040,12 @@
       const active = document.activeElement;
       const isTyping = active === userTranslation;
 
-      if (event.key === "Enter" && !isTyping) {
+      if (event.key === "Enter" && !isTyping && !bonusOpen) {
         event.preventDefault();
         renderQuestion();
       }
 
-      if (event.code === "Space" && !isTyping && currentQuestion) {
+      if (event.code === "Space" && !isTyping && currentQuestion && !bonusOpen) {
         event.preventDefault();
         showAnswer();
       }
