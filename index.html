@@ -1156,7 +1156,7 @@
   <script src="b2_japanese_to_french_400.js"></script>
   <script src="quotes.js"></script>
   <script
-    src="./movies.js?v=20260811-2"
+    src="./movies.js?v=20260811-3"
     onerror="window.MOVIES_SCRIPT_LOAD_FAILED = true;">
   </script>
 
@@ -1296,6 +1296,26 @@
 
     let currentMovieId = null;
 
+    function getMovieBank() {
+      // 以前の movies.js:
+      //   const CLASSIC_MOVIES = ...
+      // 新しい movies.js:
+      //   window.CLASSIC_MOVIES = ...
+      // の両方に対応する。
+      if (
+        typeof CLASSIC_MOVIES !== "undefined" &&
+        Array.isArray(CLASSIC_MOVIES)
+      ) {
+        return CLASSIC_MOVIES;
+      }
+
+      if (Array.isArray(window.CLASSIC_MOVIES)) {
+        return window.CLASSIC_MOVIES;
+      }
+
+      return [];
+    }
+
     function renderMovie(movie) {
       if (!movie) {
         dailyMovieTitle.textContent = "映画データを読み込めませんでした。";
@@ -1310,10 +1330,7 @@
       dailyMovieCredit.textContent =
         `${movie.director || ""} · ${movie.year || ""}`;
 
-      const movieBankLength =
-        Array.isArray(window.CLASSIC_MOVIES)
-          ? window.CLASSIC_MOVIES.length
-          : 0;
+      const movieBankLength = getMovieBank().length;
       dailyMovieNumber.textContent =
         movie.id && movieBankLength
           ? `No. ${movie.id} / ${movieBankLength}`
@@ -1325,10 +1342,7 @@
     }
 
     function randomMovie() {
-      const bank =
-        Array.isArray(window.CLASSIC_MOVIES)
-          ? window.CLASSIC_MOVIES
-          : [];
+      const bank = getMovieBank();
 
       if (!bank.length) {
         if (window.MOVIES_SCRIPT_LOAD_FAILED) {
