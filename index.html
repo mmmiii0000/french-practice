@@ -488,6 +488,129 @@
       line-height: 1.8;
     }
 
+
+    .daily-quote-card {
+      position: relative;
+      overflow: hidden;
+      margin-top: 30px;
+      padding: 30px 32px 28px;
+      border: 1px solid rgba(20,33,61,.10);
+      border-radius: 24px;
+      background:
+        radial-gradient(circle at 92% 12%, rgba(184,139,74,.11), transparent 28%),
+        linear-gradient(145deg, rgba(255,253,248,.92), rgba(239,233,223,.82));
+      box-shadow: 0 18px 46px rgba(26,34,54,.10);
+    }
+
+    .daily-quote-card::before {
+      content: "“";
+      position: absolute;
+      top: -20px;
+      right: 24px;
+      color: rgba(20,33,61,.055);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 9rem;
+      line-height: 1;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .daily-quote-head {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 22px;
+    }
+
+    .daily-quote-heading {
+      min-width: 0;
+    }
+
+    .daily-quote-kicker {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--gold);
+      font-size: .66rem;
+      font-weight: 900;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .daily-quote-title {
+      margin: 0;
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.22rem;
+      font-weight: 600;
+      letter-spacing: .02em;
+    }
+
+    .quote-refresh-btn {
+      flex: 0 0 auto;
+      min-height: 38px;
+      border: 1px solid rgba(20,33,61,.11);
+      border-radius: 999px;
+      padding: 0 14px;
+      color: var(--navy);
+      background: rgba(255,255,255,.70);
+      font-size: .74rem;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform .15s ease, box-shadow .18s ease,
+                  background .18s ease, border-color .18s ease;
+    }
+
+    .quote-refresh-btn:hover {
+      transform: translateY(-1px);
+      border-color: rgba(53,93,157,.28);
+      background: rgba(255,255,255,.94);
+      box-shadow: 0 7px 18px rgba(20,33,61,.08);
+    }
+
+    .daily-quote-body {
+      position: relative;
+      z-index: 1;
+    }
+
+    .daily-quote-text {
+      margin: 0;
+      color: var(--navy);
+      font-family:
+        "Iowan Old Style", "Palatino Linotype", "Book Antiqua",
+        Georgia, "Times New Roman", serif;
+      font-size: clamp(1.18rem, 3vw, 1.52rem);
+      font-weight: 400;
+      line-height: 1.68;
+      letter-spacing: .005em;
+      overflow-wrap: anywhere;
+    }
+
+    .daily-quote-author {
+      margin: 16px 0 0;
+      color: #6e665b;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: .88rem;
+      font-style: italic;
+      line-height: 1.55;
+    }
+
+    .daily-quote-author::before {
+      content: "— ";
+    }
+
+    .daily-quote-card.quote-changing .daily-quote-text,
+    .daily-quote-card.quote-changing .daily-quote-author {
+      animation: quoteFade .28s ease both;
+    }
+
+    @keyframes quoteFade {
+      from { opacity: .18; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
     .footer-note {
       margin: 18px 4px 0;
       text-align: center;
@@ -566,6 +689,33 @@
 
       .french {
         line-height: 1.48;
+      }
+
+      .daily-quote-card {
+        margin-top: 24px;
+        padding: 24px 20px 22px;
+        border-radius: 20px;
+      }
+
+      .daily-quote-head {
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+
+      .daily-quote-title {
+        font-size: 1.08rem;
+      }
+
+      .quote-refresh-btn {
+        min-height: 36px;
+        padding: 0 12px;
+        font-size: .7rem;
+      }
+
+      .daily-quote-text {
+        font-size: 1.16rem;
+        line-height: 1.65;
       }
     }
 
@@ -671,6 +821,21 @@
       <span class="kbd">Enter</span> 出題 / 次へ　
       <span class="kbd">Space</span> 解答表示
     </p>
+
+    <section id="dailyQuoteCard" class="daily-quote-card" aria-live="polite">
+      <div class="daily-quote-head">
+        <div class="daily-quote-heading">
+          <span class="daily-quote-kicker">Citation du jour</span>
+          <h2 class="daily-quote-title">本日の名言</h2>
+        </div>
+        <button id="quoteRefreshBtn" class="quote-refresh-btn" type="button">名言を更新 ↻</button>
+      </div>
+
+      <div class="daily-quote-body">
+        <p id="dailyQuoteText" class="daily-quote-text" lang="fr"></p>
+        <p id="dailyQuoteAuthor" class="daily-quote-author"></p>
+      </div>
+    </section>
   </main>
 
   <!-- 問題データ：index.html と同じフォルダに置いてください -->
@@ -678,6 +843,7 @@
   <script src="b1_french_translation_400.js"></script>
   <script src="b2_french_translation_400.js"></script>
   <script src="c1_french_translation_400.js"></script>
+  <script src="quotes.js"></script>
 
   <script>
     const QUESTION_BANK = {
@@ -707,6 +873,11 @@
     const pointsBox = document.getElementById("pointsBox");
     const pointsList = document.getElementById("pointsList");
 
+    const dailyQuoteCard = document.getElementById("dailyQuoteCard");
+    const dailyQuoteText = document.getElementById("dailyQuoteText");
+    const dailyQuoteAuthor = document.getElementById("dailyQuoteAuthor");
+    const quoteRefreshBtn = document.getElementById("quoteRefreshBtn");
+
     let currentQuestion = null;
     let lastQuestionIdByLevel = {};
 
@@ -715,6 +886,82 @@
       soutenu: "書き言葉",
       administratif: "行政・公的文体"
     };
+
+    let currentQuoteKey = null;
+
+    function quoteKey(q) {
+      return `${q.text}|||${q.author}`;
+    }
+
+    function dailyQuoteIndex(length) {
+      if (!length) return 0;
+      const now = new Date();
+      const dateKey =
+        now.getFullYear() * 10000 +
+        (now.getMonth() + 1) * 100 +
+        now.getDate();
+
+      // Simple deterministic hash so the first quote changes with the date.
+      let hash = 2166136261;
+      const source = String(dateKey);
+      for (let i = 0; i < source.length; i++) {
+        hash ^= source.charCodeAt(i);
+        hash = Math.imul(hash, 16777619);
+      }
+      return (hash >>> 0) % length;
+    }
+
+    function renderQuote(q) {
+      if (!q) {
+        dailyQuoteText.textContent = "名言データを読み込めませんでした。";
+        dailyQuoteAuthor.textContent = "";
+        return;
+      }
+
+      currentQuoteKey = quoteKey(q);
+      dailyQuoteText.textContent = `« ${q.text} »`;
+      dailyQuoteAuthor.textContent = q.author || "";
+
+      dailyQuoteCard.classList.remove("quote-changing");
+      void dailyQuoteCard.offsetWidth;
+      dailyQuoteCard.classList.add("quote-changing");
+    }
+
+    function showDailyQuote() {
+      const bank = typeof DAILY_QUOTES !== "undefined" && Array.isArray(DAILY_QUOTES)
+        ? DAILY_QUOTES
+        : [];
+
+      if (!bank.length) {
+        renderQuote(null);
+        return;
+      }
+
+      renderQuote(bank[dailyQuoteIndex(bank.length)]);
+    }
+
+    function refreshQuote() {
+      const bank = typeof DAILY_QUOTES !== "undefined" && Array.isArray(DAILY_QUOTES)
+        ? DAILY_QUOTES
+        : [];
+
+      if (!bank.length) {
+        renderQuote(null);
+        return;
+      }
+
+      let chosen = bank[Math.floor(Math.random() * bank.length)];
+
+      if (bank.length > 1) {
+        let guard = 0;
+        while (quoteKey(chosen) === currentQuoteKey && guard < 30) {
+          chosen = bank[Math.floor(Math.random() * bank.length)];
+          guard++;
+        }
+      }
+
+      renderQuote(chosen);
+    }
 
     function randomQuestion(level) {
       const bank = QUESTION_BANK[level] || [];
@@ -810,6 +1057,9 @@
           `${currentLevel} を選択中です。<br>「出題する」を押すとランダムに1問表示します。`;
       });
     });
+
+    quoteRefreshBtn.addEventListener("click", refreshQuote);
+    showDailyQuote();
 
     document.addEventListener("keydown", (event) => {
       const active = document.activeElement;
