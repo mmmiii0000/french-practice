@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#14213d">
-  <title>Traduire — フランス語和訳トレーニング</title>
+  <title>Omake — Beaux Arts magazine</title>
 
   <style>
     :root {
@@ -628,6 +628,85 @@
         transition-duration: .01ms !important;
       }
     }
+
+    .omake-shell {
+      padding: 28px 30px 30px;
+      min-height: 560px;
+    }
+
+    .omake-header {
+      margin-bottom: 20px;
+    }
+
+    .omake-kicker {
+      display: inline-block;
+      margin-bottom: 6px;
+      color: var(--blue);
+      font-size: .7rem;
+      font-weight: 900;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .omake-title {
+      margin: 0;
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.45rem, 4vw, 1.9rem);
+      font-weight: 500;
+      letter-spacing: -.02em;
+    }
+
+    .omake-description {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: .82rem;
+      line-height: 1.7;
+    }
+
+    .x-timeline-wrap {
+      min-height: 500px;
+      overflow: hidden;
+      border: 1px solid rgba(20,33,61,.10);
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .x-timeline-wrap .twitter-timeline {
+      display: block;
+      width: 100%;
+      min-height: 500px;
+    }
+
+    .omake-fallback {
+      margin: 12px 2px 0;
+      color: var(--muted);
+      font-size: .74rem;
+      line-height: 1.65;
+    }
+
+    .omake-fallback a {
+      color: var(--blue);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .omake-fallback a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .omake-shell {
+        min-height: 500px;
+        padding: 22px 20px 24px;
+      }
+
+      .x-timeline-wrap,
+      .x-timeline-wrap .twitter-timeline {
+        min-height: 430px;
+      }
+    }
+
   </style>
 </head>
 
@@ -643,243 +722,39 @@
           <p class="brand-subtitle">FRENCH → JAPANESE TRANSLATION PRACTICE</p>
         </div>
       </div>
+
       <div class="brand-actions">
-        <a class="header-bonus-btn" href="omake.html">omake</a>
+        <a class="header-bonus-btn active" href="index.html" title="練習画面に戻る">omake</a>
         <div class="count-badge">A2 — C1 · takusan questions</div>
       </div>
     </header>
 
     <section class="shell">
-      <div class="toolbar">
-        <div>
-          <span class="field-label">難易度を選択</span>
-          <div class="level-group" role="radiogroup" aria-label="難易度">
-            <div class="level-option">
-              <input id="levelA2" type="radio" name="level" value="A2">
-              <label for="levelA2"><strong>A2</strong><span>基礎</span></label>
-            </div>
-            <div class="level-option">
-              <input id="levelB1" type="radio" name="level" value="B1">
-              <label for="levelB1"><strong>B1</strong><span>中級</span></label>
-            </div>
-            <div class="level-option">
-              <input id="levelB2" type="radio" name="level" value="B2" checked>
-              <label for="levelB2"><strong>B2</strong><span>中上級</span></label>
-            </div>
-            <div class="level-option">
-              <input id="levelC1" type="radio" name="level" value="C1">
-              <label for="levelC1"><strong>C1</strong><span>上級</span></label>
-            </div>
-          </div>
-        </div>
-        <button id="drawBtn" class="primary-btn" type="button">出題する</button>
-      </div>
-
-      <div class="content">
-        <div id="emptyState" class="empty-state">
-          <div class="empty-icon">fr</div>
-          <h2>Une phrase vous attend.</h2>
-          <p>難易度を選んで「出題する」を押してください。<br>400問からランダムに1問表示します。</p>
+      <div class="omake-shell">
+        <div class="omake-header">
+          <span class="omake-kicker">OMAKE</span>
+          <h2 class="omake-title">Beaux Arts magazine</h2>
+          <p class="omake-description">@BeauxArts_mag の公開ポストを表示します。</p>
         </div>
 
-        <section id="quiz" class="quiz" aria-live="polite">
-          <div class="meta">
-            <span id="levelPill" class="pill level">B2</span>
-            <span id="categoryPill" class="pill"></span>
-            <span id="registerPill" class="pill register" style="display:none;"></span>
-            <span id="questionNumber" class="pill"></span>
-          </div>
+        <div class="x-timeline-wrap">
+          <a class="twitter-timeline"
+             data-height="680"
+             href="https://x.com/BeauxArts_mag?ref_src=twsrc%5Etfw">Posts by BeauxArts_mag</a>
+        </div>
 
-          <p class="question-label">Traduisez en japonais</p>
-          <p id="frenchText" class="french" lang="fr"></p>
-
-          <div class="divider"></div>
-
-          <div class="translation-box">
-            <label for="userTranslation">
-              自分の和訳
-              <span>ここは保存されません</span>
-            </label>
-            <textarea id="userTranslation" placeholder="フランス語を日本語に訳してみましょう。"></textarea>
-          </div>
-
-          <div class="actions">
-            <button id="answerBtn" class="secondary-btn" type="button">模範解答を表示</button>
-            <button id="nextBtn" class="ghost-btn" type="button">次の問題 →</button>
-          </div>
-
-          <div id="answerBox" class="answer">
-            <p class="answer-label">Modèle de traduction</p>
-            <p id="japaneseText" class="answer-jp"></p>
-
-            <div id="pointsBox" class="points">
-              <p class="points-title">POINT</p>
-              <ul id="pointsList"></ul>
-            </div>
-          </div>
-        </section>
+        <p class="omake-fallback">
+          タイムラインが表示されない場合は
+          <a href="https://x.com/BeauxArts_mag" target="_blank" rel="noopener noreferrer">@BeauxArts_mag をXで開く</a>
+        </p>
       </div>
     </section>
 
     <p class="footer-note">
-      「模範解答」は一例です。自然な訳し方は複数あります。<br>　
-      <span class="kbd">Enter</span> 出題 / 次へ　
-      <span class="kbd">Space</span> 解答表示
+      <a href="index.html" style="color:inherit;text-decoration:none;">← 和訳トレーニングに戻る</a>
     </p>
   </main>
 
-  <!-- 問題データ：index.html と同じフォルダに置いてください -->
-  <script src="a2_french_translation_400.js"></script>
-  <script src="b1_french_translation_400.js"></script>
-  <script src="b2_french_translation_400.js"></script>
-  <script src="c1_french_translation_400.js"></script>
-
-  <script>
-    const QUESTION_BANK = {
-      A2: typeof A2_QUESTIONS !== "undefined" ? A2_QUESTIONS : [],
-      B1: typeof B1_QUESTIONS !== "undefined" ? B1_QUESTIONS : [],
-      B2: typeof B2_QUESTIONS !== "undefined" ? B2_QUESTIONS : [],
-      C1: typeof C1_QUESTIONS !== "undefined" ? C1_QUESTIONS : []
-    };
-
-    const levelInputs = [...document.querySelectorAll('input[name="level"]')];
-    let currentLevel = document.querySelector('input[name="level"]:checked').value;
-    const drawBtn = document.getElementById("drawBtn");
-    const emptyState = document.getElementById("emptyState");
-    const quiz = document.getElementById("quiz");
-
-    const levelPill = document.getElementById("levelPill");
-    const categoryPill = document.getElementById("categoryPill");
-    const registerPill = document.getElementById("registerPill");
-    const questionNumber = document.getElementById("questionNumber");
-    const frenchText = document.getElementById("frenchText");
-    const userTranslation = document.getElementById("userTranslation");
-
-    const answerBtn = document.getElementById("answerBtn");
-    const nextBtn = document.getElementById("nextBtn");
-    const answerBox = document.getElementById("answerBox");
-    const japaneseText = document.getElementById("japaneseText");
-    const pointsBox = document.getElementById("pointsBox");
-    const pointsList = document.getElementById("pointsList");
-
-    let currentQuestion = null;
-    let lastQuestionIdByLevel = {};
-
-    const registerNames = {
-      standard: "標準",
-      soutenu: "書き言葉",
-      administratif: "行政・公的文体"
-    };
-
-    function randomQuestion(level) {
-      const bank = QUESTION_BANK[level] || [];
-      if (!bank.length) {
-        alert(`${level} の問題データを読み込めませんでした。\n${level.toLowerCase()}_french_translation_400.js が index.html と同じフォルダにあるか確認してください。`);
-        return null;
-      }
-
-      let chosen;
-      do {
-        chosen = bank[Math.floor(Math.random() * bank.length)];
-      } while (
-        bank.length > 1 &&
-        lastQuestionIdByLevel[level] === chosen.id
-      );
-
-      lastQuestionIdByLevel[level] = chosen.id;
-      return chosen;
-    }
-
-    function renderQuestion() {
-      const level = currentLevel;
-      const q = randomQuestion(level);
-      if (!q) return;
-
-      currentQuestion = q;
-
-      emptyState.style.display = "none";
-      quiz.style.display = "block";
-
-      levelPill.textContent = q.level || level;
-      categoryPill.textContent = q.category || "総合";
-      questionNumber.textContent = `No. ${q.id} / ${QUESTION_BANK[level].length}`;
-
-      if (q.register) {
-        registerPill.textContent = registerNames[q.register] || q.register;
-        registerPill.style.display = "inline-flex";
-      } else {
-        registerPill.style.display = "none";
-      }
-
-      frenchText.textContent = q.french;
-      userTranslation.value = "";
-
-      japaneseText.textContent = "";
-      pointsList.innerHTML = "";
-      answerBox.style.display = "none";
-      answerBtn.textContent = "模範解答を表示";
-
-      // PCなどのマウス操作端末では入力欄に自動フォーカス。
-      // iPhone / iPad などのタッチ端末では、勝手にキーボードを開かない。
-      if (window.matchMedia("(pointer: fine)").matches) {
-        userTranslation.focus({ preventScroll: true });
-      }
-    }
-
-    function showAnswer() {
-      if (!currentQuestion) return;
-
-      japaneseText.textContent = currentQuestion.japanese || "";
-
-      const points = Array.isArray(currentQuestion.points)
-        ? currentQuestion.points
-        : [];
-
-      pointsList.innerHTML = "";
-      points.forEach(point => {
-        const li = document.createElement("li");
-        li.textContent = point;
-        pointsList.appendChild(li);
-      });
-
-      pointsBox.style.display = points.length ? "block" : "none";
-      answerBox.style.display = "block";
-      answerBtn.textContent = "模範解答を表示中";
-
-      answerBox.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    }
-
-    drawBtn.addEventListener("click", renderQuestion);
-    nextBtn.addEventListener("click", renderQuestion);
-    answerBtn.addEventListener("click", showAnswer);
-
-    levelInputs.forEach(input => {
-      input.addEventListener("change", () => {
-        if (!input.checked) return;
-
-        currentLevel = input.value;
-        currentQuestion = null;
-        quiz.style.display = "none";
-        emptyState.style.display = "block";
-        emptyState.querySelector("p").innerHTML =
-          `${currentLevel} を選択中です。<br>「出題する」を押すとランダムに1問表示します。`;
-      });
-    });
-
-    document.addEventListener("keydown", (event) => {
-      const active = document.activeElement;
-      const isTyping = active === userTranslation;
-
-      if (event.key === "Enter" && !isTyping) {
-        event.preventDefault();
-        renderQuestion();
-      }
-
-      if (event.code === "Space" && !isTyping && currentQuestion) {
-        event.preventDefault();
-        showAnswer();
-      }
-    });
-  </script>
+  <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
