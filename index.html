@@ -624,7 +624,7 @@
         <div id="emptyState" class="empty-state">
           <div class="empty-icon">fr</div>
           <h2>Une phrase vous attend.</h2>
-          <p>難易度を選んで「出題する」を押してください。<br>350問からランダムに1問表示します。</p>
+          <p>難易度を選んで「出題する」を押してください。<br>400問からランダムに1問表示します。</p>
         </div>
 
         <section id="quiz" class="quiz" aria-live="polite">
@@ -674,10 +674,10 @@
   </main>
 
   <!-- 問題データ：index.html と同じフォルダに置いてください -->
-  <script src="a2_french_translation_350.js"></script>
-  <script src="b1_french_translation_350.js"></script>
-  <script src="b2_french_translation_350.js"></script>
-  <script src="c1_french_translation_350.js"></script>
+  <script src="a2_french_translation_400.js"></script>
+  <script src="b1_french_translation_400.js"></script>
+  <script src="b2_french_translation_400.js"></script>
+  <script src="c1_french_translation_400.js"></script>
 
   <script>
     const QUESTION_BANK = {
@@ -719,7 +719,7 @@
     function randomQuestion(level) {
       const bank = QUESTION_BANK[level] || [];
       if (!bank.length) {
-        alert(`${level} の問題データを読み込めませんでした。\n${level.toLowerCase()}_french_translation_350.js が index.html と同じフォルダにあるか確認してください。`);
+        alert(`${level} の問題データを読み込めませんでした。\n${level.toLowerCase()}_french_translation_400.js が index.html と同じフォルダにあるか確認してください。`);
         return null;
       }
 
