@@ -577,15 +577,12 @@
       background: #fff;
     }
 
-    .timeline-loading {
+    .x-timeline-mount .twitter-timeline {
+      display: block;
+      width: 100%;
       min-height: 460px;
-      display: grid;
-      place-items: center;
-      padding: 32px;
-      color: var(--muted);
-      text-align: center;
-      line-height: 1.7;
     }
+
 
     .bonus-fallback {
       margin: 12px 2px 0;
@@ -699,8 +696,7 @@
         padding: 22px 20px 24px;
       }
 
-      .x-timeline-mount,
-      .timeline-loading {
+      .x-timeline-mount {
         min-height: 420px;
       }
     }
@@ -816,9 +812,11 @@
         </div>
 
         <div id="xTimelineMount" class="x-timeline-mount">
-          <div class="timeline-loading">
-            タイムラインを読み込んでいます…
-          </div>
+          <a class="twitter-timeline"
+             href="https://x.com/BeauxArts_mag?ref_src=twsrc%5Etfw">
+            Posts by BeauxArts_mag
+          </a>
+          <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
         </div>
 
         <p class="bonus-fallback">
@@ -876,7 +874,6 @@
     let currentQuestion = null;
     let lastQuestionIdByLevel = {};
     let bonusOpen = false;
-    let xTimelineRequested = false;
 
     const registerNames = {
       standard: "標準",
@@ -898,46 +895,26 @@
     }
 
     function loadXTimeline() {
-      if (xTimelineRequested) {
-        if (window.twttr?.widgets?.load) {
-          window.twttr.widgets.load(xTimelineMount);
-        }
-        return;
-      }
-
-      xTimelineRequested = true;
-      xTimelineMount.innerHTML = "";
-
-      const timelineLink = document.createElement("a");
-      timelineLink.className = "twitter-timeline";
-      timelineLink.href = "https://twitter.com/BeauxArts_mag";
-      timelineLink.dataset.height = "680";
-      timelineLink.dataset.theme = "light";
-      timelineLink.dataset.dnt = "true";
-      timelineLink.textContent = "Posts by @BeauxArts_mag";
-      xTimelineMount.appendChild(timelineLink);
-
-      const existing = document.querySelector(
-        'script[src="https://platform.twitter.com/widgets.js"]'
-      );
-
-      if (existing) {
-        if (window.twttr?.widgets?.load) {
-          window.twttr.widgets.load(xTimelineMount);
-        }
-        return;
-      }
-
-      const script = document.createElement("script");
-      script.src = "https://platform.twitter.com/widgets.js";
-      script.async = true;
-      script.charset = "utf-8";
-      script.onload = () => {
+      const renderTimeline = () => {
         if (window.twttr?.widgets?.load) {
           window.twttr.widgets.load(xTimelineMount);
         }
       };
-      document.body.appendChild(script);
+
+      if (window.twttr?.widgets?.load) {
+        requestAnimationFrame(renderTimeline);
+        return;
+      }
+
+      const widgetsScript = document.querySelector(
+        'script[src="https://platform.x.com/widgets.js"]'
+      );
+
+      if (widgetsScript) {
+        widgetsScript.addEventListener("load", () => {
+          requestAnimationFrame(renderTimeline);
+        }, { once: true });
+      }
     }
 
     function randomQuestion(level) {
