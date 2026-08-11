@@ -1,146 +1,157 @@
-// C1 French Translation Questions - 350 items
+// C1 French Translation Questions - 350 independently written items
 const C1_QUESTIONS = [
   {
     "id": 1,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Si séduisante que puisse paraître l'idée selon laquelle la généralisation du télétravail améliorerait mécaniquement la productivité, elle résiste mal à l'examen dès lors que les effets observés varient fortement selon les secteurs et les fonctions.",
-    "japanese": "テレワークの一般化が自動的に生産性を高めるという考えは一見魅力的でも、実際に見られる効果が業種や職務によって大きく異なる以上、詳しく検討すると説得力を失う。",
+    "topic": "文化・メディア",
+    "french": "Les statistiques d'audience indiquent ce qui a été regardé, mais elles ne disent pas toujours avec quelle attention ni dans quel contexte le contenu a été reçu.",
+    "japanese": "視聴統計は何が見られたかを示すが、どれほど注意深く、どんな文脈で受け取られたかまでは必ずしも示さない。",
     "points": [
-      "si + adjectif + que + 接続法 = いかに〜でも",
-      "dès lors que = 〜である以上",
-      "résister à l'examen = 検討に耐える"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 2,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Avant de conclure que la généralisation du télétravail améliorerait mécaniquement la productivité, il faudrait encore expliquer pourquoi le fait que les effets observés varient fortement selon les secteurs et les fonctions ne suffirait pas à remettre cette hypothèse en cause.",
-    "japanese": "テレワークの一般化が自動的に生産性を高めると結論づける前に、実際に見られる効果が業種や職務によって大きく異なるという事実だけではなぜその仮説を揺るがすに足りないのか、なお説明する必要がある。",
+    "topic": "科学・研究",
+    "french": "Les chercheurs qui connaissent déjà le résultat attendu peuvent, sans en avoir conscience, interpréter plus favorablement les données qui vont dans le sens de leur hypothèse.",
+    "japanese": "予想される結果を知っている研究者は、無意識のうちに自分の仮説を支持するデータをより好意的に解釈する可能性がある。",
     "points": [
-      "avant de + 不定詞",
-      "le fait que = 〜という事実",
-      "remettre en cause = 疑問に付す"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 3,
     "level": "C1",
     "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Le problème tient moins à l'hypothèse selon laquelle la généralisation du télétravail améliorerait mécaniquement la productivité qu'à la tendance à négliger le fait que les effets observés varient fortement selon les secteurs et les fonctions.",
-    "japanese": "問題は、テレワークの一般化が自動的に生産性を高めるという仮説そのものよりも、実際に見られる効果が業種や職務によって大きく異なるという事実を軽視しがちな点にある。",
+    "register": "standard",
+    "topic": "食・農業",
+    "french": "Les consommateurs disent souvent préférer des produits respectueux de l'environnement, alors que leurs choix réels restent fortement influencés par le prix et la commodité.",
+    "japanese": "消費者は環境に配慮した商品を好むと答えることが多いが、実際の選択は価格や利便性に強く左右されている。",
     "points": [
-      "tenir moins à A qu'à B = AよりBに起因する",
-      "négliger = 軽視する",
-      "le fait que = 〜という事実"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 4,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Quand bien même la généralisation du télétravail améliorerait mécaniquement la productivité, il n'en découlerait pas pour autant que l'on puisse ignorer le fait que les effets observés varient fortement selon les secteurs et les fonctions.",
-    "japanese": "たとえテレワークの一般化が自動的に生産性を高めるとしても、だからといって実際に見られる効果が業種や職務によって大きく異なるという事実を無視してよいことにはならない。",
+    "topic": "経済・企業",
+    "french": "Il ne suffit pas qu'une entreprise soit rentable pour qu'elle puisse facilement financer sa croissance, notamment lorsque ses revenus sont irréguliers ou difficiles à prévoir.",
+    "japanese": "企業が利益を出しているだけで成長資金を容易に調達できるとは限らず、収益が不規則で予測しにくい場合は特にそうである。",
     "points": [
-      "quand bien même + 条件法 = たとえ〜でも",
-      "il n'en découlerait pas que = そこから〜とは導けない",
-      "pour autant = だからといって"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 5,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Si l'on peut admettre, dans une certaine mesure, que la généralisation du télétravail améliorerait mécaniquement la productivité, encore convient-il de rappeler que les effets observés varient fortement selon les secteurs et les fonctions.",
-    "japanese": "ある程度はテレワークの一般化が自動的に生産性を高めることを認められるとしても、なお実際に見られる効果が業種や職務によって大きく異なることを忘れてはならない。",
+    "topic": "心理・社会",
+    "french": "Une récompense extérieure peut encourager un comportement à court terme sans pour autant renforcer l'intérêt que la personne lui porte une fois la récompense supprimée.",
+    "japanese": "外的報酬は短期的に行動を促せるが、報酬がなくなった後もその行動への関心を高めるとは限らない。",
     "points": [
-      "dans une certaine mesure = ある程度",
-      "encore convient-il de = それでも〜する必要がある",
-      "rappeler que = 〜を改めて指摘する"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 6,
     "level": "C1",
     "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Si séduisante que puisse paraître l'idée selon laquelle la numérisation suffirait à moderniser les services publics, elle résiste mal à l'examen dès lors que les obstacles tiennent souvent davantage à l'organisation qu'aux outils.",
-    "japanese": "デジタル化だけで公共サービスを近代化できるという考えは一見魅力的でも、障害はしばしば道具よりも組織のあり方に起因する以上、詳しく検討すると説得力を失う。",
+    "register": "standard",
+    "topic": "旅行・移動",
+    "french": "La multiplication des avis en ligne peut aider à éviter de mauvaises expériences, tout en favorisant une convergence des voyageurs vers les mêmes lieux déjà très fréquentés.",
+    "japanese": "オンライン口コミが増えることで悪い体験を避けやすくなる一方、旅行者がすでに混雑している同じ場所へ集中することもある。",
     "points": [
-      "si + adjectif + que + 接続法 = いかに〜でも",
-      "dès lors que = 〜である以上",
-      "résister à l'examen = 検討に耐える"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 7,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Avant de conclure que la numérisation suffirait à moderniser les services publics, il faudrait encore expliquer pourquoi le fait que les obstacles tiennent souvent davantage à l'organisation qu'aux outils ne suffirait pas à remettre cette hypothèse en cause.",
-    "japanese": "デジタル化だけで公共サービスを近代化できると結論づける前に、障害はしばしば道具よりも組織のあり方に起因するという事実だけではなぜその仮説を揺るがすに足りないのか、なお説明する必要がある。",
+    "topic": "都市・住宅・交通",
+    "french": "Les politiques de transport sont souvent évaluées séparément, alors que le choix d'un mode de déplacement dépend fortement de la manière dont les différents réseaux s'articulent.",
+    "japanese": "交通政策は個別に評価されがちだが、移動手段の選択は各交通網がどう接続しているかに大きく左右される。",
     "points": [
-      "avant de + 不定詞",
-      "le fait que = 〜という事実",
-      "remettre en cause = 疑問に付す"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 8,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le problème tient moins à l'hypothèse selon laquelle la numérisation suffirait à moderniser les services publics qu'à la tendance à négliger le fait que les obstacles tiennent souvent davantage à l'organisation qu'aux outils.",
-    "japanese": "問題は、デジタル化だけで公共サービスを近代化できるという仮説そのものよりも、障害はしばしば道具よりも組織のあり方に起因するという事実を軽視しがちな点にある。",
+    "topic": "制度・公共政策",
+    "french": "Il serait naïf de croire qu'une réglementation plus détaillée supprime toute ambiguïté, car chaque précision peut à son tour soulever de nouveaux cas limites.",
+    "japanese": "規則を細かくすればすべての曖昧さがなくなると考えるのは素朴であり、細かな規定が新たな境界事例を生むこともある。",
     "points": [
-      "tenir moins à A qu'à B = AよりBに起因する",
-      "négliger = 軽視する",
-      "le fait que = 〜という事実"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 9,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Quand bien même la numérisation suffirait à moderniser les services publics, il n'en découlerait pas pour autant que l'on puisse ignorer le fait que les obstacles tiennent souvent davantage à l'organisation qu'aux outils.",
-    "japanese": "たとえデジタル化だけで公共サービスを近代化できるとしても、だからといって障害はしばしば道具よりも組織のあり方に起因するという事実を無視してよいことにはならない。",
+    "category": "高度な構文・関係表現",
+    "register": "standard",
+    "topic": "教育",
+    "french": "La réforme, dont les objectifs avaient été largement approuvés, a suscité davantage de résistance lorsqu'il a fallu en définir les modalités concrètes.",
+    "japanese": "その改革は目標自体には広い支持があったが、具体的な実施方法を定める段階になると、より強い反発を招いた。",
     "points": [
-      "quand bien même + 条件法 = たとえ〜でも",
-      "il n'en découlerait pas que = そこから〜とは導けない",
-      "pour autant = だからといって"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 10,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Si l'on peut admettre, dans une certaine mesure, que la numérisation suffirait à moderniser les services publics, encore convient-il de rappeler que les obstacles tiennent souvent davantage à l'organisation qu'aux outils.",
-    "japanese": "ある程度はデジタル化だけで公共サービスを近代化できることを認められるとしても、なお障害はしばしば道具よりも組織のあり方に起因することを忘れてはならない。",
+    "topic": "健康・社会",
+    "french": "Même lorsque le traitement est gratuit, le coût du transport, le temps d'attente ou l'impossibilité de s'absenter du travail peuvent constituer des obstacles décisifs.",
+    "japanese": "治療が無料であっても、交通費、待ち時間、仕事を休めないことが決定的な障害になる場合がある。",
     "points": [
-      "dans une certaine mesure = ある程度",
-      "encore convient-il de = それでも〜する必要がある",
-      "rappeler que = 〜を改めて指摘する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 11,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Si séduisante que puisse paraître l'idée selon laquelle la croissance économique bénéficierait uniformément à l'ensemble de la population, elle résiste mal à l'examen dès lors que la répartition des gains demeure très inégale.",
-    "japanese": "経済成長が人口全体に一様な恩恵をもたらすという考えは一見魅力的でも、利益の分配は依然として非常に不均衡である以上、詳しく検討すると説得力を失う。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "環境・エネルギー",
+    "french": "La transition énergétique ne consiste pas seulement à remplacer une source d'électricité par une autre; elle suppose aussi de transformer les réseaux, les usages et les modes de stockage.",
+    "japanese": "エネルギー転換は電源を別のものに置き換えるだけではなく、送電網、利用方法、蓄電のあり方まで変える必要がある。",
     "points": [
-      "si + adjectif + que + 接続法 = いかに〜でも",
-      "dès lors que = 〜である以上",
-      "résister à l'examen = 検討に耐える"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
@@ -148,103 +159,111 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Avant de conclure que la croissance économique bénéficierait uniformément à l'ensemble de la population, il faudrait encore expliquer pourquoi le fait que la répartition des gains demeure très inégale ne suffirait pas à remettre cette hypothèse en cause.",
-    "japanese": "経済成長が人口全体に一様な恩恵をもたらすと結論づける前に、利益の分配は依然として非常に不均衡であるという事実だけではなぜその仮説を揺るがすに足りないのか、なお説明する必要がある。",
+    "topic": "歴史・倫理・思考",
+    "french": "La responsabilité d'une décision ne disparaît pas simplement parce qu'elle a été prise collectivement, même si la répartition exacte de cette responsabilité devient plus difficile à établir.",
+    "japanese": "意思決定が集団で行われたからといって責任が消えるわけではないが、その責任を正確に配分することはより難しくなる。",
     "points": [
-      "avant de + 不定詞",
-      "le fait que = 〜という事実",
-      "remettre en cause = 疑問に付す"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 13,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le problème tient moins à l'hypothèse selon laquelle la croissance économique bénéficierait uniformément à l'ensemble de la population qu'à la tendance à négliger le fait que la répartition des gains demeure très inégale.",
-    "japanese": "問題は、経済成長が人口全体に一様な恩恵をもたらすという仮説そのものよりも、利益の分配は依然として非常に不均衡であるという事実を軽視しがちな点にある。",
+    "topic": "デジタル技術",
+    "french": "Il serait excessif de conclure qu'un algorithme est impartial au seul motif qu'il applique la même règle à tous les utilisateurs.",
+    "japanese": "アルゴリズムがすべての利用者に同じ規則を適用するというだけで、公平だと結論づけるのは行き過ぎである。",
     "points": [
-      "tenir moins à A qu'à B = AよりBに起因する",
-      "négliger = 軽視する",
-      "le fait que = 〜という事実"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 14,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Quand bien même la croissance économique bénéficierait uniformément à l'ensemble de la population, il n'en découlerait pas pour autant que l'on puisse ignorer le fait que la répartition des gains demeure très inégale.",
-    "japanese": "たとえ経済成長が人口全体に一様な恩恵をもたらすとしても、だからといって利益の分配は依然として非常に不均衡であるという事実を無視してよいことにはならない。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "働き方",
+    "french": "En voulant supprimer toute hiérarchie visible, l'organisation a parfois rendu plus difficiles à identifier les personnes réellement responsables des décisions.",
+    "japanese": "目に見える上下関係をなくそうとした結果、その組織では意思決定の実質的な責任者がかえって分かりにくくなることがあった。",
     "points": [
-      "quand bien même + 条件法 = たとえ〜でも",
-      "il n'en découlerait pas que = そこから〜とは導けない",
-      "pour autant = だからといって"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 15,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Si l'on peut admettre, dans une certaine mesure, que la croissance économique bénéficierait uniformément à l'ensemble de la population, encore convient-il de rappeler que la répartition des gains demeure très inégale.",
-    "japanese": "ある程度は経済成長が人口全体に一様な恩恵をもたらすことを認められるとしても、なお利益の分配は依然として非常に不均衡であることを忘れてはならない。",
+    "topic": "科学・研究",
+    "french": "La science progresse rarement par accumulation linéaire de certitudes; elle avance aussi lorsque des résultats solides obligent à reformuler des questions que l'on croyait réglées.",
+    "japanese": "科学は確実な知識を直線的に積み上げるだけで進歩するのではなく、確かな結果によって解決済みと思われた問いを立て直す必要が生じるときにも前進する。",
     "points": [
-      "dans une certaine mesure = ある程度",
-      "encore convient-il de = それでも〜する必要がある",
-      "rappeler que = 〜を改めて指摘する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 16,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Si séduisante que puisse paraître l'idée selon laquelle l'intelligence artificielle rendrait rapidement obsolètes la plupart des compétences humaines, elle résiste mal à l'examen dès lors que de nombreuses tâches continuent d'exiger jugement, contexte et responsabilité.",
-    "japanese": "人工知能が人間の大半の能力をすぐに時代遅れにするという考えは一見魅力的でも、多くの仕事では依然として判断力・文脈理解・責任が求められる以上、詳しく検討すると説得力を失う。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "食・農業",
+    "french": "Le développement de cultures résistantes à un ravageur peut réduire l'usage d'un pesticide, mais la pression de sélection favorise parfois l'apparition de résistances nouvelles.",
+    "japanese": "害虫に強い作物の普及は農薬使用を減らせるが、選択圧によって新たな耐性が生じることもある。",
     "points": [
-      "si + adjectif + que + 接続法 = いかに〜でも",
-      "dès lors que = 〜である以上",
-      "résister à l'examen = 検討に耐える"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 17,
     "level": "C1",
     "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Avant de conclure que l'intelligence artificielle rendrait rapidement obsolètes la plupart des compétences humaines, il faudrait encore expliquer pourquoi le fait que de nombreuses tâches continuent d'exiger jugement, contexte et responsabilité ne suffirait pas à remettre cette hypothèse en cause.",
-    "japanese": "人工知能が人間の大半の能力をすぐに時代遅れにすると結論づける前に、多くの仕事では依然として判断力・文脈理解・責任が求められるという事実だけではなぜその仮説を揺るがすに足りないのか、なお説明する必要がある。",
+    "register": "standard",
+    "topic": "経済・企業",
+    "french": "La faillite d'une entreprise inefficace peut libérer des ressources pour d'autres usages, tout en provoquant à court terme des coûts considérables pour les salariés et les territoires concernés.",
+    "japanese": "非効率な企業の倒産は資源を他の用途へ移す可能性がある一方、短期的には従業員や地域に大きな負担をもたらす。",
     "points": [
-      "avant de + 不定詞",
-      "le fait que = 〜という事実",
-      "remettre en cause = 疑問に付す"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 18,
     "level": "C1",
     "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Le problème tient moins à l'hypothèse selon laquelle l'intelligence artificielle rendrait rapidement obsolètes la plupart des compétences humaines qu'à la tendance à négliger le fait que de nombreuses tâches continuent d'exiger jugement, contexte et responsabilité.",
-    "japanese": "問題は、人工知能が人間の大半の能力をすぐに時代遅れにするという仮説そのものよりも、多くの仕事では依然として判断力・文脈理解・責任が求められるという事実を軽視しがちな点にある。",
+    "register": "standard",
+    "topic": "心理・社会",
+    "french": "Le fait d'avoir beaucoup de choix peut être apprécié en théorie tout en rendant la décision plus fatigante lorsque les différences entre les options sont difficiles à évaluer.",
+    "japanese": "選択肢が多いことは理論上は好ましく感じられても、違いを評価しにくい場合には意思決定をより疲れるものにする。",
     "points": [
-      "tenir moins à A qu'à B = AよりBに起因する",
-      "négliger = 軽視する",
-      "le fait que = 〜という事実"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 19,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Quand bien même l'intelligence artificielle rendrait rapidement obsolètes la plupart des compétences humaines, il n'en découlerait pas pour autant que l'on puisse ignorer le fait que de nombreuses tâches continuent d'exiger jugement, contexte et responsabilité.",
-    "japanese": "たとえ人工知能が人間の大半の能力をすぐに時代遅れにするとしても、だからといって多くの仕事では依然として判断力・文脈理解・責任が求められるという事実を無視してよいことにはならない。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "旅行・移動",
+    "french": "La réputation d'une destination se construit parfois à partir d'images qui ne correspondent qu'à une saison, un quartier ou un type particulier de voyageur.",
+    "japanese": "観光地の評判は、特定の季節、地区、旅行者層だけを反映したイメージから作られることがある。",
     "points": [
-      "quand bien même + 条件法 = たとえ〜でも",
-      "il n'en découlerait pas que = そこから〜とは導けない",
-      "pour autant = だからといって"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
@@ -252,181 +271,195 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Si l'on peut admettre, dans une certaine mesure, que l'intelligence artificielle rendrait rapidement obsolètes la plupart des compétences humaines, encore convient-il de rappeler que de nombreuses tâches continuent d'exiger jugement, contexte et responsabilité.",
-    "japanese": "ある程度は人工知能が人間の大半の能力をすぐに時代遅れにすることを認められるとしても、なお多くの仕事では依然として判断力・文脈理解・責任が求められることを忘れてはならない。",
+    "topic": "都市・住宅・交通",
+    "french": "La rénovation d'un quartier peut préserver les façades tout en faisant disparaître les réseaux sociaux et les usages qui constituaient une part moins visible de son identité.",
+    "japanese": "地区の再開発は外観を保存しながら、その地域の見えにくいアイデンティティを形づくっていた人間関係や利用の仕方を失わせることがある。",
     "points": [
-      "dans une certaine mesure = ある程度",
-      "encore convient-il de = それでも〜する必要がある",
-      "rappeler que = 〜を改めて指摘する"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 21,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "時制・間接話法",
     "register": "soutenu",
-    "french": "Si séduisante que puisse paraître l'idée selon laquelle l'allongement des études garantirait à lui seul une meilleure insertion professionnelle, elle résiste mal à l'examen dès lors que la qualité des formations et l'état du marché du travail restent déterminants.",
-    "japanese": "就学期間を延ばすだけでより良い就職が保証されるという考えは一見魅力的でも、教育の質と労働市場の状況が依然として決定的である以上、詳しく検討すると説得力を失う。",
+    "topic": "制度・公共政策",
+    "french": "Lorsqu'une mesure temporaire est prolongée année après année, elle peut finir par structurer les comportements comme si elle avait été conçue dès l'origine pour durer.",
+    "japanese": "暫定措置が毎年延長されると、最初から恒久制度として設計されたかのように人々の行動を形づくることがある。",
     "points": [
-      "si + adjectif + que + 接続法 = いかに〜でも",
-      "dès lors que = 〜である以上",
-      "résister à l'examen = 検討に耐える"
+      "過去時制・条件法の関係",
+      "出来事の時間関係を整理する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 22,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Avant de conclure que l'allongement des études garantirait à lui seul une meilleure insertion professionnelle, il faudrait encore expliquer pourquoi le fait que la qualité des formations et l'état du marché du travail restent déterminants ne suffirait pas à remettre cette hypothèse en cause.",
-    "japanese": "就学期間を延ばすだけでより良い就職が保証されると結論づける前に、教育の質と労働市場の状況が依然として決定的であるという事実だけではなぜその仮説を揺るがすに足りないのか、なお説明する必要がある。",
+    "topic": "教育",
+    "french": "Les élèves auxquels on demande d'argumenter apprennent davantage lorsqu'ils doivent également examiner sérieusement les objections susceptibles d'être opposées à leur position.",
+    "japanese": "自分の立場を論じるよう求められた生徒は、それに対する反論も真剣に検討させられることで、より深く学ぶ。",
     "points": [
-      "avant de + 不定詞",
-      "le fait que = 〜という事実",
-      "remettre en cause = 疑問に付す"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 23,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le problème tient moins à l'hypothèse selon laquelle l'allongement des études garantirait à lui seul une meilleure insertion professionnelle qu'à la tendance à négliger le fait que la qualité des formations et l'état du marché du travail restent déterminants.",
-    "japanese": "問題は、就学期間を延ばすだけでより良い就職が保証されるという仮説そのものよりも、教育の質と労働市場の状況が依然として決定的であるという事実を軽視しがちな点にある。",
+    "topic": "健康・社会",
+    "french": "Le vieillissement de la population modifie les besoins de soins, mais aussi l'organisation du logement, des transports et du travail des proches aidants.",
+    "japanese": "人口高齢化は医療需要だけでなく、住宅、交通、家族介護者の働き方にも変化をもたらす。",
     "points": [
-      "tenir moins à A qu'à B = AよりBに起因する",
-      "négliger = 軽視する",
-      "le fait que = 〜という事実"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 24,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Quand bien même l'allongement des études garantirait à lui seul une meilleure insertion professionnelle, il n'en découlerait pas pour autant que l'on puisse ignorer le fait que la qualité des formations et l'état du marché du travail restent déterminants.",
-    "japanese": "たとえ就学期間を延ばすだけでより良い就職が保証されるとしても、だからといって教育の質と労働市場の状況が依然として決定的であるという事実を無視してよいことにはならない。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "環境・エネルギー",
+    "french": "Réduire les émissions d'un secteur en externalisant une partie de la production ne constitue pas nécessairement une diminution réelle à l'échelle mondiale.",
+    "japanese": "生産の一部を国外へ移すことで一つの産業の排出量を減らしても、世界全体で本当に削減されたとは限らない。",
     "points": [
-      "quand bien même + 条件法 = たとえ〜でも",
-      "il n'en découlerait pas que = そこから〜とは導けない",
-      "pour autant = だからといって"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 25,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Si l'on peut admettre, dans une certaine mesure, que l'allongement des études garantirait à lui seul une meilleure insertion professionnelle, encore convient-il de rappeler que la qualité des formations et l'état du marché du travail restent déterminants.",
-    "japanese": "ある程度は就学期間を延ばすだけでより良い就職が保証されることを認められるとしても、なお教育の質と労働市場の状況が依然として決定的であることを忘れてはならない。",
+    "topic": "歴史・倫理・思考",
+    "french": "Une société qui valorise fortement la responsabilité individuelle doit néanmoins décider jusqu'où elle tient les personnes responsables de risques qu'elles ne pouvaient raisonnablement prévoir.",
+    "japanese": "個人責任を重視する社会でも、合理的に予測できなかったリスクについて、どこまで本人に責任を負わせるか決めなければならない。",
     "points": [
-      "dans une certaine mesure = ある程度",
-      "encore convient-il de = それでも〜する必要がある",
-      "rappeler que = 〜を改めて指摘する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 26,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Si séduisante que puisse paraître l'idée selon laquelle la transparence totale renforcerait toujours la confiance, elle résiste mal à l'examen dès lors que une information abondante mais mal contextualisée peut aussi nourrir la défiance.",
-    "japanese": "完全な透明性が常に信頼を強めるという考えは一見魅力的でも、情報が多くても文脈が不十分なら、かえって不信を招きうる以上、詳しく検討すると説得力を失う。",
+    "topic": "デジタル技術",
+    "french": "Pour que l'intelligence artificielle puisse assister une décision sensible, il faut non seulement qu'elle soit performante, mais aussi que ses limites soient suffisamment comprises par ceux qui l'utilisent.",
+    "japanese": "人工知能が重要な意思決定を支援するには、高性能であるだけでなく、利用者がその限界を十分理解している必要がある。",
     "points": [
-      "si + adjectif + que + 接続法 = いかに〜でも",
-      "dès lors que = 〜である以上",
-      "résister à l'examen = 検討に耐える"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 27,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Avant de conclure que la transparence totale renforcerait toujours la confiance, il faudrait encore expliquer pourquoi le fait que une information abondante mais mal contextualisée peut aussi nourrir la défiance ne suffirait pas à remettre cette hypothèse en cause.",
-    "japanese": "完全な透明性が常に信頼を強めると結論づける前に、情報が多くても文脈が不十分なら、かえって不信を招きうるという事実だけではなぜその仮説を揺るがすに足りないのか、なお説明する必要がある。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "働き方",
+    "french": "Même lorsqu'une décision est officiellement décentralisée, les équipes locales peuvent hésiter à agir si elles pensent qu'une initiative mal reçue sera sanctionnée.",
+    "japanese": "意思決定が公式には分権化されていても、現場のチームは、歓迎されない提案が処罰につながると考えれば行動をためらうことがある。",
     "points": [
-      "avant de + 不定詞",
-      "le fait que = 〜という事実",
-      "remettre en cause = 疑問に付す"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 28,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Le problème tient moins à l'hypothèse selon laquelle la transparence totale renforcerait toujours la confiance qu'à la tendance à négliger le fait que une information abondante mais mal contextualisée peut aussi nourrir la défiance.",
-    "japanese": "問題は、完全な透明性が常に信頼を強めるという仮説そのものよりも、情報が多くても文脈が不十分なら、かえって不信を招きうるという事実を軽視しがちな点にある。",
+    "category": "高度な構文・関係表現",
+    "register": "standard",
+    "topic": "文化・メディア",
+    "french": "À force de vouloir attirer un public plus large, certaines institutions culturelles craignent de simplifier leur programmation au point de perdre ce qui faisait leur singularité.",
+    "japanese": "より広い観客を呼び込もうとするあまり、一部の文化施設はプログラムを単純化しすぎて、自らの独自性を失うことを懸念している。",
     "points": [
-      "tenir moins à A qu'à B = AよりBに起因する",
-      "négliger = 軽視する",
-      "le fait que = 〜という事実"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 29,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Quand bien même la transparence totale renforcerait toujours la confiance, il n'en découlerait pas pour autant que l'on puisse ignorer le fait que une information abondante mais mal contextualisée peut aussi nourrir la défiance.",
-    "japanese": "たとえ完全な透明性が常に信頼を強めるとしても、だからといって情報が多くても文脈が不十分なら、かえって不信を招きうるという事実を無視してよいことにはならない。",
+    "topic": "食・農業",
+    "french": "Une innovation agricole n'est véritablement adoptée que si elle s'intègre aux contraintes quotidiennes des exploitants, et non simplement parce qu'elle fonctionne dans des essais contrôlés.",
+    "japanese": "農業技術が本当に普及するのは、管理された試験で機能するからだけではなく、農家の日常的な制約に適合する場合である。",
     "points": [
-      "quand bien même + 条件法 = たとえ〜でも",
-      "il n'en découlerait pas que = そこから〜とは導けない",
-      "pour autant = だからといって"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 30,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Si l'on peut admettre, dans une certaine mesure, que la transparence totale renforcerait toujours la confiance, encore convient-il de rappeler que une information abondante mais mal contextualisée peut aussi nourrir la défiance.",
-    "japanese": "ある程度は完全な透明性が常に信頼を強めることを認められるとしても、なお情報が多くても文脈が不十分なら、かえって不信を招きうることを忘れてはならない。",
+    "topic": "経済・企業",
+    "french": "Les prévisions économiques donnent souvent une impression de précision supérieure à ce que permettent réellement les hypothèses incertaines sur lesquelles elles reposent.",
+    "japanese": "経済予測は、その基礎にある不確かな仮定が実際に許す以上の精密さを感じさせることが多い。",
     "points": [
-      "dans une certaine mesure = ある程度",
-      "encore convient-il de = それでも〜する必要がある",
-      "rappeler que = 〜を改めて指摘する"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 31,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Si séduisante que puisse paraître l'idée selon laquelle la baisse des prix entraînerait nécessairement une hausse durable de la demande, elle résiste mal à l'examen dès lors que les comportements d'achat dépendent aussi des anticipations et de la qualité perçue.",
-    "japanese": "価格低下が必ず持続的な需要増につながるという考えは一見魅力的でも、購買行動は期待や知覚される品質にも左右される以上、詳しく検討すると説得力を失う。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "心理・社会",
+    "french": "Le sentiment de manquer de temps peut persister même après la suppression de certaines obligations si l'espace libéré est immédiatement rempli par de nouvelles tâches.",
+    "japanese": "いくつかの義務を減らしても、空いた時間がすぐ新しい作業で埋まれば、時間が足りない感覚は残り続けることがある。",
     "points": [
-      "si + adjectif + que + 接続法 = いかに〜でも",
-      "dès lors que = 〜である以上",
-      "résister à l'examen = 検討に耐える"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 32,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Avant de conclure que la baisse des prix entraînerait nécessairement une hausse durable de la demande, il faudrait encore expliquer pourquoi le fait que les comportements d'achat dépendent aussi des anticipations et de la qualité perçue ne suffirait pas à remettre cette hypothèse en cause.",
-    "japanese": "価格低下が必ず持続的な需要増につながると結論づける前に、購買行動は期待や知覚される品質にも左右されるという事実だけではなぜその仮説を揺るがすに足りないのか、なお説明する必要がある。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "旅行・移動",
+    "french": "Une ville qui cherche à attirer des visiteurs toute l'année doit proposer autre chose que les activités qui ont fait son succès pendant la haute saison.",
+    "japanese": "年間を通じて観光客を呼びたい都市は、繁忙期に成功した活動以外の魅力も提供する必要がある。",
     "points": [
-      "avant de + 不定詞",
-      "le fait que = 〜という事実",
-      "remettre en cause = 疑問に付す"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 33,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Le problème tient moins à l'hypothèse selon laquelle la baisse des prix entraînerait nécessairement une hausse durable de la demande qu'à la tendance à négliger le fait que les comportements d'achat dépendent aussi des anticipations et de la qualité perçue.",
-    "japanese": "問題は、価格低下が必ず持続的な需要増につながるという仮説そのものよりも、購買行動は期待や知覚される品質にも左右されるという事実を軽視しがちな点にある。",
+    "topic": "都市・住宅・交通",
+    "french": "Une gare n'est pleinement utile que si les voyageurs peuvent facilement rejoindre leur destination finale, ce qui donne une importance décisive aux correspondances locales.",
+    "japanese": "駅が十分に役立つには、利用者が最終目的地へ簡単に移動できる必要があり、そのため地域交通との接続が決定的に重要になる。",
     "points": [
-      "tenir moins à A qu'à B = AよりBに起因する",
-      "négliger = 軽視する",
-      "le fait que = 〜という事実"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
@@ -434,38 +467,41 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Quand bien même la baisse des prix entraînerait nécessairement une hausse durable de la demande, il n'en découlerait pas pour autant que l'on puisse ignorer le fait que les comportements d'achat dépendent aussi des anticipations et de la qualité perçue.",
-    "japanese": "たとえ価格低下が必ず持続的な需要増につながるとしても、だからといって購買行動は期待や知覚される品質にも左右されるという事実を無視してよいことにはならない。",
+    "topic": "制度・公共政策",
+    "french": "Une politique peut être populaire parce que ses bénéfices sont visibles immédiatement, tandis que ses coûts sont différés ou répartis entre des personnes qui les perçoivent à peine.",
+    "japanese": "政策は利益がすぐ見える一方、費用が将来に先送りされたり広く分散されたりすると、人気を得やすいことがある。",
     "points": [
-      "quand bien même + 条件法 = たとえ〜でも",
-      "il n'en découlerait pas que = そこから〜とは導けない",
-      "pour autant = だからといって"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 35,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Si l'on peut admettre, dans une certaine mesure, que la baisse des prix entraînerait nécessairement une hausse durable de la demande, encore convient-il de rappeler que les comportements d'achat dépendent aussi des anticipations et de la qualité perçue.",
-    "japanese": "ある程度は価格低下が必ず持続的な需要増につながることを認められるとしても、なお購買行動は期待や知覚される品質にも左右されることを忘れてはならない。",
+    "topic": "教育",
+    "french": "L'université a décidé de maintenir un cours peu fréquenté au motif que son intérêt académique ne saurait être réduit au nombre d'inscriptions qu'il génère.",
+    "japanese": "大学は、学問的価値を履修者数だけで測ることはできないとして、受講者の少ない授業を維持することを決めた。",
     "points": [
-      "dans une certaine mesure = ある程度",
-      "encore convient-il de = それでも〜する必要がある",
-      "rappeler que = 〜を改めて指摘する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 36,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Si séduisante que puisse paraître l'idée selon laquelle la réglementation freinerait par nature l'innovation, elle résiste mal à l'examen dès lors que des règles claires peuvent au contraire réduire l'incertitude.",
-    "japanese": "規制は本質的にイノベーションを妨げるという考えは一見魅力的でも、明確なルールはむしろ不確実性を減らしうる以上、詳しく検討すると説得力を失う。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "健康・社会",
+    "french": "La télémédecine facilite certaines consultations, mais elle ne remplace pas les examens physiques lorsque ceux-ci sont nécessaires pour établir un diagnostic fiable.",
+    "japanese": "遠隔医療は一部の診療を容易にするが、信頼できる診断に身体診察が必要な場合、それに代わるものではない。",
     "points": [
-      "si + adjectif + que + 接続法 = いかに〜でも",
-      "dès lors que = 〜である以上",
-      "résister à l'examen = 検討に耐える"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
@@ -473,103 +509,111 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Avant de conclure que la réglementation freinerait par nature l'innovation, il faudrait encore expliquer pourquoi le fait que des règles claires peuvent au contraire réduire l'incertitude ne suffirait pas à remettre cette hypothèse en cause.",
-    "japanese": "規制は本質的にイノベーションを妨げると結論づける前に、明確なルールはむしろ不確実性を減らしうるという事実だけではなぜその仮説を揺るがすに足りないのか、なお説明する必要がある。",
+    "topic": "環境・エネルギー",
+    "french": "Un objectif climatique peut être très ambitieux sur le papier tout en restant peu crédible si aucun calendrier précis ni aucun financement n'est prévu pour l'atteindre.",
+    "japanese": "気候目標が書面上どれほど野心的でも、達成のための具体的な日程や財源がなければ信頼性に乏しい。",
     "points": [
-      "avant de + 不定詞",
-      "le fait que = 〜という事実",
-      "remettre en cause = 疑問に付す"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 38,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le problème tient moins à l'hypothèse selon laquelle la réglementation freinerait par nature l'innovation qu'à la tendance à négliger le fait que des règles claires peuvent au contraire réduire l'incertitude.",
-    "japanese": "問題は、規制は本質的にイノベーションを妨げるという仮説そのものよりも、明確なルールはむしろ不確実性を減らしうるという事実を軽視しがちな点にある。",
+    "topic": "歴史・倫理・思考",
+    "french": "Le fait qu'une pratique ait longtemps existé ne prouve ni qu'elle soit souhaitable ni qu'elle puisse être supprimée sans conséquences imprévues.",
+    "japanese": "ある慣行が長く存在してきたことは、それが望ましいことも、予期せぬ影響なしに廃止できることも証明しない。",
     "points": [
-      "tenir moins à A qu'à B = AよりBに起因する",
-      "négliger = 軽視する",
-      "le fait que = 〜という事実"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 39,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Quand bien même la réglementation freinerait par nature l'innovation, il n'en découlerait pas pour autant que l'on puisse ignorer le fait que des règles claires peuvent au contraire réduire l'incertitude.",
-    "japanese": "たとえ規制は本質的にイノベーションを妨げるとしても、だからといって明確なルールはむしろ不確実性を減らしうるという事実を無視してよいことにはならない。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "デジタル技術",
+    "french": "La personnalisation des contenus devient problématique lorsqu'elle ne se contente plus d'anticiper les préférences de l'utilisateur, mais contribue à les façonner.",
+    "japanese": "コンテンツの個人最適化は、利用者の好みを予測するだけでなく、その好み自体を形成するようになると問題となる。",
     "points": [
-      "quand bien même + 条件法 = たとえ〜でも",
-      "il n'en découlerait pas que = そこから〜とは導けない",
-      "pour autant = だからといって"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 40,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "接続法・モダリティ",
     "register": "soutenu",
-    "french": "Si l'on peut admettre, dans une certaine mesure, que la réglementation freinerait par nature l'innovation, encore convient-il de rappeler que des règles claires peuvent au contraire réduire l'incertitude.",
-    "japanese": "ある程度は規制は本質的にイノベーションを妨げることを認められるとしても、なお明確なルールはむしろ不確実性を減らしうることを忘れてはならない。",
+    "topic": "働き方",
+    "french": "Bien que la réunion ait été présentée comme décisive, aucune des questions qui divisaient réellement l'équipe n'y a été tranchée.",
+    "japanese": "その会議は決定的なものとして位置づけられていたが、実際にチームを分裂させていた問題は一つもそこで決着しなかった。",
     "points": [
-      "dans une certaine mesure = ある程度",
-      "encore convient-il de = それでも〜する必要がある",
-      "rappeler que = 〜を改めて指摘する"
+      "bien que / quoique + 接続法",
+      "譲歩関係を正確に捉える",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 41,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Si séduisante que puisse paraître l'idée selon laquelle la fréquentation culturelle dépendrait principalement du niveau de revenu, elle résiste mal à l'examen dès lors que l'éducation, l'offre locale et les habitudes familiales jouent également un rôle majeur.",
-    "japanese": "文化活動への参加が主として所得水準に左右されるという考えは一見魅力的でも、教育、地域の文化供給、家庭の習慣も大きな役割を果たす以上、詳しく検討すると説得力を失う。",
+    "topic": "文化・メディア",
+    "french": "Les œuvres qui provoquent un scandale à leur sortie sont parfois intégrées quelques décennies plus tard au patrimoine que les institutions ont précisément pour mission de protéger.",
+    "japanese": "発表時に大きな物議を醸した作品が、数十年後には、文化施設が守るべき遺産の一部として扱われることがある。",
     "points": [
-      "si + adjectif + que + 接続法 = いかに〜でも",
-      "dès lors que = 〜である以上",
-      "résister à l'examen = 検討に耐える"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 42,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Avant de conclure que la fréquentation culturelle dépendrait principalement du niveau de revenu, il faudrait encore expliquer pourquoi le fait que l'éducation, l'offre locale et les habitudes familiales jouent également un rôle majeur ne suffirait pas à remettre cette hypothèse en cause.",
-    "japanese": "文化活動への参加が主として所得水準に左右されると結論づける前に、教育、地域の文化供給、家庭の習慣も大きな役割を果たすという事実だけではなぜその仮説を揺るがすに足りないのか、なお説明する必要がある。",
+    "topic": "科学・研究",
+    "french": "Les résultats les plus spectaculaires attirent naturellement l'attention, ce qui peut conduire à sous-estimer la valeur scientifique d'observations plus modestes mais plus robustes.",
+    "japanese": "派手な結果は自然に注目を集めるため、目立たなくてもより頑健な観察結果の科学的価値が過小評価されることがある。",
     "points": [
-      "avant de + 不定詞",
-      "le fait que = 〜という事実",
-      "remettre en cause = 疑問に付す"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 43,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Le problème tient moins à l'hypothèse selon laquelle la fréquentation culturelle dépendrait principalement du niveau de revenu qu'à la tendance à négliger le fait que l'éducation, l'offre locale et les habitudes familiales jouent également un rôle majeur.",
-    "japanese": "問題は、文化活動への参加が主として所得水準に左右されるという仮説そのものよりも、教育、地域の文化供給、家庭の習慣も大きな役割を果たすという事実を軽視しがちな点にある。",
+    "topic": "経済・企業",
+    "french": "Une forte croissance du chiffre d'affaires paraît impressionnante, encore faut-il savoir combien l'entreprise a dû dépenser pour acquérir les clients qui l'ont rendue possible.",
+    "japanese": "売上高の大幅な成長は印象的に見えるが、それを可能にした顧客を獲得するために会社がどれだけ支出したかも知る必要がある。",
     "points": [
-      "tenir moins à A qu'à B = AよりBに起因する",
-      "négliger = 軽視する",
-      "le fait que = 〜という事実"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 44,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Quand bien même la fréquentation culturelle dépendrait principalement du niveau de revenu, il n'en découlerait pas pour autant que l'on puisse ignorer le fait que l'éducation, l'offre locale et les habitudes familiales jouent également un rôle majeur.",
-    "japanese": "たとえ文化活動への参加が主として所得水準に左右されるとしても、だからといって教育、地域の文化供給、家庭の習慣も大きな役割を果たすという事実を無視してよいことにはならない。",
+    "topic": "心理・社会",
+    "french": "Il est plus facile de reconnaître un biais chez autrui que dans son propre raisonnement, précisément parce que l'on a accès à ses raisons mais seulement au comportement de l'autre.",
+    "japanese": "他人の偏りは自分の偏りより見つけやすい。それは自分の理由にはアクセスできても、他人については行動しか見えないからである。",
     "points": [
-      "quand bien même + 条件法 = たとえ〜でも",
-      "il n'en découlerait pas que = そこから〜とは導けない",
-      "pour autant = だからといって"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
@@ -577,441 +621,475 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Si l'on peut admettre, dans une certaine mesure, que la fréquentation culturelle dépendrait principalement du niveau de revenu, encore convient-il de rappeler que l'éducation, l'offre locale et les habitudes familiales jouent également un rôle majeur.",
-    "japanese": "ある程度は文化活動への参加が主として所得水準に左右されることを認められるとしても、なお教育、地域の文化供給、家庭の習慣も大きな役割を果たすことを忘れてはならない。",
+    "topic": "旅行・移動",
+    "french": "Les habitants d'une ville touristique peuvent bénéficier des emplois créés par les visiteurs tout en subissant une hausse des loyers et une transformation des commerces de proximité.",
+    "japanese": "観光都市の住民は観光客が生む雇用の恩恵を受ける一方、家賃上昇や地域商店の変化に苦しむことがある。",
     "points": [
-      "dans une certaine mesure = ある程度",
-      "encore convient-il de = それでも〜する必要がある",
-      "rappeler que = 〜を改めて指摘する"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 46,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Si séduisante que puisse paraître l'idée selon laquelle la mobilité internationale favoriserait automatiquement l'ouverture d'esprit, elle résiste mal à l'examen dès lors que l'expérience de l'étranger n'entraîne pas nécessairement une remise en question de ses propres repères.",
-    "japanese": "国際的な移動が自動的に視野の広さにつながるという考えは一見魅力的でも、海外経験が必ずしも自分の価値観の見直しにつながるわけではない以上、詳しく検討すると説得力を失う。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "都市・住宅・交通",
+    "french": "Une ville peut attirer des habitants grâce à la qualité de ses services publics, puis éprouver des difficultés à maintenir cette qualité lorsque sa population augmente rapidement.",
+    "japanese": "都市は公共サービスの質によって住民を引きつけても、人口が急増するとその質を維持するのが難しくなることがある。",
     "points": [
-      "si + adjectif + que + 接続法 = いかに〜でも",
-      "dès lors que = 〜である以上",
-      "résister à l'examen = 検討に耐える"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 47,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Avant de conclure que la mobilité internationale favoriserait automatiquement l'ouverture d'esprit, il faudrait encore expliquer pourquoi le fait que l'expérience de l'étranger n'entraîne pas nécessairement une remise en question de ses propres repères ne suffirait pas à remettre cette hypothèse en cause.",
-    "japanese": "国際的な移動が自動的に視野の広さにつながると結論づける前に、海外経験が必ずしも自分の価値観の見直しにつながるわけではないという事実だけではなぜその仮説を揺るがすに足りないのか、なお説明する必要がある。",
+    "topic": "制度・公共政策",
+    "french": "Ceux qui conçoivent une politique disposent souvent d'informations différentes de celles des personnes chargées de l'appliquer, d'où des écarts entre les intentions et la pratique.",
+    "japanese": "政策を設計する人と実施する人が持つ情報はしばしば異なり、そのため意図と現場の運用にずれが生じる。",
     "points": [
-      "avant de + 不定詞",
-      "le fait que = 〜という事実",
-      "remettre en cause = 疑問に付す"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 48,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le problème tient moins à l'hypothèse selon laquelle la mobilité internationale favoriserait automatiquement l'ouverture d'esprit qu'à la tendance à négliger le fait que l'expérience de l'étranger n'entraîne pas nécessairement une remise en question de ses propres repères.",
-    "japanese": "問題は、国際的な移動が自動的に視野の広さにつながるという仮説そのものよりも、海外経験が必ずしも自分の価値観の見直しにつながるわけではないという事実を軽視しがちな点にある。",
+    "topic": "教育",
+    "french": "La possibilité de choisir librement ses cours peut favoriser la motivation, à condition toutefois que les étudiants disposent des informations nécessaires pour comprendre les conséquences de leurs choix.",
+    "japanese": "授業を自由に選べることは意欲を高めうるが、その選択の結果を理解するために必要な情報を学生が持っていることが条件となる。",
     "points": [
-      "tenir moins à A qu'à B = AよりBに起因する",
-      "négliger = 軽視する",
-      "le fait que = 〜という事実"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 49,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Quand bien même la mobilité internationale favoriserait automatiquement l'ouverture d'esprit, il n'en découlerait pas pour autant que l'on puisse ignorer le fait que l'expérience de l'étranger n'entraîne pas nécessairement une remise en question de ses propres repères.",
-    "japanese": "たとえ国際的な移動が自動的に視野の広さにつながるとしても、だからといって海外経験が必ずしも自分の価値観の見直しにつながるわけではないという事実を無視してよいことにはならない。",
+    "topic": "健康・社会",
+    "french": "Une campagne de prévention peut être parfaitement comprise sans pour autant modifier les comportements si les personnes concernées ne disposent pas des moyens matériels d'agir autrement.",
+    "japanese": "予防啓発の内容が完全に理解されても、対象者に行動を変える現実的な手段がなければ、行動変容につながらないことがある。",
     "points": [
-      "quand bien même + 条件法 = たとえ〜でも",
-      "il n'en découlerait pas que = そこから〜とは導けない",
-      "pour autant = だからといって"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 50,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Si l'on peut admettre, dans une certaine mesure, que la mobilité internationale favoriserait automatiquement l'ouverture d'esprit, encore convient-il de rappeler que l'expérience de l'étranger n'entraîne pas nécessairement une remise en question de ses propres repères.",
-    "japanese": "ある程度は国際的な移動が自動的に視野の広さにつながることを認められるとしても、なお海外経験が必ずしも自分の価値観の見直しにつながるわけではないことを忘れてはならない。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "環境・エネルギー",
+    "french": "Il serait paradoxal qu'une politique destinée à protéger l'environnement encourage, par un mécanisme de subvention mal conçu, la consommation accrue de ressources qu'elle cherche précisément à préserver.",
+    "japanese": "環境保護を目的とした政策が、不適切な補助制度によって、守ろうとしている資源の消費増加を促すなら、それは逆説的である。",
     "points": [
-      "dans une certaine mesure = ある程度",
-      "encore convient-il de = それでも〜する必要がある",
-      "rappeler que = 〜を改めて指摘する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 51,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Si séduisante que puisse paraître l'idée selon laquelle les données quantitatives permettraient de trancher objectivement tout débat, elle résiste mal à l'examen dès lors que le choix des indicateurs repose lui-même sur des hypothèses discutables.",
-    "japanese": "定量データによってあらゆる議論を客観的に決着できるという考えは一見魅力的でも、指標の選択自体が議論の余地のある仮定に依存している以上、詳しく検討すると説得力を失う。",
+    "topic": "歴史・倫理・思考",
+    "french": "Jugées avec les catégories d'aujourd'hui, certaines décisions du passé paraissent incompréhensibles, mais les replacer dans leur contexte ne signifie pas nécessairement les justifier.",
+    "japanese": "現代の価値観で見ると過去の一部の判断は理解しがたいが、当時の文脈に置き直すことは必ずしも正当化することではない。",
     "points": [
-      "si + adjectif + que + 接続法 = いかに〜でも",
-      "dès lors que = 〜である以上",
-      "résister à l'examen = 検討に耐える"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 52,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Avant de conclure que les données quantitatives permettraient de trancher objectivement tout débat, il faudrait encore expliquer pourquoi le fait que le choix des indicateurs repose lui-même sur des hypothèses discutables ne suffirait pas à remettre cette hypothèse en cause.",
-    "japanese": "定量データによってあらゆる議論を客観的に決着できると結論づける前に、指標の選択自体が議論の余地のある仮定に依存しているという事実だけではなぜその仮説を揺るがすに足りないのか、なお説明する必要がある。",
+    "topic": "デジタル技術",
+    "french": "Les notifications ont été conçues pour attirer l'attention au bon moment; leur multiplication finit pourtant par rendre chacune d'elles moins informative.",
+    "japanese": "通知は適切なタイミングで注意を引くために作られたが、数が増えすぎると一つ一つの情報価値が低下してしまう。",
     "points": [
-      "avant de + 不定詞",
-      "le fait que = 〜という事実",
-      "remettre en cause = 疑問に付す"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 53,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "接続法・モダリティ",
     "register": "soutenu",
-    "french": "Le problème tient moins à l'hypothèse selon laquelle les données quantitatives permettraient de trancher objectivement tout débat qu'à la tendance à négliger le fait que le choix des indicateurs repose lui-même sur des hypothèses discutables.",
-    "japanese": "問題は、定量データによってあらゆる議論を客観的に決着できるという仮説そのものよりも、指標の選択自体が議論の余地のある仮定に依存しているという事実を軽視しがちな点にある。",
+    "topic": "働き方",
+    "french": "À supposer que l'entreprise parvienne à automatiser la moitié des tâches administratives, encore faudra-t-il décider ce que les salariés feront du temps ainsi libéré.",
+    "japanese": "仮に会社が事務作業の半分を自動化できたとしても、そこで生まれた時間を社員が何に使うのかはなお決める必要がある。",
     "points": [
-      "tenir moins à A qu'à B = AよりBに起因する",
-      "négliger = 軽視する",
-      "le fait que = 〜という事実"
+      "仮定を表す接続表現",
+      "接続法の用法",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 54,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Quand bien même les données quantitatives permettraient de trancher objectivement tout débat, il n'en découlerait pas pour autant que l'on puisse ignorer le fait que le choix des indicateurs repose lui-même sur des hypothèses discutables.",
-    "japanese": "たとえ定量データによってあらゆる議論を客観的に決着できるとしても、だからといって指標の選択自体が議論の余地のある仮定に依存しているという事実を無視してよいことにはならない。",
+    "topic": "文化・メディア",
+    "french": "Une photographie documentaire paraît enregistrer le réel, mais le cadrage, le moment choisi et ce qui reste hors champ participent déjà à une interprétation.",
+    "japanese": "ドキュメンタリー写真は現実をそのまま記録しているように見えるが、構図、撮影時点、画面外に残されたものがすでに解釈を形づくっている。",
     "points": [
-      "quand bien même + 条件法 = たとえ〜でも",
-      "il n'en découlerait pas que = そこから〜とは導けない",
-      "pour autant = だからといって"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 55,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Si l'on peut admettre, dans une certaine mesure, que les données quantitatives permettraient de trancher objectivement tout débat, encore convient-il de rappeler que le choix des indicateurs repose lui-même sur des hypothèses discutables.",
-    "japanese": "ある程度は定量データによってあらゆる議論を客観的に決着できることを認められるとしても、なお指標の選択自体が議論の余地のある仮定に依存していることを忘れてはならない。",
+    "topic": "科学・研究",
+    "french": "Il serait hasardeux de généraliser à l'ensemble d'une population des observations obtenues sur un échantillon dont la composition diffère fortement de celle du groupe étudié.",
+    "japanese": "対象集団と大きく異なる構成の標本から得られた観察結果を、集団全体に一般化するのは危険だろう。",
     "points": [
-      "dans une certaine mesure = ある程度",
-      "encore convient-il de = それでも〜する必要がある",
-      "rappeler que = 〜を改めて指摘する"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 56,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Si séduisante que puisse paraître l'idée selon laquelle une politique uniforme serait forcément plus équitable, elle résiste mal à l'examen dès lors que traiter des situations différentes de manière identique peut produire de nouvelles inégalités.",
-    "japanese": "一律の政策が必ずより公平であるという考えは一見魅力的でも、異なる状況を同じように扱うことで新たな不平等が生じうる以上、詳しく検討すると説得力を失う。",
+    "topic": "食・農業",
+    "french": "Les techniques d'irrigation plus précises économisent de l'eau par unité produite, mais cette efficacité peut encourager l'extension des surfaces irriguées.",
+    "japanese": "精密な灌漑技術は生産単位あたりの水使用を減らせるが、その効率化が灌漑面積の拡大を促すこともある。",
     "points": [
-      "si + adjectif + que + 接続法 = いかに〜でも",
-      "dès lors que = 〜である以上",
-      "résister à l'examen = 検討に耐える"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 57,
     "level": "C1",
-    "category": "論証・接続表現",
-    "register": "soutenu",
-    "french": "Avant de conclure que une politique uniforme serait forcément plus équitable, il faudrait encore expliquer pourquoi le fait que traiter des situations différentes de manière identique peut produire de nouvelles inégalités ne suffirait pas à remettre cette hypothèse en cause.",
-    "japanese": "一律の政策が必ずより公平であると結論づける前に、異なる状況を同じように扱うことで新たな不平等が生じうるという事実だけではなぜその仮説を揺るがすに足りないのか、なお説明する必要がある。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "心理・社会",
+    "french": "Un objectif très ambitieux peut motiver tant qu'il paraît accessible, mais devenir paralysant lorsqu'il est perçu comme trop éloigné pour guider l'action quotidienne.",
+    "japanese": "非常に野心的な目標は達成可能に見える間は意欲を高めるが、日々の行動を導くには遠すぎると感じると、逆に動けなくさせることがある。",
     "points": [
-      "avant de + 不定詞",
-      "le fait que = 〜という事実",
-      "remettre en cause = 疑問に付す"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 58,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le problème tient moins à l'hypothèse selon laquelle une politique uniforme serait forcément plus équitable qu'à la tendance à négliger le fait que traiter des situations différentes de manière identique peut produire de nouvelles inégalités.",
-    "japanese": "問題は、一律の政策が必ずより公平であるという仮説そのものよりも、異なる状況を同じように扱うことで新たな不平等が生じうるという事実を軽視しがちな点にある。",
+    "topic": "旅行・移動",
+    "french": "Voyager plus lentement permet parfois de mieux comprendre un lieu, non parce que la durée garantit la profondeur de l'expérience, mais parce qu'elle laisse davantage de place à l'imprévu.",
+    "japanese": "ゆっくり旅をすると場所をより深く理解できることがあるが、それは滞在時間が経験の深さを保証するからではなく、予想外の出来事が入る余地が増えるからである。",
     "points": [
-      "tenir moins à A qu'à B = AよりBに起因する",
-      "négliger = 軽視する",
-      "le fait que = 〜という事実"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 59,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Quand bien même une politique uniforme serait forcément plus équitable, il n'en découlerait pas pour autant que l'on puisse ignorer le fait que traiter des situations différentes de manière identique peut produire de nouvelles inégalités.",
-    "japanese": "たとえ一律の政策が必ずより公平であるとしても、だからといって異なる状況を同じように扱うことで新たな不平等が生じうるという事実を無視してよいことにはならない。",
+    "topic": "都市・住宅・交通",
+    "french": "Les villes qui veulent végétaliser leurs rues doivent composer avec des réseaux souterrains, des contraintes d'entretien et un espace déjà disputé entre de nombreux usages.",
+    "japanese": "街路の緑化を進める都市は、地下インフラ、維持管理上の制約、すでに多用途で競合する空間と折り合いをつけなければならない。",
     "points": [
-      "quand bien même + 条件法 = たとえ〜でも",
-      "il n'en découlerait pas que = そこから〜とは導けない",
-      "pour autant = だからといって"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 60,
     "level": "C1",
-    "category": "論証・接続表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Si l'on peut admettre, dans une certaine mesure, que une politique uniforme serait forcément plus équitable, encore convient-il de rappeler que traiter des situations différentes de manière identique peut produire de nouvelles inégalités.",
-    "japanese": "ある程度は一律の政策が必ずより公平であることを認められるとしても、なお異なる状況を同じように扱うことで新たな不平等が生じうることを忘れてはならない。",
+    "topic": "制度・公共政策",
+    "french": "La transparence n'est utile que si les informations publiées sont suffisamment compréhensibles pour permettre un contrôle réel des décisions.",
+    "japanese": "透明性が意味を持つのは、公表された情報が意思決定を実際に検証できるほど理解可能な場合である。",
     "points": [
-      "dans une certaine mesure = ある程度",
-      "encore convient-il de = それでも〜する必要がある",
-      "rappeler que = 〜を改めて指摘する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 61,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le fait que les critères sur lesquels reposait l'évaluation avaient été définis plusieurs années auparavant aurait dû conduire à réexaminer plus tôt la portée des conclusions avancées.",
-    "japanese": "評価の基礎となっていた基準が数年前に定められたものだったという事実からすれば、示された結論がどこまで妥当するのか、もっと早く再検討されるべきだった。",
+    "topic": "教育",
+    "french": "Même une excellente formation initiale ne dispense pas les enseignants de continuer à apprendre, tant les outils, les publics et les connaissances évoluent.",
+    "japanese": "どれほど優れた初期研修を受けても、道具・学習者・知識が変化し続ける以上、教員が学び続ける必要はなくならない。",
     "points": [
-      "複合関係表現の精読",
-      "le fait que = 〜という事実",
-      "portée = 妥当範囲・意味"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 62,
     "level": "C1",
-    "category": "高度な構文・関係表現",
-    "register": "soutenu",
-    "french": "Le rapport reconnaît que les critères sur lesquels reposait l'évaluation avaient été définis plusieurs années auparavant, ce dont il ne tire pourtant que très partiellement les conséquences.",
-    "japanese": "報告書は評価の基礎となっていた基準が数年前に定められたものだったことを認めているが、その事実から導かれる帰結を十分には引き出していない。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "健康・社会",
+    "french": "La stigmatisation peut empêcher des personnes de demander de l'aide longtemps après que le problème concerné a commencé à être reconnu publiquement.",
+    "japanese": "ある問題が社会的に認識されるようになった後も、偏見のために長期間支援を求められない人がいる。",
     "points": [
-      "ce dont = 前文全体を受ける関係表現",
-      "tirer les conséquences de = 〜の帰結を引き出す",
-      "partiellement = 部分的に"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 63,
     "level": "C1",
-    "category": "高度な構文・関係表現",
-    "register": "soutenu",
-    "french": "On comprend mal que les critères sur lesquels reposait l'évaluation avaient été définis plusieurs années auparavant, alors que plusieurs éléments auraient dû inciter à davantage de prudence.",
-    "japanese": "より慎重になるべき材料がいくつもあったにもかかわらず、評価の基礎となっていた基準が数年前に定められたものだったことは理解しがたい。",
+    "category": "論証・接続表現",
+    "register": "standard",
+    "topic": "環境・エネルギー",
+    "french": "Une ville qui réduit la circulation automobile dans son centre peut améliorer la qualité de l'air localement tout en déplaçant une partie du trafic vers les quartiers périphériques.",
+    "japanese": "市中心部の自動車交通を減らすと、局所的には大気が改善しても、交通の一部が周辺地区へ移ることがある。",
     "points": [
-      "on comprend mal que = 〜は理解しがたい",
-      "alors que = 〜なのに",
-      "inciter à = 〜するよう促す"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 64,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Ce n'est qu'après coup qu'il est apparu que les critères sur lesquels reposait l'évaluation avaient été définis plusieurs années auparavant, constat qui a conduit à revoir l'ensemble du raisonnement.",
-    "japanese": "評価の基礎となっていた基準が数年前に定められたものだったことが明らかになったのは事後になってからであり、その認識によって議論全体の見直しが必要になった。",
+    "topic": "歴史・倫理・思考",
+    "french": "Il est parfois plus difficile de renoncer à une politique qui a demandé beaucoup d'efforts qu'à une mesure récente, même lorsque les raisons de la poursuivre se sont affaiblies.",
+    "japanese": "多くの努力を費やした政策は、継続する理由が弱くなっていても、新しい施策より廃止しにくいことがある。",
     "points": [
-      "ne... que = 〜して初めて",
-      "après coup = 事後になって",
-      "constat qui = 前内容を受ける同格的表現"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 65,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Rien n'explique vraiment pourquoi les critères sur lesquels reposait l'évaluation avaient été définis plusieurs années auparavant; d'où la nécessité de distinguer ce qui relève d'un choix méthodologique de ce qui tient aux circonstances.",
-    "japanese": "なぜ評価の基礎となっていた基準が数年前に定められたものだったのかは十分説明されていない。したがって、方法上の選択に由来するものと状況に由来するものを区別する必要がある。",
+    "topic": "デジタル技術",
+    "french": "Les entreprises qui accumulent de grandes quantités de données découvrent parfois que leur principal problème n'est plus d'en obtenir davantage, mais de savoir lesquelles méritent réellement d'être conservées.",
+    "japanese": "大量のデータを蓄積する企業では、問題がデータをさらに集めることではなく、何を本当に保存すべきか判断することに移る場合がある。",
     "points": [
-      "d'où + 名詞 = したがって〜",
-      "ce qui relève de... / ce qui tient à...",
-      "distinguer A de B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 66,
     "level": "C1",
-    "category": "高度な構文・関係表現",
-    "register": "soutenu",
-    "french": "Le fait que les hypothèses à partir desquelles le modèle avait été construit ne correspondaient plus à la situation actuelle aurait dû conduire à réexaminer plus tôt la portée des conclusions avancées.",
-    "japanese": "モデル構築の出発点となった仮定が、もはや現在の状況に合っていなかったという事実からすれば、示された結論がどこまで妥当するのか、もっと早く再検討されるべきだった。",
+    "category": "時制・間接話法",
+    "register": "standard",
+    "topic": "働き方",
+    "french": "Le directeur a reconnu que le projet aurait dû être interrompu plus tôt, mais il a ajouté qu'à l'époque personne ne disposait d'informations suffisantes pour en mesurer les risques.",
+    "japanese": "部長は計画をもっと早く中止すべきだったと認めたが、当時は誰もそのリスクを測るのに十分な情報を持っていなかったとも付け加えた。",
     "points": [
-      "複合関係表現の精読",
-      "le fait que = 〜という事実",
-      "portée = 妥当範囲・意味"
+      "過去時制・条件法の関係",
+      "出来事の時間関係を整理する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 67,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Le rapport reconnaît que les hypothèses à partir desquelles le modèle avait été construit ne correspondaient plus à la situation actuelle, ce dont il ne tire pourtant que très partiellement les conséquences.",
-    "japanese": "報告書はモデル構築の出発点となった仮定が、もはや現在の状況に合っていなかったことを認めているが、その事実から導かれる帰結を十分には引き出していない。",
+    "topic": "文化・メディア",
+    "french": "L'existence d'un canon littéraire peut faciliter la transmission d'œuvres majeures, tout en rendant moins visibles celles qui n'ont pas été intégrées aux programmes scolaires.",
+    "japanese": "文学的な正典の存在は重要作品の継承を容易にする一方、学校教育に取り入れられなかった作品を見えにくくする。",
     "points": [
-      "ce dont = 前文全体を受ける関係表現",
-      "tirer les conséquences de = 〜の帰結を引き出す",
-      "partiellement = 部分的に"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 68,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "On comprend mal que les hypothèses à partir desquelles le modèle avait été construit ne correspondaient plus à la situation actuelle, alors que plusieurs éléments auraient dû inciter à davantage de prudence.",
-    "japanese": "より慎重になるべき材料がいくつもあったにもかかわらず、モデル構築の出発点となった仮定が、もはや現在の状況に合っていなかったことは理解しがたい。",
+    "topic": "科学・研究",
+    "french": "Le laboratoire a choisi de publier ses résultats négatifs, estimant qu'ils éviteraient à d'autres équipes de répéter inutilement les mêmes expériences.",
+    "japanese": "その研究室は、他のチームが同じ実験を無駄に繰り返すのを防げるとして、否定的な結果も公表することにした。",
     "points": [
-      "on comprend mal que = 〜は理解しがたい",
-      "alors que = 〜なのに",
-      "inciter à = 〜するよう促す"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 69,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Ce n'est qu'après coup qu'il est apparu que les hypothèses à partir desquelles le modèle avait été construit ne correspondaient plus à la situation actuelle, constat qui a conduit à revoir l'ensemble du raisonnement.",
-    "japanese": "モデル構築の出発点となった仮定が、もはや現在の状況に合っていなかったことが明らかになったのは事後になってからであり、その認識によって議論全体の見直しが必要になった。",
+    "topic": "食・農業",
+    "french": "Une ferme peut adopter des pratiques écologiques par conviction tout en ayant besoin d'un modèle économique suffisamment solide pour les maintenir lorsque les prix baissent.",
+    "japanese": "農家は信念から環境に配慮した農法を採用しても、価格が下がったときに維持できるだけの経済的基盤が必要である。",
     "points": [
-      "ne... que = 〜して初めて",
-      "après coup = 事後になって",
-      "constat qui = 前内容を受ける同格的表現"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 70,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Rien n'explique vraiment pourquoi les hypothèses à partir desquelles le modèle avait été construit ne correspondaient plus à la situation actuelle; d'où la nécessité de distinguer ce qui relève d'un choix méthodologique de ce qui tient aux circonstances.",
-    "japanese": "なぜモデル構築の出発点となった仮定が、もはや現在の状況に合っていなかったのかは十分説明されていない。したがって、方法上の選択に由来するものと状況に由来するものを区別する必要がある。",
+    "topic": "経済・企業",
+    "french": "Une hausse du salaire moyen peut coexister avec une stagnation du revenu de nombreux travailleurs si les augmentations se concentrent dans les catégories déjà les mieux rémunérées.",
+    "japanese": "平均賃金が上昇しても、賃上げがすでに高所得の層に集中すれば、多くの労働者の所得が停滞することはありうる。",
     "points": [
-      "d'où + 名詞 = したがって〜",
-      "ce qui relève de... / ce qui tient à...",
-      "distinguer A de B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 71,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Le fait que les contraintes auxquelles l'équipe devait faire face n'avaient pas été clairement communiquées aurait dû conduire à réexaminer plus tôt la portée des conclusions avancées.",
-    "japanese": "チームが直面していた制約が明確に共有されていなかったという事実からすれば、示された結論がどこまで妥当するのか、もっと早く再検討されるべきだった。",
+    "topic": "旅行・移動",
+    "french": "Le développement des vols à bas prix a rendu certains déplacements accessibles à davantage de personnes, tout en contribuant à banaliser des voyages autrefois exceptionnels.",
+    "japanese": "格安航空便の発展は一部の移動をより多くの人に可能にした一方、以前は特別だった旅行を日常化した。",
     "points": [
-      "複合関係表現の精読",
-      "le fait que = 〜という事実",
-      "portée = 妥当範囲・意味"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 72,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Le rapport reconnaît que les contraintes auxquelles l'équipe devait faire face n'avaient pas été clairement communiquées, ce dont il ne tire pourtant que très partiellement les conséquences.",
-    "japanese": "報告書はチームが直面していた制約が明確に共有されていなかったことを認めているが、その事実から導かれる帰結を十分には引き出していない。",
+    "topic": "都市・住宅・交通",
+    "french": "La limitation des locations de courte durée peut libérer certains logements pour les habitants, sans pour autant résoudre les causes structurelles d'une pénurie immobilière.",
+    "japanese": "短期賃貸を制限すれば一部の住宅を住民向けに戻せるが、住宅不足の構造的原因まで解決するわけではない。",
     "points": [
-      "ce dont = 前文全体を受ける関係表現",
-      "tirer les conséquences de = 〜の帰結を引き出す",
-      "partiellement = 部分的に"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 73,
     "level": "C1",
-    "category": "高度な構文・関係表現",
-    "register": "soutenu",
-    "french": "On comprend mal que les contraintes auxquelles l'équipe devait faire face n'avaient pas été clairement communiquées, alors que plusieurs éléments auraient dû inciter à davantage de prudence.",
-    "japanese": "より慎重になるべき材料がいくつもあったにもかかわらず、チームが直面していた制約が明確に共有されていなかったことは理解しがたい。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "制度・公共政策",
+    "french": "Une décision prise rapidement n'est pas nécessairement arbitraire, pas plus qu'une longue procédure ne garantit à elle seule une décision mieux fondée.",
+    "japanese": "迅速な決定が必ず恣意的とは限らず、長い手続きがそれだけでより根拠のある決定を保証するわけでもない。",
     "points": [
-      "on comprend mal que = 〜は理解しがたい",
-      "alors que = 〜なのに",
-      "inciter à = 〜するよう促す"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 74,
     "level": "C1",
-    "category": "高度な構文・関係表現",
-    "register": "soutenu",
-    "french": "Ce n'est qu'après coup qu'il est apparu que les contraintes auxquelles l'équipe devait faire face n'avaient pas été clairement communiquées, constat qui a conduit à revoir l'ensemble du raisonnement.",
-    "japanese": "チームが直面していた制約が明確に共有されていなかったことが明らかになったのは事後になってからであり、その認識によって議論全体の見直しが必要になった。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "教育",
+    "french": "L'introduction d'une nouvelle matière suppose non seulement de lui réserver du temps dans l'emploi du temps, mais aussi de former ceux qui seront chargés de l'enseigner.",
+    "japanese": "新しい科目を導入するには、時間割に時間を確保するだけでなく、それを教える人材を育成する必要もある。",
     "points": [
-      "ne... que = 〜して初めて",
-      "après coup = 事後になって",
-      "constat qui = 前内容を受ける同格的表現"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 75,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Rien n'explique vraiment pourquoi les contraintes auxquelles l'équipe devait faire face n'avaient pas été clairement communiquées; d'où la nécessité de distinguer ce qui relève d'un choix méthodologique de ce qui tient aux circonstances.",
-    "japanese": "なぜチームが直面していた制約が明確に共有されていなかったのかは十分説明されていない。したがって、方法上の選択に由来するものと状況に由来するものを区別する必要がある。",
+    "topic": "健康・社会",
+    "french": "Il arrive que l'amélioration d'un indicateur médical s'accompagne d'une dégradation ressentie par le patient, d'où la nécessité de ne pas confondre mesure clinique et expérience vécue.",
+    "japanese": "医療指標が改善しても患者自身の実感が悪化することがあり、そのため臨床的な測定値と本人の経験を同一視してはならない。",
     "points": [
-      "d'où + 名詞 = したがって〜",
-      "ce qui relève de... / ce qui tient à...",
-      "distinguer A de B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 76,
     "level": "C1",
-    "category": "高度な構文・関係表現",
-    "register": "soutenu",
-    "french": "Le fait que les données dont la fiabilité avait été mise en doute ont finalement été exclues de l'analyse aurait dû conduire à réexaminer plus tôt la portée des conclusions avancées.",
-    "japanese": "信頼性が疑問視されていたデータが最終的に分析から除外されたという事実からすれば、示された結論がどこまで妥当するのか、もっと早く再検討されるべきだった。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "環境・エネルギー",
+    "french": "Certaines mesures de protection de la nature échouent non parce que leurs objectifs sont contestés, mais parce que les responsabilités de mise en œuvre sont réparties entre trop d'acteurs.",
+    "japanese": "自然保護策の中には、目標に反対があるからではなく、実施責任があまりに多くの主体に分散しているため失敗するものがある。",
     "points": [
-      "複合関係表現の精読",
-      "le fait que = 〜という事実",
-      "portée = 妥当範囲・意味"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 77,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le rapport reconnaît que les données dont la fiabilité avait été mise en doute ont finalement été exclues de l'analyse, ce dont il ne tire pourtant que très partiellement les conséquences.",
-    "japanese": "報告書は信頼性が疑問視されていたデータが最終的に分析から除外されたことを認めているが、その事実から導かれる帰結を十分には引き出していない。",
+    "topic": "歴史・倫理・思考",
+    "french": "La liberté de choisir perd une partie de son sens lorsque les conséquences des différentes options sont impossibles à comprendre ou volontairement dissimulées.",
+    "japanese": "異なる選択肢の結果が理解できなかったり意図的に隠されたりしている場合、選択の自由はその意味の一部を失う。",
     "points": [
-      "ce dont = 前文全体を受ける関係表現",
-      "tirer les conséquences de = 〜の帰結を引き出す",
-      "partiellement = 部分的に"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 78,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "On comprend mal que les données dont la fiabilité avait été mise en doute ont finalement été exclues de l'analyse, alors que plusieurs éléments auraient dû inciter à davantage de prudence.",
-    "japanese": "より慎重になるべき材料がいくつもあったにもかかわらず、信頼性が疑問視されていたデータが最終的に分析から除外されたことは理解しがたい。",
+    "topic": "デジタル技術",
+    "french": "Le chiffrement protège efficacement le contenu des communications, mais il ne dissimule pas nécessairement qui communique avec qui, à quel moment et à quelle fréquence.",
+    "japanese": "暗号化は通信内容を効果的に守るが、誰が誰と、いつ、どのくらいの頻度で通信しているかまで必ず隠すわけではない。",
     "points": [
-      "on comprend mal que = 〜は理解しがたい",
-      "alors que = 〜なのに",
-      "inciter à = 〜するよう促す"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
@@ -1019,51 +1097,55 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Ce n'est qu'après coup qu'il est apparu que les données dont la fiabilité avait été mise en doute ont finalement été exclues de l'analyse, constat qui a conduit à revoir l'ensemble du raisonnement.",
-    "japanese": "信頼性が疑問視されていたデータが最終的に分析から除外されたことが明らかになったのは事後になってからであり、その認識によって議論全体の見直しが必要になった。",
+    "topic": "働き方",
+    "french": "Ce que les employés reprochent le plus à la nouvelle procédure n'est pas sa complexité en elle-même, mais l'impossibilité de savoir à qui s'adresser lorsqu'un cas sort de l'ordinaire.",
+    "japanese": "社員が新しい手続きに最も不満を感じているのは複雑さそのものではなく、例外的なケースで誰に相談すべきか分からないことである。",
     "points": [
-      "ne... que = 〜して初めて",
-      "après coup = 事後になって",
-      "constat qui = 前内容を受ける同格的表現"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 80,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Rien n'explique vraiment pourquoi les données dont la fiabilité avait été mise en doute ont finalement été exclues de l'analyse; d'où la nécessité de distinguer ce qui relève d'un choix méthodologique de ce qui tient aux circonstances.",
-    "japanese": "なぜ信頼性が疑問視されていたデータが最終的に分析から除外されたのかは十分説明されていない。したがって、方法上の選択に由来するものと状況に由来するものを区別する必要がある。",
+    "topic": "文化・メディア",
+    "french": "Une œuvre restaurée est toujours le résultat de choix, car préserver l'objet tel qu'il est aujourd'hui n'équivaut pas nécessairement à retrouver exactement son état d'origine.",
+    "japanese": "修復された作品は常に何らかの選択の結果であり、現在の状態を保存することと、元の状態を正確に復元することは同じではない。",
     "points": [
-      "d'où + 名詞 = したがって〜",
-      "ce qui relève de... / ce qui tient à...",
-      "distinguer A de B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 81,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Le fait que les personnes auprès desquelles l'enquête avait été menée ne constituaient pas un échantillon représentatif aurait dû conduire à réexaminer plus tôt la portée des conclusions avancées.",
-    "japanese": "調査対象となった人々が代表性のある標本ではなかったという事実からすれば、示された結論がどこまで妥当するのか、もっと早く再検討されるべきだった。",
+    "topic": "科学・研究",
+    "french": "Pour qu'une réplication soit réellement instructive, encore faut-il savoir quelles caractéristiques de l'expérience initiale doivent être reproduites à l'identique et lesquelles peuvent varier.",
+    "japanese": "再現研究を本当に有益なものにするには、元の実験のどの条件を同一に保ち、どこを変えてよいかを明確にする必要がある。",
     "points": [
-      "複合関係表現の精読",
-      "le fait que = 〜という事実",
-      "portée = 妥当範囲・意味"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 82,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le rapport reconnaît que les personnes auprès desquelles l'enquête avait été menée ne constituaient pas un échantillon représentatif, ce dont il ne tire pourtant que très partiellement les conséquences.",
-    "japanese": "報告書は調査対象となった人々が代表性のある標本ではなかったことを認めているが、その事実から導かれる帰結を十分には引き出していない。",
+    "topic": "食・農業",
+    "french": "La sécurité alimentaire dépend autant de la stabilité des réseaux de transport et de stockage que de la quantité totale produite sur une année.",
+    "japanese": "食料安全保障は年間の総生産量だけでなく、輸送網や保管体制の安定性にも左右される。",
     "points": [
-      "ce dont = 前文全体を受ける関係表現",
-      "tirer les conséquences de = 〜の帰結を引き出す",
-      "partiellement = 部分的に"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
@@ -1071,259 +1153,279 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "On comprend mal que les personnes auprès desquelles l'enquête avait été menée ne constituaient pas un échantillon représentatif, alors que plusieurs éléments auraient dû inciter à davantage de prudence.",
-    "japanese": "より慎重になるべき材料がいくつもあったにもかかわらず、調査対象となった人々が代表性のある標本ではなかったことは理解しがたい。",
+    "topic": "経済・企業",
+    "french": "Une entreprise peut gagner des parts de marché en vendant à perte pendant un temps, ce qui rend délicate l'interprétation d'une croissance rapide comme preuve de viabilité.",
+    "japanese": "企業は一定期間赤字販売をすることで市場シェアを獲得できるため、急成長を事業の持続可能性の証拠と解釈するのは難しい。",
     "points": [
-      "on comprend mal que = 〜は理解しがたい",
-      "alors que = 〜なのに",
-      "inciter à = 〜するよう促す"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 84,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Ce n'est qu'après coup qu'il est apparu que les personnes auprès desquelles l'enquête avait été menée ne constituaient pas un échantillon représentatif, constat qui a conduit à revoir l'ensemble du raisonnement.",
-    "japanese": "調査対象となった人々が代表性のある標本ではなかったことが明らかになったのは事後になってからであり、その認識によって議論全体の見直しが必要になった。",
+    "topic": "心理・社会",
+    "french": "Les conflits s'aggravent parfois moins à cause du désaccord initial que parce que chaque partie interprète la réaction de l'autre comme la preuve d'une mauvaise intention.",
+    "japanese": "対立は最初の意見の違いよりも、双方が相手の反応を悪意の証拠と解釈することで悪化することがある。",
     "points": [
-      "ne... que = 〜して初めて",
-      "après coup = 事後になって",
-      "constat qui = 前内容を受ける同格的表現"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 85,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "時制・間接話法",
     "register": "soutenu",
-    "french": "Rien n'explique vraiment pourquoi les personnes auprès desquelles l'enquête avait été menée ne constituaient pas un échantillon représentatif; d'où la nécessité de distinguer ce qui relève d'un choix méthodologique de ce qui tient aux circonstances.",
-    "japanese": "なぜ調査対象となった人々が代表性のある標本ではなかったのかは十分説明されていない。したがって、方法上の選択に由来するものと状況に由来するものを区別する必要がある。",
+    "topic": "都市・住宅・交通",
+    "french": "Le recours à des applications de navigation peut répartir le trafic plus efficacement, mais il peut aussi détourner des véhicules vers des rues résidentielles qui n'avaient pas été conçues pour cela.",
+    "japanese": "ナビアプリは交通をより効率的に分散できる一方、本来その交通量を想定していない住宅街へ車を誘導することもある。",
     "points": [
-      "d'où + 名詞 = したがって〜",
-      "ce qui relève de... / ce qui tient à...",
-      "distinguer A de B"
+      "過去時制・条件法の関係",
+      "出来事の時間関係を整理する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 86,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "接続法・モダリティ",
     "register": "soutenu",
-    "french": "Le fait que les mécanismes par lesquels se transmet l'information restent encore imparfaitement compris aurait dû conduire à réexaminer plus tôt la portée des conclusions avancées.",
-    "japanese": "情報が伝達される仕組みが、いまだ十分には理解されていないという事実からすれば、示された結論がどこまで妥当するのか、もっと早く再検討されるべきだった。",
+    "topic": "制度・公共政策",
+    "french": "Il importe que les règles prévoient des mécanismes de recours, précisément parce qu'aucune procédure, aussi rigoureuse soit-elle, n'est à l'abri d'une erreur.",
+    "japanese": "どれほど厳密な手続きでも誤りを完全には防げないため、規則には異議申立ての仕組みを設けることが重要である。",
     "points": [
-      "複合関係表現の精読",
-      "le fait que = 〜という事実",
-      "portée = 妥当範囲・意味"
+      "接続法を要求する表現",
+      "話者の判断・可能性のニュアンス",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 87,
     "level": "C1",
     "category": "高度な構文・関係表現",
-    "register": "soutenu",
-    "french": "Le rapport reconnaît que les mécanismes par lesquels se transmet l'information restent encore imparfaitement compris, ce dont il ne tire pourtant que très partiellement les conséquences.",
-    "japanese": "報告書は情報が伝達される仕組みが、いまだ十分には理解されていないことを認めているが、その事実から導かれる帰結を十分には引き出していない。",
+    "register": "standard",
+    "topic": "教育",
+    "french": "Ce qui distingue un élève autonome d'un élève simplement laissé à lui-même tient souvent moins à la quantité de liberté accordée qu'à la qualité de l'accompagnement.",
+    "japanese": "自律した生徒と単に放置された生徒の違いは、与えられた自由の量よりも支援の質によることが多い。",
     "points": [
-      "ce dont = 前文全体を受ける関係表現",
-      "tirer les conséquences de = 〜の帰結を引き出す",
-      "partiellement = 部分的に"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 88,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "On comprend mal que les mécanismes par lesquels se transmet l'information restent encore imparfaitement compris, alors que plusieurs éléments auraient dû inciter à davantage de prudence.",
-    "japanese": "より慎重になるべき材料がいくつもあったにもかかわらず、情報が伝達される仕組みが、いまだ十分には理解されていないことは理解しがたい。",
+    "topic": "健康・社会",
+    "french": "On aurait tort de considérer l'accès à un service comme garanti au seul motif qu'il existe, si ses horaires, son coût ou sa localisation le rendent inutilisable pour une partie de la population.",
+    "japanese": "サービスが存在するというだけで利用可能性が保証されると考えるのは誤りであり、時間、費用、場所によって一部の人が実際には使えないことがある。",
     "points": [
-      "on comprend mal que = 〜は理解しがたい",
-      "alors que = 〜なのに",
-      "inciter à = 〜するよう促す"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 89,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Ce n'est qu'après coup qu'il est apparu que les mécanismes par lesquels se transmet l'information restent encore imparfaitement compris, constat qui a conduit à revoir l'ensemble du raisonnement.",
-    "japanese": "情報が伝達される仕組みが、いまだ十分には理解されていないことが明らかになったのは事後になってからであり、その認識によって議論全体の見直しが必要になった。",
+    "topic": "環境・エネルギー",
+    "french": "La rareté d'une ressource ne dépend pas uniquement de sa quantité physique, mais aussi de l'endroit où elle se trouve, de la saison et des infrastructures permettant d'y accéder.",
+    "japanese": "資源の希少性は物理的な量だけでなく、存在する場所、季節、そこへアクセスするインフラにも左右される。",
     "points": [
-      "ne... que = 〜して初めて",
-      "après coup = 事後になって",
-      "constat qui = 前内容を受ける同格的表現"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 90,
     "level": "C1",
-    "category": "高度な構文・関係表現",
-    "register": "soutenu",
-    "french": "Rien n'explique vraiment pourquoi les mécanismes par lesquels se transmet l'information restent encore imparfaitement compris; d'où la nécessité de distinguer ce qui relève d'un choix méthodologique de ce qui tient aux circonstances.",
-    "japanese": "なぜ情報が伝達される仕組みが、いまだ十分には理解されていないのかは十分説明されていない。したがって、方法上の選択に由来するものと状況に由来するものを区別する必要がある。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "歴史・倫理・思考",
+    "french": "La tolérance ne signifie pas que toutes les opinions se valent, mais qu'une société accepte une certaine diversité de convictions sans chercher à les supprimer par la contrainte.",
+    "japanese": "寛容とはすべての意見が同じ価値を持つという意味ではなく、社会が一定の信念の多様性を強制によって排除せず受け入れることである。",
     "points": [
-      "d'où + 名詞 = したがって〜",
-      "ce qui relève de... / ce qui tient à...",
-      "distinguer A de B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 91,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le fait que les circonstances dans lesquelles la décision avait été prise avaient profondément changé entre-temps aurait dû conduire à réexaminer plus tôt la portée des conclusions avancées.",
-    "japanese": "その決定が下された状況が、その後大きく変化していたという事実からすれば、示された結論がどこまで妥当するのか、もっと早く再検討されるべきだった。",
+    "topic": "デジタル技術",
+    "french": "Un service peut être techniquement disponible vingt-quatre heures sur vingt-quatre sans être réellement accessible à ceux qui rencontrent des difficultés de lecture, de vision ou de manipulation.",
+    "japanese": "サービスが技術的には24時間利用可能でも、読字・視覚・操作に困難を抱える人にとって実際に利用可能とは限らない。",
     "points": [
-      "複合関係表現の精読",
-      "le fait que = 〜という事実",
-      "portée = 妥当範囲・意味"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 92,
     "level": "C1",
-    "category": "高度な構文・関係表現",
-    "register": "soutenu",
-    "french": "Le rapport reconnaît que les circonstances dans lesquelles la décision avait été prise avaient profondément changé entre-temps, ce dont il ne tire pourtant que très partiellement les conséquences.",
-    "japanese": "報告書はその決定が下された状況が、その後大きく変化していたことを認めているが、その事実から導かれる帰結を十分には引き出していない。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "働き方",
+    "french": "Le fait que certains employés préfèrent travailler seuls ne signifie nullement qu'ils soient moins disposés à coopérer lorsqu'une tâche l'exige.",
+    "japanese": "一人で働くことを好む社員がいるからといって、必要なときに協力する意欲が低いということにはまったくならない。",
     "points": [
-      "ce dont = 前文全体を受ける関係表現",
-      "tirer les conséquences de = 〜の帰結を引き出す",
-      "partiellement = 部分的に"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 93,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "On comprend mal que les circonstances dans lesquelles la décision avait été prise avaient profondément changé entre-temps, alors que plusieurs éléments auraient dû inciter à davantage de prudence.",
-    "japanese": "より慎重になるべき材料がいくつもあったにもかかわらず、その決定が下された状況が、その後大きく変化していたことは理解しがたい。",
+    "topic": "文化・メディア",
+    "french": "Il est difficile de mesurer la diversité culturelle d'un catalogue uniquement en comptant le nombre de pays représentés, si les œuvres mises en avant restent toujours du même type.",
+    "japanese": "収録国数だけでカタログの文化的多様性を測るのは難しく、目立つ位置に置かれる作品がいつも同じ種類ならなおさらである。",
     "points": [
-      "on comprend mal que = 〜は理解しがたい",
-      "alors que = 〜なのに",
-      "inciter à = 〜するよう促す"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 94,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Ce n'est qu'après coup qu'il est apparu que les circonstances dans lesquelles la décision avait été prise avaient profondément changé entre-temps, constat qui a conduit à revoir l'ensemble du raisonnement.",
-    "japanese": "その決定が下された状況が、その後大きく変化していたことが明らかになったのは事後になってからであり、その認識によって議論全体の見直しが必要になった。",
+    "topic": "科学・研究",
+    "french": "L'ouverture des données favorise la vérification, mais elle soulève aussi des questions concernant la confidentialité, le consentement et l'usage futur d'informations recueillies dans un autre but.",
+    "japanese": "データ公開は検証を促進する一方、機密性、同意、別目的で収集された情報の将来的利用といった問題も生じさせる。",
     "points": [
-      "ne... que = 〜して初めて",
-      "après coup = 事後になって",
-      "constat qui = 前内容を受ける同格的表現"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 95,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Rien n'explique vraiment pourquoi les circonstances dans lesquelles la décision avait été prise avaient profondément changé entre-temps; d'où la nécessité de distinguer ce qui relève d'un choix méthodologique de ce qui tient aux circonstances.",
-    "japanese": "なぜその決定が下された状況が、その後大きく変化していたのかは十分説明されていない。したがって、方法上の選択に由来するものと状況に由来するものを区別する必要がある。",
+    "topic": "食・農業",
+    "french": "Réduire le gaspillage alimentaire ne consiste pas seulement à convaincre les ménages de jeter moins, mais aussi à repenser les portions, les dates, la logistique et les normes de vente.",
+    "japanese": "食品ロスの削減は家庭に廃棄を減らすよう促すだけでなく、量、期限、物流、販売基準を見直すことでもある。",
     "points": [
-      "d'où + 名詞 = したがって〜",
-      "ce qui relève de... / ce qui tient à...",
-      "distinguer A de B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 96,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le fait que les objectifs au regard desquels le projet devait être jugé étaient eux-mêmes contradictoires aurait dû conduire à réexaminer plus tôt la portée des conclusions avancées.",
-    "japanese": "プロジェクトを評価する基準となる目的自体が互いに矛盾していたという事実からすれば、示された結論がどこまで妥当するのか、もっと早く再検討されるべきだった。",
+    "topic": "経済・企業",
+    "french": "Un secteur peut manquer de main-d'œuvre alors même que le chômage reste élevé si les compétences, la localisation ou les conditions proposées ne correspondent pas aux personnes disponibles.",
+    "japanese": "失業率が高くても、求められる技能、勤務地、労働条件が求職者と合わなければ、ある産業で人手不足が起こりうる。",
     "points": [
-      "複合関係表現の精読",
-      "le fait que = 〜という事実",
-      "portée = 妥当範囲・意味"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 97,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le rapport reconnaît que les objectifs au regard desquels le projet devait être jugé étaient eux-mêmes contradictoires, ce dont il ne tire pourtant que très partiellement les conséquences.",
-    "japanese": "報告書はプロジェクトを評価する基準となる目的自体が互いに矛盾していたことを認めているが、その事実から導かれる帰結を十分には引き出していない。",
+    "topic": "心理・社会",
+    "french": "Une personne peut se sentir plus certaine de son jugement après avoir entendu plusieurs fois la même information, même lorsque toutes les répétitions proviennent d'une seule source.",
+    "japanese": "同じ情報を何度も聞くと、すべてが一つの情報源に由来していても、自分の判断への確信が強まることがある。",
     "points": [
-      "ce dont = 前文全体を受ける関係表現",
-      "tirer les conséquences de = 〜の帰結を引き出す",
-      "partiellement = 部分的に"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 98,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "On comprend mal que les objectifs au regard desquels le projet devait être jugé étaient eux-mêmes contradictoires, alors que plusieurs éléments auraient dû inciter à davantage de prudence.",
-    "japanese": "より慎重になるべき材料がいくつもあったにもかかわらず、プロジェクトを評価する基準となる目的自体が互いに矛盾していたことは理解しがたい。",
+    "topic": "旅行・移動",
+    "french": "Les applications de réservation simplifient la comparaison des prix, mais elles peuvent donner l'impression trompeuse que toutes les offres pertinentes sont présentes sur une même plateforme.",
+    "japanese": "予約アプリは価格比較を容易にするが、重要な選択肢がすべて一つのプラットフォームに載っているという誤解を与えることがある。",
     "points": [
-      "on comprend mal que = 〜は理解しがたい",
-      "alors que = 〜なのに",
-      "inciter à = 〜するよう促す"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 99,
     "level": "C1",
     "category": "高度な構文・関係表現",
-    "register": "soutenu",
-    "french": "Ce n'est qu'après coup qu'il est apparu que les objectifs au regard desquels le projet devait être jugé étaient eux-mêmes contradictoires, constat qui a conduit à revoir l'ensemble du raisonnement.",
-    "japanese": "プロジェクトを評価する基準となる目的自体が互いに矛盾していたことが明らかになったのは事後になってからであり、その認識によって議論全体の見直しが必要になった。",
+    "register": "standard",
+    "topic": "制度・公共政策",
+    "french": "Une consultation publique peut améliorer une décision à condition que les participants sachent ce qui est encore négociable et ce qui a déjà été fixé.",
+    "japanese": "パブリックコメントは、参加者が何をまだ変更でき、何がすでに決まっているのか理解している場合に、意思決定の改善につながりうる。",
     "points": [
-      "ne... que = 〜して初めて",
-      "après coup = 事後になって",
-      "constat qui = 前内容を受ける同格的表現"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 100,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Rien n'explique vraiment pourquoi les objectifs au regard desquels le projet devait être jugé étaient eux-mêmes contradictoires; d'où la nécessité de distinguer ce qui relève d'un choix méthodologique de ce qui tient aux circonstances.",
-    "japanese": "なぜプロジェクトを評価する基準となる目的自体が互いに矛盾していたのかは十分説明されていない。したがって、方法上の選択に由来するものと状況に由来するものを区別する必要がある。",
+    "topic": "教育",
+    "french": "Bien qu'il soit tentant de mesurer les progrès des élèves uniquement à partir des notes, celles-ci reflètent aussi la nature des exercices proposés et les critères retenus par les enseignants.",
+    "japanese": "生徒の進歩を成績だけで測りたくなるが、成績は課題の種類や教員が採用した評価基準も反映している。",
     "points": [
-      "d'où + 名詞 = したがって〜",
-      "ce qui relève de... / ce qui tient à...",
-      "distinguer A de B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 101,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le fait que les principes au nom desquels la réforme avait été défendue n'avaient jamais fait l'objet d'un véritable consensus aurait dû conduire à réexaminer plus tôt la portée des conclusions avancées.",
-    "japanese": "改革が擁護された根拠となる原則が、一度も真の合意を得ていなかったという事実からすれば、示された結論がどこまで妥当するのか、もっと早く再検討されるべきだった。",
+    "topic": "健康・社会",
+    "french": "Le manque de sommeil ne se traduit pas uniquement par de la fatigue; il altère également l'attention, la mémoire et la capacité à évaluer correctement ses propres performances.",
+    "japanese": "睡眠不足は疲労だけをもたらすのではなく、注意力、記憶、自分の能力を正しく評価する力にも影響する。",
     "points": [
-      "複合関係表現の精読",
-      "le fait que = 〜という事実",
-      "portée = 妥当範囲・意味"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 102,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Le rapport reconnaît que les principes au nom desquels la réforme avait été défendue n'avaient jamais fait l'objet d'un véritable consensus, ce dont il ne tire pourtant que très partiellement les conséquences.",
-    "japanese": "報告書は改革が擁護された根拠となる原則が、一度も真の合意を得ていなかったことを認めているが、その事実から導かれる帰結を十分には引き出していない。",
+    "topic": "環境・エネルギー",
+    "french": "Les politiques environnementales rencontrent davantage de résistance lorsque leurs coûts sont immédiatement visibles tandis que leurs bénéfices sont diffus et différés.",
+    "japanese": "環境政策は、費用がすぐ目に見える一方で利益が広く分散し将来に現れる場合、より強い反発を受けやすい。",
     "points": [
-      "ce dont = 前文全体を受ける関係表現",
-      "tirer les conséquences de = 〜の帰結を引き出す",
-      "partiellement = 部分的に"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
@@ -1331,727 +1433,783 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "On comprend mal que les principes au nom desquels la réforme avait été défendue n'avaient jamais fait l'objet d'un véritable consensus, alors que plusieurs éléments auraient dû inciter à davantage de prudence.",
-    "japanese": "より慎重になるべき材料がいくつもあったにもかかわらず、改革が擁護された根拠となる原則が、一度も真の合意を得ていなかったことは理解しがたい。",
+    "topic": "歴史・倫理・思考",
+    "french": "Il est possible de respecter une règle tout en agissant contre l'esprit dans lequel elle avait été conçue, ce qui montre les limites d'une conception purement formelle de l'éthique.",
+    "japanese": "規則を守りながら、その規則が作られた趣旨に反する行動を取ることは可能であり、形式だけに基づく倫理観の限界を示している。",
     "points": [
-      "on comprend mal que = 〜は理解しがたい",
-      "alors que = 〜なのに",
-      "inciter à = 〜するよう促す"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 104,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Ce n'est qu'après coup qu'il est apparu que les principes au nom desquels la réforme avait été défendue n'avaient jamais fait l'objet d'un véritable consensus, constat qui a conduit à revoir l'ensemble du raisonnement.",
-    "japanese": "改革が擁護された根拠となる原則が、一度も真の合意を得ていなかったことが明らかになったのは事後になってからであり、その認識によって議論全体の見直しが必要になった。",
+    "topic": "デジタル技術",
+    "french": "Le coût environnemental du numérique reste difficile à percevoir précisément parce qu'une grande partie des infrastructures nécessaires se trouve loin de l'utilisateur final.",
+    "japanese": "デジタル技術の環境負荷が見えにくいのは、それを支えるインフラの多くが最終利用者から遠い場所にあるからである。",
     "points": [
-      "ne... que = 〜して初めて",
-      "après coup = 事後になって",
-      "constat qui = 前内容を受ける同格的表現"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 105,
     "level": "C1",
-    "category": "高度な構文・関係表現",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Rien n'explique vraiment pourquoi les principes au nom desquels la réforme avait été défendue n'avaient jamais fait l'objet d'un véritable consensus; d'où la nécessité de distinguer ce qui relève d'un choix méthodologique de ce qui tient aux circonstances.",
-    "japanese": "なぜ改革が擁護された根拠となる原則が、一度も真の合意を得ていなかったのかは十分説明されていない。したがって、方法上の選択に由来するものと状況に由来するものを区別する必要がある。",
+    "topic": "働き方",
+    "french": "À mesure que l'entreprise s'internationalisait, des malentendus autrefois anecdotiques sont devenus suffisamment fréquents pour justifier une réflexion sur les pratiques de communication.",
+    "japanese": "会社の国際化が進むにつれて、以前は些細だった誤解が頻発するようになり、コミュニケーションのあり方を見直す必要が生じた。",
     "points": [
-      "d'où + 名詞 = したがって〜",
-      "ce qui relève de... / ce qui tient à...",
-      "distinguer A de B"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 106,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "soutenu",
-    "french": "Il est indispensable que les responsables reconnaissent publiquement l'ampleur du problème, quand bien même cela devrait retarder la mise en œuvre du projet.",
-    "japanese": "たとえそれによって計画の実施が遅れることになっても、責任者が問題の深刻さを公に認めることは不可欠である。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "文化・メディア",
+    "french": "La baisse du coût de publication a permis à davantage de voix de s'exprimer, sans faire disparaître pour autant les inégalités d'attention entre auteurs et plateformes.",
+    "japanese": "出版コストの低下でより多くの人が発信できるようになったが、著者やプラットフォーム間の注目度の格差まで消えたわけではない。",
     "points": [
-      "il est indispensable que + 接続法",
-      "quand bien même + 条件法",
-      "mise en œuvre = 実施"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 107,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "standard",
-    "french": "Je doute fort que les responsables reconnaissent publiquement l'ampleur du problème, à moins qu'une pression extérieure ne rende cette évolution inévitable.",
-    "japanese": "外部からの圧力によってその変化が避けられなくならない限り、責任者が問題の深刻さを公に認めることにはかなり疑わしいと思う。",
+    "category": "論証・接続表現",
+    "register": "soutenu",
+    "topic": "科学・研究",
+    "french": "Une corrélation statistiquement significative peut être parfaitement réelle tout en étant trop faible pour avoir la moindre importance pratique.",
+    "japanese": "統計的に有意な相関が実在していても、実務上ほとんど意味を持たないほど弱いことはありうる。",
     "points": [
-      "douter que + 接続法",
-      "à moins que + 接続法",
-      "ne explétif"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 108,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Pour peu que les responsables reconnaissent publiquement l'ampleur du problème, il deviendra possible d'envisager un compromis plus durable.",
-    "japanese": "少しでも責任者が問題の深刻さを公に認めるなら、より持続的な妥協案を検討できるようになる。",
+    "topic": "食・農業",
+    "french": "La demande pour un produit réputé sain peut augmenter plus vite que la capacité à le produire durablement, ce qui crée de nouvelles pressions sur les territoires concernés.",
+    "japanese": "健康的とされる商品の需要が持続可能な生産能力を上回る速度で増えると、生産地域に新たな圧力を生むことがある。",
     "points": [
-      "pour peu que + 接続法 = 〜しさえすれば",
-      "envisager = 検討する",
-      "compromis durable"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 109,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Quoiqu'il soit souhaitable que les responsables reconnaissent publiquement l'ampleur du problème, rien ne permet d'affirmer que cette condition sera effectivement remplie.",
-    "japanese": "責任者が問題の深刻さを公に認めることが望ましいとはいえ、その条件が実際に満たされると断言できる根拠はない。",
+    "topic": "経済・企業",
+    "french": "Les mesures destinées à protéger un secteur naissant risquent de devenir permanentes si aucun critère clair n'a été prévu pour déterminer à quel moment cette protection doit prendre fin.",
+    "japanese": "新興産業を守るための措置は、保護をいつ終えるか明確な基準がなければ恒久化するおそれがある。",
     "points": [
-      "quoique + 接続法",
-      "rien ne permet d'affirmer que",
-      "effectivement = 実際に"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 110,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Il faudrait que les responsables reconnaissent publiquement l'ampleur du problème; faute de quoi, la légitimité de l'ensemble du processus pourrait être contestée.",
-    "japanese": "責任者が問題の深刻さを公に認める必要がある。さもなければ、手続き全体の正当性が疑問視されかねない。",
+    "topic": "心理・社会",
+    "french": "À force d'éviter toute situation inconfortable, on peut réduire temporairement son anxiété tout en renforçant l'idée que ces situations sont effectivement dangereuses.",
+    "japanese": "不快な状況を避け続けると一時的には不安を減らせるが、その状況が本当に危険だという考えを強化することにもなる。",
     "points": [
-      "il faudrait que + 接続法",
-      "faute de quoi = さもなければ",
-      "légitimité = 正当性"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 111,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Il est indispensable que la décision soit réexaminée à la lumière des nouvelles données, quand bien même cela devrait retarder la mise en œuvre du projet.",
-    "japanese": "たとえそれによって計画の実施が遅れることになっても、新しいデータに照らして決定が再検討されることは不可欠である。",
+    "topic": "旅行・移動",
+    "french": "Une destination peut devenir victime de l'image qui a fait son succès lorsque les visiteurs viennent chercher une version figée d'un lieu qui continue pourtant d'évoluer.",
+    "japanese": "観光地は、成功をもたらしたイメージの犠牲になることがあり、実際には変化し続ける場所に観光客が固定された姿を求める場合がある。",
     "points": [
-      "il est indispensable que + 接続法",
-      "quand bien même + 条件法",
-      "mise en œuvre = 実施"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 112,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "standard",
-    "french": "Je doute fort que la décision soit réexaminée à la lumière des nouvelles données, à moins qu'une pression extérieure ne rende cette évolution inévitable.",
-    "japanese": "外部からの圧力によってその変化が避けられなくならない限り、新しいデータに照らして決定が再検討されることにはかなり疑わしいと思う。",
+    "category": "慣用表現・書き言葉",
+    "register": "soutenu",
+    "topic": "都市・住宅・交通",
+    "french": "Les commerces de proximité disparaissent parfois non faute de clients, mais parce que la hausse de la valeur foncière rend leur maintien économiquement difficile.",
+    "japanese": "地域の商店は顧客不足ではなく、地価上昇によって事業継続が経済的に難しくなり、消えることがある。",
     "points": [
-      "douter que + 接続法",
-      "à moins que + 接続法",
-      "ne explétif"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 113,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Pour peu que la décision soit réexaminée à la lumière des nouvelles données, il deviendra possible d'envisager un compromis plus durable.",
-    "japanese": "少しでも新しいデータに照らして決定が再検討されるなら、より持続的な妥協案を検討できるようになる。",
+    "topic": "教育",
+    "french": "Les enseignants qui disposent d'une grande liberté pédagogique ne choisissent pas nécessairement les mêmes méthodes, ce qui rend les comparaisons entre classes particulièrement délicates.",
+    "japanese": "大きな教育上の裁量を持つ教員が必ずしも同じ方法を選ぶわけではないため、クラス間の比較は特に難しくなる。",
     "points": [
-      "pour peu que + 接続法 = 〜しさえすれば",
-      "envisager = 検討する",
-      "compromis durable"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 114,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Quoiqu'il soit souhaitable que la décision soit réexaminée à la lumière des nouvelles données, rien ne permet d'affirmer que cette condition sera effectivement remplie.",
-    "japanese": "新しいデータに照らして決定が再検討されることが望ましいとはいえ、その条件が実際に満たされると断言できる根拠はない。",
+    "topic": "健康・社会",
+    "french": "Les médecins peuvent hésiter à abandonner une pratique ancienne lorsque celle-ci leur semble avoir toujours fonctionné, même si les données récentes en montrent les limites.",
+    "japanese": "医師は、長年うまく機能してきたように見える慣行について、新しいデータが限界を示していても、廃止をためらうことがある。",
     "points": [
-      "quoique + 接続法",
-      "rien ne permet d'affirmer que",
-      "effectivement = 実際に"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 115,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "時制・間接話法",
     "register": "soutenu",
-    "french": "Il faudrait que la décision soit réexaminée à la lumière des nouvelles données; faute de quoi, la légitimité de l'ensemble du processus pourrait être contestée.",
-    "japanese": "新しいデータに照らして決定が再検討される必要がある。さもなければ、手続き全体の正当性が疑問視されかねない。",
+    "topic": "環境・エネルギー",
+    "french": "Les épisodes météorologiques extrêmes rendent visibles des vulnérabilités anciennes que des années de conditions normales avaient permis d'ignorer.",
+    "japanese": "極端な気象現象は、平年が続くことで見過ごされてきた以前からの脆弱性を浮き彫りにする。",
     "points": [
-      "il faudrait que + 接続法",
-      "faute de quoi = さもなければ",
-      "légitimité = 正当性"
+      "過去時制・条件法の関係",
+      "出来事の時間関係を整理する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 116,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "soutenu",
-    "french": "Il est indispensable que aucune conclusion définitive ne soit tirée avant la fin de l'enquête, quand bien même cela devrait retarder la mise en œuvre du projet.",
-    "japanese": "たとえそれによって計画の実施が遅れることになっても、調査終了前に最終結論が出されないことは不可欠である。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "歴史・倫理・思考",
+    "french": "Le respect de la vie privée et l'exigence de transparence peuvent entrer en tension, notamment lorsque l'information concernant un individu présente aussi un intérêt collectif légitime.",
+    "japanese": "個人のプライバシー尊重と透明性の要求は、個人に関する情報が正当な公共的関心も持つ場合、対立することがある。",
     "points": [
-      "il est indispensable que + 接続法",
-      "quand bien même + 条件法",
-      "mise en œuvre = 実施"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 117,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "複合文・精読",
     "register": "standard",
-    "french": "Je doute fort que aucune conclusion définitive ne soit tirée avant la fin de l'enquête, à moins qu'une pression extérieure ne rende cette évolution inévitable.",
-    "japanese": "外部からの圧力によってその変化が避けられなくならない限り、調査終了前に最終結論が出されないことにはかなり疑わしいと思う。",
+    "topic": "デジタル技術",
+    "french": "La suppression d'une fonctionnalité très utilisée a provoqué davantage de mécontentement que prévu, preuve que les habitudes comptent parfois autant que les performances techniques.",
+    "japanese": "よく使われていた機能の廃止は予想以上の不満を招き、習慣が技術的性能と同じくらい重要な場合があることを示した。",
     "points": [
-      "douter que + 接続法",
-      "à moins que + 接続法",
-      "ne explétif"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 118,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Pour peu que aucune conclusion définitive ne soit tirée avant la fin de l'enquête, il deviendra possible d'envisager un compromis plus durable.",
-    "japanese": "少しでも調査終了前に最終結論が出されないなら、より持続的な妥協案を検討できるようになる。",
+    "topic": "働き方",
+    "french": "Ce n'est pas parce qu'une équipe respecte systématiquement les délais qu'elle fonctionne nécessairement de manière saine et durable.",
+    "japanese": "チームが常に期限を守っているからといって、その働き方が必ず健全で持続可能だとは限らない。",
     "points": [
-      "pour peu que + 接続法 = 〜しさえすれば",
-      "envisager = 検討する",
-      "compromis durable"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 119,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Quoiqu'il soit souhaitable que aucune conclusion définitive ne soit tirée avant la fin de l'enquête, rien ne permet d'affirmer que cette condition sera effectivement remplie.",
-    "japanese": "調査終了前に最終結論が出されないことが望ましいとはいえ、その条件が実際に満たされると断言できる根拠はない。",
+    "topic": "文化・メディア",
+    "french": "La traduction la plus fidèle n'est pas toujours celle qui reproduit le plus littéralement les mots du texte original, surtout lorsque les références culturelles n'ont pas d'équivalent direct.",
+    "japanese": "最も忠実な翻訳が必ずしも原文の語を最も直訳したものとは限らず、文化的な参照に直接対応する表現がない場合は特にそうである。",
     "points": [
-      "quoique + 接続法",
-      "rien ne permet d'affirmer que",
-      "effectivement = 実際に"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 120,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "時制・間接話法",
     "register": "soutenu",
-    "french": "Il faudrait que aucune conclusion définitive ne soit tirée avant la fin de l'enquête; faute de quoi, la légitimité de l'ensemble du processus pourrait être contestée.",
-    "japanese": "調査終了前に最終結論が出されない必要がある。さもなければ、手続き全体の正当性が疑問視されかねない。",
+    "topic": "科学・研究",
+    "french": "Le résultat a été présenté comme inattendu, alors qu'une lecture attentive des travaux antérieurs montrait que plusieurs équipes avaient déjà signalé des observations comparables.",
+    "japanese": "その結果は予想外だと発表されたが、先行研究を注意深く読むと、すでに複数のチームが類似の観察を報告していた。",
     "points": [
-      "il faudrait que + 接続法",
-      "faute de quoi = さもなければ",
-      "légitimité = 正当性"
+      "過去時制・条件法の関係",
+      "出来事の時間関係を整理する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 121,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Il est indispensable que les personnes concernées puissent faire valoir leur point de vue, quand bien même cela devrait retarder la mise en œuvre du projet.",
-    "japanese": "たとえそれによって計画の実施が遅れることになっても、関係者が自分の見解を主張できることは不可欠である。",
+    "topic": "食・農業",
+    "french": "Une récolte abondante peut faire baisser les prix au point de fragiliser les producteurs, ce qui rappelle qu'une hausse de production n'est pas toujours synonyme de revenu accru.",
+    "japanese": "豊作は価格を下げすぎて生産者を苦しめることがあり、生産量の増加が必ず所得増加を意味するわけではない。",
     "points": [
-      "il est indispensable que + 接続法",
-      "quand bien même + 条件法",
-      "mise en œuvre = 実施"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 122,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "standard",
-    "french": "Je doute fort que les personnes concernées puissent faire valoir leur point de vue, à moins qu'une pression extérieure ne rende cette évolution inévitable.",
-    "japanese": "外部からの圧力によってその変化が避けられなくならない限り、関係者が自分の見解を主張できることにはかなり疑わしいと思う。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "経済・企業",
+    "french": "La réduction d'un délai administratif représente un gain économique difficile à voir dans les comptes publics, puisqu'elle économise surtout du temps à des milliers d'acteurs dispersés.",
+    "japanese": "行政手続きの短縮による経済的利益は、公的会計には見えにくい。主に多数の分散した人々の時間を節約する効果だからである。",
     "points": [
-      "douter que + 接続法",
-      "à moins que + 接続法",
-      "ne explétif"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 123,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Pour peu que les personnes concernées puissent faire valoir leur point de vue, il deviendra possible d'envisager un compromis plus durable.",
-    "japanese": "少しでも関係者が自分の見解を主張できるなら、より持続的な妥協案を検討できるようになる。",
+    "topic": "心理・社会",
+    "french": "Le silence d'une personne dans une discussion peut traduire un accord, une hésitation, une fatigue ou simplement la difficulté à trouver le bon moment pour intervenir.",
+    "japanese": "議論での沈黙は、同意、ためらい、疲労、あるいは単に発言のタイミングを見つけられないことなど、さまざまな意味を持ちうる。",
     "points": [
-      "pour peu que + 接続法 = 〜しさえすれば",
-      "envisager = 検討する",
-      "compromis durable"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 124,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Quoiqu'il soit souhaitable que les personnes concernées puissent faire valoir leur point de vue, rien ne permet d'affirmer que cette condition sera effectivement remplie.",
-    "japanese": "関係者が自分の見解を主張できることが望ましいとはいえ、その条件が実際に満たされると断言できる根拠はない。",
+    "topic": "旅行・移動",
+    "french": "Le meilleur moment pour visiter un lieu dépend moins d'une saison universellement idéale que de ce que chacun souhaite y faire, de sa tolérance à la foule et de son budget.",
+    "japanese": "ある場所を訪れる最適な時期は、万人に共通する理想の季節よりも、何をしたいか、混雑にどれだけ耐えられるか、予算によって決まる。",
     "points": [
-      "quoique + 接続法",
-      "rien ne permet d'affirmer que",
-      "effectivement = 実際に"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 125,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Il faudrait que les personnes concernées puissent faire valoir leur point de vue; faute de quoi, la légitimité de l'ensemble du processus pourrait être contestée.",
-    "japanese": "関係者が自分の見解を主張できる必要がある。さもなければ、手続き全体の正当性が疑問視されかねない。",
+    "topic": "都市・住宅・交通",
+    "french": "Les logements anciens peuvent offrir une qualité architecturale remarquable tout en étant difficiles à adapter aux normes contemporaines d'accessibilité et d'efficacité énergétique.",
+    "japanese": "古い住宅は優れた建築的価値を持つ一方、現代のバリアフリーや省エネ基準に適応させるのが難しいことがある。",
     "points": [
-      "il faudrait que + 接続法",
-      "faute de quoi = さもなければ",
-      "légitimité = 正当性"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 126,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Il est indispensable que les résultats soient interprétés avec la prudence nécessaire, quand bien même cela devrait retarder la mise en œuvre du projet.",
-    "japanese": "たとえそれによって計画の実施が遅れることになっても、結果が必要な慎重さをもって解釈されることは不可欠である。",
+    "topic": "制度・公共政策",
+    "french": "Le choix d'un seuil administratif transforme nécessairement une différence continue en une distinction binaire, ce qui peut paraître arbitraire pour les personnes situées juste de part et d'autre.",
+    "japanese": "行政上の閾値を設けると、連続的な差を必然的に二分することになり、その境界のすぐ両側にいる人には恣意的に見えることがある。",
     "points": [
-      "il est indispensable que + 接続法",
-      "quand bien même + 条件法",
-      "mise en œuvre = 実施"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 127,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "standard",
-    "french": "Je doute fort que les résultats soient interprétés avec la prudence nécessaire, à moins qu'une pression extérieure ne rende cette évolution inévitable.",
-    "japanese": "外部からの圧力によってその変化が避けられなくならない限り、結果が必要な慎重さをもって解釈されることにはかなり疑わしいと思う。",
+    "category": "慣用表現・書き言葉",
+    "register": "soutenu",
+    "topic": "健康・社会",
+    "french": "Les mesures de santé publique sont d'autant plus difficiles à maintenir que leur succès rend progressivement moins visible le danger qu'elles ont contribué à réduire.",
+    "japanese": "公衆衛生対策は、成功すればするほど、それによって減った危険が見えにくくなるため、継続がより難しくなる。",
     "points": [
-      "douter que + 接続法",
-      "à moins que + 接続法",
-      "ne explétif"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 128,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Pour peu que les résultats soient interprétés avec la prudence nécessaire, il deviendra possible d'envisager un compromis plus durable.",
-    "japanese": "少しでも結果が必要な慎重さをもって解釈されるなら、より持続的な妥協案を検討できるようになる。",
+    "topic": "環境・エネルギー",
+    "french": "Le recyclage est utile, mais il ne saurait dispenser de réduire la quantité de matériaux consommés lorsque leur production reste fortement polluante.",
+    "japanese": "リサイクルは有用だが、素材の生産自体が大きな汚染を伴う場合、消費量の削減が不要になるわけではない。",
     "points": [
-      "pour peu que + 接続法 = 〜しさえすれば",
-      "envisager = 検討する",
-      "compromis durable"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 129,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Quoiqu'il soit souhaitable que les résultats soient interprétés avec la prudence nécessaire, rien ne permet d'affirmer que cette condition sera effectivement remplie.",
-    "japanese": "結果が必要な慎重さをもって解釈されることが望ましいとはいえ、その条件が実際に満たされると断言できる根拠はない。",
+    "topic": "歴史・倫理・思考",
+    "french": "Nous demandons parfois au passé de fournir des leçons simples alors que son intérêt tient précisément à la complexité des situations et à la multiplicité des causes.",
+    "japanese": "私たちは過去に単純な教訓を求めることがあるが、歴史の価値はむしろ状況の複雑さと原因の多様性にある。",
     "points": [
-      "quoique + 接続法",
-      "rien ne permet d'affirmer que",
-      "effectivement = 実際に"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 130,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "soutenu",
-    "french": "Il faudrait que les résultats soient interprétés avec la prudence nécessaire; faute de quoi, la légitimité de l'ensemble du processus pourrait être contestée.",
-    "japanese": "結果が必要な慎重さをもって解釈される必要がある。さもなければ、手続き全体の正当性が疑問視されかねない。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "デジタル技術",
+    "french": "Les systèmes de reconnaissance automatique fonctionnent souvent mieux dans les situations proches de celles pour lesquelles ils ont été entraînés que dans des contextes véritablement nouveaux.",
+    "japanese": "自動認識システムは、まったく新しい状況よりも、学習時の条件に近い状況でよりよく機能することが多い。",
     "points": [
-      "il faudrait que + 接続法",
-      "faute de quoi = さもなければ",
-      "légitimité = 正当性"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 131,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "soutenu",
-    "french": "Il est indispensable qu'on tienne compte des effets à long terme, quand bien même cela devrait retarder la mise en œuvre du projet.",
-    "japanese": "たとえそれによって計画の実施が遅れることになっても、長期的な影響が考慮されることは不可欠である。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "働き方",
+    "french": "À force de vouloir mesurer chaque étape du travail, certaines entreprises finissent par consacrer davantage de temps au suivi des indicateurs qu'à l'amélioration réelle de leurs pratiques.",
+    "japanese": "仕事の各段階を測定しようとしすぎるあまり、一部の企業では実際の業務改善よりも指標の追跡に多くの時間を費やすようになっている。",
     "points": [
-      "il est indispensable que + 接続法",
-      "quand bien même + 条件法",
-      "mise en œuvre = 実施"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 132,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "standard",
-    "french": "Je doute fort qu'on tienne compte des effets à long terme, à moins qu'une pression extérieure ne rende cette évolution inévitable.",
-    "japanese": "外部からの圧力によってその変化が避けられなくならない限り、長期的な影響が考慮されることにはかなり疑わしいと思う。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "文化・メディア",
+    "french": "Les médias qui cherchent à corriger une rumeur se heurtent à un paradoxe : ils doivent souvent la répéter pour la réfuter, au risque de contribuer à sa diffusion.",
+    "japanese": "噂を訂正しようとするメディアは逆説に直面する。反論するために噂を繰り返す必要があり、その結果かえって広めるおそれがある。",
     "points": [
-      "douter que + 接続法",
-      "à moins que + 接続法",
-      "ne explétif"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 133,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Pour peu qu'on tienne compte des effets à long terme, il deviendra possible d'envisager un compromis plus durable.",
-    "japanese": "少しでも長期的な影響が考慮されるなら、より持続的な妥協案を検討できるようになる。",
+    "topic": "科学・研究",
+    "french": "Les chercheurs ont beau disposer d'un volume considérable de données, la question de savoir lesquelles sont réellement pertinentes demeure entière.",
+    "japanese": "研究者は膨大なデータを持っているものの、そのうち何が本当に重要なのかという問題は依然として残っている。",
     "points": [
-      "pour peu que + 接続法 = 〜しさえすれば",
-      "envisager = 検討する",
-      "compromis durable"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 134,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Quoiqu'il soit souhaitable qu'on tienne compte des effets à long terme, rien ne permet d'affirmer que cette condition sera effectivement remplie.",
-    "japanese": "長期的な影響が考慮されることが望ましいとはいえ、その条件が実際に満たされると断言できる根拠はない。",
+    "topic": "食・農業",
+    "french": "Les changements d'habitudes alimentaires sont souvent progressifs, car ils touchent à la fois au goût, au budget, au temps disponible et aux pratiques familiales.",
+    "japanese": "食習慣の変化は味、予算、時間、家庭の慣行すべてに関わるため、通常は徐々に進む。",
     "points": [
-      "quoique + 接続法",
-      "rien ne permet d'affirmer que",
-      "effectivement = 実際に"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 135,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Il faudrait qu'on tienne compte des effets à long terme; faute de quoi, la légitimité de l'ensemble du processus pourrait être contestée.",
-    "japanese": "長期的な影響が考慮される必要がある。さもなければ、手続き全体の正当性が疑問視されかねない。",
+    "topic": "経済・企業",
+    "french": "À mesure que les chaînes d'approvisionnement se complexifient, une perturbation apparemment locale peut avoir des conséquences dans des secteurs très éloignés.",
+    "japanese": "サプライチェーンが複雑になるにつれて、一見局所的な混乱が遠く離れた産業にまで影響を及ぼすことがある。",
     "points": [
-      "il faudrait que + 接続法",
-      "faute de quoi = さもなければ",
-      "légitimité = 正当性"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 136,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Il est indispensable que les critères retenus soient explicitement justifiés, quand bien même cela devrait retarder la mise en œuvre du projet.",
-    "japanese": "たとえそれによって計画の実施が遅れることになっても、採用された基準が明示的に正当化されることは不可欠である。",
+    "topic": "心理・社会",
+    "french": "Une décision collective peut paraître unanime alors que plusieurs participants ont simplement renoncé à exprimer leurs réserves, convaincus qu'ils étaient seuls à les avoir.",
+    "japanese": "集団の決定が全員一致に見えても、複数の参加者が自分だけが疑問を持っていると思い、反対意見を言うのを諦めただけの場合がある。",
     "points": [
-      "il est indispensable que + 接続法",
-      "quand bien même + 条件法",
-      "mise en œuvre = 実施"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 137,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "standard",
-    "french": "Je doute fort que les critères retenus soient explicitement justifiés, à moins qu'une pression extérieure ne rende cette évolution inévitable.",
-    "japanese": "外部からの圧力によってその変化が避けられなくならない限り、採用された基準が明示的に正当化されることにはかなり疑わしいと思う。",
+    "category": "高度な構文・関係表現",
+    "register": "soutenu",
+    "topic": "旅行・移動",
+    "french": "Une expérience présentée comme authentique peut elle-même être organisée pour répondre aux attentes des visiteurs, ce qui rend la notion d'authenticité particulièrement ambiguë.",
+    "japanese": "本物らしい体験として提供されるもの自体が観光客の期待に合わせて演出されている場合があり、「真正性」という概念は非常に曖昧である。",
     "points": [
-      "douter que + 接続法",
-      "à moins que + 接続法",
-      "ne explétif"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 138,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "soutenu",
-    "french": "Pour peu que les critères retenus soient explicitement justifiés, il deviendra possible d'envisager un compromis plus durable.",
-    "japanese": "少しでも採用された基準が明示的に正当化されるなら、より持続的な妥協案を検討できるようになる。",
+    "category": "高度な構文・関係表現",
+    "register": "standard",
+    "topic": "都市・住宅・交通",
+    "french": "Réserver davantage d'espace aux vélos suppose souvent de retirer cet espace à un autre usage, ce qui explique pourquoi des aménagements modestes peuvent susciter des conflits intenses.",
+    "japanese": "自転車用空間を増やすには別の用途から空間を転用することが多く、そのため小規模な整備でも激しい対立を生むことがある。",
     "points": [
-      "pour peu que + 接続法 = 〜しさえすれば",
-      "envisager = 検討する",
-      "compromis durable"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 139,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Quoiqu'il soit souhaitable que les critères retenus soient explicitement justifiés, rien ne permet d'affirmer que cette condition sera effectivement remplie.",
-    "japanese": "採用された基準が明示的に正当化されることが望ましいとはいえ、その条件が実際に満たされると断言できる根拠はない。",
+    "topic": "制度・公共政策",
+    "french": "Une politique publique n'est pas seulement ce qui est écrit dans un texte; elle est aussi ce que les agents peuvent effectivement faire avec les ressources dont ils disposent.",
+    "japanese": "公共政策は文書に書かれた内容だけではなく、現場職員が利用可能な資源で実際に何をできるかでも決まる。",
     "points": [
-      "quoique + 接続法",
-      "rien ne permet d'affirmer que",
-      "effectivement = 実際に"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 140,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Il faudrait que les critères retenus soient explicitement justifiés; faute de quoi, la légitimité de l'ensemble du processus pourrait être contestée.",
-    "japanese": "採用された基準が明示的に正当化される必要がある。さもなければ、手続き全体の正当性が疑問視されかねない。",
+    "topic": "教育",
+    "french": "Le débat sur l'apprentissage des langues oppose souvent des méthodes qui, dans la pratique, peuvent être complémentaires plutôt que réellement incompatibles.",
+    "japanese": "語学学習をめぐる議論では方法論が対立的に扱われがちだが、実際には相互補完的で、必ずしも両立不可能ではないことが多い。",
     "points": [
-      "il faudrait que + 接続法",
-      "faute de quoi = さもなければ",
-      "légitimité = 正当性"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 141,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Il est indispensable que la réforme n'ait pas pour effet d'aggraver les inégalités existantes, quand bien même cela devrait retarder la mise en œuvre du projet.",
-    "japanese": "たとえそれによって計画の実施が遅れることになっても、改革が既存の不平等を悪化させる結果にならないことは不可欠である。",
+    "topic": "環境・エネルギー",
+    "french": "Le développement des énergies renouvelables crée de nouvelles dépendances matérielles, notamment à l'égard de métaux dont l'extraction pose elle-même des problèmes sociaux et écologiques.",
+    "japanese": "再生可能エネルギーの発展は新たな資源依存を生み、とりわけ採掘自体が社会・環境問題を伴う金属への依存を高める。",
     "points": [
-      "il est indispensable que + 接続法",
-      "quand bien même + 条件法",
-      "mise en œuvre = 実施"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 142,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "standard",
-    "french": "Je doute fort que la réforme n'ait pas pour effet d'aggraver les inégalités existantes, à moins qu'une pression extérieure ne rende cette évolution inévitable.",
-    "japanese": "外部からの圧力によってその変化が避けられなくならない限り、改革が既存の不平等を悪化させる結果にならないことにはかなり疑わしいと思う。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "歴史・倫理・思考",
+    "french": "Nous jugeons souvent une décision à partir de son résultat, alors qu'une évaluation équitable devrait aussi tenir compte des informations et des alternatives réellement disponibles au moment du choix.",
+    "japanese": "私たちは結果から意思決定を評価しがちだが、公平に評価するなら、選択時に実際に利用できた情報や代替案も考慮すべきである。",
     "points": [
-      "douter que + 接続法",
-      "à moins que + 接続法",
-      "ne explétif"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 143,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "soutenu",
-    "french": "Pour peu que la réforme n'ait pas pour effet d'aggraver les inégalités existantes, il deviendra possible d'envisager un compromis plus durable.",
-    "japanese": "少しでも改革が既存の不平等を悪化させる結果にならないなら、より持続的な妥協案を検討できるようになる。",
+    "category": "論証・接続表現",
+    "register": "standard",
+    "topic": "デジタル技術",
+    "french": "Les outils de traduction automatique facilitent les échanges, tout en donnant parfois l'illusion qu'un texte culturellement complexe peut être compris sans connaissance du contexte dans lequel il a été produit.",
+    "japanese": "機械翻訳は交流を容易にする一方、文化的に複雑な文章でも、その背景を知らずに理解できるという錯覚を与えることがある。",
     "points": [
-      "pour peu que + 接続法 = 〜しさえすれば",
-      "envisager = 検討する",
-      "compromis durable"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 144,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Quoiqu'il soit souhaitable que la réforme n'ait pas pour effet d'aggraver les inégalités existantes, rien ne permet d'affirmer que cette condition sera effectivement remplie.",
-    "japanese": "改革が既存の不平等を悪化させる結果にならないことが望ましいとはいえ、その条件が実際に満たされると断言できる根拠はない。",
+    "topic": "働き方",
+    "french": "Les nouveaux locaux, dont l'aménagement devait favoriser les échanges spontanés, se sont révélés trop bruyants pour les tâches exigeant une forte concentration.",
+    "japanese": "偶発的な交流を促すはずだった新しいオフィスは、高い集中力を要する作業には騒がしすぎることが分かった。",
     "points": [
-      "quoique + 接続法",
-      "rien ne permet d'affirmer que",
-      "effectivement = 実際に"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 145,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Il faudrait que la réforme n'ait pas pour effet d'aggraver les inégalités existantes; faute de quoi, la légitimité de l'ensemble du processus pourrait être contestée.",
-    "japanese": "改革が既存の不平等を悪化させる結果にならない必要がある。さもなければ、手続き全体の正当性が疑問視されかねない。",
+    "topic": "文化・メディア",
+    "french": "La disparition d'un commerce ou d'un cinéma de quartier peut sembler anecdotique jusqu'au moment où l'on mesure le rôle qu'il jouait dans la sociabilité locale.",
+    "japanese": "地域の商店や映画館がなくなることは些細に見えるが、それが地域の交流に果たしていた役割を測ると、その重要性が分かる。",
     "points": [
-      "il faudrait que + 接続法",
-      "faute de quoi = さもなければ",
-      "légitimité = 正当性"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 146,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Il est indispensable que les exceptions demeurent strictement limitées, quand bien même cela devrait retarder la mise en œuvre du projet.",
-    "japanese": "たとえそれによって計画の実施が遅れることになっても、例外が厳格に限定されたままであることは不可欠である。",
+    "topic": "科学・研究",
+    "french": "Les erreurs les plus difficiles à détecter ne sont pas nécessairement les erreurs de calcul, mais celles qui découlent d'une question mal posée dès le départ.",
+    "japanese": "最も発見しにくい誤りは計算ミスではなく、そもそもの問いの立て方が不適切だったことから生じる場合がある。",
     "points": [
-      "il est indispensable que + 接続法",
-      "quand bien même + 条件法",
-      "mise en œuvre = 実施"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 147,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "standard",
-    "french": "Je doute fort que les exceptions demeurent strictement limitées, à moins qu'une pression extérieure ne rende cette évolution inévitable.",
-    "japanese": "外部からの圧力によってその変化が避けられなくならない限り、例外が厳格に限定されたままであることにはかなり疑わしいと思う。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "食・農業",
+    "french": "Une politique qui subventionne un produit pour le rendre accessible peut accroître sa consommation au-delà du niveau initialement prévu.",
+    "japanese": "商品を手頃にするための補助政策は、その消費を当初想定した水準以上に増やす可能性がある。",
     "points": [
-      "douter que + 接続法",
-      "à moins que + 接続法",
-      "ne explétif"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 148,
     "level": "C1",
-    "category": "接続法・モダリティ",
-    "register": "soutenu",
-    "french": "Pour peu que les exceptions demeurent strictement limitées, il deviendra possible d'envisager un compromis plus durable.",
-    "japanese": "少しでも例外が厳格に限定されたままであるなら、より持続的な妥協案を検討できるようになる。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "経済・企業",
+    "french": "Une monnaie plus faible favorise certains exportateurs, mais elle renchérit en même temps les biens, l'énergie et les composants achetés à l'étranger.",
+    "japanese": "通貨安は一部の輸出企業に有利だが、同時に海外から購入する商品、エネルギー、部品の価格を押し上げる。",
     "points": [
-      "pour peu que + 接続法 = 〜しさえすれば",
-      "envisager = 検討する",
-      "compromis durable"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 149,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Quoiqu'il soit souhaitable que les exceptions demeurent strictement limitées, rien ne permet d'affirmer que cette condition sera effectivement remplie.",
-    "japanese": "例外が厳格に限定されたままであることが望ましいとはいえ、その条件が実際に満たされると断言できる根拠はない。",
+    "topic": "心理・社会",
+    "french": "Une excuse est plus facilement acceptée lorsqu'elle reconnaît clairement le tort causé que lorsqu'elle cherche d'abord à expliquer pourquoi l'erreur était compréhensible.",
+    "japanese": "謝罪は、なぜその失敗が仕方なかったかを先に説明するより、与えた損害を明確に認める方が受け入れられやすい。",
     "points": [
-      "quoique + 接続法",
-      "rien ne permet d'affirmer que",
-      "effectivement = 実際に"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 150,
     "level": "C1",
-    "category": "接続法・モダリティ",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Il faudrait que les exceptions demeurent strictement limitées; faute de quoi, la légitimité de l'ensemble du processus pourrait être contestée.",
-    "japanese": "例外が厳格に限定されたままである必要がある。さもなければ、手続き全体の正当性が疑問視されかねない。",
+    "topic": "旅行・移動",
+    "french": "Les restrictions destinées à protéger un site naturel sont plus facilement acceptées lorsque les visiteurs comprennent ce qui serait dégradé en leur absence.",
+    "japanese": "自然環境を守るための制限は、それがなければ何が損なわれるかを訪問者が理解すると受け入れられやすい。",
     "points": [
-      "il faudrait que + 接続法",
-      "faute de quoi = さもなければ",
-      "légitimité = 正当性"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 151,
     "level": "C1",
-    "category": "時制・間接話法",
+    "category": "高度な構文・関係表現",
     "register": "standard",
-    "french": "Il a reconnu plus tard qu'il avait sous-estimé les conséquences de la mesure, alors même qu'il avait soutenu le contraire quelques semaines auparavant.",
-    "japanese": "彼は数週間前には逆のことを主張していたにもかかわらず、後になって彼がその措置の影響を過小評価していたことを認めた。",
+    "topic": "都市・住宅・交通",
+    "french": "À mesure qu'un quartier devient plus accessible, il peut attirer de nouveaux habitants dont l'arrivée modifie précisément les caractéristiques qui faisaient son attrait initial.",
+    "japanese": "地区へのアクセスが良くなるにつれて新しい住民が集まり、その結果、もともとの魅力を生んでいた特徴そのものが変わることがある。",
     "points": [
-      "間接話法と過去時制",
-      "alors même que = 〜にもかかわらず",
-      "soutenir le contraire"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 152,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "À l'époque, personne n'imaginait qu'il avait sous-estimé les conséquences de la mesure; ce n'est qu'avec le recul que les signes avant-coureurs sont apparus évidents.",
-    "japanese": "当時は誰も彼がその措置の影響を過小評価していたとは考えていなかった。前兆が明白に見えるようになったのは、後から振り返ってのことだった。",
+    "category": "論証・接続表現",
+    "register": "soutenu",
+    "topic": "制度・公共政策",
+    "french": "Le transfert d'une démarche sur internet peut réduire les files d'attente dans les bureaux tout en créant de nouveaux obstacles pour ceux qui maîtrisent mal les outils numériques.",
+    "japanese": "手続きをオンライン化すれば窓口の待ち時間を減らせる一方、デジタル機器に不慣れな人には新たな障害を生みうる。",
     "points": [
-      "時制の一致",
-      "avec le recul = 振り返ってみれば",
-      "signes avant-coureurs = 前兆"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 153,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Les responsables avaient affirmé qu'il avait sous-estimé les conséquences de la mesure, mais les documents rendus publics par la suite ont conduit à nuancer cette version.",
-    "japanese": "責任者たちは彼がその措置の影響を過小評価していたと述べていたが、その後公開された文書によって、この説明には修正が必要となった。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "教育",
+    "french": "Un programme plus exigeant n'est pas forcément plus formateur si les élèves consacrent l'essentiel de leur énergie à mémoriser des procédures qu'ils comprennent à peine.",
+    "japanese": "より難しいカリキュラムであっても、生徒がほとんど理解していない手順の暗記に大半の力を使うなら、必ずしも教育的価値が高いとはいえない。",
     "points": [
-      "plus-que-parfait",
-      "rendre public = 公開する",
-      "nuancer = 留保を加える"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 154,
     "level": "C1",
-    "category": "時制・間接話法",
+    "category": "複合文・精読",
     "register": "standard",
-    "french": "Si l'on avait appris plus tôt qu'il avait sous-estimé les conséquences de la mesure, la stratégie adoptée aurait sans doute été sensiblement différente.",
-    "japanese": "もしもっと早く彼がその措置の影響を過小評価していたと分かっていたなら、採用された戦略はおそらくかなり違っていただろう。",
+    "topic": "健康・社会",
+    "french": "Le succès d'une intervention peut dépendre moins de son efficacité théorique que de la régularité avec laquelle elle est réellement mise en œuvre sur le terrain.",
+    "japanese": "施策の成功は理論上の有効性よりも、現場でどれだけ安定して実施されるかに左右されることがある。",
     "points": [
-      "si + 大過去 → 条件法過去",
-      "sans doute = おそらく",
-      "sensiblement = かなり"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 155,
     "level": "C1",
-    "category": "時制・間接話法",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Il semble aujourd'hui établi qu'il avait sous-estimé les conséquences de la mesure, bien que cette analyse ait été vivement contestée au moment des faits.",
-    "japanese": "当時はこの分析が激しく反論されていたものの、今日では彼がその措置の影響を過小評価していたことは確立した見方のように思われる。",
+    "topic": "歴史・倫理・思考",
+    "french": "Une intention généreuse ne suffit pas à rendre une action juste si ceux qui en subiront les conséquences n'ont jamais été consultés.",
+    "japanese": "善意があっても、その結果を受ける人々が一度も意見を聞かれていないなら、その行為が正しいとは限らない。",
     "points": [
-      "現在から過去を評価する時制",
-      "bien que + 接続法過去",
-      "au moment des faits = 当時"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 156,
     "level": "C1",
-    "category": "時制・間接話法",
+    "category": "高度な構文・関係表現",
     "register": "standard",
-    "french": "Il a reconnu plus tard que les négociations seraient beaucoup plus longues que prévu, alors même qu'il avait soutenu le contraire quelques semaines auparavant.",
-    "japanese": "彼は数週間前には逆のことを主張していたにもかかわらず、後になって交渉が予想よりはるかに長引くだろうことを認めた。",
+    "topic": "デジタル技術",
+    "french": "La quantité de contenus disponibles n'a jamais été aussi grande, ce qui ne signifie pas pour autant que chacun dispose de davantage de temps ou d'attention pour les examiner.",
+    "japanese": "利用可能なコンテンツ量はかつてないほど増えたが、だからといって一人一人がそれを見る時間や注意力を多く持っているわけではない。",
     "points": [
-      "間接話法と過去時制",
-      "alors même que = 〜にもかかわらず",
-      "soutenir le contraire"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 157,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "À l'époque, personne n'imaginait que les négociations seraient beaucoup plus longues que prévu; ce n'est qu'avec le recul que les signes avant-coureurs sont apparus évidents.",
-    "japanese": "当時は誰も交渉が予想よりはるかに長引くだろうとは考えていなかった。前兆が明白に見えるようになったのは、後から振り返ってのことだった。",
+    "category": "慣用表現・書き言葉",
+    "register": "soutenu",
+    "topic": "働き方",
+    "french": "Il est d'autant plus difficile d'évaluer l'effet du télétravail que les salariés qui le pratiquent régulièrement ne sont pas nécessairement comparables à ceux qui restent toujours au bureau.",
+    "japanese": "テレワークの効果を評価するのが一層難しいのは、日常的にテレワークをする社員が、常に出社する社員と必ずしも同じ条件にあるわけではないからだ。",
     "points": [
-      "時制の一致",
-      "avec le recul = 振り返ってみれば",
-      "signes avant-coureurs = 前兆"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 158,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Les responsables avaient affirmé que les négociations seraient beaucoup plus longues que prévu, mais les documents rendus publics par la suite ont conduit à nuancer cette version.",
-    "japanese": "責任者たちは交渉が予想よりはるかに長引くだろうと述べていたが、その後公開された文書によって、この説明には修正が必要となった。",
+    "category": "論証・接続表現",
+    "register": "soutenu",
+    "topic": "文化・メディア",
+    "french": "Certains mots survivent longtemps après la disparition des réalités qu'ils désignaient, tandis que de nouvelles pratiques restent parfois plusieurs années sans vocabulaire stabilisé.",
+    "japanese": "ある語は指していた事物が消えた後も長く残る一方、新しい慣行には何年も定着した語がないことがある。",
     "points": [
-      "plus-que-parfait",
-      "rendre public = 公開する",
-      "nuancer = 留保を加える"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
@@ -2059,1374 +2217,1525 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "時制・間接話法",
     "register": "standard",
-    "french": "Si l'on avait appris plus tôt que les négociations seraient beaucoup plus longues que prévu, la stratégie adoptée aurait sans doute été sensiblement différente.",
-    "japanese": "もしもっと早く交渉が予想よりはるかに長引くだろうと分かっていたなら、採用された戦略はおそらくかなり違っていただろう。",
+    "topic": "科学・研究",
+    "french": "Avant de modifier le protocole, l'équipe aurait dû déterminer si l'écart observé provenait réellement de la méthode ou simplement d'une variation entre lots.",
+    "japanese": "手順を変更する前に、観察された差が本当に方法によるものなのか、単なるロット間変動なのかをチームは確認すべきだった。",
     "points": [
-      "si + 大過去 → 条件法過去",
-      "sans doute = おそらく",
-      "sensiblement = かなり"
+      "過去時制・条件法の関係",
+      "出来事の時間関係を整理する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 160,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "soutenu",
-    "french": "Il semble aujourd'hui établi que les négociations seraient beaucoup plus longues que prévu, bien que cette analyse ait été vivement contestée au moment des faits.",
-    "japanese": "当時はこの分析が激しく反論されていたものの、今日では交渉が予想よりはるかに長引くだろうことは確立した見方のように思われる。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "食・農業",
+    "french": "Lorsque les consommateurs ne voient pas les pertes qui se produisent avant l'arrivée des produits en magasin, ils ont tendance à sous-estimer l'ampleur réelle du gaspillage.",
+    "japanese": "商品が店に届く前の廃棄が消費者から見えないと、食品ロスの実態を過小評価しがちである。",
     "points": [
-      "現在から過去を評価する時制",
-      "bien que + 接続法過去",
-      "au moment des faits = 当時"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 161,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Il a reconnu plus tard que plusieurs avertissements avaient déjà été ignorés, alors même qu'il avait soutenu le contraire quelques semaines auparavant.",
-    "japanese": "彼は数週間前には逆のことを主張していたにもかかわらず、後になって複数の警告がすでに無視されていたことを認めた。",
+    "category": "論証・接続表現",
+    "register": "soutenu",
+    "topic": "経済・企業",
+    "french": "Il est tentant de considérer toute dépense comme un coût à réduire, alors que certaines dépenses constituent précisément les investissements nécessaires pour éviter des pertes futures.",
+    "japanese": "あらゆる支出を削減すべき費用と考えたくなるが、一部の支出はまさに将来の損失を避けるために必要な投資である。",
     "points": [
-      "間接話法と過去時制",
-      "alors même que = 〜にもかかわらず",
-      "soutenir le contraire"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 162,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "À l'époque, personne n'imaginait que plusieurs avertissements avaient déjà été ignorés; ce n'est qu'avec le recul que les signes avant-coureurs sont apparus évidents.",
-    "japanese": "当時は誰も複数の警告がすでに無視されていたとは考えていなかった。前兆が明白に見えるようになったのは、後から振り返ってのことだった。",
+    "category": "高度な構文・関係表現",
+    "register": "soutenu",
+    "topic": "心理・社会",
+    "french": "Il est difficile de savoir ce que nous aurions réellement décidé dans une situation passée, car nous connaissons désormais des conséquences qui étaient alors imprévisibles.",
+    "japanese": "過去の状況で自分が本当にどう判断したかを想像するのは難しい。今の私たちは当時予測できなかった結果をすでに知っているからである。",
     "points": [
-      "時制の一致",
-      "avec le recul = 振り返ってみれば",
-      "signes avant-coureurs = 前兆"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 163,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Les responsables avaient affirmé que plusieurs avertissements avaient déjà été ignorés, mais les documents rendus publics par la suite ont conduit à nuancer cette version.",
-    "japanese": "責任者たちは複数の警告がすでに無視されていたと述べていたが、その後公開された文書によって、この説明には修正が必要となった。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "旅行・移動",
+    "french": "Les frontières administratives d'une région touristique correspondent rarement aux espaces réellement parcourus par les visiteurs, qui organisent leur séjour en fonction des temps de déplacement.",
+    "japanese": "観光地域の行政境界は、移動時間を基準に旅程を組む旅行者が実際に動く範囲と一致することは少ない。",
     "points": [
-      "plus-que-parfait",
-      "rendre public = 公開する",
-      "nuancer = 留保を加える"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 164,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Si l'on avait appris plus tôt que plusieurs avertissements avaient déjà été ignorés, la stratégie adoptée aurait sans doute été sensiblement différente.",
-    "japanese": "もしもっと早く複数の警告がすでに無視されていたと分かっていたなら、採用された戦略はおそらくかなり違っていただろう。",
+    "category": "論証・接続表現",
+    "register": "soutenu",
+    "topic": "都市・住宅・交通",
+    "french": "Une nouvelle ligne de métro peut réduire le temps de trajet de milliers de personnes tout en faisant augmenter les loyers autour des stations qu'elle dessert.",
+    "japanese": "新しい地下鉄路線は何千人もの移動時間を短縮する一方、沿線駅周辺の家賃を上昇させることがある。",
     "points": [
-      "si + 大過去 → 条件法過去",
-      "sans doute = おそらく",
-      "sensiblement = かなり"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 165,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "soutenu",
-    "french": "Il semble aujourd'hui établi que plusieurs avertissements avaient déjà été ignorés, bien que cette analyse ait été vivement contestée au moment des faits.",
-    "japanese": "当時はこの分析が激しく反論されていたものの、今日では複数の警告がすでに無視されていたことは確立した見方のように思われる。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "制度・公共政策",
+    "french": "Une politique ciblée peut concentrer les ressources sur ceux qui en ont le plus besoin, mais elle oblige aussi à définir des critères d'éligibilité qui créeront inévitablement des cas frontières.",
+    "japanese": "対象を絞った政策は必要性の高い人に資源を集中できるが、受給資格の基準を設ける必要があり、必然的に境界的な事例が生まれる。",
     "points": [
-      "現在から過去を評価する時制",
-      "bien que + 接続法過去",
-      "au moment des faits = 当時"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 166,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Il a reconnu plus tard que la situation se serait probablement détériorée sans intervention rapide, alors même qu'il avait soutenu le contraire quelques semaines auparavant.",
-    "japanese": "彼は数週間前には逆のことを主張していたにもかかわらず、後になって迅速な介入がなければ状況はおそらく悪化していただろうことを認めた。",
+    "category": "接続法・モダリティ",
+    "register": "soutenu",
+    "topic": "教育",
+    "french": "Il serait souhaitable que les étudiants apprennent à distinguer une source fiable d'un texte simplement bien présenté, compétence devenue essentielle dans un environnement saturé d'informations.",
+    "japanese": "情報があふれる環境では、学生が信頼できる情報源と単に見栄えのよい文章を区別する力を身につけることが望ましい。",
     "points": [
-      "間接話法と過去時制",
-      "alors même que = 〜にもかかわらず",
-      "soutenir le contraire"
+      "接続法を要求する表現",
+      "話者の判断・可能性のニュアンス",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 167,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "À l'époque, personne n'imaginait que la situation se serait probablement détériorée sans intervention rapide; ce n'est qu'avec le recul que les signes avant-coureurs sont apparus évidents.",
-    "japanese": "当時は誰も迅速な介入がなければ状況はおそらく悪化していただろうとは考えていなかった。前兆が明白に見えるようになったのは、後から振り返ってのことだった。",
+    "category": "高度な構文・関係表現",
+    "register": "soutenu",
+    "topic": "健康・社会",
+    "french": "Une enquête sur le bien-être mesure ce que les personnes déclarent ressentir à un moment donné; elle ne permet pas toujours de savoir quelles causes expliquent ces réponses.",
+    "japanese": "幸福度調査はある時点で本人が感じていると答えた内容を測るものであり、その回答を生んだ原因まで常に分かるわけではない。",
     "points": [
-      "時制の一致",
-      "avec le recul = 振り返ってみれば",
-      "signes avant-coureurs = 前兆"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 168,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Les responsables avaient affirmé que la situation se serait probablement détériorée sans intervention rapide, mais les documents rendus publics par la suite ont conduit à nuancer cette version.",
-    "japanese": "責任者たちは迅速な介入がなければ状況はおそらく悪化していただろうと述べていたが、その後公開された文書によって、この説明には修正が必要となった。",
+    "category": "高度な構文・関係表現",
+    "register": "soutenu",
+    "topic": "環境・エネルギー",
+    "french": "La restauration d'un milieu naturel demande souvent beaucoup plus de temps que sa dégradation, ce qui rend particulièrement coûteuse l'idée que l'on pourra toujours réparer plus tard.",
+    "japanese": "自然環境の回復には破壊よりはるかに長い時間がかかることが多く、「後で直せばよい」という考えは特に高くつく。",
     "points": [
-      "plus-que-parfait",
-      "rendre public = 公開する",
-      "nuancer = 留保を加える"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 169,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Si l'on avait appris plus tôt que la situation se serait probablement détériorée sans intervention rapide, la stratégie adoptée aurait sans doute été sensiblement différente.",
-    "japanese": "もしもっと早く迅速な介入がなければ状況はおそらく悪化していただろうと分かっていたなら、採用された戦略はおそらくかなり違っていただろう。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "デジタル技術",
+    "french": "Ce n'est qu'après une panne majeure que l'entreprise a découvert à quel point plusieurs services dépendaient d'un logiciel que personne n'était réellement chargé de maintenir.",
+    "japanese": "大規模な障害が起きて初めて、その会社は、誰も正式に保守を担当していないソフトウェアに複数の部門がどれほど依存していたかを知った。",
     "points": [
-      "si + 大過去 → 条件法過去",
-      "sans doute = おそらく",
-      "sensiblement = かなり"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 170,
     "level": "C1",
-    "category": "時制・間接話法",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Il semble aujourd'hui établi que la situation se serait probablement détériorée sans intervention rapide, bien que cette analyse ait été vivement contestée au moment des faits.",
-    "japanese": "当時はこの分析が激しく反論されていたものの、今日では迅速な介入がなければ状況はおそらく悪化していただろうことは確立した見方のように思われる。",
+    "topic": "働き方",
+    "french": "L'entreprise a beau afficher une politique ambitieuse en matière de diversité, les postes de direction restent occupés par des profils remarquablement homogènes.",
+    "japanese": "会社は多様性に関する野心的な方針を掲げてはいるものの、管理職は驚くほど似通った経歴の人々によって占められたままである。",
     "points": [
-      "現在から過去を評価する時制",
-      "bien que + 接続法過去",
-      "au moment des faits = 当時"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 171,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Il a reconnu plus tard que les objectifs initiaux ne pourraient pas être atteints dans les délais, alors même qu'il avait soutenu le contraire quelques semaines auparavant.",
-    "japanese": "彼は数週間前には逆のことを主張していたにもかかわらず、後になって当初の目標は期限内に達成できないだろうことを認めた。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "文化・メディア",
+    "french": "Il serait simpliste d'opposer culture populaire et culture savante comme si elles évoluaient indépendamment l'une de l'autre.",
+    "japanese": "大衆文化と高尚文化を、互いに独立して発展するもののように対立させるのは単純化しすぎである。",
     "points": [
-      "間接話法と過去時制",
-      "alors même que = 〜にもかかわらず",
-      "soutenir le contraire"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 172,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "À l'époque, personne n'imaginait que les objectifs initiaux ne pourraient pas être atteints dans les délais; ce n'est qu'avec le recul que les signes avant-coureurs sont apparus évidents.",
-    "japanese": "当時は誰も当初の目標は期限内に達成できないだろうとは考えていなかった。前兆が明白に見えるようになったのは、後から振り返ってのことだった。",
+    "category": "接続法・モダリティ",
+    "register": "soutenu",
+    "topic": "科学・研究",
+    "french": "On ne peut exclure que les participants aient modifié leur comportement précisément parce qu'ils savaient qu'ils étaient observés.",
+    "japanese": "参加者が観察されていると知っていたために、まさにそのことが行動を変化させた可能性を排除することはできない。",
     "points": [
-      "時制の一致",
-      "avec le recul = 振り返ってみれば",
-      "signes avant-coureurs = 前兆"
+      "接続法を要求する表現",
+      "話者の判断・可能性のニュアンス",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 173,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Les responsables avaient affirmé que les objectifs initiaux ne pourraient pas être atteints dans les délais, mais les documents rendus publics par la suite ont conduit à nuancer cette version.",
-    "japanese": "責任者たちは当初の目標は期限内に達成できないだろうと述べていたが、その後公開された文書によって、この説明には修正が必要となった。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "食・農業",
+    "french": "Le prix payé par le consommateur final ne permet pas de savoir quelle part revient effectivement au producteur lorsque plusieurs intermédiaires interviennent dans la chaîne.",
+    "japanese": "消費者が支払う価格だけでは、流通に複数の仲介者がいる場合、生産者に実際いくら渡るかは分からない。",
     "points": [
-      "plus-que-parfait",
-      "rendre public = 公開する",
-      "nuancer = 留保を加える"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 174,
     "level": "C1",
-    "category": "時制・間接話法",
+    "category": "複合文・精読",
     "register": "standard",
-    "french": "Si l'on avait appris plus tôt que les objectifs initiaux ne pourraient pas être atteints dans les délais, la stratégie adoptée aurait sans doute été sensiblement différente.",
-    "japanese": "もしもっと早く当初の目標は期限内に達成できないだろうと分かっていたなら、採用された戦略はおそらくかなり違っていただろう。",
+    "topic": "経済・企業",
+    "french": "Une entreprise qui réduit ses stocks diminue ses coûts de stockage, mais elle devient aussi plus vulnérable aux retards de livraison qu'elle ne peut pas anticiper.",
+    "japanese": "在庫を減らす企業は保管費を削減できる一方、予測できない配送遅延により弱くなる。",
     "points": [
-      "si + 大過去 → 条件法過去",
-      "sans doute = おそらく",
-      "sensiblement = かなり"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 175,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "soutenu",
-    "french": "Il semble aujourd'hui établi que les objectifs initiaux ne pourraient pas être atteints dans les délais, bien que cette analyse ait été vivement contestée au moment des faits.",
-    "japanese": "当時はこの分析が激しく反論されていたものの、今日では当初の目標は期限内に達成できないだろうことは確立した見方のように思われる。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "心理・社会",
+    "french": "Il arrive que demander davantage d'informations retarde une décision sans réellement réduire l'incertitude, notamment lorsque les nouvelles données sont elles-mêmes ambiguës.",
+    "japanese": "情報をさらに集めても不確実性が実際には減らず、意思決定だけが遅れることがあり、とりわけ新しいデータ自体が曖昧な場合にそうなる。",
     "points": [
-      "現在から過去を評価する時制",
-      "bien que + 接続法過去",
-      "au moment des faits = 当時"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 176,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Il a reconnu plus tard que la décision avait été prise avant même que les experts aient rendu leur avis, alors même qu'il avait soutenu le contraire quelques semaines auparavant.",
-    "japanese": "彼は数週間前には逆のことを主張していたにもかかわらず、後になって専門家が意見を出す前にすでに決定が下されていたことを認めた。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "旅行・移動",
+    "french": "Un itinéraire parfaitement optimisé laisse peu de marge aux rencontres, aux retards ou aux changements d'envie qui font parfois la valeur d'un voyage.",
+    "japanese": "完全に最適化された旅程は、旅の価値になりうる出会い、遅れ、気分の変化が入り込む余地をほとんど残さない。",
     "points": [
-      "間接話法と過去時制",
-      "alors même que = 〜にもかかわらず",
-      "soutenir le contraire"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 177,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "À l'époque, personne n'imaginait que la décision avait été prise avant même que les experts aient rendu leur avis; ce n'est qu'avec le recul que les signes avant-coureurs sont apparus évidents.",
-    "japanese": "当時は誰も専門家が意見を出す前にすでに決定が下されていたとは考えていなかった。前兆が明白に見えるようになったのは、後から振り返ってのことだった。",
+    "category": "高度な構文・関係表現",
+    "register": "soutenu",
+    "topic": "都市・住宅・交通",
+    "french": "Le stationnement gratuit paraît avantageux pour les automobilistes, mais il occupe un espace urbain dont la valeur et les usages alternatifs restent souvent invisibles dans le prix payé.",
+    "japanese": "無料駐車は自動車利用者に有利に見えるが、都市空間を占有しており、その価値や別用途の可能性は支払価格には現れにくい。",
     "points": [
-      "時制の一致",
-      "avec le recul = 振り返ってみれば",
-      "signes avant-coureurs = 前兆"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 178,
     "level": "C1",
-    "category": "時制・間接話法",
+    "category": "論証・接続表現",
     "register": "standard",
-    "french": "Les responsables avaient affirmé que la décision avait été prise avant même que les experts aient rendu leur avis, mais les documents rendus publics par la suite ont conduit à nuancer cette version.",
-    "japanese": "責任者たちは専門家が意見を出す前にすでに決定が下されていたと述べていたが、その後公開された文書によって、この説明には修正が必要となった。",
+    "topic": "制度・公共政策",
+    "french": "Une règle identique pour tous peut sembler équitable, tout en produisant des effets très différents lorsque les situations de départ ne sont pas comparables.",
+    "japanese": "すべての人に同じ規則を適用することは公平に見えるが、出発条件が異なれば、その影響は大きく違うものになりうる。",
     "points": [
-      "plus-que-parfait",
-      "rendre public = 公開する",
-      "nuancer = 留保を加える"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 179,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Si l'on avait appris plus tôt que la décision avait été prise avant même que les experts aient rendu leur avis, la stratégie adoptée aurait sans doute été sensiblement différente.",
-    "japanese": "もしもっと早く専門家が意見を出す前にすでに決定が下されていたと分かっていたなら、採用された戦略はおそらくかなり違っていただろう。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "教育",
+    "french": "Les cours enregistrés donnent aux étudiants la possibilité de revoir une explication, mais ils peuvent aussi les inciter à remettre indéfiniment le visionnage à plus tard.",
+    "japanese": "録画授業は学生に説明を見直す機会を与える一方、視聴をいつまでも先延ばしにさせる可能性もある。",
     "points": [
-      "si + 大過去 → 条件法過去",
-      "sans doute = おそらく",
-      "sensiblement = かなり"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 180,
     "level": "C1",
-    "category": "時制・間接話法",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Il semble aujourd'hui établi que la décision avait été prise avant même que les experts aient rendu leur avis, bien que cette analyse ait été vivement contestée au moment des faits.",
-    "japanese": "当時はこの分析が激しく反論されていたものの、今日では専門家が意見を出す前にすでに決定が下されていたことは確立した見方のように思われる。",
+    "topic": "健康・社会",
+    "french": "Le recours croissant à des tests rapides rend l'information plus accessible, encore faut-il que les utilisateurs sachent comment interpréter un résultat incertain ou inattendu.",
+    "japanese": "迅速検査の普及で情報は得やすくなるが、不確実または予想外の結果をどう解釈するかを利用者が理解している必要がある。",
     "points": [
-      "現在から過去を評価する時制",
-      "bien que + 接続法過去",
-      "au moment des faits = 当時"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 181,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Il a reconnu plus tard que les chiffres publiés la veille devraient être révisés, alors même qu'il avait soutenu le contraire quelques semaines auparavant.",
-    "japanese": "彼は数週間前には逆のことを主張していたにもかかわらず、後になって前日に公表された数字は修正される必要があるだろうことを認めた。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "環境・エネルギー",
+    "french": "La baisse de la consommation d'énergie par appareil peut être partiellement annulée si le nombre total d'appareils utilisés augmente plus rapidement.",
+    "japanese": "機器1台あたりのエネルギー消費が減っても、使用される機器の総数がそれ以上の速さで増えれば、その効果の一部は相殺されうる。",
     "points": [
-      "間接話法と過去時制",
-      "alors même que = 〜にもかかわらず",
-      "soutenir le contraire"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 182,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "À l'époque, personne n'imaginait que les chiffres publiés la veille devraient être révisés; ce n'est qu'avec le recul que les signes avant-coureurs sont apparus évidents.",
-    "japanese": "当時は誰も前日に公表された数字は修正される必要があるだろうとは考えていなかった。前兆が明白に見えるようになったのは、後から振り返ってのことだった。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "歴史・倫理・思考",
+    "french": "Le progrès technique élargit ce qu'il est possible de faire, sans répondre à la question distincte de savoir ce qu'il est souhaitable de faire.",
+    "japanese": "技術の進歩は可能なことの範囲を広げるが、何をすべきかという別の問いには答えない。",
     "points": [
-      "時制の一致",
-      "avec le recul = 振り返ってみれば",
-      "signes avant-coureurs = 前兆"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 183,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Les responsables avaient affirmé que les chiffres publiés la veille devraient être révisés, mais les documents rendus publics par la suite ont conduit à nuancer cette version.",
-    "japanese": "責任者たちは前日に公表された数字は修正される必要があるだろうと述べていたが、その後公開された文書によって、この説明には修正が必要となった。",
+    "category": "論証・接続表現",
+    "register": "soutenu",
+    "topic": "働き方",
+    "french": "Le rapport interne met en lumière un paradoxe : les cadres disent manquer de temps tout en multipliant les réunions auxquelles ils estiment pourtant indispensable d'assister.",
+    "japanese": "社内報告書は一つの逆説を明らかにしている。管理職は時間がないと言いながら、自分が出席すべきだと考える会議を増やし続けている。",
     "points": [
-      "plus-que-parfait",
-      "rendre public = 公開する",
-      "nuancer = 留保を加える"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 184,
     "level": "C1",
     "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Si l'on avait appris plus tôt que les chiffres publiés la veille devraient être révisés, la stratégie adoptée aurait sans doute été sensiblement différente.",
-    "japanese": "もしもっと早く前日に公表された数字は修正される必要があるだろうと分かっていたなら、採用された戦略はおそらくかなり違っていただろう。",
+    "register": "soutenu",
+    "topic": "文化・メディア",
+    "french": "Plus une expression devient courante, moins ses locuteurs perçoivent parfois l'image ou la métaphore qui lui avait donné naissance.",
+    "japanese": "表現が一般化するほど、その起源となったイメージや比喩を話者が意識しなくなることがある。",
     "points": [
-      "si + 大過去 → 条件法過去",
-      "sans doute = おそらく",
-      "sensiblement = かなり"
+      "過去時制・条件法の関係",
+      "出来事の時間関係を整理する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 185,
     "level": "C1",
-    "category": "時制・間接話法",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Il semble aujourd'hui établi que les chiffres publiés la veille devraient être révisés, bien que cette analyse ait été vivement contestée au moment des faits.",
-    "japanese": "当時はこの分析が激しく反論されていたものの、今日では前日に公表された数字は修正される必要があるだろうことは確立した見方のように思われる。",
+    "topic": "科学・研究",
+    "french": "L'utilisation d'un indicateur unique simplifie l'analyse, mais elle risque de masquer des évolutions opposées entre les différentes composantes du phénomène étudié.",
+    "japanese": "単一の指標を使えば分析は簡単になるが、研究対象を構成する各要素で逆方向の変化が起きていることを隠してしまうおそれがある。",
     "points": [
-      "現在から過去を評価する時制",
-      "bien que + 接続法過去",
-      "au moment des faits = 当時"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 186,
     "level": "C1",
-    "category": "時制・間接話法",
+    "category": "複合文・精読",
     "register": "standard",
-    "french": "Il a reconnu plus tard qu'une partie des difficultés aurait pu être évitée, alors même qu'il avait soutenu le contraire quelques semaines auparavant.",
-    "japanese": "彼は数週間前には逆のことを主張していたにもかかわらず、後になって困難の一部は避けられた可能性があることを認めた。",
+    "topic": "食・農業",
+    "french": "L'uniformité des produits facilite le transport et la vente, mais elle peut conduire à écarter des aliments parfaitement consommables qui ne correspondent pas aux critères visuels attendus.",
+    "japanese": "商品の均一性は輸送や販売を容易にする一方、見た目の基準に合わないだけで十分食べられる食品が排除されることがある。",
     "points": [
-      "間接話法と過去時制",
-      "alors même que = 〜にもかかわらず",
-      "soutenir le contraire"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 187,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "À l'époque, personne n'imaginait qu'une partie des difficultés aurait pu être évitée; ce n'est qu'avec le recul que les signes avant-coureurs sont apparus évidents.",
-    "japanese": "当時は誰も困難の一部は避けられた可能性があるとは考えていなかった。前兆が明白に見えるようになったのは、後から振り返ってのことだった。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "経済・企業",
+    "french": "Le succès d'une nouvelle boutique ne permet pas de savoir si le quartier pouvait en soutenir dix autres, car la demande supplémentaire n'est pas illimitée.",
+    "japanese": "新しい店が成功したからといって、その地域がさらに10店舗を支えられるとは限らず、追加需要には限界がある。",
     "points": [
-      "時制の一致",
-      "avec le recul = 振り返ってみれば",
-      "signes avant-coureurs = 前兆"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 188,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Les responsables avaient affirmé qu'une partie des difficultés aurait pu être évitée, mais les documents rendus publics par la suite ont conduit à nuancer cette version.",
-    "japanese": "責任者たちは困難の一部は避けられた可能性があると述べていたが、その後公開された文書によって、この説明には修正が必要となった。",
+    "category": "高度な構文・関係表現",
+    "register": "soutenu",
+    "topic": "心理・社会",
+    "french": "Nous sous-estimons souvent la vitesse à laquelle nous nous adaptons à une amélioration, ce qui explique qu'un changement longtemps désiré puisse rapidement devenir banal.",
+    "japanese": "私たちは改善に慣れる速さを過小評価しがちで、そのため長く望んでいた変化もすぐ当たり前になることがある。",
     "points": [
-      "plus-que-parfait",
-      "rendre public = 公開する",
-      "nuancer = 留保を加える"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 189,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "standard",
-    "french": "Si l'on avait appris plus tôt qu'une partie des difficultés aurait pu être évitée, la stratégie adoptée aurait sans doute été sensiblement différente.",
-    "japanese": "もしもっと早く困難の一部は避けられた可能性があると分かっていたなら、採用された戦略はおそらくかなり違っていただろう。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "旅行・移動",
+    "french": "Les infrastructures pensées pour les touristes peuvent aussi améliorer la vie quotidienne des habitants, à condition qu'elles répondent à des besoins qui existent en dehors de la saison touristique.",
+    "japanese": "観光客向けに整備されたインフラも、観光シーズン外の住民の需要に合っていれば、日常生活を改善することができる。",
     "points": [
-      "si + 大過去 → 条件法過去",
-      "sans doute = おそらく",
-      "sensiblement = かなり"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 190,
     "level": "C1",
-    "category": "時制・間接話法",
-    "register": "soutenu",
-    "french": "Il semble aujourd'hui établi qu'une partie des difficultés aurait pu être évitée, bien que cette analyse ait été vivement contestée au moment des faits.",
-    "japanese": "当時はこの分析が激しく反論されていたものの、今日では困難の一部は避けられた可能性があることは確立した見方のように思われる。",
+    "category": "高度な構文・関係表現",
+    "register": "standard",
+    "topic": "都市・住宅・交通",
+    "french": "Une place publique très animée en journée peut devenir inconfortable pour les riverains la nuit, ce qui oblige à penser les usages selon les heures autant que selon les lieux.",
+    "japanese": "昼間に活気のある広場でも夜には周辺住民にとって不快になることがあり、場所だけでなく時間帯ごとの利用を考える必要がある。",
     "points": [
-      "現在から過去を評価する時制",
-      "bien que + 接続法過去",
-      "au moment des faits = 当時"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 191,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "La prise en compte des effets indirects s'impose d'autant plus que les décisions prises aujourd'hui auront des effets difficiles à inverser.",
-    "japanese": "現在の決定が後から覆しにくい影響をもたらすだけに、間接的影響を考慮することはなおさら必要である。",
+    "topic": "制度・公共政策",
+    "french": "À force d'accumuler des objectifs dans un même programme, on finit parfois par ne plus savoir lequel doit être privilégié lorsque deux d'entre eux entrent en conflit.",
+    "japanese": "一つの制度に目標を詰め込みすぎると、二つの目標が対立したときにどちらを優先すべきか分からなくなることがある。",
     "points": [
-      "名詞化による抽象表現",
-      "s'imposer = 必要不可欠となる",
-      "d'autant plus que"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 192,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
-    "register": "administratif",
-    "french": "Il a été procédé à la prise en compte des effets indirects avant qu'une nouvelle orientation ne soit arrêtée.",
-    "japanese": "新たな方針が決定される前に、間接的影響を考慮することが実施された。",
+    "category": "論証・接続表現",
+    "register": "soutenu",
+    "topic": "教育",
+    "french": "Une école peut améliorer ses résultats moyens tout en creusant l'écart entre les élèves les plus performants et ceux qui rencontrent le plus de difficultés.",
+    "japanese": "学校全体の平均成績が上がる一方で、成績上位者と最も苦戦している生徒との格差が広がることもある。",
     "points": [
-      "il a été procédé à = 〜が実施された",
-      "無人称受動",
-      "arrêter une orientation"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 193,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Faute de la prise en compte des effets indirects, plusieurs décisions ont été prises sur la base d'informations partielles.",
-    "japanese": "間接的影響を考慮することが欠けていたため、いくつかの決定が不完全な情報に基づいて下された。",
+    "topic": "健康・社会",
+    "french": "À mesure que certaines maladies deviennent plus rares, la perception du risque associé aux mesures qui ont permis de les contrôler peut elle-même diminuer.",
+    "japanese": "一部の病気が珍しくなるにつれて、それを抑えるための対策の必要性に対する危機感まで低下することがある。",
     "points": [
-      "faute de = 〜がないため",
-      "名詞化",
-      "sur la base de"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 194,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "On ne saurait sous-estimer l'importance de la prise en compte des effets indirects, tant les marges d'erreur demeurent importantes.",
-    "japanese": "誤差の余地が依然大きい以上、間接的影響を考慮することの重要性を過小評価することはできない。",
+    "topic": "環境・エネルギー",
+    "french": "Une politique efficace à l'échelle nationale peut produire des effets inattendus localement si elle ne tient pas compte de la diversité des territoires.",
+    "japanese": "国全体では有効な政策でも、地域の多様性を考慮しなければ、地方では予想外の影響を生むことがある。",
     "points": [
-      "on ne saurait + 不定詞",
-      "名詞化",
-      "tant = それほど〜なので"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 195,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
-    "register": "soutenu",
-    "french": "Sans la prise en compte des effets indirects, il est à craindre que les mêmes difficultés ne se reproduisent sous une autre forme.",
-    "japanese": "間接的影響を考慮することなしでは、同じ問題が別の形で再発することが懸念される。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "歴史・倫理・思考",
+    "french": "Il serait confortable de croire que les erreurs historiques résultent uniquement de l'ignorance, mais des personnes bien informées peuvent également défendre des décisions profondément contestables.",
+    "japanese": "歴史上の誤りが無知だけから生じたと考えるのは楽だが、十分な情報を持つ人々も深く問題のある判断を支持することがある。",
     "points": [
-      "il est à craindre que + 接続法",
-      "ne explétif",
-      "se reproduire"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 196,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Une remise en cause des hypothèses initiales s'impose d'autant plus que les décisions prises aujourd'hui auront des effets difficiles à inverser.",
-    "japanese": "現在の決定が後から覆しにくい影響をもたらすだけに、当初の仮定を見直すことはなおさら必要である。",
+    "topic": "デジタル技術",
+    "french": "Le logiciel libre réduit la dépendance envers un fournisseur unique, encore faut-il disposer des compétences nécessaires pour l'adapter, le sécuriser et le maintenir.",
+    "japanese": "オープンソースソフトウェアは単一企業への依存を減らすが、適応・安全確保・保守に必要な能力がなければならない。",
     "points": [
-      "名詞化による抽象表現",
-      "s'imposer = 必要不可欠となる",
-      "d'autant plus que"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 197,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
-    "register": "administratif",
-    "french": "Il a été procédé à une remise en cause des hypothèses initiales avant qu'une nouvelle orientation ne soit arrêtée.",
-    "japanese": "新たな方針が決定される前に、当初の仮定を見直すことが実施された。",
+    "category": "高度な構文・関係表現",
+    "register": "standard",
+    "topic": "文化・メディア",
+    "french": "Un sous-titre doit transmettre suffisamment d'informations en quelques secondes, ce qui oblige souvent le traducteur à choisir entre précision, naturel et lisibilité.",
+    "japanese": "字幕は数秒で十分な情報を伝えなければならないため、翻訳者は正確さ、自然さ、読みやすさの間で選択を迫られることが多い。",
     "points": [
-      "il a été procédé à = 〜が実施された",
-      "無人称受動",
-      "arrêter une orientation"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 198,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
-    "register": "soutenu",
-    "french": "Faute de une remise en cause des hypothèses initiales, plusieurs décisions ont été prises sur la base d'informations partielles.",
-    "japanese": "当初の仮定を見直すことが欠けていたため、いくつかの決定が不完全な情報に基づいて下された。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "科学・研究",
+    "french": "Le comité a demandé que les données brutes soient conservées plus longtemps afin que l'analyse puisse être vérifiée en cas de contestation ultérieure.",
+    "japanese": "委員会は、後に異議が出た場合に分析を検証できるよう、生データをより長く保存するよう求めた。",
     "points": [
-      "faute de = 〜がないため",
-      "名詞化",
-      "sur la base de"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 199,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "On ne saurait sous-estimer l'importance de une remise en cause des hypothèses initiales, tant les marges d'erreur demeurent importantes.",
-    "japanese": "誤差の余地が依然大きい以上、当初の仮定を見直すことの重要性を過小評価することはできない。",
+    "topic": "食・農業",
+    "french": "Un aliment produit localement n'a pas nécessairement une empreinte environnementale plus faible si sa culture exige beaucoup d'énergie ou des infrastructures particulièrement coûteuses.",
+    "japanese": "地元で生産された食品でも、栽培に大量のエネルギーや高コストな設備が必要なら、環境負荷が低いとは限らない。",
     "points": [
-      "on ne saurait + 不定詞",
-      "名詞化",
-      "tant = それほど〜なので"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 200,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Sans une remise en cause des hypothèses initiales, il est à craindre que les mêmes difficultés ne se reproduisent sous une autre forme.",
-    "japanese": "当初の仮定を見直すことなしでは、同じ問題が別の形で再発することが懸念される。",
+    "topic": "経済・企業",
+    "french": "Les indicateurs de confiance peuvent changer avant l'activité économique réelle, mais il reste difficile de savoir dans quelle mesure ils l'annoncent ou contribuent eux-mêmes à la modifier.",
+    "japanese": "景況感指標は実体経済より先に変化することがあるが、それが将来を示すのか、それ自体が経済を変えるのかを区別するのは難しい。",
     "points": [
-      "il est à craindre que + 接続法",
-      "ne explétif",
-      "se reproduire"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 201,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "L'harmonisation des procédures entre les différents services s'impose d'autant plus que les décisions prises aujourd'hui auront des effets difficiles à inverser.",
-    "japanese": "現在の決定が後から覆しにくい影響をもたらすだけに、部門間で手続きを統一することはなおさら必要である。",
+    "topic": "心理・社会",
+    "french": "Le souvenir que nous gardons d'un événement n'est pas une copie intacte du passé; il se reconstruit chaque fois que nous le rappelons.",
+    "japanese": "出来事の記憶は過去をそのまま保存したコピーではなく、思い出すたびに再構成される。",
     "points": [
-      "名詞化による抽象表現",
-      "s'imposer = 必要不可欠となる",
-      "d'autant plus que"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 202,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
-    "register": "administratif",
-    "french": "Il a été procédé à l'harmonisation des procédures entre les différents services avant qu'une nouvelle orientation ne soit arrêtée.",
-    "japanese": "新たな方針が決定される前に、部門間で手続きを統一することが実施された。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "旅行・移動",
+    "french": "Les voyageurs expérimentés ne commettent pas forcément moins d'erreurs; ils savent parfois simplement mieux distinguer celles qui auront des conséquences de celles qui resteront anecdotiques.",
+    "japanese": "旅慣れた人が必ずしもミスを減らすわけではなく、重大な結果を招くミスと些細なミスをよりよく区別できるだけの場合もある。",
     "points": [
-      "il a été procédé à = 〜が実施された",
-      "無人称受動",
-      "arrêter une orientation"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 203,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Faute de l'harmonisation des procédures entre les différents services, plusieurs décisions ont été prises sur la base d'informations partielles.",
-    "japanese": "部門間で手続きを統一することが欠けていたため、いくつかの決定が不完全な情報に基づいて下された。",
+    "topic": "都市・住宅・交通",
+    "french": "Il serait trompeur de comparer deux quartiers uniquement à partir de leur prix moyen au mètre carré sans tenir compte de la taille, de l'état et de la localisation précise des logements vendus.",
+    "japanese": "売買された住宅の広さ、状態、正確な立地を考慮せず、1平方メートル当たりの平均価格だけで地区を比較するのは誤解を招く。",
     "points": [
-      "faute de = 〜がないため",
-      "名詞化",
-      "sur la base de"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 204,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "On ne saurait sous-estimer l'importance de l'harmonisation des procédures entre les différents services, tant les marges d'erreur demeurent importantes.",
-    "japanese": "誤差の余地が依然大きい以上、部門間で手続きを統一することの重要性を過小評価することはできない。",
+    "topic": "制度・公共政策",
+    "french": "Lorsqu'une administration ajoute une exception pour résoudre un cas particulier, elle peut rendre la règle générale plus difficile à comprendre pour tous les autres usagers.",
+    "japanese": "行政が個別事例を解決するために例外を追加すると、他の利用者にとって一般規則がかえって分かりにくくなることがある。",
     "points": [
-      "on ne saurait + 不定詞",
-      "名詞化",
-      "tant = それほど〜なので"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 205,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Sans l'harmonisation des procédures entre les différents services, il est à craindre que les mêmes difficultés ne se reproduisent sous une autre forme.",
-    "japanese": "部門間で手続きを統一することなしでは、同じ問題が別の形で再発することが懸念される。",
+    "topic": "教育",
+    "french": "L'école a introduit des tablettes dans toutes les classes sans avoir auparavant vérifié que le réseau pouvait supporter autant de connexions simultanées.",
+    "japanese": "その学校は、ネットワークが同時接続に耐えられるか事前に確認しないまま、全クラスにタブレットを導入した。",
     "points": [
-      "il est à craindre que + 接続法",
-      "ne explétif",
-      "se reproduire"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 206,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "時制・間接話法",
     "register": "soutenu",
-    "french": "La clarification des responsabilités respectives s'impose d'autant plus que les décisions prises aujourd'hui auront des effets difficiles à inverser.",
-    "japanese": "現在の決定が後から覆しにくい影響をもたらすだけに、それぞれの責任を明確にすることはなおさら必要である。",
+    "topic": "健康・社会",
+    "french": "Le dépistage précoce améliore parfois le pronostic, mais il peut aussi conduire à identifier des anomalies qui n'auraient jamais provoqué de symptômes.",
+    "japanese": "早期検診は予後を改善する場合がある一方、生涯症状を引き起こさなかった異常まで見つける可能性もある。",
     "points": [
-      "名詞化による抽象表現",
-      "s'imposer = 必要不可欠となる",
-      "d'autant plus que"
+      "過去時制・条件法の関係",
+      "出来事の時間関係を整理する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 207,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
-    "register": "administratif",
-    "french": "Il a été procédé à la clarification des responsabilités respectives avant qu'une nouvelle orientation ne soit arrêtée.",
-    "japanese": "新たな方針が決定される前に、それぞれの責任を明確にすることが実施された。",
+    "category": "慣用表現・書き言葉",
+    "register": "soutenu",
+    "topic": "環境・エネルギー",
+    "french": "Des bâtiments mieux isolés consomment moins d'énergie, encore faut-il que les économies réalisées ne soient pas entièrement compensées par une hausse de la température intérieure recherchée.",
+    "japanese": "断熱性能の高い建物はエネルギー消費を減らせるが、節約分がより高い室温を求めることで完全に相殺されないことが必要である。",
     "points": [
-      "il a été procédé à = 〜が実施された",
-      "無人称受動",
-      "arrêter une orientation"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 208,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Faute de la clarification des responsabilités respectives, plusieurs décisions ont été prises sur la base d'informations partielles.",
-    "japanese": "それぞれの責任を明確にすることが欠けていたため、いくつかの決定が不完全な情報に基づいて下された。",
+    "topic": "歴史・倫理・思考",
+    "french": "La neutralité apparente d'une décision peut cacher un choix de valeurs lorsque le simple maintien de la situation existante favorise déjà certains intérêts plutôt que d'autres.",
+    "japanese": "現状維持そのものが一部の利害を他より有利にしている場合、中立に見える決定にも価値判断が隠れていることがある。",
     "points": [
-      "faute de = 〜がないため",
-      "名詞化",
-      "sur la base de"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 209,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "On ne saurait sous-estimer l'importance de la clarification des responsabilités respectives, tant les marges d'erreur demeurent importantes.",
-    "japanese": "誤差の余地が依然大きい以上、それぞれの責任を明確にすることの重要性を過小評価することはできない。",
+    "topic": "デジタル技術",
+    "french": "Les entreprises promettent régulièrement de rendre leurs systèmes plus transparents, mais une documentation exhaustive peut elle-même devenir inutilisable si elle n'est pas organisée selon les besoins des lecteurs.",
+    "japanese": "企業はシステムの透明性向上を約束するが、網羅的な文書も読者の必要に応じて整理されていなければ使い物にならない。",
     "points": [
-      "on ne saurait + 不定詞",
-      "名詞化",
-      "tant = それほど〜なので"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 210,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Sans la clarification des responsabilités respectives, il est à craindre que les mêmes difficultés ne se reproduisent sous une autre forme.",
-    "japanese": "それぞれの責任を明確にすることなしでは、同じ問題が別の形で再発することが懸念される。",
+    "topic": "働き方",
+    "french": "Quoi qu'en dise la direction, la réorganisation n'a pas seulement modifié les organigrammes : elle a profondément changé la manière dont l'information circule entre les services.",
+    "japanese": "経営陣が何と言おうと、組織再編は組織図を変えただけではなく、部門間の情報の流れ方を大きく変えた。",
     "points": [
-      "il est à craindre que + 接続法",
-      "ne explétif",
-      "se reproduire"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 211,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "接続法・モダリティ",
     "register": "soutenu",
-    "french": "Une évaluation indépendante des résultats s'impose d'autant plus que les décisions prises aujourd'hui auront des effets difficiles à inverser.",
-    "japanese": "現在の決定が後から覆しにくい影響をもたらすだけに、結果を独立して評価することはなおさら必要である。",
+    "topic": "科学・研究",
+    "french": "Il se peut que l'absence d'effet mesurable ne traduise pas une absence réelle d'effet, mais seulement un manque de puissance statistique.",
+    "japanese": "測定可能な効果が見られないことは、実際に効果がないことを意味せず、単に統計的検出力が不足しているだけかもしれない。",
     "points": [
-      "名詞化による抽象表現",
-      "s'imposer = 必要不可欠となる",
-      "d'autant plus que"
+      "接続法を要求する表現",
+      "話者の判断・可能性のニュアンス",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 212,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
-    "register": "administratif",
-    "french": "Il a été procédé à une évaluation indépendante des résultats avant qu'une nouvelle orientation ne soit arrêtée.",
-    "japanese": "新たな方針が決定される前に、結果を独立して評価することが実施された。",
+    "category": "慣用表現・書き言葉",
+    "register": "soutenu",
+    "topic": "食・農業",
+    "french": "Les circuits courts rapprochent producteurs et consommateurs, sans pour autant supprimer les contraintes liées au stockage, à la saisonnalité et à la disponibilité de la main-d'œuvre.",
+    "japanese": "短い流通経路は生産者と消費者を近づけるが、保管、季節性、人手確保の制約までなくなるわけではない。",
     "points": [
-      "il a été procédé à = 〜が実施された",
-      "無人称受動",
-      "arrêter une orientation"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 213,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
-    "register": "soutenu",
-    "french": "Faute de une évaluation indépendante des résultats, plusieurs décisions ont été prises sur la base d'informations partielles.",
-    "japanese": "結果を独立して評価することが欠けていたため、いくつかの決定が不完全な情報に基づいて下された。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "経済・企業",
+    "french": "Il serait imprudent d'extrapoler indéfiniment une tendance observée pendant quelques années, surtout lorsque celle-ci dépend de conditions exceptionnelles.",
+    "japanese": "数年間観察された傾向を無期限に延長して考えるのは軽率であり、とりわけその傾向が例外的な条件に依存している場合はそうである。",
     "points": [
-      "faute de = 〜がないため",
-      "名詞化",
-      "sur la base de"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 214,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "On ne saurait sous-estimer l'importance de une évaluation indépendante des résultats, tant les marges d'erreur demeurent importantes.",
-    "japanese": "誤差の余地が依然大きい以上、結果を独立して評価することの重要性を過小評価することはできない。",
+    "topic": "心理・社会",
+    "french": "La comparaison avec les autres peut stimuler l'effort lorsque l'écart paraît surmontable, mais décourager lorsque la distance semble trop grande ou injuste.",
+    "japanese": "他人との比較は差が乗り越えられそうなら努力を促すが、差が大きすぎたり不公平に見えたりすると意欲を失わせることがある。",
     "points": [
-      "on ne saurait + 不定詞",
-      "名詞化",
-      "tant = それほど〜なので"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 215,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Sans une évaluation indépendante des résultats, il est à craindre que les mêmes difficultés ne se reproduisent sous une autre forme.",
-    "japanese": "結果を独立して評価することなしでは、同じ問題が別の形で再発することが懸念される。",
+    "topic": "旅行・移動",
+    "french": "Réduire le nombre de visiteurs sur un site précis peut déplacer la pression vers un autre lieu si aucune réflexion n'est menée à l'échelle de l'ensemble de la destination.",
+    "japanese": "特定スポットの観光客数を減らしても、地域全体で考えなければ別の場所へ混雑を移すだけになることがある。",
     "points": [
-      "il est à craindre que + 接続法",
-      "ne explétif",
-      "se reproduire"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 216,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
-    "register": "soutenu",
-    "french": "La réduction des écarts entre les objectifs affichés et les moyens disponibles s'impose d'autant plus que les décisions prises aujourd'hui auront des effets difficiles à inverser.",
-    "japanese": "現在の決定が後から覆しにくい影響をもたらすだけに、掲げられた目標と利用可能な手段の差を縮めることはなおさら必要である。",
+    "category": "時制・間接話法",
+    "register": "standard",
+    "topic": "都市・住宅・交通",
+    "french": "Un trajet plus rapide n'améliore pas forcément la mobilité de tous si le nouveau service est trop cher ou inaccessible aux personnes qui en auraient le plus besoin.",
+    "japanese": "移動時間が短くなっても、新サービスが高価すぎたり、最も必要とする人が利用できなかったりすれば、すべての人の移動性が改善するとは限らない。",
     "points": [
-      "名詞化による抽象表現",
-      "s'imposer = 必要不可欠となる",
-      "d'autant plus que"
+      "過去時制・条件法の関係",
+      "出来事の時間関係を整理する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 217,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
-    "register": "administratif",
-    "french": "Il a été procédé à la réduction des écarts entre les objectifs affichés et les moyens disponibles avant qu'une nouvelle orientation ne soit arrêtée.",
-    "japanese": "新たな方針が決定される前に、掲げられた目標と利用可能な手段の差を縮めることが実施された。",
+    "category": "複合文・精読",
+    "register": "soutenu",
+    "topic": "制度・公共政策",
+    "french": "L'absence de plainte ne constitue pas une preuve suffisante de satisfaction lorsque les personnes concernées ignorent leurs droits ou jugent la procédure de réclamation trop coûteuse.",
+    "japanese": "苦情がないことは満足の十分な証拠ではなく、関係者が権利を知らなかったり、申立て手続きの負担が大きすぎると感じていたりする可能性がある。",
     "points": [
-      "il a été procédé à = 〜が実施された",
-      "無人称受動",
-      "arrêter une orientation"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 218,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "接続法・モダリティ",
     "register": "soutenu",
-    "french": "Faute de la réduction des écarts entre les objectifs affichés et les moyens disponibles, plusieurs décisions ont été prises sur la base d'informations partielles.",
-    "japanese": "掲げられた目標と利用可能な手段の差を縮めることが欠けていたため、いくつかの決定が不完全な情報に基づいて下された。",
+    "topic": "教育",
+    "french": "À moins que l'on ne précise ce que l'on entend par réussite scolaire, il est difficile de déterminer si une réforme a réellement atteint son objectif.",
+    "japanese": "学校教育における成功とは何かを明確にしない限り、改革が本当に目標を達成したか判断するのは難しい。",
     "points": [
-      "faute de = 〜がないため",
-      "名詞化",
-      "sur la base de"
+      "接続法を要求する表現",
+      "話者の判断・可能性のニュアンス",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 219,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "On ne saurait sous-estimer l'importance de la réduction des écarts entre les objectifs affichés et les moyens disponibles, tant les marges d'erreur demeurent importantes.",
-    "japanese": "誤差の余地が依然大きい以上、掲げられた目標と利用可能な手段の差を縮めることの重要性を過小評価することはできない。",
+    "topic": "健康・社会",
+    "french": "Ce que l'on appelle qualité de vie ne se réduit ni à l'absence de maladie ni à une mesure unique, puisqu'elle dépend aussi des priorités propres à chaque personne.",
+    "japanese": "生活の質は病気がないことや一つの指標だけでは表せず、各人が何を重視するかにも左右される。",
     "points": [
-      "on ne saurait + 不定詞",
-      "名詞化",
-      "tant = それほど〜なので"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 220,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
-    "register": "soutenu",
-    "french": "Sans la réduction des écarts entre les objectifs affichés et les moyens disponibles, il est à craindre que les mêmes difficultés ne se reproduisent sous une autre forme.",
-    "japanese": "掲げられた目標と利用可能な手段の差を縮めることなしでは、同じ問題が別の形で再発することが懸念される。",
+    "category": "論証・接続表現",
+    "register": "standard",
+    "topic": "環境・エネルギー",
+    "french": "À mesure que les véhicules électriques se généralisent, la question de l'origine de l'électricité et des matériaux utilisés dans les batteries devient plus difficile à éluder.",
+    "japanese": "電気自動車が普及するにつれて、電力の由来や電池材料の問題を避けて通ることが難しくなっている。",
     "points": [
-      "il est à craindre que + 接続法",
-      "ne explétif",
-      "se reproduire"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 221,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "La consultation systématique des acteurs concernés s'impose d'autant plus que les décisions prises aujourd'hui auront des effets difficiles à inverser.",
-    "japanese": "現在の決定が後から覆しにくい影響をもたらすだけに、関係当事者に体系的に意見を求めることはなおさら必要である。",
+    "topic": "歴史・倫理・思考",
+    "french": "Un compromis n'est pas toujours un juste milieu entre deux positions; il peut consister à reformuler le problème de manière à rendre compatibles des intérêts que l'on croyait opposés.",
+    "japanese": "妥協は必ずしも二つの立場の中間を取ることではなく、対立していると思われた利害を両立できるよう問題を捉え直すことでもありうる。",
     "points": [
-      "名詞化による抽象表現",
-      "s'imposer = 必要不可欠となる",
-      "d'autant plus que"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 222,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
-    "register": "administratif",
-    "french": "Il a été procédé à la consultation systématique des acteurs concernés avant qu'une nouvelle orientation ne soit arrêtée.",
-    "japanese": "新たな方針が決定される前に、関係当事者に体系的に意見を求めることが実施された。",
+    "category": "高度な構文・関係表現",
+    "register": "soutenu",
+    "topic": "デジタル技術",
+    "french": "À force de recommander ce qui ressemble à ce que l'utilisateur a déjà apprécié, une plateforme peut réduire précisément les occasions de découverte qu'elle prétend multiplier.",
+    "japanese": "利用者が過去に好んだものに似た内容ばかり勧めることで、プラットフォームは増やすはずの新しい発見の機会を逆に減らしてしまうことがある。",
     "points": [
-      "il a été procédé à = 〜が実施された",
-      "無人称受動",
-      "arrêter une orientation"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 223,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Faute de la consultation systématique des acteurs concernés, plusieurs décisions ont été prises sur la base d'informations partielles.",
-    "japanese": "関係当事者に体系的に意見を求めることが欠けていたため、いくつかの決定が不完全な情報に基づいて下された。",
+    "topic": "働き方",
+    "french": "L'autonomie accordée aux salariés n'a de sens que si elle s'accompagne d'une définition suffisamment claire des responsabilités de chacun.",
+    "japanese": "社員に与えられる自律性は、それぞれの責任が十分明確に定められていて初めて意味を持つ。",
     "points": [
-      "faute de = 〜がないため",
-      "名詞化",
-      "sur la base de"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 224,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "On ne saurait sous-estimer l'importance de la consultation systématique des acteurs concernés, tant les marges d'erreur demeurent importantes.",
-    "japanese": "誤差の余地が依然大きい以上、関係当事者に体系的に意見を求めることの重要性を過小評価することはできない。",
+    "topic": "文化・メディア",
+    "french": "On peut connaître parfaitement la grammaire d'une langue et rester incapable de saisir l'ironie, les sous-entendus ou les références partagées par ses locuteurs.",
+    "japanese": "ある言語の文法を完全に理解していても、話者が共有する皮肉、含意、文化的参照を捉えられないことはある。",
     "points": [
-      "on ne saurait + 不定詞",
-      "名詞化",
-      "tant = それほど〜なので"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 225,
     "level": "C1",
-    "category": "名詞化・受動・無人称構文",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Sans la consultation systématique des acteurs concernés, il est à craindre que les mêmes difficultés ne se reproduisent sous une autre forme.",
-    "japanese": "関係当事者に体系的に意見を求めることなしでは、同じ問題が別の形で再発することが懸念される。",
+    "topic": "食・農業",
+    "french": "Un label n'est utile que si ses critères sont compréhensibles et contrôlés, faute de quoi il risque de devenir un simple argument marketing parmi d'autres.",
+    "japanese": "認証表示は基準が分かりやすく検証されている場合に意味を持ち、そうでなければ単なるマーケティング手段の一つになりかねない。",
     "points": [
-      "il est à craindre que + 接続法",
-      "ne explétif",
-      "se reproduire"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 226,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Il faut prendre acte de l'écart persistant entre les intentions affichées et les résultats obtenus.",
-    "japanese": "掲げられた意図と実際の成果の間に持続的な隔たりがあることを、事実として受け止める必要がある。",
+    "topic": "経済・企業",
+    "french": "Un marché très concurrentiel peut faire baisser les prix à court terme tout en décourageant certains investissements dont la rentabilité n'apparaît qu'après plusieurs années.",
+    "japanese": "競争の激しい市場は短期的には価格を下げる一方、利益が数年後にしか現れない投資をためらわせることがある。",
     "points": [
-      "prendre acte de = 〜を事実として受け止める",
-      "抽象的な書き言葉での用法"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 227,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le rapport prend acte de cette évolution sans pour autant en tirer toutes les conséquences.",
-    "japanese": "報告書はこの変化を認めているが、だからといってその帰結をすべて引き出しているわけではない。",
+    "topic": "心理・社会",
+    "french": "Une habitude devient plus facile à maintenir lorsqu'elle dépend moins d'une décision répétée que d'un environnement qui rend l'action souhaitée presque automatique.",
+    "japanese": "習慣は、毎回の意思決定に頼るより、望ましい行動がほぼ自動的に起こる環境に支えられる方が維持しやすい。",
     "points": [
-      "prendre acte de = 〜を事実として受け止める",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 228,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
-    "register": "soutenu",
-    "french": "Prendre acte d'un désaccord ne signifie pas renoncer à rechercher un compromis.",
-    "japanese": "意見の不一致を事実として認めることは、妥協を探ることを放棄することを意味しない。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "旅行・移動",
+    "french": "Le temps passé dans les transports n'est pas perçu de la même manière selon que le voyageur peut travailler, se reposer, observer le paysage ou doit rester attentif à la conduite.",
+    "japanese": "移動時間の感じ方は、仕事ができるか、休めるか、景色を見られるか、それとも運転に集中し続ける必要があるかによって異なる。",
     "points": [
-      "prendre acte de = 〜を事実として受け止める",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 229,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Les autorités ont fini par prendre acte du caractère structurel du problème.",
-    "japanese": "当局は最終的に、その問題が構造的なものであることを認めた。",
+    "topic": "都市・住宅・交通",
+    "french": "La construction de logements neufs peut rester insuffisante si leur prix les rend inaccessibles précisément aux ménages pour lesquels la pénurie est la plus aiguë.",
+    "japanese": "新築住宅を増やしても、住宅不足に最も苦しむ世帯が買えない価格なら十分な対策にはならない。",
     "points": [
-      "prendre acte de = 〜を事実として受け止める",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 230,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Encore faut-il prendre acte des limites de l'approche avant d'en proposer l'extension.",
-    "japanese": "その手法を拡大する前に、まず限界を認める必要がある。",
+    "topic": "制度・公共政策",
+    "french": "L'existence d'une autorité indépendante ne suffit pas à garantir son indépendance si son budget, ses nominations ou l'accès à l'information restent contrôlés par ceux qu'elle doit surveiller.",
+    "japanese": "独立機関が存在しても、その予算、人事、情報へのアクセスが監督対象によって管理されているなら、独立性は保証されない。",
     "points": [
-      "prendre acte de = 〜を事実として受け止める",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 231,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "L'étude met en lumière un décalage que les indicateurs globaux avaient jusqu'ici masqué.",
-    "japanese": "その研究は、これまで総合指標によって隠されていたずれを明らかにしている。",
+    "topic": "教育",
+    "french": "Les évaluations standardisées permettent certaines comparaisons, mais elles rendent moins visibles des compétences telles que la créativité, la persévérance ou la capacité à coopérer.",
+    "japanese": "標準化テストは一定の比較を可能にする一方、創造性、粘り強さ、協働力といった能力を見えにくくする。",
     "points": [
-      "mettre en lumière = 〜を明らかにする",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 232,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Ce cas particulier met en lumière les limites d'une règle pourtant conçue comme générale.",
-    "japanese": "この個別事例は、一般的なものとして設計された規則の限界を浮き彫りにしている。",
+    "topic": "健康・社会",
+    "french": "Il n'est pas certain qu'une application qui compte chaque pas améliore durablement l'activité physique si elle transforme le mouvement en obligation constamment mesurée.",
+    "japanese": "歩数を毎回計測するアプリが、運動を常に測定される義務に変えてしまうなら、長期的に身体活動を改善するとは限らない。",
     "points": [
-      "mettre en lumière = 〜を明らかにする",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 233,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "La comparaison internationale a mis en lumière des différences de méthode difficiles à négliger.",
-    "japanese": "国際比較によって、無視しがたい方法論上の差異が明らかになった。",
+    "topic": "環境・エネルギー",
+    "french": "Les habitants acceptent plus facilement certaines contraintes lorsqu'ils comprennent selon quels critères les efforts demandés sont répartis et à quoi les ressources collectées seront utilisées.",
+    "japanese": "求められる負担がどの基準で分配され、集めた資金が何に使われるかを理解できると、住民は一定の制約を受け入れやすい。",
     "points": [
-      "mettre en lumière = 〜を明らかにする",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 234,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Ces témoignages mettent en lumière une réalité plus nuancée que ne le laissent penser les chiffres.",
-    "japanese": "これらの証言は、数字から想像されるよりも複雑な実態を明らかにしている。",
+    "topic": "歴史・倫理・思考",
+    "french": "Le devoir de transmettre une mémoire collective soulève inévitablement la question de savoir qui choisit ce qui mérite d'être conservé et sous quelle forme.",
+    "japanese": "集合的な記憶を伝える責任は、何をどの形で残す価値があると誰が決めるのかという問題を必然的に生じさせる。",
     "points": [
-      "mettre en lumière = 〜を明らかにする",
-      "抽象的な書き言葉での用法"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 235,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "L'analyse met surtout en lumière ce que le débat public avait laissé dans l'ombre.",
-    "japanese": "その分析が特に明らかにしているのは、公共の議論で見過ごされてきた点である。",
+    "topic": "デジタル技術",
+    "french": "L'entreprise a déployé le nouvel outil avant que les équipes n'aient défini la manière dont les données produites devaient être interprétées et archivées.",
+    "japanese": "会社は、新しいツールが生み出すデータの解釈方法や保存方法を各チームが定める前に、そのツールを導入した。",
     "points": [
-      "mettre en lumière = 〜を明らかにする",
-      "抽象的な書き言葉での用法"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 236,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "接続法・モダリティ",
     "register": "soutenu",
-    "french": "Il ne va nullement de soi que davantage d'information produise de meilleures décisions.",
-    "japanese": "情報が増えればより良い意思決定につながるということは、決して自明ではない。",
+    "topic": "働き方",
+    "french": "Pour peu que les objectifs soient clairement hiérarchisés, une équipe réduite peut parfois se montrer plus efficace qu'un groupe plus nombreux soumis à des priorités contradictoires.",
+    "japanese": "目標の優先順位が明確でさえあれば、小規模なチームの方が、相反する優先事項に縛られた大人数の集団より効率的に動くことがある。",
     "points": [
-      "aller de soi = 当然である",
-      "抽象的な書き言葉での用法"
+      "仮定を表す接続表現",
+      "接続法の用法",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 237,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Ce qui allait autrefois de soi fait désormais l'objet d'une contestation croissante.",
-    "japanese": "かつて当然視されていたことが、今ではますます異議を唱えられている。",
+    "topic": "文化・メディア",
+    "french": "Le développement des contenus courts ne signifie pas que le public ait perdu tout intérêt pour les formats longs; les deux usages peuvent répondre à des moments et à des attentes différents.",
+    "japanese": "短いコンテンツの発展は長い形式への関心が失われたことを意味せず、両者は異なる時間や期待に応えることができる。",
     "points": [
-      "aller de soi = 当然である",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 238,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
-    "register": "soutenu",
-    "french": "L'idée qu'une solution unique puisse convenir à tous ne va pas de soi.",
-    "japanese": "一つの解決策がすべての人に適するという考えは自明ではない。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "科学・研究",
+    "french": "Que deux équipes aboutissent à des conclusions différentes n'implique pas forcément que l'une d'elles se soit trompée; elles peuvent avoir travaillé dans des conditions qui ne sont pas comparables.",
+    "japanese": "二つの研究チームが異なる結論に達したからといって、一方が間違っているとは限らず、比較できない条件で研究していた可能性がある。",
     "points": [
-      "aller de soi = 当然である",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 239,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
-    "register": "soutenu",
-    "french": "Rien ne va de soi lorsqu'il s'agit d'arbitrer entre efficacité, équité et liberté.",
-    "japanese": "効率・公平・自由の間で調整を行うとなれば、当然のことなど何もない。",
+    "category": "高度な構文・関係表現",
+    "register": "standard",
+    "topic": "経済・企業",
+    "french": "Les entreprises peuvent augmenter leur productivité sans que tous les salariés en bénéficient de la même manière, selon la façon dont les gains sont répartis.",
+    "japanese": "企業は生産性を高めることができるが、その利益の分配方法によっては、すべての社員が同じように恩恵を受けるとは限らない。",
     "points": [
-      "aller de soi = 当然である",
-      "抽象的な書き言葉での用法"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 240,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
-    "register": "soutenu",
-    "french": "Que la réforme soit nécessaire ne signifie pas que ses modalités aillent de soi.",
-    "japanese": "改革が必要だからといって、その具体的な方法まで自明になるわけではない。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "心理・社会",
+    "french": "Nous avons tendance à expliquer nos propres erreurs par les circonstances et celles des autres par leur caractère, différence de perspective qui nourrit de nombreux malentendus.",
+    "japanese": "私たちは自分の失敗を状況のせいにし、他人の失敗を性格のせいにしがちであり、この視点の違いが多くの誤解を生む。",
     "points": [
-      "aller de soi = 当然である",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 241,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
-    "register": "soutenu",
-    "french": "On ne peut faire abstraction du contexte institutionnel dans lequel ces données ont été produites.",
-    "japanese": "これらのデータが作られた制度的文脈を度外視することはできない。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "旅行・移動",
+    "french": "Une destination peut souffrir de surtourisme alors même que la majorité de son territoire reçoit très peu de visiteurs, si ceux-ci se concentrent dans quelques sites emblématiques.",
+    "japanese": "地域全体では訪問者が少なくても、観光客が少数の有名スポットに集中すれば、オーバーツーリズムが起こりうる。",
     "points": [
-      "faire abstraction de = 〜を度外視する",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 242,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Faire abstraction des coûts indirects conduit à surestimer les bénéfices attendus.",
-    "japanese": "間接コストを度外視すると、期待される利益を過大評価することになる。",
+    "topic": "都市・住宅・交通",
+    "french": "Les quartiers les plus agréables à parcourir à pied ne sont pas nécessairement ceux où les distances sont les plus courtes, mais ceux où les rues offrent des usages variés et continus.",
+    "japanese": "歩いて快適な地区は必ずしも距離が最も短い場所ではなく、通りに多様で連続した用途がある場所であることが多い。",
     "points": [
-      "faire abstraction de = 〜を度外視する",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 243,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "L'analyse fait abstraction d'une partie des contraintes pourtant décisives.",
-    "japanese": "その分析は、決定的に重要であるはずの制約の一部を考慮していない。",
+    "topic": "制度・公共政策",
+    "french": "Il arrive qu'une compétence soit transférée à une collectivité locale sans que les ressources nécessaires à son exercice lui soient transférées dans les mêmes proportions.",
+    "japanese": "ある権限が地方自治体へ移されても、それを実行するための資源が同じ割合で移されないことがある。",
     "points": [
-      "faire abstraction de = 〜を度外視する",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 244,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Même à faire abstraction des considérations politiques, le projet reste difficile à justifier.",
-    "japanese": "政治的な考慮を除外して考えても、その計画を正当化するのは難しい。",
+    "topic": "教育",
+    "french": "Il importe moins que les étudiants retiennent chaque détail que qu'ils sachent retrouver une information, en évaluer la fiabilité et l'intégrer à un raisonnement cohérent.",
+    "japanese": "学生が細部をすべて覚えることよりも、必要な情報を見つけ、その信頼性を評価し、一貫した議論に組み込めることの方が重要である。",
     "points": [
-      "faire abstraction de = 〜を度外視する",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 245,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Il serait imprudent de faire abstraction des effets différés d'une telle mesure.",
-    "japanese": "そのような措置の遅れて現れる影響を無視するのは軽率だろう。",
+    "topic": "健康・社会",
+    "french": "Une politique centrée exclusivement sur les comportements individuels risque de sous-estimer le rôle du logement, du revenu, de l'environnement et des conditions de travail.",
+    "japanese": "個人の行動だけに焦点を当てた政策は、住宅、所得、環境、労働条件の役割を過小評価するおそれがある。",
     "points": [
-      "faire abstraction de = 〜を度外視する",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 246,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Il serait dangereux de tenir pour acquis que les comportements observés aujourd'hui se maintiendront.",
-    "japanese": "現在見られる行動が今後も続くと当然視するのは危険である。",
+    "topic": "環境・エネルギー",
+    "french": "Il est difficile d'évaluer l'empreinte réelle d'un produit si l'on considère uniquement son utilisation sans tenir compte de sa fabrication, de son transport et de sa fin de vie.",
+    "japanese": "製品の使用段階だけを見て、製造・輸送・廃棄を考慮しなければ、本当の環境負荷を評価するのは難しい。",
     "points": [
-      "tenir pour acquis = 〜を当然のこととみなす",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 247,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le dispositif repose sur plusieurs hypothèses tenues pour acquises sans avoir été vérifiées.",
-    "japanese": "その制度は、検証されないまま当然視された複数の仮定に依存している。",
+    "topic": "歴史・倫理・思考",
+    "french": "Les générations futures ne peuvent participer aux décisions présentes, alors même qu'elles subiront certaines de leurs conséquences les plus durables.",
+    "japanese": "将来世代は現在の意思決定に参加できないにもかかわらず、その長期的影響の一部を最も強く受けることになる。",
     "points": [
-      "tenir pour acquis = 〜を当然のこととみなす",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 248,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Ce qui était tenu pour acquis a été remis en cause par les événements récents.",
-    "japanese": "当然と考えられていたことが、最近の出来事によって見直された。",
+    "topic": "デジタル技術",
+    "french": "Les utilisateurs acceptent souvent des conditions qu'ils n'ont pas lues, non par indifférence, mais parce que les comprendre exigerait un temps disproportionné par rapport à l'action qu'ils souhaitent accomplir.",
+    "japanese": "利用者が読んでいない利用条件に同意することが多いのは、無関心だからではなく、理解に必要な時間が目的の操作に比べて過大だからである。",
     "points": [
-      "tenir pour acquis = 〜を当然のこととみなす",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 249,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "On ne saurait tenir pour acquis le soutien des personnes concernées.",
-    "japanese": "関係者からの支持を当然のものとみなすことはできない。",
+    "topic": "働き方",
+    "french": "Il serait réducteur d'attribuer la démission des jeunes employés à un manque de loyauté, alors que beaucoup évoquent surtout l'absence de perspectives d'évolution.",
+    "japanese": "若手社員の退職を忠誠心の欠如だけで説明するのは単純化しすぎであり、実際には多くの人が成長機会のなさを主な理由として挙げている。",
     "points": [
-      "tenir pour acquis = 〜を当然のこととみなす",
-      "抽象的な書き言葉での用法"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 250,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Tenir pour acquis que les mêmes causes produiront partout les mêmes effets relève d'un raccourci.",
-    "japanese": "同じ原因がどこでも同じ結果を生むと当然視するのは短絡的である。",
+    "topic": "文化・メディア",
+    "french": "Les plateformes ont considérablement élargi l'accès aux œuvres étrangères, mais ce sont encore leurs systèmes de recommandation qui déterminent en grande partie ce que les utilisateurs découvrent réellement.",
+    "japanese": "配信プラットフォームによって海外作品へのアクセスは大きく広がったが、利用者が実際に何を発見するかは依然として推薦システムに大きく左右されている。",
     "points": [
-      "tenir pour acquis = 〜を当然のこととみなす",
-      "抽象的な書き言葉での用法"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 251,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Les contradictions internes du rapport mettent à mal la crédibilité de ses conclusions.",
-    "japanese": "報告書内部の矛盾は、その結論の信頼性を損なっている。",
+    "topic": "科学・研究",
+    "french": "Une hypothèse n'est véritablement informative que si l'on peut concevoir des observations susceptibles de la mettre en défaut.",
+    "japanese": "仮説が本当に情報価値を持つのは、それを反証しうる観察を想定できる場合に限られる。",
     "points": [
-      "mettre à mal = 〜を揺るがす・損なう",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 252,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
-    "register": "soutenu",
-    "french": "La succession d'exceptions a fini par mettre à mal la cohérence du dispositif.",
-    "japanese": "例外が次々と設けられた結果、制度の一貫性が損なわれた。",
+    "category": "論証・接続表現",
+    "register": "standard",
+    "topic": "食・農業",
+    "french": "À mesure que les consommateurs demandent davantage d'informations sur l'origine des produits, la traçabilité devient un enjeu technique autant que commercial.",
+    "japanese": "消費者が商品の原産地についてより多くの情報を求めるにつれて、トレーサビリティは商業上だけでなく技術上の課題にもなっている。",
     "points": [
-      "mettre à mal = 〜を揺るがす・損なう",
-      "抽象的な書き言葉での用法"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 253,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Ces révélations ont sérieusement mis à mal la confiance du public.",
-    "japanese": "これらの暴露によって、社会の信頼は大きく揺らいだ。",
+    "topic": "心理・社会",
+    "french": "Les personnes ne réagissent pas seulement à ce qui leur arrive, mais aussi à l'interprétation qu'elles donnent à l'événement et aux alternatives qu'elles imaginent avoir perdues.",
+    "japanese": "人は起きた出来事そのものだけでなく、それをどう解釈するか、失ったと想像する別の可能性にも反応する。",
     "points": [
-      "mettre à mal = 〜を揺るがす・損なう",
-      "抽象的な書き言葉での用法"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 254,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Une lecture trop littérale du règlement pourrait mettre à mal son objectif initial.",
-    "japanese": "規則をあまりに字義どおりに読むと、当初の目的が損なわれかねない。",
+    "topic": "旅行・移動",
+    "french": "Il est souvent plus difficile de réduire les émissions liées au voyage que de les calculer approximativement, car les alternatives dépendent fortement de la distance et de l'infrastructure disponible.",
+    "japanese": "旅行による排出量を概算するより実際に減らす方が難しいことが多く、代替手段は距離や利用可能なインフラに大きく左右される。",
     "points": [
-      "mettre à mal = 〜を揺るがす・損なう",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 255,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "La multiplication des objectifs contradictoires met à mal toute tentative de hiérarchisation.",
-    "japanese": "相反する目標が増え続けることで、優先順位をつける試み自体が困難になっている。",
+    "topic": "都市・住宅・交通",
+    "french": "L'accessibilité d'un bâtiment ne se limite pas à la présence d'une rampe; elle concerne aussi la signalétique, les circulations intérieures, les sanitaires et la possibilité de demander de l'aide.",
+    "japanese": "建物のバリアフリーはスロープの有無だけでなく、案内表示、内部動線、トイレ、支援を求められる仕組みにも関係する。",
     "points": [
-      "mettre à mal = 〜を揺るがす・損なう",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 256,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le choix des indicateurs n'est pas sans conséquence sur la manière dont le problème est perçu.",
-    "japanese": "指標の選び方は、問題がどう認識されるかに決して無関係ではない。",
+    "topic": "制度・公共政策",
+    "french": "Les indicateurs choisis pour évaluer une politique finissent parfois par orienter le comportement des institutions qui savent qu'elles seront jugées à partir d'eux.",
+    "japanese": "政策評価に使われる指標は、それを基準に評価されると知る機関の行動自体を変えてしまうことがある。",
     "points": [
-      "ne pas être sans conséquence = 決して無影響ではない",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 257,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
-    "register": "soutenu",
-    "french": "Cette modification apparemment mineure n'est pas sans conséquence pour les acteurs concernés.",
-    "japanese": "一見小さなこの変更も、関係者にとって無影響ではない。",
+    "category": "高度な構文・関係表現",
+    "register": "standard",
+    "topic": "教育",
+    "french": "Plus les étudiants sont habitués à recevoir des consignes détaillées, plus il leur est parfois difficile de faire face à une tâche dont les critères ne sont pas explicitement définis.",
+    "japanese": "学生が細かな指示に慣れているほど、評価基準が明示されていない課題に対処するのが難しくなることがある。",
     "points": [
-      "ne pas être sans conséquence = 決して無影響ではない",
-      "抽象的な書き言葉での用法"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 258,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
-    "register": "soutenu",
-    "french": "Le retard accumulé n'a pas été sans conséquence sur la qualité de la mise en œuvre.",
-    "japanese": "積み重なった遅れは、実施の質に少なからぬ影響を与えた。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "健康・社会",
+    "french": "Une information de santé exprimée en pourcentage peut être interprétée très différemment selon que l'on présente le risque relatif ou le risque absolu.",
+    "japanese": "健康情報を割合で示す場合、相対リスクと絶対リスクのどちらを示すかによって受け取られ方が大きく変わる。",
     "points": [
-      "ne pas être sans conséquence = 決して無影響ではない",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 259,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le vocabulaire employé n'est pas sans conséquence sur la réception du message.",
-    "japanese": "用いられる語彙は、メッセージの受け取られ方に影響を与える。",
+    "topic": "環境・エネルギー",
+    "french": "La protection d'un écosystème ne peut être durable si les populations qui en dépendent n'ont aucune alternative économique crédible à l'exploitation des ressources locales.",
+    "japanese": "生態系の保護は、そこに依存する住民に地域資源を利用する以外の現実的な経済手段がなければ、持続可能にはならない。",
     "points": [
-      "ne pas être sans conséquence = 決して無影響ではない",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 260,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Le fait d'écarter certaines données n'est pas sans conséquence sur l'interprétation finale.",
-    "japanese": "一部のデータを除外することは、最終的な解釈に影響を与えないわけではない。",
+    "topic": "歴史・倫理・思考",
+    "french": "Une société se souvient rarement de tout son passé avec la même intensité; elle sélectionne des événements auxquels elle attribue une signification particulière dans le présent.",
+    "japanese": "社会は過去のすべてを同じ強さで記憶するのではなく、現在において特別な意味を与える出来事を選択して記憶する。",
     "points": [
-      "ne pas être sans conséquence = 決して無影響ではない",
-      "抽象的な書き言葉での用法"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 261,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Il faut se garder de confondre corrélation statistique et relation de causalité.",
-    "japanese": "統計的相関と因果関係を混同しないよう注意しなければならない。",
+    "topic": "デジタル技術",
+    "french": "Un système automatisé peut traiter des milliers de dossiers en quelques minutes, mais une erreur de conception risque alors d'être reproduite à une échelle tout aussi considérable.",
+    "japanese": "自動化システムは数分で何千件もの案件を処理できるが、設計上の誤りも同じほど大規模に繰り返されるおそれがある。",
     "points": [
-      "se garder de = 〜しないよう慎重にする",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 262,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "On se gardera de tirer des conclusions générales à partir d'un nombre limité de cas.",
-    "japanese": "限られた事例から一般的な結論を導くことは慎むべきである。",
+    "topic": "働き方",
+    "french": "Après avoir longtemps considéré le turnover comme inévitable, l'entreprise s'est aperçue qu'il était particulièrement élevé dans les services où les managers changeaient fréquemment.",
+    "japanese": "離職率を長らく避けられないものと考えていた会社は、管理職が頻繁に交代する部門で離職率が特に高いことに気づいた。",
     "points": [
-      "se garder de = 〜しないよう慎重にする",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 263,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
-    "register": "soutenu",
-    "french": "Il convient de se garder d'interpréter le silence comme une forme d'adhésion.",
-    "japanese": "沈黙を賛同の一形態と解釈しないよう注意する必要がある。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "文化・メディア",
+    "french": "Une langue évolue même lorsque ses locuteurs tentent consciemment de la préserver, car de nouveaux usages apparaissent dans des contextes que personne ne contrôle entièrement.",
+    "japanese": "言語は話者が意識的に守ろうとしていても変化し続ける。誰にも完全には制御できない文脈で新しい用法が生まれるからである。",
     "points": [
-      "se garder de = 〜しないよう慎重にする",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 264,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Les auteurs se gardent soigneusement d'attribuer l'ensemble des effets à une seule cause.",
-    "japanese": "著者たちは、すべての影響を一つの原因に帰することを慎重に避けている。",
+    "topic": "科学・研究",
+    "french": "Le fait qu'une expérience soit reproductible ne garantit pas à lui seul que l'interprétation proposée pour l'expliquer soit correcte.",
+    "japanese": "実験が再現可能だからといって、その結果を説明するために提示された解釈まで正しいことが保証されるわけではない。",
     "points": [
-      "se garder de = 〜しないよう慎重にする",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 265,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Même lorsque les résultats paraissent convergents, il faut se garder de toute certitude excessive.",
-    "japanese": "結果が一致しているように見える場合でも、過度な確信は避けるべきである。",
+    "topic": "食・農業",
+    "french": "Le débat sur l'alimentation oppose souvent des solutions générales à des réalités locales où le climat, les sols, les habitudes et les infrastructures diffèrent profondément.",
+    "japanese": "食をめぐる議論では一般的な解決策が語られがちだが、実際の地域では気候、土壌、習慣、インフラが大きく異なる。",
     "points": [
-      "se garder de = 〜しないよう慎重にする",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 266,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Cette évolution va à rebours des tendances observées depuis une dizaine d'années.",
-    "japanese": "この変化は、ここ10年ほど見られてきた傾向に逆行している。",
+    "topic": "経済・企業",
+    "french": "Lorsqu'une entreprise domine un marché, son avantage peut tenir autant à l'écosystème construit autour de ses produits qu'à la qualité intrinsèque de ceux-ci.",
+    "japanese": "企業が市場を支配している場合、その優位性は製品自体の品質だけでなく、周囲に築かれたエコシステムにも同じくらい依存していることがある。",
     "points": [
-      "à rebours de = 〜に逆行して",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 267,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "複合文・精読",
     "register": "soutenu",
-    "french": "La décision a été prise à rebours des recommandations formulées par les experts.",
-    "japanese": "その決定は、専門家が示した勧告に反して下された。",
+    "topic": "旅行・移動",
+    "french": "L'ouverture d'une liaison directe transforme la carte mentale des distances, car deux lieux auparavant perçus comme éloignés peuvent soudain devenir accessibles pour un court séjour.",
+    "japanese": "直行便や直通路線が開通すると距離感が変わり、以前は遠いと感じられた場所が短期旅行の対象になることがある。",
     "points": [
-      "à rebours de = 〜に逆行して",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
@@ -3434,87 +3743,97 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "À rebours d'une idée répandue, la simplification apparente peut accroître la complexité réelle.",
-    "japanese": "広く流布している考えに反して、見かけ上の単純化が実際の複雑さを増すこともある。",
+    "topic": "都市・住宅・交通",
+    "french": "Les espaces publics sont d'autant plus difficiles à concevoir qu'ils doivent accueillir simultanément des usages qui ne sont pas toujours compatibles entre eux.",
+    "japanese": "公共空間の設計が難しいのは、必ずしも両立しない複数の用途を同時に受け入れなければならないからである。",
     "points": [
-      "à rebours de = 〜に逆行して",
-      "抽象的な書き言葉での用法"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 269,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
-    "register": "soutenu",
-    "french": "Le projet avance à rebours des priorités officiellement affichées.",
-    "japanese": "その計画は、公式に掲げられた優先事項に逆行する形で進んでいる。",
+    "category": "複合文・精読",
+    "register": "standard",
+    "topic": "制度・公共政策",
+    "french": "Lorsqu'une institution reconnaît publiquement une erreur, elle risque certes de fragiliser sa réputation à court terme, mais elle peut aussi renforcer sa crédibilité si elle explique comment elle compte éviter qu'elle se reproduise.",
+    "japanese": "制度が公に誤りを認めれば短期的には評判を損なう可能性があるが、再発防止策を説明できれば信頼性を高めることにもなりうる。",
     "points": [
-      "à rebours de = 〜に逆行して",
-      "抽象的な書き言葉での用法"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 270,
     "level": "C1",
-    "category": "慣用表現・書き言葉",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Cette lecture se situe à rebours de l'interprétation qui avait jusque-là dominé.",
-    "japanese": "この読み方は、それまで支配的だった解釈とは逆の立場にある。",
+    "topic": "教育",
+    "french": "On ne saurait reprocher aux enseignants de privilégier ce qui sera évalué si l'institution elle-même accorde une importance disproportionnée aux résultats des examens.",
+    "japanese": "教育機関自身が試験結果を過度に重視しているなら、教員が評価対象を優先することだけを責めるわけにはいかない。",
     "points": [
-      "à rebours de = 〜に逆行して",
-      "抽象的な書き言葉での用法"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 271,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "接続法・モダリティ",
     "register": "soutenu",
-    "french": "S'il est vrai que la réforme a permis de réduire certains délais, il n'en demeure pas moins qu'elle a parallèlement accru la charge administrative supportée par les petites structures, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "改革によって一部の所要時間は短縮されたことは事実だとしても、同時に小規模組織が負担する事務作業は増加したことに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "topic": "健康・社会",
+    "french": "Il importe que les messages de prévention soient suffisamment simples pour être compris sans devenir si simplistes qu'ils donnent une image trompeuse du risque.",
+    "japanese": "予防メッセージは理解できる程度に簡潔である必要があるが、リスクを誤解させるほど単純化してはならない。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "接続法を要求する表現",
+      "話者の判断・可能性のニュアンス",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 272,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Sans minimiser le fait que la réforme a permis de réduire certains délais, il faut néanmoins reconnaître qu'elle a parallèlement accru la charge administrative supportée par les petites structures, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "改革によって一部の所要時間は短縮されたことを軽視するわけではないが、同時に小規模組織が負担する事務作業は増加したことも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "register": "standard",
+    "topic": "環境・エネルギー",
+    "french": "Le succès d'une politique de sobriété dépend en partie de sa capacité à être perçue comme une amélioration de l'organisation collective plutôt que comme une simple privation individuelle.",
+    "japanese": "節度ある消費を促す政策の成功は、それが個人への単なる我慢の強制ではなく、社会全体の仕組みの改善と受け取られるかにも左右される。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 273,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que la réforme a permis de réduire certains délais, elle a parallèlement accru la charge administrative supportée par les petites structures, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、改革によって一部の所要時間は短縮されたにもかかわらず、同時に小規模組織が負担する事務作業は増加したことであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "register": "standard",
+    "topic": "歴史・倫理・思考",
+    "french": "Un dilemme moral devient particulièrement difficile lorsque chaque option protège une valeur importante au prix d'une autre que l'on refuse également de sacrifier.",
+    "japanese": "道徳的なジレンマが特に難しいのは、どの選択肢も重要な価値を守る代わりに、同じく犠牲にしたくない別の価値を損なう場合である。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 274,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Le fait que la réforme a permis de réduire certains délais ne saurait faire oublier qu'elle a parallèlement accru la charge administrative supportée par les petites structures; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "改革によって一部の所要時間は短縮されたからといって、同時に小規模組織が負担する事務作業は増加したことを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "register": "standard",
+    "topic": "デジタル技術",
+    "french": "Une technologie présentée comme neutre peut néanmoins favoriser certains comportements si son architecture rend certaines actions plus faciles que d'autres.",
+    "japanese": "中立的とされる技術でも、その設計によって特定の行動が他より容易になれば、特定の行動を促すことがある。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
@@ -3522,90 +3841,97 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Même en admettant que la réforme a permis de réduire certains délais, il resterait à déterminer comment concilier ce constat avec le fait qu'elle a parallèlement accru la charge administrative supportée par les petites structures.",
-    "japanese": "仮に改革によって一部の所要時間は短縮されたことを認めるとしても、その認識と、同時に小規模組織が負担する事務作業は増加したという事実をどう両立させるかはなお検討する必要がある。",
+    "topic": "働き方",
+    "french": "Il arrive qu'une procédure conçue pour éviter les erreurs devienne si lourde qu'elle incite précisément ceux qui doivent l'appliquer à la contourner.",
+    "japanese": "誤りを防ぐために作られた手続きがあまりに煩雑になり、まさにそれを守るべき人々に回避する動機を与えてしまうことがある。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 276,
     "level": "C1",
-    "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "S'il est vrai que les résultats globaux semblent encourageants, il n'en demeure pas moins que de fortes disparités subsistent selon les territoires, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "全体的な結果は好ましく見えることは事実だとしても、地域による大きな格差が依然として残っていることに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "category": "高度な構文・関係表現",
+    "register": "standard",
+    "topic": "文化・メディア",
+    "french": "Les controverses autour d'une exposition révèlent souvent des désaccords qui dépassent largement les œuvres elles-mêmes et portent sur la manière dont une société choisit de se représenter.",
+    "japanese": "展覧会をめぐる論争は、作品そのものを超え、社会が自分自身をどう表現するかという問題に及ぶ意見の違いを明らかにすることが多い。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 277,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Sans minimiser le fait que les résultats globaux semblent encourageants, il faut néanmoins reconnaître que de fortes disparités subsistent selon les territoires, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "全体的な結果は好ましく見えることを軽視するわけではないが、地域による大きな格差が依然として残っていることも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "register": "standard",
+    "topic": "科学・研究",
+    "french": "Il est difficile de savoir si la baisse observée correspond à une tendance durable ou à un simple retour vers la moyenne après une valeur exceptionnellement élevée.",
+    "japanese": "観察された低下が持続的な傾向なのか、異常に高かった値から平均へ戻っただけなのかを判断するのは難しい。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 278,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que les résultats globaux semblent encourageants, de fortes disparités subsistent selon les territoires, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、全体的な結果は好ましく見えるにもかかわらず、地域による大きな格差が依然として残っていることであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "topic": "食・農業",
+    "french": "Les aliments très transformés ne forment pas une catégorie homogène, ce qui rend délicate toute conclusion générale fondée uniquement sur leur degré de transformation.",
+    "japanese": "高度加工食品は均質な一つのカテゴリーではなく、加工度だけに基づいて一般的な結論を出すのは難しい。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 279,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Le fait que les résultats globaux semblent encourageants ne saurait faire oublier que de fortes disparités subsistent selon les territoires; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "全体的な結果は好ましく見えるからといって、地域による大きな格差が依然として残っていることを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "topic": "経済・企業",
+    "french": "On peut améliorer la rentabilité d'une activité en supprimant des services peu utilisés, au risque toutefois d'exclure précisément les clients dont les besoins sont les moins standardisés.",
+    "japanese": "利用の少ないサービスを廃止すれば収益性を改善できるが、その結果、最も標準化しにくいニーズを持つ顧客を排除するおそれがある。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 280,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Même en admettant que les résultats globaux semblent encourageants, il resterait à déterminer comment concilier ce constat avec le fait que de fortes disparités subsistent selon les territoires.",
-    "japanese": "仮に全体的な結果は好ましく見えることを認めるとしても、その認識と、地域による大きな格差が依然として残っているという事実をどう両立させるかはなお検討する必要がある。",
+    "topic": "心理・社会",
+    "french": "Nous remarquons plus facilement les informations qui confirment une hypothèse déjà présente à l'esprit, surtout lorsque nous ne cherchons pas activement ce qui pourrait la contredire.",
+    "japanese": "私たちはすでに持っている仮説を支持する情報に気づきやすく、とりわけ反証する情報を積極的に探さない場合はそうである。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 281,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "S'il est vrai que le dispositif répond à un besoin réel, il n'en demeure pas moins que son financement à long terme demeure incertain, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "その制度は実際の需要に応えていることは事実だとしても、長期的な財源は依然として不確かであることに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "register": "standard",
+    "topic": "都市・住宅・交通",
+    "french": "Une ville qui élargit constamment ses routes peut soulager temporairement la congestion, mais elle risque également d'encourager de nouveaux déplacements en voiture.",
+    "japanese": "道路を拡張し続ける都市は一時的に渋滞を緩和できても、新たな自動車利用を促すおそれもある。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
@@ -3613,25 +3939,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que le dispositif répond à un besoin réel, il faut néanmoins reconnaître que son financement à long terme demeure incertain, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "その制度は実際の需要に応えていることを軽視するわけではないが、長期的な財源は依然として不確かであることも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "制度・公共政策",
+    "french": "La confiance dans une institution dépend non seulement de la qualité de ses décisions, mais aussi de la perception que les règles ont été appliquées de manière cohérente et impartiale.",
+    "japanese": "制度への信頼は意思決定の質だけでなく、規則が一貫して公平に適用されたと受け取られるかにも左右される。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 283,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que le dispositif répond à un besoin réel, son financement à long terme demeure incertain, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、その制度は実際の需要に応えているにもかかわらず、長期的な財源は依然として不確かであることであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "register": "standard",
+    "topic": "教育",
+    "french": "Le succès d'un établissement tient parfois à des facteurs difficiles à reproduire ailleurs, comme la stabilité de l'équipe ou la confiance construite au fil des années avec les familles.",
+    "japanese": "学校の成功は、教職員の安定性や長年かけて家庭との間に築かれた信頼など、他で再現しにくい要因に支えられていることがある。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
@@ -3639,38 +3967,41 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le fait que le dispositif répond à un besoin réel ne saurait faire oublier que son financement à long terme demeure incertain; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "その制度は実際の需要に応えているからといって、長期的な財源は依然として不確かであることを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "topic": "健康・社会",
+    "french": "Les effets secondaires rares sont difficiles à étudier avant la diffusion à grande échelle d'un traitement, précisément parce qu'ils exigent l'observation d'un très grand nombre de personnes.",
+    "japanese": "まれな副作用は非常に多くの人を観察しなければ分からないため、治療法が大規模に普及する前に研究するのが難しい。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 285,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Même en admettant que le dispositif répond à un besoin réel, il resterait à déterminer comment concilier ce constat avec le fait que son financement à long terme demeure incertain.",
-    "japanese": "仮にその制度は実際の需要に応えていることを認めるとしても、その認識と、長期的な財源は依然として不確かであるという事実をどう両立させるかはなお検討する必要がある。",
+    "topic": "環境・エネルギー",
+    "french": "Planter des arbres en ville peut atténuer la chaleur, à condition que les essences choisies soient adaptées au climat futur et que leur entretien soit assuré sur plusieurs décennies.",
+    "japanese": "都市で木を植えることは暑さを和らげうるが、将来の気候に適した樹種を選び、数十年にわたり維持管理することが条件となる。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 286,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "S'il est vrai que la nouvelle méthode améliore la précision moyenne, il n'en demeure pas moins qu'elle échoue encore dans plusieurs situations atypiques, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "新しい方法は平均的な精度を高めることは事実だとしても、いくつかの特殊な状況では依然としてうまく機能しないことに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "register": "standard",
+    "topic": "歴史・倫理・思考",
+    "french": "Le mérite individuel est difficile à isoler des circonstances, puisque les compétences que nous développons dépendent aussi des occasions, des institutions et des personnes rencontrées.",
+    "japanese": "個人の功績を環境から切り離すのは難しく、身につけた能力は機会、制度、出会った人々にも左右される。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
@@ -3678,12 +4009,13 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que la nouvelle méthode améliore la précision moyenne, il faut néanmoins reconnaître qu'elle échoue encore dans plusieurs situations atypiques, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "新しい方法は平均的な精度を高めることを軽視するわけではないが、いくつかの特殊な状況では依然としてうまく機能しないことも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "デジタル技術",
+    "french": "Il n'est pas certain que l'ajout d'une option supplémentaire améliore l'expérience utilisateur si la majorité des personnes ne comprend pas clairement dans quelles circonstances l'utiliser.",
+    "japanese": "大半の利用者がどの場面で使うのか明確に理解できないなら、選択肢を一つ増やしても利用体験が向上するとは限らない。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
@@ -3691,25 +4023,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que la nouvelle méthode améliore la précision moyenne, elle échoue encore dans plusieurs situations atypiques, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、新しい方法は平均的な精度を高めるにもかかわらず、いくつかの特殊な状況では依然としてうまく機能しないことであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "topic": "働き方",
+    "french": "On aurait tort de croire qu'un outil collaboratif suffit à créer une culture de partage là où les salariés craignent d'être jugés pour ce qu'ils ne savent pas.",
+    "japanese": "社員が自分の無知を評価されることを恐れている環境では、共同作業ツールを導入するだけで共有文化が生まれると考えるのは誤りだろう。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 289,
     "level": "C1",
-    "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Le fait que la nouvelle méthode améliore la précision moyenne ne saurait faire oublier qu'elle échoue encore dans plusieurs situations atypiques; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "新しい方法は平均的な精度を高めるからといって、いくつかの特殊な状況では依然としてうまく機能しないことを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "category": "慣用表現・書き言葉",
+    "register": "standard",
+    "topic": "文化・メディア",
+    "french": "Les archives numériques facilitent la consultation de documents rares, encore faut-il préserver les formats et les logiciels qui permettront de les lire dans plusieurs décennies.",
+    "japanese": "デジタルアーカイブは希少資料の閲覧を容易にするが、数十年後にも読めるよう形式やソフトウェアを保存する必要がある。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
@@ -3717,25 +4051,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Même en admettant que la nouvelle méthode améliore la précision moyenne, il resterait à déterminer comment concilier ce constat avec le fait qu'elle échoue encore dans plusieurs situations atypiques.",
-    "japanese": "仮に新しい方法は平均的な精度を高めることを認めるとしても、その認識と、いくつかの特殊な状況では依然としてうまく機能しないという事実をどう両立させるかはなお検討する必要がある。",
+    "topic": "科学・研究",
+    "french": "Lorsque plusieurs modèles rendent compte des mêmes observations, le choix entre eux dépend aussi de leur simplicité, de leur cohérence et de leur capacité à produire de nouvelles prédictions.",
+    "japanese": "複数のモデルが同じ観察結果を説明できる場合、その選択は単純さ、一貫性、新たな予測を生み出す能力にも左右される。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 291,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "S'il est vrai que la procédure a été simplifiée sur le papier, il n'en demeure pas moins que les usagers doivent désormais fournir davantage d'informations en amont, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "手続きは書類上は簡素化されたことは事実だとしても、利用者は今や事前により多くの情報を提出しなければならないことに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "topic": "食・農業",
+    "french": "La diversification des cultures peut rendre une exploitation plus résistante à certains risques, tout en compliquant l'organisation du travail et la commercialisation.",
+    "japanese": "作物の多様化は農場を一部のリスクに強くする一方、作業計画や販売を複雑にすることがある。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
@@ -3743,12 +4079,13 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que la procédure a été simplifiée sur le papier, il faut néanmoins reconnaître que les usagers doivent désormais fournir davantage d'informations en amont, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "手続きは書類上は簡素化されたことを軽視するわけではないが、利用者は今や事前により多くの情報を提出しなければならないことも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "経済・企業",
+    "french": "Le prix d'un produit ne reflète pas nécessairement l'ensemble de son coût social lorsque certaines nuisances sont supportées par des personnes qui ne participent pas à la transaction.",
+    "japanese": "製品価格は社会的費用のすべてを反映するとは限らず、取引に参加していない人々が一部の負担を負う場合がある。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
@@ -3756,38 +4093,41 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que la procédure a été simplifiée sur le papier, les usagers doivent désormais fournir davantage d'informations en amont, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、手続きは書類上は簡素化されたにもかかわらず、利用者は今や事前により多くの情報を提出しなければならないことであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "topic": "心理・社会",
+    "french": "Le sentiment d'appartenir à un groupe peut soutenir l'individu, mais il peut aussi rendre plus coûteux psychologiquement le fait d'exprimer un désaccord avec la majorité.",
+    "japanese": "集団への帰属感は個人を支える一方、多数派に反対意見を述べる心理的コストを高めることもある。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 294,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Le fait que la procédure a été simplifiée sur le papier ne saurait faire oublier que les usagers doivent désormais fournir davantage d'informations en amont; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "手続きは書類上は簡素化されたからといって、利用者は今や事前により多くの情報を提出しなければならないことを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "topic": "旅行・移動",
+    "french": "Il ne va pas de soi qu'un nombre plus élevé de visiteurs profite davantage à l'économie locale si une part croissante des dépenses est captée par des entreprises extérieures.",
+    "japanese": "観光客が増えれば地域経済への恩恵も増えるとは限らず、支出の多くが地域外の企業に流れる場合は特にそうである。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 295,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Même en admettant que la procédure a été simplifiée sur le papier, il resterait à déterminer comment concilier ce constat avec le fait que les usagers doivent désormais fournir davantage d'informations en amont.",
-    "japanese": "仮に手続きは書類上は簡素化されたことを認めるとしても、その認識と、利用者は今や事前により多くの情報を提出しなければならないという事実をどう両立させるかはなお検討する必要がある。",
+    "register": "standard",
+    "topic": "制度・公共政策",
+    "french": "Le respect formel d'une procédure ne garantit pas que les personnes concernées aient réellement eu la possibilité d'influencer la décision.",
+    "japanese": "形式的に手続きを守ったからといって、関係者が実際に意思決定へ影響を与える機会を持ったとは限らない。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
@@ -3795,25 +4135,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "S'il est vrai que les investissements ont fortement augmenté, il n'en demeure pas moins que leur efficacité reste difficile à mesurer, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "投資額は大幅に増えたことは事実だとしても、その効果はなお測定しにくいことに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "topic": "教育",
+    "french": "Les élèves issus de milieux favorisés tirent souvent davantage profit des devoirs à la maison, non qu'ils travaillent nécessairement plus, mais parce qu'ils disposent de conditions plus propices.",
+    "japanese": "恵まれた家庭環境の生徒は宿題からより多くの利益を得ることが多いが、それは必ずしも努力量が多いからではなく、学習に適した条件が整っているからである。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 297,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Sans minimiser le fait que les investissements ont fortement augmenté, il faut néanmoins reconnaître que leur efficacité reste difficile à mesurer, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "投資額は大幅に増えたことを軽視するわけではないが、その効果はなお測定しにくいことも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "register": "standard",
+    "topic": "健康・社会",
+    "french": "Le nombre de consultations peut augmenter parce que la population est en moins bonne santé, mais aussi parce que l'accès aux soins s'est amélioré; les deux interprétations ne sont pas équivalentes.",
+    "japanese": "受診件数が増えるのは健康状態の悪化による場合もあれば、医療アクセスの改善による場合もあり、この二つの解釈は同じではない。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
@@ -3821,90 +4163,97 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que les investissements ont fortement augmenté, leur efficacité reste difficile à mesurer, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、投資額は大幅に増えたにもかかわらず、その効果はなお測定しにくいことであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "topic": "環境・エネルギー",
+    "french": "Les solutions fondées sur la nature séduisent par leur apparente simplicité, mais leur efficacité dépend fortement du contexte écologique local et du temps disponible pour qu'elles produisent leurs effets.",
+    "japanese": "自然を活用した解決策は一見単純で魅力的だが、その有効性は地域の生態条件と効果が現れるまでの時間に大きく左右される。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 299,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Le fait que les investissements ont fortement augmenté ne saurait faire oublier que leur efficacité reste difficile à mesurer; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "投資額は大幅に増えたからといって、その効果はなお測定しにくいことを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "topic": "歴史・倫理・思考",
+    "french": "Une explication historique convaincante doit rendre compte non seulement de ce qui s'est produit, mais aussi de la raison pour laquelle d'autres issues alors possibles ne se sont pas réalisées.",
+    "japanese": "説得力のある歴史的説明は、何が起きたかだけでなく、当時可能だった別の結果がなぜ実現しなかったかも説明する必要がある。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 300,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Même en admettant que les investissements ont fortement augmenté, il resterait à déterminer comment concilier ce constat avec le fait que leur efficacité reste difficile à mesurer.",
-    "japanese": "仮に投資額は大幅に増えたことを認めるとしても、その認識と、その効果はなお測定しにくいという事実をどう両立させるかはなお検討する必要がある。",
+    "topic": "デジタル技術",
+    "french": "À mesure que les interfaces deviennent plus simples, les mécanismes qui les rendent possibles tendent paradoxalement à devenir plus opaques pour la majorité des utilisateurs.",
+    "japanese": "インターフェースが簡単になるにつれて、それを可能にしている仕組みは逆説的に多くの利用者にとってより見えにくくなる傾向がある。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 301,
     "level": "C1",
-    "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "S'il est vrai que la participation au programme progresse, il n'en demeure pas moins que les publics les plus éloignés du dispositif restent sous-représentés, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "プログラムへの参加は増えていることは事実だとしても、制度から最も遠い層は依然として十分に参加できていないことに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "category": "高度な構文・関係表現",
+    "register": "standard",
+    "topic": "働き方",
+    "french": "Les avantages liés à la flexibilité des horaires risquent d'être surestimés si l'on ne tient pas compte des salariés dont le travail dépend de la présence simultanée de toute une équipe.",
+    "japanese": "勤務時間の柔軟性の利点は、チーム全員が同時にいる必要のある仕事をする社員を考慮しなければ過大評価されるおそれがある。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 302,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que la participation au programme progresse, il faut néanmoins reconnaître que les publics les plus éloignés du dispositif restent sous-représentés, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "プログラムへの参加は増えていることを軽視するわけではないが、制度から最も遠い層は依然として十分に参加できていないことも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "文化・メディア",
+    "french": "Le succès commercial d'un livre dit peu de la manière dont il sera lu dans vingt ans, tout comme l'indifférence initiale ne condamne pas nécessairement une œuvre à l'oubli.",
+    "japanese": "本の商業的成功は20年後にどう読まれるかをほとんど示さず、初期の無関心も作品が必ず忘れられることを意味しない。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 303,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que la participation au programme progresse, les publics les plus éloignés du dispositif restent sous-représentés, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、プログラムへの参加は増えているにもかかわらず、制度から最も遠い層は依然として十分に参加できていないことであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "topic": "科学・研究",
+    "french": "Les auteurs reconnaissent que leur modèle explique correctement les données disponibles, tout en soulignant qu'un autre mécanisme pourrait produire des résultats similaires.",
+    "japanese": "著者らは自分たちのモデルが利用可能なデータを適切に説明すると認めつつ、別の仕組みでも同様の結果が得られる可能性を指摘している。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 304,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Le fait que la participation au programme progresse ne saurait faire oublier que les publics les plus éloignés du dispositif restent sous-représentés; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "プログラムへの参加は増えているからといって、制度から最も遠い層は依然として十分に参加できていないことを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "topic": "食・農業",
+    "french": "Une forte dépendance à quelques variétés très productives peut accroître l'efficacité à court terme tout en réduisant la résilience face à une maladie nouvelle.",
+    "japanese": "少数の高収量品種への強い依存は短期的な効率を高める一方、新しい病害への耐性を下げる可能性がある。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
@@ -3912,25 +4261,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Même en admettant que la participation au programme progresse, il resterait à déterminer comment concilier ce constat avec le fait que les publics les plus éloignés du dispositif restent sous-représentés.",
-    "japanese": "仮にプログラムへの参加は増えていることを認めるとしても、その認識と、制度から最も遠い層は依然として十分に参加できていないという事実をどう両立させるかはなお検討する必要がある。",
+    "topic": "経済・企業",
+    "french": "Les entreprises familiales peuvent prendre des décisions à plus long terme que des sociétés soumises à une forte pression trimestrielle, mais elles ne sont pas à l'abri des conflits de succession.",
+    "japanese": "同族企業は四半期ごとの強い圧力を受ける企業より長期的な判断をしやすい場合があるが、事業承継をめぐる対立から免れるわけではない。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 306,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "S'il est vrai que la collecte de données s'est considérablement améliorée, il n'en demeure pas moins que leur interprétation soulève des difficultés méthodologiques persistantes, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "データ収集は大幅に改善したことは事実だとしても、その解釈には依然として方法論上の問題があることに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "register": "standard",
+    "topic": "心理・社会",
+    "french": "Le désir de cohérence peut nous conduire à défendre une décision passée simplement parce qu'y renoncer donnerait l'impression que les efforts déjà consentis ont été inutiles.",
+    "japanese": "一貫性を保ちたい気持ちから、過去の努力が無駄だったと認めることになるために、以前の決定を守り続けてしまうことがある。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
@@ -3938,103 +4289,111 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que la collecte de données s'est considérablement améliorée, il faut néanmoins reconnaître que leur interprétation soulève des difficultés méthodologiques persistantes, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "データ収集は大幅に改善したことを軽視するわけではないが、その解釈には依然として方法論上の問題があることも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "旅行・移動",
+    "french": "Un billet flexible coûte plus cher, mais sa valeur réelle dépend précisément du degré d'incertitude qui entoure le voyage.",
+    "japanese": "変更可能な切符は高価だが、その本当の価値は旅行計画がどれほど不確実かによって決まる。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 308,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que la collecte de données s'est considérablement améliorée, leur interprétation soulève des difficultés méthodologiques persistantes, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、データ収集は大幅に改善したにもかかわらず、その解釈には依然として方法論上の問題があることであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "topic": "都市・住宅・交通",
+    "french": "Un centre-ville très fréquenté par les touristes peut donner une impression de dynamisme tout en perdant progressivement les commerces nécessaires à la vie quotidienne des habitants.",
+    "japanese": "観光客でにぎわう中心街は活気があるように見える一方、住民の日常生活に必要な店が徐々に失われることがある。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 309,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Le fait que la collecte de données s'est considérablement améliorée ne saurait faire oublier que leur interprétation soulève des difficultés méthodologiques persistantes; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "データ収集は大幅に改善したからといって、その解釈には依然として方法論上の問題があることを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "register": "standard",
+    "topic": "教育",
+    "french": "À vouloir protéger les élèves de tout échec, on risque de les priver d'occasions d'apprendre à analyser leurs erreurs et à ajuster leurs stratégies.",
+    "japanese": "生徒をあらゆる失敗から守ろうとすると、自分の誤りを分析し、方法を修正する機会まで奪うおそれがある。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 310,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "接続法・モダリティ",
     "register": "soutenu",
-    "french": "Même en admettant que la collecte de données s'est considérablement améliorée, il resterait à déterminer comment concilier ce constat avec le fait que leur interprétation soulève des difficultés méthodologiques persistantes.",
-    "japanese": "仮にデータ収集は大幅に改善したことを認めるとしても、その認識と、その解釈には依然として方法論上の問題があるという事実をどう両立させるかはなお検討する必要がある。",
+    "topic": "健康・社会",
+    "french": "Il serait souhaitable que les décisions médicales importantes reposent sur une information compréhensible par le patient plutôt que sur la seule autorité du professionnel.",
+    "japanese": "重要な医療上の意思決定は、専門家の権威だけでなく、患者が理解できる情報に基づくことが望ましい。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "接続法を要求する表現",
+      "話者の判断・可能性のニュアンス",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
     "id": 311,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "S'il est vrai que les règles ont été rendues plus transparentes, il n'en demeure pas moins que leur multiplication les rend difficiles à maîtriser dans la pratique, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "ルールはより透明になったことは事実だとしても、規則が増えすぎたため実務上把握しにくくなっていることに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "topic": "環境・エネルギー",
+    "french": "On ne saurait juger une politique de l'eau uniquement à partir des volumes économisés, car la période et le lieu où l'économie est réalisée peuvent être tout aussi déterminants.",
+    "japanese": "節水政策は節約した水量だけでは評価できず、いつどこで節水されたかも同じくらい重要になりうる。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 312,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que les règles ont été rendues plus transparentes, il faut néanmoins reconnaître que leur multiplication les rend difficiles à maîtriser dans la pratique, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "ルールはより透明になったことを軽視するわけではないが、規則が増えすぎたため実務上把握しにくくなっていることも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "歴史・倫理・思考",
+    "french": "À mesure que les normes morales évoluent, des comportements autrefois considérés comme ordinaires peuvent être réinterprétés, ce qui ne signifie pas que les acteurs du passé disposaient des mêmes repères que nous.",
+    "japanese": "道徳規範が変化すると、かつて普通とされた行動が再解釈されるが、過去の人々が私たちと同じ判断基準を持っていたことにはならない。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 313,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que les règles ont été rendues plus transparentes, leur multiplication les rend difficiles à maîtriser dans la pratique, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、ルールはより透明になったにもかかわらず、規則が増えすぎたため実務上把握しにくくなっていることであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "topic": "デジタル技術",
+    "french": "On s'inquiète souvent de ce que les machines sauront faire demain, alors que les décisions les plus immédiates concernent la manière dont nous choisissons de les utiliser aujourd'hui.",
+    "japanese": "機械が明日何をできるようになるかがしばしば懸念されるが、より差し迫った問題は、今日それをどう使うかという私たち自身の選択である。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 314,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Le fait que les règles ont été rendues plus transparentes ne saurait faire oublier que leur multiplication les rend difficiles à maîtriser dans la pratique; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "ルールはより透明になったからといって、規則が増えすぎたため実務上把握しにくくなっていることを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "topic": "働き方",
+    "french": "La suppression d'un niveau hiérarchique a accéléré certaines décisions, sans pour autant résoudre les conflits qui tenaient à des désaccords de fond.",
+    "japanese": "階層を一段階なくしたことで一部の意思決定は速くなったが、根本的な意見の不一致に由来する対立まで解消されたわけではない。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：働き方"
     ]
   },
   {
@@ -4042,25 +4401,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Même en admettant que les règles ont été rendues plus transparentes, il resterait à déterminer comment concilier ce constat avec le fait que leur multiplication les rend difficiles à maîtriser dans la pratique.",
-    "japanese": "仮にルールはより透明になったことを認めるとしても、その認識と、規則が増えすぎたため実務上把握しにくくなっているという事実をどう両立させるかはなお検討する必要がある。",
+    "topic": "文化・メディア",
+    "french": "Le fait qu'une information soit abondamment partagée ne dit rien, à lui seul, de sa véracité, mais il augmente souvent sa familiarité et donc son apparente plausibilité.",
+    "japanese": "情報が大量に共有されていること自体は真偽を示さないが、接触回数が増えることで親しみが生まれ、もっともらしく感じられやすくなる。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 316,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "S'il est vrai que l'objectif initial a été atteint plus tôt que prévu, il n'en demeure pas moins que les effets secondaires n'avaient pas été suffisamment anticipés, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "当初の目標は予定より早く達成されたことは事実だとしても、副次的影響が十分に予測されていなかったことに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "register": "standard",
+    "topic": "科学・研究",
+    "french": "Les données manquantes deviennent problématiques lorsque leur absence n'est pas aléatoire, car les individus non observés peuvent différer systématiquement des autres.",
+    "japanese": "欠損データが問題になるのは、その欠損が無作為でない場合であり、観察されなかった人々が他の人々と体系的に異なる可能性があるからだ。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
@@ -4068,25 +4429,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que l'objectif initial a été atteint plus tôt que prévu, il faut néanmoins reconnaître que les effets secondaires n'avaient pas été suffisamment anticipés, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "当初の目標は予定より早く達成されたことを軽視するわけではないが、副次的影響が十分に予測されていなかったことも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "食・農業",
+    "french": "Il serait trompeur de juger la qualité d'un régime alimentaire à partir d'un seul nutriment, puisque les effets dépendent de l'ensemble des aliments consommés et de leur fréquence.",
+    "japanese": "一つの栄養素だけで食生活の質を評価するのは誤解を招き、影響は食事全体と摂取頻度に左右される。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 318,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que l'objectif initial a été atteint plus tôt que prévu, les effets secondaires n'avaient pas été suffisamment anticipés, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、当初の目標は予定より早く達成されたにもかかわらず、副次的影響が十分に予測されていなかったことであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "register": "standard",
+    "topic": "経済・企業",
+    "french": "Les consommateurs ne réagissent pas uniquement au prix affiché; ils tiennent également compte du temps, du risque et de l'effort nécessaires pour comparer les offres.",
+    "japanese": "消費者は表示価格だけに反応するのではなく、商品を比較するための時間、リスク、労力も考慮している。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
@@ -4094,25 +4457,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le fait que l'objectif initial a été atteint plus tôt que prévu ne saurait faire oublier que les effets secondaires n'avaient pas été suffisamment anticipés; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "当初の目標は予定より早く達成されたからといって、副次的影響が十分に予測されていなかったことを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "topic": "心理・社会",
+    "french": "Une expérience négative récente pèse souvent davantage dans notre jugement qu'une longue série d'expériences satisfaisantes devenues ordinaires.",
+    "japanese": "最近の悪い経験は、当たり前になった長期間の満足な経験よりも判断に強く影響しがちである。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
     "id": 320,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Même en admettant que l'objectif initial a été atteint plus tôt que prévu, il resterait à déterminer comment concilier ce constat avec le fait que les effets secondaires n'avaient pas été suffisamment anticipés.",
-    "japanese": "仮に当初の目標は予定より早く達成されたことを認めるとしても、その認識と、副次的影響が十分に予測されていなかったという事実をどう両立させるかはなお検討する必要がある。",
+    "topic": "旅行・移動",
+    "french": "Les comparateurs affichent volontiers le prix le plus bas, alors que le coût final dépend parfois de bagages, de transferts ou de conditions de modification difficiles à comparer.",
+    "japanese": "比較サイトは最安値を目立たせるが、最終費用は荷物、乗り継ぎ、変更条件など比較しにくい要素に左右されることがある。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
@@ -4120,12 +4485,13 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "S'il est vrai que les acteurs concernés disposent désormais de davantage d'autonomie, il n'en demeure pas moins que les mécanismes de responsabilité n'ont pas été clarifiés, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "関係者は以前より大きな裁量を持つようになったことは事実だとしても、責任の仕組みは明確化されていないことに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "topic": "都市・住宅・交通",
+    "french": "La densité urbaine réduit certaines distances, mais elle exige aussi une gestion plus rigoureuse du bruit, des espaces communs et des infrastructures partagées.",
+    "japanese": "都市の高密度化は一部の移動距離を減らすが、騒音、共有空間、共用インフラをより厳密に管理する必要も生じる。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
@@ -4133,25 +4499,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que les acteurs concernés disposent désormais de davantage d'autonomie, il faut néanmoins reconnaître que les mécanismes de responsabilité n'ont pas été clarifiés, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "関係者は以前より大きな裁量を持つようになったことを軽視するわけではないが、責任の仕組みは明確化されていないことも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "制度・公共政策",
+    "french": "Une réforme annoncée comme simplificatrice peut multiplier les démarches pendant la période de transition, lorsque les anciennes et les nouvelles procédures coexistent.",
+    "japanese": "簡素化を目的とする改革でも、移行期に旧制度と新制度が併存すれば、一時的に手続きを増やすことがある。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
     "id": 323,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que les acteurs concernés disposent désormais de davantage d'autonomie, les mécanismes de responsabilité n'ont pas été clarifiés, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、関係者は以前より大きな裁量を持つようになったにもかかわらず、責任の仕組みは明確化されていないことであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "register": "standard",
+    "topic": "健康・社会",
+    "french": "Les moyennes nationales masquent parfois des écarts considérables d'espérance de vie entre des quartiers situés à quelques kilomètres les uns des autres.",
+    "japanese": "国全体の平均値は、数キロしか離れていない地区間の平均寿命の大きな差を隠してしまうことがある。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   },
   {
@@ -4159,25 +4527,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le fait que les acteurs concernés disposent désormais de davantage d'autonomie ne saurait faire oublier que les mécanismes de responsabilité n'ont pas été clarifiés; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "関係者は以前より大きな裁量を持つようになったからといって、責任の仕組みは明確化されていないことを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "topic": "環境・エネルギー",
+    "french": "Les modèles climatiques ne prédisent pas le temps qu'il fera un jour précis dans plusieurs décennies; ils estiment l'évolution probable de distributions et de tendances à long terme.",
+    "japanese": "気候モデルは数十年後の特定の日の天気を予測するものではなく、長期的な分布や傾向の変化を推定するものである。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 325,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Même en admettant que les acteurs concernés disposent désormais de davantage d'autonomie, il resterait à déterminer comment concilier ce constat avec le fait que les mécanismes de responsabilité n'ont pas été clarifiés.",
-    "japanese": "仮に関係者は以前より大きな裁量を持つようになったことを認めるとしても、その認識と、責任の仕組みは明確化されていないという事実をどう両立させるかはなお検討する必要がある。",
+    "register": "standard",
+    "topic": "歴史・倫理・思考",
+    "french": "Une décision peut être raisonnable compte tenu des informations disponibles au moment où elle est prise et se révéler néanmoins désastreuse par la suite.",
+    "japanese": "ある決定は当時利用できた情報に照らせば合理的でも、その後ひどい結果をもたらすことはありうる。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
@@ -4185,12 +4555,13 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "S'il est vrai que la politique a bénéficié d'un large soutien au moment de son lancement, il n'en demeure pas moins que ce consensus s'est progressivement érodé, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "その政策は開始当初広い支持を得ていたことは事実だとしても、その合意は徐々に崩れていったことに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "topic": "デジタル技術",
+    "french": "Le débat sur la vie privée devient particulièrement complexe lorsque des données anodines prises séparément permettent, une fois croisées, d'inférer des informations très sensibles.",
+    "japanese": "個別には取るに足らないデータでも組み合わせると非常に機微な情報を推測できる場合、プライバシーをめぐる議論は特に複雑になる。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
@@ -4198,38 +4569,41 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que la politique a bénéficié d'un large soutien au moment de son lancement, il faut néanmoins reconnaître que ce consensus s'est progressivement érodé, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "その政策は開始当初広い支持を得ていたことを軽視するわけではないが、その合意は徐々に崩れていったことも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "働き方",
+    "french": "Faute d'avoir précisé les critères d'évaluation dès le départ, l'entreprise s'est trouvée dans l'impossibilité de comparer équitablement les résultats des différentes équipes.",
+    "japanese": "当初から評価基準を明確にしていなかったため、会社は各チームの成果を公平に比較できない状況に陥った。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 328,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que la politique a bénéficié d'un large soutien au moment de son lancement, ce consensus s'est progressivement érodé, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、その政策は開始当初広い支持を得ていたにもかかわらず、その合意は徐々に崩れていったことであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "topic": "文化・メディア",
+    "french": "Un musée peut rendre ses collections accessibles en ligne sans pour autant reproduire l'expérience physique de l'échelle, de la matière et de l'espace.",
+    "japanese": "美術館は収蔵品をオンラインで公開できるが、大きさ、素材、空間を身体的に体験することまで再現できるわけではない。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 329,
     "level": "C1",
-    "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Le fait que la politique a bénéficié d'un large soutien au moment de son lancement ne saurait faire oublier que ce consensus s'est progressivement érodé; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "その政策は開始当初広い支持を得ていたからといって、その合意は徐々に崩れていったことを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "category": "論証・接続表現",
+    "register": "standard",
+    "topic": "科学・研究",
+    "french": "À mesure que la précision des instruments augmente, des variations autrefois négligeables deviennent visibles, sans que l'on sache toujours si elles sont biologiquement pertinentes.",
+    "japanese": "測定機器の精度が上がるにつれて、以前なら無視されていた変動が見えるようになるが、それが生物学的に意味を持つかは必ずしも分からない。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
@@ -4237,25 +4611,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Même en admettant que la politique a bénéficié d'un large soutien au moment de son lancement, il resterait à déterminer comment concilier ce constat avec le fait que ce consensus s'est progressivement érodé.",
-    "japanese": "仮にその政策は開始当初広い支持を得ていたことを認めるとしても、その認識と、その合意は徐々に崩れていったという事実をどう両立させるかはなお検討する必要がある。",
+    "topic": "食・農業",
+    "french": "L'amélioration génétique d'une plante peut viser la résistance à la sécheresse, la qualité nutritionnelle ou le rendement, objectifs qui ne progressent pas nécessairement ensemble.",
+    "japanese": "植物の品種改良では乾燥耐性、栄養価、収量などを目指せるが、これらの目標が必ず同時に改善するとは限らない。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
     "id": 331,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "時制・間接話法",
     "register": "soutenu",
-    "french": "S'il est vrai que la technologie permet d'automatiser une partie des tâches répétitives, il n'en demeure pas moins qu'elle déplace la difficulté vers des tâches de contrôle et d'interprétation, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "技術によって反復的な作業の一部を自動化できることは事実だとしても、困難さは監督や解釈を要する作業へと移ることに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "topic": "経済・企業",
+    "french": "Une baisse de l'inflation signifie que les prix augmentent moins vite; elle n'implique pas qu'ils soient revenus au niveau qu'ils avaient avant la période de hausse.",
+    "japanese": "インフレ率の低下は物価の上昇速度が遅くなったことを意味するが、値段が上昇前の水準に戻ったことを意味するわけではない。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "過去時制・条件法の関係",
+      "出来事の時間関係を整理する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
@@ -4263,12 +4639,13 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que la technologie permet d'automatiser une partie des tâches répétitives, il faut néanmoins reconnaître qu'elle déplace la difficulté vers des tâches de contrôle et d'interprétation, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "技術によって反復的な作業の一部を自動化できることを軽視するわけではないが、困難さは監督や解釈を要する作業へと移ることも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "心理・社会",
+    "french": "Les normes sociales sont particulièrement puissantes lorsqu'elles ne sont jamais formulées explicitement, car chacun peut alors les prendre pour des comportements spontanés des autres.",
+    "japanese": "社会規範は明示されないときに特に強く働くことがあり、人はそれを他者の自発的な行動だと受け取ってしまう。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
@@ -4276,25 +4653,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que la technologie permet d'automatiser une partie des tâches répétitives, elle déplace la difficulté vers des tâches de contrôle et d'interprétation, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、技術によって反復的な作業の一部を自動化できるにもかかわらず、困難さは監督や解釈を要する作業へと移ることであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "topic": "旅行・移動",
+    "french": "Le tourisme patrimonial repose sur un équilibre délicat entre la préservation de lieux fragiles et la nécessité de permettre au public d'y accéder.",
+    "japanese": "文化遺産観光は、壊れやすい場所の保存と一般の人がそこへアクセスできることの間の微妙な均衡の上に成り立つ。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 334,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "慣用表現・書き言葉",
     "register": "soutenu",
-    "french": "Le fait que la technologie permet d'automatiser une partie des tâches répétitives ne saurait faire oublier qu'elle déplace la difficulté vers des tâches de contrôle et d'interprétation; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "技術によって反復的な作業の一部を自動化できるからといって、困難さは監督や解釈を要する作業へと移ることを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "topic": "都市・住宅・交通",
+    "french": "L'idée d'une ville compacte paraît séduisante, encore faut-il éviter que la concentration des activités ne se traduise par une concentration équivalente des nuisances.",
+    "japanese": "コンパクトシティの考え方は魅力的に見えるが、活動の集中が同じ程度の悪影響の集中につながらないようにする必要がある。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "書き言葉特有の慣用表現",
+      "直訳せず文全体の機能を捉える",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
@@ -4302,12 +4681,13 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Même en admettant que la technologie permet d'automatiser une partie des tâches répétitives, il resterait à déterminer comment concilier ce constat avec le fait qu'elle déplace la difficulté vers des tâches de contrôle et d'interprétation.",
-    "japanese": "仮に技術によって反復的な作業の一部を自動化できることを認めるとしても、その認識と、困難さは監督や解釈を要する作業へと移るという事実をどう両立させるかはなお検討する必要がある。",
+    "topic": "制度・公共政策",
+    "french": "Un dispositif pilote peut fonctionner précisément parce qu'il bénéficie de moyens exceptionnels qui ne seraient pas disponibles s'il était généralisé à l'ensemble du territoire.",
+    "japanese": "試験的な制度が成功するのは、全国展開時には利用できない特別な資源を与えられているからかもしれない。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
@@ -4315,103 +4695,111 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "S'il est vrai que le nouveau cadre offre davantage de souplesse, il n'en demeure pas moins qu'il accroît également l'incertitude pour ceux qui doivent l'appliquer, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "新しい枠組みは柔軟性を高めていることは事実だとしても、同時に適用する側の不確実性も増していることに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "topic": "教育",
+    "french": "Il n'est pas exclu qu'une partie de l'effet attribué à une nouvelle méthode provienne en réalité de l'enthousiasme des enseignants qui ont choisi de l'adopter.",
+    "japanese": "新しい教育法の効果とされているものの一部が、実際にはそれを自ら選んで導入した教員の熱意による可能性も排除できない。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
     "id": 337,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que le nouveau cadre offre davantage de souplesse, il faut néanmoins reconnaître qu'il accroît également l'incertitude pour ceux qui doivent l'appliquer, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "新しい枠組みは柔軟性を高めていることを軽視するわけではないが、同時に適用する側の不確実性も増していることも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "環境・エネルギー",
+    "french": "Le caractère réversible d'une décision environnementale devrait être pris en compte, car certaines erreurs peuvent être corrigées en quelques années tandis que d'autres ont des conséquences irréparables.",
+    "japanese": "環境に関する意思決定では可逆性も考慮すべきであり、数年で修正できる誤りもあれば、取り返しのつかない結果をもたらすものもある。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：環境・エネルギー"
     ]
   },
   {
     "id": 338,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "論証・接続表現",
     "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que le nouveau cadre offre davantage de souplesse, il accroît également l'incertitude pour ceux qui doivent l'appliquer, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、新しい枠組みは柔軟性を高めているにもかかわらず、同時に適用する側の不確実性も増していることであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "topic": "歴史・倫理・思考",
+    "french": "Une règle peut être justifiée par ses effets généraux tout en produisant, dans un cas particulier, un résultat que presque tout le monde juge injuste.",
+    "japanese": "規則は一般的な効果によって正当化されていても、個別事例ではほとんど誰もが不公平だと感じる結果を生むことがある。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "対比・条件・推移の接続関係",
+      "主節と従属節の論理を整理する",
+      "テーマ語彙：歴史・倫理・思考"
     ]
   },
   {
     "id": 339,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Le fait que le nouveau cadre offre davantage de souplesse ne saurait faire oublier qu'il accroît également l'incertitude pour ceux qui doivent l'appliquer; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "新しい枠組みは柔軟性を高めているからといって、同時に適用する側の不確実性も増していることを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "topic": "デジタル技術",
+    "french": "Ce que l'on gagne en rapidité grâce à l'automatisation peut être perdu en capacité de compréhension si plus personne ne sait précisément comment une décision a été produite.",
+    "japanese": "自動化によって速度を得ても、意思決定がどのように導かれたかを誰も正確に理解できなくなれば、理解可能性という点で失うものが生じる。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：デジタル技術"
     ]
   },
   {
     "id": 340,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Même en admettant que le nouveau cadre offre davantage de souplesse, il resterait à déterminer comment concilier ce constat avec le fait qu'il accroît également l'incertitude pour ceux qui doivent l'appliquer.",
-    "japanese": "仮に新しい枠組みは柔軟性を高めていることを認めるとしても、その認識と、同時に適用する側の不確実性も増しているという事実をどう両立させるかはなお検討する必要がある。",
+    "register": "standard",
+    "topic": "働き方",
+    "french": "On comprend que les salariés souhaitent davantage de prévisibilité, encore que trop de règles puissent précisément réduire la marge d'initiative qu'ils réclament par ailleurs.",
+    "japanese": "社員がより予測可能な環境を望むのは理解できるが、規則が多すぎれば、彼らが別の場面で求めている裁量の余地をかえって狭めることにもなる。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：働き方"
     ]
   },
   {
     "id": 341,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "時制・間接話法",
     "register": "soutenu",
-    "french": "S'il est vrai que les indicateurs se sont améliorés au cours des derniers mois, il n'en demeure pas moins qu'il est encore trop tôt pour savoir si cette tendance sera durable, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "ここ数か月で指標は改善したことは事実だとしても、この傾向が持続するか判断するにはまだ早いことに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "topic": "文化・メディア",
+    "french": "Le public n'interprète pas nécessairement une œuvre comme son auteur l'avait prévu, et cette distance entre intention et réception fait elle-même partie de la vie culturelle.",
+    "japanese": "観客は必ずしも作者の意図どおりに作品を解釈するわけではなく、意図と受容のずれ自体が文化の一部をなしている。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "過去時制・条件法の関係",
+      "出来事の時間関係を整理する",
+      "テーマ語彙：文化・メディア"
     ]
   },
   {
     "id": 342,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que les indicateurs se sont améliorés au cours des derniers mois, il faut néanmoins reconnaître qu'il est encore trop tôt pour savoir si cette tendance sera durable, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "ここ数か月で指標は改善したことを軽視するわけではないが、この傾向が持続するか判断するにはまだ早いことも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "科学・研究",
+    "french": "Le recours à des méthodes très sophistiquées ne compense pas la faiblesse d'une question de recherche dont les termes restent mal définis.",
+    "japanese": "高度に洗練された手法を使っても、用語の定義が曖昧な研究課題そのものの弱さを補うことはできない。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：科学・研究"
     ]
   },
   {
     "id": 343,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que les indicateurs se sont améliorés au cours des derniers mois, il est encore trop tôt pour savoir si cette tendance sera durable, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、ここ数か月で指標は改善したにもかかわらず、この傾向が持続するか判断するにはまだ早いことであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "register": "standard",
+    "topic": "食・農業",
+    "french": "Les variétés anciennes peuvent présenter des caractéristiques intéressantes, mais leur réintroduction suppose parfois de reconstruire des savoir-faire et des circuits de distribution disparus.",
+    "japanese": "古い品種には興味深い特性があることもあるが、再導入には失われた技術や流通経路を再構築する必要がある場合がある。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：食・農業"
     ]
   },
   {
@@ -4419,25 +4807,27 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le fait que les indicateurs se sont améliorés au cours des derniers mois ne saurait faire oublier qu'il est encore trop tôt pour savoir si cette tendance sera durable; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "ここ数か月で指標は改善したからといって、この傾向が持続するか判断するにはまだ早いことを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "topic": "経済・企業",
+    "french": "Le véritable coût d'une décision comprend aussi les possibilités auxquelles on renonce en mobilisant du temps, du capital ou des compétences pour un projet plutôt qu'un autre.",
+    "japanese": "意思決定の本当のコストには、一つの計画に時間、資金、技能を使うことで断念する別の可能性も含まれる。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：経済・企業"
     ]
   },
   {
     "id": 345,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Même en admettant que les indicateurs se sont améliorés au cours des derniers mois, il resterait à déterminer comment concilier ce constat avec le fait qu'il est encore trop tôt pour savoir si cette tendance sera durable.",
-    "japanese": "仮にここ数か月で指標は改善したことを認めるとしても、その認識と、この傾向が持続するか判断するにはまだ早いという事実をどう両立させるかはなお検討する必要がある。",
+    "register": "standard",
+    "topic": "心理・社会",
+    "french": "Les personnes qui parlent avec assurance sont souvent perçues comme plus compétentes, alors même que la confiance exprimée et l'exactitude du jugement ne coïncident pas toujours.",
+    "japanese": "自信を持って話す人は能力が高いと見られがちだが、表現された自信と判断の正確さは必ずしも一致しない。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：心理・社会"
     ]
   },
   {
@@ -4445,38 +4835,41 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "S'il est vrai que la mesure paraît peu coûteuse à court terme, il n'en demeure pas moins que ses conséquences indirectes pourraient se révéler beaucoup plus lourdes, ce qui invite à relativiser les conclusions les plus optimistes.",
-    "japanese": "その措置は短期的には低コストに見えることは事実だとしても、間接的な影響ははるかに大きな負担となる可能性があることに変わりはなく、最も楽観的な結論は割り引いて考える必要がある。",
+    "topic": "旅行・移動",
+    "french": "Un voyageur qui maîtrise mal la langue locale peut néanmoins communiquer efficacement s'il sait reformuler, vérifier ce qu'il a compris et accepter une certaine imprécision.",
+    "japanese": "現地語が十分できない旅行者でも、言い換え、理解の確認、ある程度の曖昧さを受け入れることができれば、効果的に意思疎通できる。",
     "points": [
-      "s'il est vrai que..., il n'en demeure pas moins que...",
-      "ce qui = 前文全体を受ける",
-      "relativiser = 相対化する"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：旅行・移動"
     ]
   },
   {
     "id": 347,
     "level": "C1",
-    "category": "複合文・精読",
+    "category": "高度な構文・関係表現",
     "register": "soutenu",
-    "french": "Sans minimiser le fait que la mesure paraît peu coûteuse à court terme, il faut néanmoins reconnaître que ses conséquences indirectes pourraient se révéler beaucoup plus lourdes, de sorte qu'une lecture strictement positive serait trompeuse.",
-    "japanese": "その措置は短期的には低コストに見えることを軽視するわけではないが、間接的な影響ははるかに大きな負担となる可能性があることも認めなければならず、単純に肯定的な評価をするのは誤解を招く。",
+    "topic": "都市・住宅・交通",
+    "french": "Les grandes infrastructures sont conçues pour durer des décennies, ce qui impose de prendre aujourd'hui des décisions alors que les besoins futurs restent nécessairement incertains.",
+    "japanese": "大規模インフラは数十年使うことを前提とするため、将来の需要が必然的に不確かな中で現在の意思決定をしなければならない。",
     "points": [
-      "sans + 不定詞",
-      "néanmoins = それでも",
-      "de sorte que = その結果"
+      "関係代名詞・複合関係表現",
+      "先行詞と修飾関係を確認する",
+      "テーマ語彙：都市・住宅・交通"
     ]
   },
   {
     "id": 348,
     "level": "C1",
     "category": "複合文・精読",
-    "register": "soutenu",
-    "french": "Le paradoxe tient à ce que, alors même que la mesure paraît peu coûteuse à court terme, ses conséquences indirectes pourraient se révéler beaucoup plus lourdes, comme si chaque progrès faisait apparaître de nouvelles difficultés.",
-    "japanese": "逆説的なのは、その措置は短期的には低コストに見えるにもかかわらず、間接的な影響ははるかに大きな負担となる可能性があることであり、まるで進歩のたびに新たな困難が姿を現すかのようである。",
+    "register": "standard",
+    "topic": "制度・公共政策",
+    "french": "À vouloir traiter chaque risque par une nouvelle obligation, l'administration peut créer un ensemble de règles que même les agents chargés du contrôle peinent à maîtriser.",
+    "japanese": "あらゆるリスクに新しい義務を設けて対応しようとすると、監督担当者自身も把握しきれない規則体系を行政が作ってしまうことがある。",
     "points": [
-      "tenir à ce que = 〜という点にある",
-      "alors même que = 〜にもかかわらず",
-      "comme si + 半過去"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：制度・公共政策"
     ]
   },
   {
@@ -4484,12 +4877,13 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Le fait que la mesure paraît peu coûteuse à court terme ne saurait faire oublier que ses conséquences indirectes pourraient se révéler beaucoup plus lourdes; autrement dit, l'amélioration observée ne doit pas être confondue avec une résolution complète du problème.",
-    "japanese": "その措置は短期的には低コストに見えるからといって、間接的な影響ははるかに大きな負担となる可能性があることを忘れてはならない。言い換えれば、見られた改善を問題の完全な解決と混同してはならない。",
+    "topic": "教育",
+    "french": "Les bibliothèques scolaires restent des lieux essentiels précisément parce qu'elles offrent un espace où l'attention n'est pas constamment sollicitée par des notifications.",
+    "japanese": "学校図書館が今なお重要なのは、通知によって絶えず注意を奪われることのない空間を提供しているからにほかならない。",
     "points": [
-      "le fait que = 〜という事実",
-      "ne saurait faire oublier = 忘れさせてはならない",
-      "autrement dit"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：教育"
     ]
   },
   {
@@ -4497,12 +4891,13 @@ const C1_QUESTIONS = [
     "level": "C1",
     "category": "複合文・精読",
     "register": "soutenu",
-    "french": "Même en admettant que la mesure paraît peu coûteuse à court terme, il resterait à déterminer comment concilier ce constat avec le fait que ses conséquences indirectes pourraient se révéler beaucoup plus lourdes.",
-    "japanese": "仮にその措置は短期的には低コストに見えることを認めるとしても、その認識と、間接的な影響ははるかに大きな負担となる可能性があるという事実をどう両立させるかはなお検討する必要がある。",
+    "topic": "健康・社会",
+    "french": "Les recommandations nutritionnelles changent parfois non parce que les connaissances précédentes étaient entièrement fausses, mais parce que de nouvelles données permettent de mieux distinguer les situations.",
+    "japanese": "栄養に関する勧告が変わるのは、以前の知識が完全に誤っていたからではなく、新しいデータによって状況をより細かく区別できるようになるためであることがある。",
     "points": [
-      "même en + 現在分詞 = 〜だとしても",
-      "il resterait à = なお〜する必要がある",
-      "concilier A avec B"
+      "文全体の論理関係を把握する",
+      "抽象語彙と修飾関係に注意する",
+      "テーマ語彙：健康・社会"
     ]
   }
 ];
