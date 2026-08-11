@@ -1038,11 +1038,11 @@
               <input id="levelA2" type="radio" name="level" value="A2">
               <label for="levelA2"><strong>A2</strong><span>基礎</span></label>
             </div>
-            <div class="level-option" data-directions="frjp">
+            <div class="level-option" data-directions="frjp jpfr">
               <input id="levelB1" type="radio" name="level" value="B1">
               <label for="levelB1"><strong>B1</strong><span>中級</span></label>
             </div>
-            <div class="level-option" data-directions="frjp">
+            <div class="level-option" data-directions="frjp jpfr">
               <input id="levelB2" type="radio" name="level" value="B2" checked>
               <label for="levelB2"><strong>B2</strong><span>中上級</span></label>
             </div>
@@ -1152,8 +1152,13 @@
   <script src="c1_french_translation_400.js"></script>
   <script src="a1_japanese_to_french_400.js"></script>
   <script src="a2_japanese_to_french_400.js"></script>
+  <script src="b1_japanese_to_french_400.js"></script>
+  <script src="b2_japanese_to_french_400.js"></script>
   <script src="quotes.js"></script>
-  <script src="movies.js"></script>
+  <script
+    src="./movies.js?v=20260811-2"
+    onerror="window.MOVIES_SCRIPT_LOAD_FAILED = true;">
+  </script>
 
   <script>
     const FRJP_BANK = {
@@ -1165,7 +1170,9 @@
 
     const JPFR_BANK = {
       A1: typeof A1_JPFR_QUESTIONS !== "undefined" ? A1_JPFR_QUESTIONS : [],
-      A2: typeof A2_JPFR_QUESTIONS !== "undefined" ? A2_JPFR_QUESTIONS : []
+      A2: typeof A2_JPFR_QUESTIONS !== "undefined" ? A2_JPFR_QUESTIONS : [],
+      B1: typeof B1_JPFR_QUESTIONS !== "undefined" ? B1_JPFR_QUESTIONS : [],
+      B2: typeof B2_JPFR_QUESTIONS !== "undefined" ? B2_JPFR_QUESTIONS : []
     };
 
     const levelInputs = [...document.querySelectorAll('input[name="level"]')];
@@ -1304,8 +1311,8 @@
         `${movie.director || ""} · ${movie.year || ""}`;
 
       const movieBankLength =
-        typeof CLASSIC_MOVIES !== "undefined" && Array.isArray(CLASSIC_MOVIES)
-          ? CLASSIC_MOVIES.length
+        Array.isArray(window.CLASSIC_MOVIES)
+          ? window.CLASSIC_MOVIES.length
           : 0;
       dailyMovieNumber.textContent =
         movie.id && movieBankLength
@@ -1319,12 +1326,18 @@
 
     function randomMovie() {
       const bank =
-        typeof CLASSIC_MOVIES !== "undefined" && Array.isArray(CLASSIC_MOVIES)
-          ? CLASSIC_MOVIES
+        Array.isArray(window.CLASSIC_MOVIES)
+          ? window.CLASSIC_MOVIES
           : [];
 
       if (!bank.length) {
-        renderMovie(null);
+        if (window.MOVIES_SCRIPT_LOAD_FAILED) {
+          dailyMovieTitle.textContent = "movies.js を読み込めませんでした。";
+          dailyMovieCredit.textContent = "index.html と同じ階層に movies.js があるか確認してください。";
+          dailyMovieNumber.textContent = "No. — / —";
+        } else {
+          renderMovie(null);
+        }
         return;
       }
 
@@ -1404,7 +1417,7 @@
           : "FRENCH → JAPANESE TRANSLATION PRACTICE";
 
       countBadge.textContent =
-        isJpFr ? "A1 — A2 · tyobitto" : "A2 — C1 · takusan";
+        isJpFr ? "A1 — B2 · tyobitto" : "A2 — C1 · takusan";
 
       questionLabel.textContent =
         isJpFr ? "Traduisez en français" : "Traduisez en japonais";
@@ -1422,7 +1435,7 @@
         option.style.display = directions.includes(currentDirection) ? "" : "none";
       });
 
-      levelGroup.style.setProperty("--visible-levels", isJpFr ? "2" : "4");
+      levelGroup.style.setProperty("--visible-levels", "4");
 
       currentLevel = lastLevelByDirection[currentDirection];
       const selected = document.querySelector(
