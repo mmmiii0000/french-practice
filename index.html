@@ -118,48 +118,6 @@
       letter-spacing: 0.08em;
     }
 
-
-    .brand-actions {
-      display: flex;
-      align-items: center;
-      gap: 9px;
-      flex: 0 0 auto;
-    }
-
-    .header-bonus-btn {
-      min-height: 34px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid rgba(20,33,61,.12);
-      border-radius: 999px;
-      padding: 0 13px;
-      color: var(--navy);
-      background: rgba(255,255,255,.58);
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: .82rem;
-      font-weight: 700;
-      letter-spacing: .04em;
-      text-decoration: none;
-      cursor: pointer;
-      backdrop-filter: blur(8px);
-      transition: transform .15s ease, box-shadow .18s ease, color .18s ease,
-                  background .18s ease, border-color .18s ease;
-    }
-
-    .header-bonus-btn:hover {
-      transform: translateY(-1px);
-      border-color: rgba(53,93,157,.28);
-      box-shadow: 0 7px 18px rgba(20,33,61,.08);
-    }
-
-    .header-bonus-btn.active {
-      color: #fff;
-      border-color: var(--navy);
-      background: linear-gradient(135deg, var(--navy), var(--navy-2));
-      box-shadow: 0 8px 20px rgba(20,33,61,.16);
-    }
-
     .count-badge {
       flex: 0 0 auto;
       color: var(--navy);
@@ -564,16 +522,6 @@
         display: none;
       }
 
-      .brand-actions {
-        gap: 0;
-      }
-
-      .header-bonus-btn {
-        min-height: 32px;
-        padding: 0 12px;
-        font-size: .78rem;
-      }
-
       .toolbar {
         grid-template-columns: 1fr;
         padding: 22px 20px;
@@ -643,10 +591,7 @@
           <p class="brand-subtitle">FRENCH → JAPANESE TRANSLATION PRACTICE</p>
         </div>
       </div>
-      <div class="brand-actions">
-        <a class="header-bonus-btn" href="omake.html">omake</a>
-        <div class="count-badge">A2 — C1 · takusan questions</div>
-      </div>
+      <div class="count-badge">A2 — C1 · takusan questions</div>
     </header>
 
     <section class="shell">
