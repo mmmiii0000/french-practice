@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#14213d">
-  <title>Traduire — フランス語和訳トレーニング</title>
+  <title>Traduire — Conjugaisons</title>
 
   <style>
     :root {
@@ -1020,586 +1020,598 @@
         transition-duration: .01ms !important;
       }
     }
+
+    .direction-toggle.active {
+      color: #fff;
+      border-color: var(--navy);
+      background: linear-gradient(135deg, var(--navy), var(--navy-2));
+      box-shadow: 0 8px 20px rgba(20,33,61,.16);
+    }
+
+    .conj-shell {
+      padding: 31px 30px 34px;
+    }
+
+    .conj-intro {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 22px;
+      margin-bottom: 24px;
+    }
+
+    .conj-kicker {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--gold);
+      font-size: .68rem;
+      font-weight: 900;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .conj-title {
+      margin: 0;
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.8rem, 5vw, 2.55rem);
+      font-weight: 500;
+      letter-spacing: -.025em;
+    }
+
+    .conj-lead {
+      max-width: 590px;
+      margin: 9px 0 0;
+      color: var(--muted);
+      font-size: .86rem;
+      line-height: 1.75;
+    }
+
+    .conj-count {
+      flex: 0 0 auto;
+      color: #82796d;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: .76rem;
+      font-style: italic;
+    }
+
+    .conj-tools {
+      position: relative;
+      margin-bottom: 24px;
+    }
+
+    .conj-search {
+      width: 100%;
+      min-height: 48px;
+      border: 1px solid rgba(20,33,61,.11);
+      border-radius: 15px;
+      padding: 0 17px;
+      color: var(--ink);
+      background: rgba(255,255,255,.72);
+      outline: none;
+      font: inherit;
+      transition: border-color .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+
+    .conj-search:focus {
+      border-color: rgba(53,93,157,.42);
+      background: #fff;
+      box-shadow: 0 0 0 4px rgba(53,93,157,.07);
+    }
+
+    .verb-section + .verb-section {
+      margin-top: 28px;
+    }
+
+    .verb-section-title {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      margin: 0 0 12px;
+      color: #7d766c;
+      font-size: .7rem;
+      font-weight: 900;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .verb-section-title::after {
+      content: "";
+      height: 1px;
+      flex: 1;
+      background: rgba(20,33,61,.09);
+    }
+
+    .verb-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 9px;
+    }
+
+    .verb-card {
+      min-width: 0;
+      border: 1px solid rgba(20,33,61,.10);
+      border-radius: 14px;
+      padding: 13px 13px 12px;
+      color: var(--navy);
+      background: rgba(255,255,255,.67);
+      text-align: left;
+      cursor: pointer;
+      transition: transform .15s ease, border-color .18s ease,
+                  box-shadow .18s ease, background .18s ease;
+    }
+
+    .verb-card:hover {
+      transform: translateY(-1px);
+      border-color: rgba(53,93,157,.28);
+      background: rgba(255,255,255,.94);
+      box-shadow: 0 8px 20px rgba(20,33,61,.07);
+    }
+
+    .verb-name {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.03rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .verb-meta {
+      display: block;
+      margin-top: 5px;
+      color: #91897e;
+      font-size: .64rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+    }
+
+    .no-results {
+      display: none;
+      padding: 36px 12px;
+      color: var(--muted);
+      text-align: center;
+      font-size: .85rem;
+    }
+
+    .conj-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 28px;
+    }
+
+    .conj-modal.open {
+      display: flex;
+    }
+
+    .conj-backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(15,24,43,.34);
+      backdrop-filter: blur(8px);
+      animation: modalBackdrop .22s ease both;
+    }
+
+    .conj-dialog {
+      position: relative;
+      z-index: 1;
+      width: min(920px, 100%);
+      max-height: min(88vh, 850px);
+      overflow: auto;
+      border: 1px solid rgba(255,255,255,.8);
+      border-radius: 26px;
+      background: #fffdf9;
+      box-shadow: 0 28px 90px rgba(15,24,43,.28);
+      animation: modalPop .3s cubic-bezier(.2,.8,.2,1) both;
+    }
+
+    @keyframes modalBackdrop {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes modalPop {
+      from { opacity: 0; transform: translateY(12px) scale(.955); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .conj-dialog-head {
+      position: sticky;
+      top: 0;
+      z-index: 4;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 24px 26px 20px;
+      border-bottom: 1px solid rgba(20,33,61,.09);
+      background: rgba(255,253,249,.94);
+      backdrop-filter: blur(12px);
+    }
+
+    .conj-number {
+      display: inline-block;
+      margin-bottom: 5px;
+      color: var(--blue);
+      font-size: .67rem;
+      font-weight: 900;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .conj-dialog-title {
+      margin: 0;
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.65rem, 5vw, 2.25rem);
+      font-weight: 500;
+      letter-spacing: -.025em;
+    }
+
+    .conj-dialog-subtitle {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: .75rem;
+      line-height: 1.55;
+    }
+
+    .conj-close {
+      flex: 0 0 auto;
+      width: 38px;
+      height: 38px;
+      border: 1px solid rgba(20,33,61,.10);
+      border-radius: 50%;
+      color: var(--navy);
+      background: #f4efe7;
+      font-size: 1.25rem;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .conj-dialog-body {
+      padding: 24px 26px 28px;
+    }
+
+    .mood-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      align-items: start;
+    }
+
+    .mood-card {
+      overflow: hidden;
+      border: 1px solid rgba(20,33,61,.10);
+      border-radius: 17px;
+      background: #fff;
+    }
+
+    .mood-title {
+      margin: 0;
+      padding: 11px 14px;
+      color: var(--navy);
+      background: #f3eee6;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: .88rem;
+      font-weight: 700;
+      letter-spacing: .03em;
+    }
+
+    .tense-row {
+      display: grid;
+      grid-template-columns: 112px minmax(0, 1fr);
+      gap: 13px;
+      padding: 11px 14px;
+      border-top: 1px solid rgba(20,33,61,.075);
+    }
+
+    .tense-name {
+      color: #8a8174;
+      font-size: .68rem;
+      font-weight: 800;
+      line-height: 1.55;
+      text-transform: lowercase;
+    }
+
+    .tense-forms {
+      min-width: 0;
+      color: #303847;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: .9rem;
+      line-height: 1.62;
+    }
+
+    .tense-forms span {
+      display: block;
+      overflow-wrap: anywhere;
+    }
+
+    .conj-note {
+      margin: 17px 1px 0;
+      padding: 14px 16px;
+      border-left: 3px solid rgba(184,139,74,.55);
+      border-radius: 0 12px 12px 0;
+      color: #726a5f;
+      background: rgba(239,233,223,.58);
+      font-size: .72rem;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 760px) {
+      .conj-shell {
+        padding: 24px 20px 28px;
+      }
+
+      .conj-intro {
+        display: block;
+      }
+
+      .conj-count {
+        display: block;
+        margin-top: 10px;
+      }
+
+      .verb-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .conj-modal {
+        align-items: flex-end;
+        padding: 10px;
+      }
+
+      .conj-dialog {
+        max-height: 91vh;
+        border-radius: 23px 23px 18px 18px;
+      }
+
+      .conj-dialog-head {
+        padding: 20px 18px 16px;
+      }
+
+      .conj-dialog-body {
+        padding: 18px 16px 22px;
+      }
+
+      .mood-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .tense-row {
+        grid-template-columns: 92px minmax(0, 1fr);
+        gap: 10px;
+        padding: 10px 12px;
+      }
+    }
+
   </style>
 </head>
 
 <body>
   <main class="page">
     <header class="brand">
-      <div class="brand-mark">
+      <a class="brand-mark" href="index.html" style="text-decoration:none;">
         <div class="flag-line" aria-hidden="true">
           <span></span><span></span><span></span>
         </div>
         <div>
           <h1 class="brand-title">Traduire.</h1>
-          <p id="brandSubtitle" class="brand-subtitle">FRENCH → JAPANESE TRANSLATION PRACTICE</p>
+          <p class="brand-subtitle">CONJUGATION REFERENCE</p>
         </div>
-      </div>
+      </a>
+
       <div class="brand-actions">
-        <a class="direction-toggle omake-link" href="omake.html">omake</a>
-        <button id="directionToggle" class="direction-toggle" type="button"
-                aria-label="翻訳方向を切り替える" aria-pressed="false">
-          仏 → 和 <span aria-hidden="true">⇄</span>
-        </button>
-        <div id="countBadge" class="count-badge">A2 — C1 · takusan</div>
+        <a class="direction-toggle omake-link active" href="omake.html" aria-current="page">omake</a>
+        <a class="direction-toggle omake-link" href="index.html">仏 → 和 <span aria-hidden="true">⇄</span></a>
+        <div class="count-badge">Conjugaisons</div>
       </div>
     </header>
 
     <section class="shell">
-      <div class="toolbar">
-        <div>
-          <span id="levelFieldLabel" class="field-label">難易度を選択</span>
-          <div class="level-group" role="radiogroup" aria-label="難易度">
-            <div class="level-option jpfr-only" data-directions="jpfr" style="display:none;">
-              <input id="levelA1" type="radio" name="level" value="A1">
-              <label for="levelA1"><strong>A1</strong><span>入門</span></label>
-            </div>
-            <div class="level-option" data-directions="frjp jpfr">
-              <input id="levelA2" type="radio" name="level" value="A2">
-              <label for="levelA2"><strong>A2</strong><span>基礎</span></label>
-            </div>
-            <div class="level-option" data-directions="frjp jpfr">
-              <input id="levelB1" type="radio" name="level" value="B1">
-              <label for="levelB1"><strong>B1</strong><span>中級</span></label>
-            </div>
-            <div class="level-option" data-directions="frjp jpfr">
-              <input id="levelB2" type="radio" name="level" value="B2" checked>
-              <label for="levelB2"><strong>B2</strong><span>中上級</span></label>
-            </div>
-            <div class="level-option" data-directions="frjp">
-              <input id="levelC1" type="radio" name="level" value="C1">
-              <label for="levelC1"><strong>C1</strong><span>上級</span></label>
-            </div>
+      <div class="conj-shell">
+        <div class="conj-intro">
+          <div>
+            <span class="conj-kicker">Les conjugaisons</span>
+            <h2 class="conj-title">活用を確認する</h2>
+            <p class="conj-lead">原形を選ぶと活用表が開きます。</p>
           </div>
-        </div>
-        <button id="drawBtn" class="primary-btn" type="button">出題する</button>
-      </div>
-
-      <div class="content">
-        <div id="emptyState" class="empty-state">
-          <div class="empty-icon">fr</div>
-          <h2>Une phrase vous attend.</h2>
-          <p>難易度を選んで「出題する」を押してください。<br>400問からランダムに1問表示します。</p>
+          <span id="conjCount" class="conj-count"></span>
         </div>
 
-        <section id="quiz" class="quiz" aria-live="polite">
-          <div class="meta">
-            <span id="levelPill" class="pill level">B2</span>
-            <span id="categoryPill" class="pill"></span>
-            <span id="registerPill" class="pill register" style="display:none;"></span>
-            <span id="questionNumber" class="pill"></span>
-          </div>
+        <div class="conj-tools">
+          <input id="conjSearch" class="conj-search" type="search"
+                 placeholder="動詞を検索  ex. aller, prendre, être"
+                 autocomplete="off" spellcheck="false" aria-label="動詞を検索">
+        </div>
 
-          <p id="questionLabel" class="question-label">Traduisez en japonais</p>
-          <p id="promptText" class="french" lang="fr"></p>
-
-          <div class="divider"></div>
-
-          <div class="translation-box">
-            <label for="userTranslation">
-              <span id="translationLabelText" class="translation-label-main">自分の和訳</span>
-              <span>ここは保存されません</span>
-            </label>
-            <textarea id="userTranslation" placeholder="フランス語を日本語に訳してみましょう。"></textarea>
-          </div>
-
-          <div class="actions">
-            <button id="answerBtn" class="secondary-btn" type="button">模範解答を表示</button>
-            <button id="nextBtn" class="ghost-btn" type="button">次の問題 →</button>
-          </div>
-
-          <div id="answerBox" class="answer">
-            <p class="answer-label">Modèle de traduction</p>
-            <p id="answerText" class="answer-jp"></p>
-
-            <div id="pointsBox" class="points">
-              <p class="points-title">POINT</p>
-              <ul id="pointsList"></ul>
-            </div>
-          </div>
-        </section>
+        <div id="verbSections"></div>
+        <div id="noResults" class="no-results">該当する動詞がありません。</div>
       </div>
     </section>
 
-    <p class="footer-note">
-      「模範解答」は一例です。自然な訳し方は複数あります。<br>　
-      <span class="kbd">Enter</span> 出題 / 次へ　
-      <span class="kbd">Space</span> 解答表示
-    </p>
-
-    <section id="dailyQuoteCard" class="daily-quote-card" aria-live="polite">
-      <div class="daily-quote-head">
-        <div class="daily-quote-heading">
-          <span class="daily-quote-kicker">Citation du jour</span>
-          <h2 class="daily-quote-title">本日の名言</h2>
-        </div>
-        <button id="quoteRefreshBtn" class="quote-refresh-btn" type="button">名言を更新 ↻</button>
-      </div>
-
-      <div class="daily-quote-body">
-        <p id="dailyQuoteText" class="daily-quote-text" lang="fr"></p>
-        <div class="daily-quote-meta">
-          <p id="dailyQuoteAuthor" class="daily-quote-author"></p>
-          <span id="dailyQuoteNumber" class="daily-quote-number">No. — / —</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="dailyMovieCard" class="daily-movie-card" aria-live="polite">
-      <div class="daily-movie-head">
-        <div class="daily-movie-heading">
-          <span class="daily-movie-kicker">Film du jour</span>
-          <h2 class="daily-movie-title-label">本日の名作映画</h2>
-        </div>
-        <button id="movieRefreshBtn" class="movie-refresh-btn" type="button">映画を更新 ↻</button>
-      </div>
-
-      <div class="daily-movie-body">
-        <h3 id="dailyMovieTitle" class="daily-movie-title" lang="fr"></h3>
-
-        <div class="daily-movie-meta">
-          <p id="dailyMovieCredit" class="daily-movie-credit"></p>
-          <span id="dailyMovieNumber" class="daily-movie-number">No. — / —</span>
-        </div>
-
-        <p class="movie-disclaimer">内容に誤りがある場合は、作成者まで直接連絡してください</p>
-      </div>
-    </section>
+    <p class="footer-note">原形をタップすると活用表が開きます。</p>
   </main>
 
-  <!-- 問題データ：index.html と同じフォルダに置いてください -->
-  <script src="a2_french_translation_400.js"></script>
-  <script src="b1_french_translation_400.js"></script>
-  <script src="b2_french_translation_400.js"></script>
-  <script src="c1_french_translation_400.js"></script>
-  <script src="a1_japanese_to_french_400.js"></script>
-  <script src="a2_japanese_to_french_400.js"></script>
-  <script src="b1_japanese_to_french_400.js"></script>
-  <script src="b2_japanese_to_french_400.js"></script>
-  <script src="quotes.js"></script>
-  <script
-    src="./movies.js?v=20260812-1"
-    onerror="window.MOVIES_SCRIPT_LOAD_FAILED = true;">
-  </script>
+  <div id="conjModal" class="conj-modal" aria-hidden="true">
+    <div id="conjBackdrop" class="conj-backdrop"></div>
+    <section class="conj-dialog" role="dialog" aria-modal="true" aria-labelledby="conjDialogTitle">
+      <header class="conj-dialog-head">
+        <div>
+          <span id="conjDialogNumber" class="conj-number"></span>
+          <h2 id="conjDialogTitle" class="conj-dialog-title"></h2>
+          <p id="conjDialogSubtitle" class="conj-dialog-subtitle"></p>
+        </div>
+        <button id="conjClose" class="conj-close" type="button" aria-label="閉じる">×</button>
+      </header>
+      <div class="conj-dialog-body">
+        <div id="moodGrid" class="mood-grid"></div>
+        <p id="conjNote" class="conj-note" style="display:none;"></p>
+      </div>
+    </section>
+  </div>
 
+  <script src="./conjugaisons.js?v=20260812-1"></script>
   <script>
-    const FRJP_BANK = {
-      A2: typeof A2_QUESTIONS !== "undefined" ? A2_QUESTIONS : [],
-      B1: typeof B1_QUESTIONS !== "undefined" ? B1_QUESTIONS : [],
-      B2: typeof B2_QUESTIONS !== "undefined" ? B2_QUESTIONS : [],
-      C1: typeof C1_QUESTIONS !== "undefined" ? C1_QUESTIONS : []
-    };
+    const data = Array.isArray(window.CONJUGATION_DATA?.entries)
+      ? window.CONJUGATION_DATA.entries
+      : [];
 
-    const JPFR_BANK = {
-      A1: typeof A1_JPFR_QUESTIONS !== "undefined" ? A1_JPFR_QUESTIONS : [],
-      A2: typeof A2_JPFR_QUESTIONS !== "undefined" ? A2_JPFR_QUESTIONS : [],
-      B1: typeof B1_JPFR_QUESTIONS !== "undefined" ? B1_JPFR_QUESTIONS : [],
-      B2: typeof B2_JPFR_QUESTIONS !== "undefined" ? B2_JPFR_QUESTIONS : []
-    };
+    const verbSections = document.getElementById("verbSections");
+    const conjCount = document.getElementById("conjCount");
+    const conjSearch = document.getElementById("conjSearch");
+    const noResults = document.getElementById("noResults");
 
-    const levelInputs = [...document.querySelectorAll('input[name="level"]')];
-    const levelOptions = [...document.querySelectorAll('.level-option[data-directions]')];
+    const conjModal = document.getElementById("conjModal");
+    const conjBackdrop = document.getElementById("conjBackdrop");
+    const conjClose = document.getElementById("conjClose");
+    const conjDialogTitle = document.getElementById("conjDialogTitle");
+    const conjDialogNumber = document.getElementById("conjDialogNumber");
+    const conjDialogSubtitle = document.getElementById("conjDialogSubtitle");
+    const moodGrid = document.getElementById("moodGrid");
+    const conjNote = document.getElementById("conjNote");
 
-    let currentDirection = "frjp";
-    let currentLevel = "B2";
-    const lastLevelByDirection = { frjp: "B2", jpfr: "A1" };
+    let lastFocused = null;
 
-    const directionToggle = document.getElementById("directionToggle");
-    const countBadge = document.getElementById("countBadge");
-    const brandSubtitle = document.getElementById("brandSubtitle");
-    const levelGroup = document.querySelector(".level-group");
-    const drawBtn = document.getElementById("drawBtn");
-    const emptyState = document.getElementById("emptyState");
-    const quiz = document.getElementById("quiz");
-
-    const levelPill = document.getElementById("levelPill");
-    const categoryPill = document.getElementById("categoryPill");
-    const registerPill = document.getElementById("registerPill");
-    const questionNumber = document.getElementById("questionNumber");
-    const questionLabel = document.getElementById("questionLabel");
-    const promptText = document.getElementById("promptText");
-    const userTranslation = document.getElementById("userTranslation");
-    const translationLabelText = document.getElementById("translationLabelText");
-
-    const answerBtn = document.getElementById("answerBtn");
-    const nextBtn = document.getElementById("nextBtn");
-    const answerBox = document.getElementById("answerBox");
-    const answerText = document.getElementById("answerText");
-    const pointsBox = document.getElementById("pointsBox");
-    const pointsList = document.getElementById("pointsList");
-
-    const dailyQuoteCard = document.getElementById("dailyQuoteCard");
-    const dailyQuoteText = document.getElementById("dailyQuoteText");
-    const dailyQuoteAuthor = document.getElementById("dailyQuoteAuthor");
-    const dailyQuoteNumber = document.getElementById("dailyQuoteNumber");
-    const quoteRefreshBtn = document.getElementById("quoteRefreshBtn");
-
-    const dailyMovieCard = document.getElementById("dailyMovieCard");
-    const dailyMovieTitle = document.getElementById("dailyMovieTitle");
-    const dailyMovieCredit = document.getElementById("dailyMovieCredit");
-    const dailyMovieNumber = document.getElementById("dailyMovieNumber");
-    const movieRefreshBtn = document.getElementById("movieRefreshBtn");
-
-    let currentQuestion = null;
-    let lastQuestionIdByMode = {};
-
-    const registerNames = {
-      standard: "標準",
-      soutenu: "書き言葉",
-      administratif: "行政・公的文体"
-    };
-
-    let currentQuoteKey = null;
-
-    function quoteKey(q) {
-      return `${q.text}|||${q.author}`;
+    function sectionLabel(entry) {
+      if (entry.number == null) return "Modèles de base";
+      if (entry.number <= 10) return "Conjugaisons 1 — 10";
+      if (entry.number <= 25) return "Conjugaisons 11 — 25";
+      if (entry.number <= 39) return "Conjugaisons 26 — 39";
+      return "Conjugaisons 40 — 61";
     }
 
-    function renderQuote(q) {
-      if (!q) {
-        dailyQuoteText.textContent = "名言データを読み込めませんでした。";
-        dailyQuoteAuthor.textContent = "";
-        dailyQuoteNumber.textContent = "No. — / —";
-        return;
-      }
-
-      currentQuoteKey = quoteKey(q);
-      dailyQuoteText.textContent = `« ${q.text} »`;
-      dailyQuoteAuthor.textContent = q.author || "";
-
-      const quoteBankLength =
-        typeof DAILY_QUOTES !== "undefined" && Array.isArray(DAILY_QUOTES)
-          ? DAILY_QUOTES.length
-          : 0;
-      dailyQuoteNumber.textContent =
-        q.id && quoteBankLength ? `No. ${q.id} / ${quoteBankLength}` : "No. — / —";
-
-      dailyQuoteCard.classList.remove("quote-changing");
-      void dailyQuoteCard.offsetWidth;
-      dailyQuoteCard.classList.add("quote-changing");
-    }
-
-    function showDailyQuote() {
-      const bank = typeof DAILY_QUOTES !== "undefined" && Array.isArray(DAILY_QUOTES)
-        ? DAILY_QUOTES
-        : [];
-
-      if (!bank.length) {
-        renderQuote(null);
-        return;
-      }
-
-      const chosen = bank[Math.floor(Math.random() * bank.length)];
-      renderQuote(chosen);
-    }
-
-    function refreshQuote() {
-      const bank = typeof DAILY_QUOTES !== "undefined" && Array.isArray(DAILY_QUOTES)
-        ? DAILY_QUOTES
-        : [];
-
-      if (!bank.length) {
-        renderQuote(null);
-        return;
-      }
-
-      let chosen = bank[Math.floor(Math.random() * bank.length)];
-
-      if (bank.length > 1) {
-        let guard = 0;
-        while (quoteKey(chosen) === currentQuoteKey && guard < 30) {
-          chosen = bank[Math.floor(Math.random() * bank.length)];
-          guard++;
-        }
-      }
-
-      renderQuote(chosen);
-    }
-
-    let currentMovieId = null;
-
-    function getMovieBank() {
-      // 以前の movies.js:
-      //   const CLASSIC_MOVIES = ...
-      // 新しい movies.js:
-      //   window.CLASSIC_MOVIES = ...
-      // の両方に対応する。
-      if (
-        typeof CLASSIC_MOVIES !== "undefined" &&
-        Array.isArray(CLASSIC_MOVIES)
-      ) {
-        return CLASSIC_MOVIES;
-      }
-
-      if (Array.isArray(window.CLASSIC_MOVIES)) {
-        return window.CLASSIC_MOVIES;
-      }
-
-      return [];
-    }
-
-    function renderMovie(movie) {
-      if (!movie) {
-        dailyMovieTitle.textContent = "映画データを読み込めませんでした。";
-        dailyMovieCredit.textContent = "";
-        dailyMovieNumber.textContent = "No. — / —";
-        return;
-      }
-
-      currentMovieId = movie.id;
-      dailyMovieTitle.textContent = movie.frenchTitle || "";
-
-      dailyMovieCredit.textContent =
-        `${movie.director || ""} · ${movie.year || ""}`;
-
-      const movieBankLength = getMovieBank().length;
-      dailyMovieNumber.textContent =
-        movie.id && movieBankLength
-          ? `No. ${movie.id} / ${movieBankLength}`
-          : "No. — / —";
-
-      dailyMovieCard.classList.remove("movie-changing");
-      void dailyMovieCard.offsetWidth;
-      dailyMovieCard.classList.add("movie-changing");
-    }
-
-    function randomMovie() {
-      const bank = getMovieBank();
-
-      if (!bank.length) {
-        if (window.MOVIES_SCRIPT_LOAD_FAILED) {
-          dailyMovieTitle.textContent = "movies.js を読み込めませんでした。";
-          dailyMovieCredit.textContent = "index.html と同じ階層に movies.js があるか確認してください。";
-          dailyMovieNumber.textContent = "No. — / —";
-        } else {
-          renderMovie(null);
-        }
-        return;
-      }
-
-      let chosen = bank[Math.floor(Math.random() * bank.length)];
-      if (bank.length > 1) {
-        let guard = 0;
-        while (chosen.id === currentMovieId && guard < 30) {
-          chosen = bank[Math.floor(Math.random() * bank.length)];
-          guard++;
-        }
-      }
-
-      renderMovie(chosen);
-    }
-
-    function activeBank() {
-      return currentDirection === "jpfr" ? JPFR_BANK : FRJP_BANK;
-    }
-
-    function dataFilename(level) {
-      if (currentDirection === "jpfr") {
-        return `${level.toLowerCase()}_japanese_to_french_400.js`;
-      }
-      return `${level.toLowerCase()}_french_translation_400.js`;
-    }
-
-    function randomQuestion(level) {
-      const bank = activeBank()[level] || [];
-      if (!bank.length) {
-        alert(
-          `${level} の問題データを読み込めませんでした。\n` +
-          `${dataFilename(level)} が index.html と同じフォルダにあるか確認してください。`
-        );
-        return null;
-      }
-
-      const modeKey = `${currentDirection}:${level}`;
-      let chosen;
-      do {
-        chosen = bank[Math.floor(Math.random() * bank.length)];
-      } while (
-        bank.length > 1 &&
-        lastQuestionIdByMode[modeKey] === chosen.id
+    function renderList(filter = "") {
+      const needle = filter.trim().toLocaleLowerCase("fr");
+      const visible = data.filter(entry =>
+        entry.infinitive.toLocaleLowerCase("fr").includes(needle)
       );
 
-      lastQuestionIdByMode[modeKey] = chosen.id;
-      return chosen;
-    }
-
-    function resetQuestionArea() {
-      currentQuestion = null;
-      quiz.style.display = "none";
-      emptyState.style.display = "block";
-
-      const directionText = currentDirection === "jpfr" ? "和文仏訳" : "仏文和訳";
-      emptyState.querySelector("h2").textContent =
-        currentDirection === "jpfr"
-          ? "Une phrase japonaise vous attend."
-          : "Une phrase vous attend.";
-      emptyState.querySelector("p").innerHTML =
-        `${currentLevel}・${directionText}を選択中です。<br>` +
-        `「出題する」を押すと400問からランダムに1問表示します。`;
-    }
-
-    function applyDirectionUI() {
-      const isJpFr = currentDirection === "jpfr";
-
-      directionToggle.innerHTML =
-        isJpFr
-          ? '和 → 仏 <span aria-hidden="true">⇄</span>'
-          : '仏 → 和 <span aria-hidden="true">⇄</span>';
-      directionToggle.setAttribute("aria-pressed", String(isJpFr));
-
-      brandSubtitle.textContent =
-        isJpFr
-          ? "JAPANESE → FRENCH TRANSLATION PRACTICE"
-          : "FRENCH → JAPANESE TRANSLATION PRACTICE";
-
-      countBadge.textContent =
-        isJpFr ? "A1 — B2 · tyobitto" : "A2 — C1 · takusan";
-
-      questionLabel.textContent =
-        isJpFr ? "Traduisez en français" : "Traduisez en japonais";
-
-      translationLabelText.textContent =
-        isJpFr ? "自分の仏訳" : "自分の和訳";
-
-      userTranslation.placeholder =
-        isJpFr
-          ? "日本語をフランス語に訳してみましょう。"
-          : "フランス語を日本語に訳してみましょう。";
-
-      levelOptions.forEach(option => {
-        const directions = option.dataset.directions.split(/\s+/);
-        option.style.display = directions.includes(currentDirection) ? "" : "none";
+      const grouped = new Map();
+      visible.forEach(entry => {
+        const key = sectionLabel(entry);
+        if (!grouped.has(key)) grouped.set(key, []);
+        grouped.get(key).push(entry);
       });
 
-      levelGroup.style.setProperty("--visible-levels", "4");
+      verbSections.innerHTML = "";
+      grouped.forEach((items, label) => {
+        const section = document.createElement("section");
+        section.className = "verb-section";
 
-      currentLevel = lastLevelByDirection[currentDirection];
-      const selected = document.querySelector(
-        `input[name="level"][value="${currentLevel}"]`
-      );
-      if (selected) selected.checked = true;
+        const title = document.createElement("h3");
+        title.className = "verb-section-title";
+        title.textContent = label;
+        section.appendChild(title);
 
-      resetQuestionArea();
-    }
+        const grid = document.createElement("div");
+        grid.className = "verb-grid";
 
-    function renderQuestion() {
-      const level = currentLevel;
-      const bank = activeBank()[level] || [];
-      const q = randomQuestion(level);
-      if (!q) return;
+        items.forEach(entry => {
+          const btn = document.createElement("button");
+          btn.className = "verb-card";
+          btn.type = "button";
+          btn.dataset.infinitive = entry.infinitive;
 
-      currentQuestion = q;
+          const name = document.createElement("span");
+          name.className = "verb-name";
+          name.textContent = entry.display;
 
-      emptyState.style.display = "none";
-      quiz.style.display = "block";
+          const meta = document.createElement("span");
+          meta.className = "verb-meta";
+          meta.textContent =
+            entry.number == null ? entry.subtitle : `Conj. ${entry.number}`;
 
-      levelPill.textContent = q.level || level;
-      categoryPill.textContent = q.category || "総合";
-      questionNumber.textContent = `No. ${q.id} / ${bank.length}`;
+          btn.append(name, meta);
+          btn.addEventListener("click", () => openConjugation(entry, btn));
+          grid.appendChild(btn);
+        });
 
-      if (q.register) {
-        registerPill.textContent = registerNames[q.register] || q.register;
-        registerPill.style.display = "inline-flex";
-      } else {
-        registerPill.style.display = "none";
-      }
-
-      if (currentDirection === "jpfr") {
-        promptText.textContent = q.japanese || "";
-        promptText.lang = "ja";
-        answerText.textContent = "";
-        answerText.lang = "fr";
-      } else {
-        promptText.textContent = q.french || "";
-        promptText.lang = "fr";
-        answerText.textContent = "";
-        answerText.lang = "ja";
-      }
-
-      userTranslation.value = "";
-      pointsList.innerHTML = "";
-      answerBox.style.display = "none";
-      answerBtn.textContent = "模範解答を表示";
-
-      // PCなどのマウス操作端末では入力欄に自動フォーカス。
-      // iPhone / iPad などのタッチ端末では、勝手にキーボードを開かない。
-      if (window.matchMedia("(pointer: fine)").matches) {
-        userTranslation.focus({ preventScroll: true });
-      }
-    }
-
-    function showAnswer() {
-      if (!currentQuestion) return;
-
-      if (currentDirection === "jpfr") {
-        answerText.textContent = currentQuestion.french || "";
-        answerText.lang = "fr";
-      } else {
-        answerText.textContent = currentQuestion.japanese || "";
-        answerText.lang = "ja";
-      }
-
-      const points = Array.isArray(currentQuestion.points)
-        ? currentQuestion.points
-        : [];
-
-      pointsList.innerHTML = "";
-      points.forEach(point => {
-        const li = document.createElement("li");
-        li.textContent = point;
-        pointsList.appendChild(li);
+        section.appendChild(grid);
+        verbSections.appendChild(section);
       });
 
-      pointsBox.style.display = points.length ? "block" : "none";
-      answerBox.style.display = "block";
-      answerBtn.textContent = "模範解答を表示中";
-
-      answerBox.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      noResults.style.display = visible.length ? "none" : "block";
+      conjCount.textContent = `${visible.length} verbes`;
     }
 
-    drawBtn.addEventListener("click", renderQuestion);
-    nextBtn.addEventListener("click", renderQuestion);
-    answerBtn.addEventListener("click", showAnswer);
+    function openConjugation(entry, trigger) {
+      lastFocused = trigger || document.activeElement;
 
-    levelInputs.forEach(input => {
-      input.addEventListener("change", () => {
-        if (!input.checked) return;
+      conjDialogTitle.textContent = entry.display;
+      conjDialogNumber.textContent =
+        entry.number == null ? "Modèle de conjugaison" : `Conjugaison ${entry.number}`;
+      conjDialogSubtitle.textContent = entry.subtitle || "";
 
-        const option = input.closest(".level-option");
-        const directions = option?.dataset.directions?.split(/\s+/) || [];
-        if (!directions.includes(currentDirection)) return;
+      moodGrid.innerHTML = "";
+      entry.groups.forEach(group => {
+        const card = document.createElement("section");
+        card.className = "mood-card";
 
-        currentLevel = input.value;
-        lastLevelByDirection[currentDirection] = currentLevel;
-        resetQuestionArea();
+        const title = document.createElement("h3");
+        title.className = "mood-title";
+        title.textContent = group.mood;
+        card.appendChild(title);
+
+        group.rows.forEach(row => {
+          const item = document.createElement("div");
+          item.className = "tense-row";
+
+          const tense = document.createElement("div");
+          tense.className = "tense-name";
+          tense.textContent = row.tense || "—";
+
+          const forms = document.createElement("div");
+          forms.className = "tense-forms";
+          row.forms.forEach(form => {
+            const line = document.createElement("span");
+            line.textContent = form;
+            forms.appendChild(line);
+          });
+
+          item.append(tense, forms);
+          card.appendChild(item);
+        });
+
+        moodGrid.appendChild(card);
       });
-    });
 
-    directionToggle.addEventListener("click", () => {
-      currentDirection = currentDirection === "frjp" ? "jpfr" : "frjp";
-      applyDirectionUI();
-    });
-
-    quoteRefreshBtn.addEventListener("click", refreshQuote);
-    movieRefreshBtn.addEventListener("click", randomMovie);
-    applyDirectionUI();
-    showDailyQuote();
-    randomMovie();
-
-    document.addEventListener("keydown", (event) => {
-      const active = document.activeElement;
-      const isTyping = active === userTranslation;
-
-      if (event.key === "Enter" && !isTyping) {
-        event.preventDefault();
-        renderQuestion();
+      if (entry.notes) {
+        conjNote.textContent = entry.notes;
+        conjNote.style.display = "block";
+      } else {
+        conjNote.textContent = "";
+        conjNote.style.display = "none";
       }
 
-      if (event.code === "Space" && !isTyping && currentQuestion) {
-        event.preventDefault();
-        showAnswer();
+      conjModal.classList.add("open");
+      conjModal.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+      requestAnimationFrame(() => conjClose.focus());
+    }
+
+    function closeConjugation() {
+      conjModal.classList.remove("open");
+      conjModal.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
+      if (lastFocused) lastFocused.focus({ preventScroll: true });
+    }
+
+    conjSearch.addEventListener("input", () => renderList(conjSearch.value));
+    conjClose.addEventListener("click", closeConjugation);
+    conjBackdrop.addEventListener("click", closeConjugation);
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && conjModal.classList.contains("open")) {
+        closeConjugation();
       }
     });
+
+    renderList();
   </script>
 </body>
 </html>
