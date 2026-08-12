@@ -1,6 +1,7 @@
-// 500 films — French titles, directors and release years.
-const MOVIE_DATASET = {
-  "total": 500,
+// Films displayed in the 'Film du jour' section.
+// French title, director, release year and sequential ID only.
+window.MOVIE_DATASET = {
+  "total": 652,
   "movies": [
     {
       "id": 1,
@@ -3001,7 +3002,919 @@ const MOVIE_DATASET = {
       "frenchTitle": "Ocean’s Eleven",
       "director": "Steven Soderbergh",
       "year": 2001
+    },
+    {
+      "id": 501,
+      "frenchTitle": "In the Mood for Love",
+      "director": "Wong Kar-wai",
+      "year": 2000
+    },
+    {
+      "id": 502,
+      "frenchTitle": "Moonlight",
+      "director": "Barry Jenkins",
+      "year": 2016
+    },
+    {
+      "id": 503,
+      "frenchTitle": "Parasite",
+      "director": "Bong Joon-ho",
+      "year": 2019
+    },
+    {
+      "id": 504,
+      "frenchTitle": "Y tu mamá también (Et... ta mère aussi !)",
+      "director": "Alfonso Cuarón",
+      "year": 2001
+    },
+    {
+      "id": 505,
+      "frenchTitle": "4 mois, 3 semaines, 2 jours",
+      "director": "Cristian Mungiu",
+      "year": 2007
+    },
+    {
+      "id": 506,
+      "frenchTitle": "Mad Max - Fury Road",
+      "director": "George Miller",
+      "year": 2015
+    },
+    {
+      "id": 507,
+      "frenchTitle": "Yi Yi",
+      "director": "Edward Yang",
+      "year": 2000
+    },
+    {
+      "id": 508,
+      "frenchTitle": "Boyhood",
+      "director": "Richard Linklater",
+      "year": 2014
+    },
+    {
+      "id": 509,
+      "frenchTitle": "O.J.: Made in America",
+      "director": "Ezra Edelman",
+      "year": 2016
+    },
+    {
+      "id": 510,
+      "frenchTitle": "Une séparation",
+      "director": "Asghar Farhadi",
+      "year": 2011
+    },
+    {
+      "id": 511,
+      "frenchTitle": "The Social Network",
+      "director": "David Fincher",
+      "year": 2010
+    },
+    {
+      "id": 512,
+      "frenchTitle": "Carol",
+      "director": "Todd Haynes",
+      "year": 2015
+    },
+    {
+      "id": 513,
+      "frenchTitle": "Once Upon a Time... in Hollywood",
+      "director": "Quentin Tarantino",
+      "year": 2019
+    },
+    {
+      "id": 514,
+      "frenchTitle": "Inside Llewyn Davis",
+      "director": "Joel Coen, Ethan Coen",
+      "year": 2013
+    },
+    {
+      "id": 515,
+      "frenchTitle": "The Act of Killing",
+      "director": "Joshua Oppenheimer, Christine Cynn, Anonymous",
+      "year": 2012
+    },
+    {
+      "id": 516,
+      "frenchTitle": "Roma",
+      "director": "Alfonso Cuarón",
+      "year": 2018
+    },
+    {
+      "id": 517,
+      "frenchTitle": "Get Out",
+      "director": "Jordan Peele",
+      "year": 2017
+    },
+    {
+      "id": 518,
+      "frenchTitle": "Visages, villages",
+      "director": "Agnès Varda, JR",
+      "year": 2017
+    },
+    {
+      "id": 519,
+      "frenchTitle": "La 25ème heure",
+      "director": "Spike Lee",
+      "year": 2002
+    },
+    {
+      "id": 520,
+      "frenchTitle": "The Grand Budapest Hotel",
+      "director": "Wes Anderson",
+      "year": 2014
+    },
+    {
+      "id": 521,
+      "frenchTitle": "Drive My Car",
+      "director": "Ryusuke Hamaguchi",
+      "year": 2021
+    },
+    {
+      "id": 522,
+      "frenchTitle": "Lady Bird",
+      "director": "Greta Gerwig",
+      "year": 2017
+    },
+    {
+      "id": 523,
+      "frenchTitle": "The Irishman",
+      "director": "Martin Scorsese",
+      "year": 2019
+    },
+    {
+      "id": 524,
+      "frenchTitle": "Oncle Boonmee, celui qui se souvient de ses vies antérieures",
+      "director": "Apichatpong Weerasethakul",
+      "year": 2010
+    },
+    {
+      "id": 525,
+      "frenchTitle": "Phantom Thread",
+      "director": "Paul Thomas Anderson",
+      "year": 2017
+    },
+    {
+      "id": 526,
+      "frenchTitle": "Manchester by the Sea",
+      "director": "Kenneth Lonergan",
+      "year": 2016
+    },
+    {
+      "id": 527,
+      "frenchTitle": "Douleur et Gloire",
+      "director": "Pedro Almodóvar",
+      "year": 2019
+    },
+    {
+      "id": 528,
+      "frenchTitle": "12 Years a Slave",
+      "director": "Steve McQueen",
+      "year": 2013
+    },
+    {
+      "id": 529,
+      "frenchTitle": "Sur le chemin de la rédemption",
+      "director": "Paul Schrader",
+      "year": 2017
+    },
+    {
+      "id": 530,
+      "frenchTitle": "Burning",
+      "director": "Lee Chang-dong",
+      "year": 2018
+    },
+    {
+      "id": 531,
+      "frenchTitle": "Spring Breakers",
+      "director": "Harmony Korine",
+      "year": 2012
+    },
+    {
+      "id": 532,
+      "frenchTitle": "Tár",
+      "director": "Todd Field",
+      "year": 2022
+    },
+    {
+      "id": 533,
+      "frenchTitle": "The Master",
+      "director": "Paul Thomas Anderson",
+      "year": 2012
+    },
+    {
+      "id": 534,
+      "frenchTitle": "Under the Skin",
+      "director": "Jonathan Glazer",
+      "year": 2013
+    },
+    {
+      "id": 535,
+      "frenchTitle": "Selma",
+      "director": "Ava DuVernay",
+      "year": 2014
+    },
+    {
+      "id": 536,
+      "frenchTitle": "Nickel Boys",
+      "director": "RaMell Ross",
+      "year": 2024
+    },
+    {
+      "id": 537,
+      "frenchTitle": "Hunger",
+      "director": "Steve McQueen",
+      "year": 2008
+    },
+    {
+      "id": 538,
+      "frenchTitle": "La Dernière Piste",
+      "director": "Kelly Reichardt",
+      "year": 2010
+    },
+    {
+      "id": 539,
+      "frenchTitle": "Black Panther",
+      "director": "Ryan Coogler",
+      "year": 2018
+    },
+    {
+      "id": 540,
+      "frenchTitle": "Past Lives - Nos vies d’avant",
+      "director": "Celine Song",
+      "year": 2023
+    },
+    {
+      "id": 541,
+      "frenchTitle": "Call Me by Your Name",
+      "director": "Luca Guadagnino",
+      "year": 2017
+    },
+    {
+      "id": 542,
+      "frenchTitle": "Un prophète",
+      "director": "Jacques Audiard",
+      "year": 2009
+    },
+    {
+      "id": 543,
+      "frenchTitle": "The Tree of Life",
+      "director": "Terrence Malick",
+      "year": 2011
+    },
+    {
+      "id": 544,
+      "frenchTitle": "Inglourious Basterds",
+      "director": "Quentin Tarantino",
+      "year": 2009
+    },
+    {
+      "id": 545,
+      "frenchTitle": "Dogville",
+      "director": "Lars von Trier",
+      "year": 2003
+    },
+    {
+      "id": 546,
+      "frenchTitle": "40 ans, toujours puceau",
+      "director": "Judd Apatow",
+      "year": 2005
+    },
+    {
+      "id": 547,
+      "frenchTitle": "The Florida Project",
+      "director": "Sean Baker",
+      "year": 2017
+    },
+    {
+      "id": 548,
+      "frenchTitle": "I Am Not Your Negro",
+      "director": "Raoul Peck",
+      "year": 2016
+    },
+    {
+      "id": 549,
+      "frenchTitle": "Leviathan",
+      "director": "Lucien Castaing-Taylor, Véréna Paravel",
+      "year": 2012
+    },
+    {
+      "id": 550,
+      "frenchTitle": "Her",
+      "director": "Spike Jonze",
+      "year": 2013
+    },
+    {
+      "id": 551,
+      "frenchTitle": "The Souvenir",
+      "director": "Joanna Hogg",
+      "year": 2019
+    },
+    {
+      "id": 552,
+      "frenchTitle": "Grizzly Man",
+      "director": "Werner Herzog",
+      "year": 2005
+    },
+    {
+      "id": 553,
+      "frenchTitle": "The Host",
+      "director": "Bong Joon-ho",
+      "year": 2006
+    },
+    {
+      "id": 554,
+      "frenchTitle": "Gosford Park",
+      "director": "Robert Altman",
+      "year": 2001
+    },
+    {
+      "id": 555,
+      "frenchTitle": "Michael Clayton",
+      "director": "Tony Gilroy",
+      "year": 2007
+    },
+    {
+      "id": 556,
+      "frenchTitle": "John Wick",
+      "director": "Chad Stahelski",
+      "year": 2014
+    },
+    {
+      "id": 557,
+      "frenchTitle": "Uncut Gems",
+      "director": "Josh Safdie, Benny Safdie",
+      "year": 2019
+    },
+    {
+      "id": 558,
+      "frenchTitle": "35 Rhums",
+      "director": "Claire Denis",
+      "year": 2008
+    },
+    {
+      "id": 559,
+      "frenchTitle": "La Zone d'intérêt",
+      "director": "Jonathan Glazer",
+      "year": 2023
+    },
+    {
+      "id": 560,
+      "frenchTitle": "Punch-Drunk Love - Ivre d'amour",
+      "director": "Paul Thomas Anderson",
+      "year": 2002
+    },
+    {
+      "id": 561,
+      "frenchTitle": "Bêtes de scène",
+      "director": "Christopher Guest",
+      "year": 2000
+    },
+    {
+      "id": 562,
+      "frenchTitle": "Le Ruban blanc",
+      "director": "Michael Haneke",
+      "year": 2009
+    },
+    {
+      "id": 563,
+      "frenchTitle": "Portrait de la jeune fille en feu",
+      "director": "Céline Sciamma",
+      "year": 2019
+    },
+    {
+      "id": 564,
+      "frenchTitle": "Hérédité",
+      "director": "Ari Aster",
+      "year": 2018
+    },
+    {
+      "id": 565,
+      "frenchTitle": "Canine",
+      "director": "Yórgos Lánthimos",
+      "year": 2009
+    },
+    {
+      "id": 566,
+      "frenchTitle": "Lincoln",
+      "director": "Steven Spielberg",
+      "year": 2012
+    },
+    {
+      "id": 567,
+      "frenchTitle": "Oppenheimer",
+      "director": "Christopher Nolan",
+      "year": 2023
+    },
+    {
+      "id": 568,
+      "frenchTitle": "Fantastic Mr. Fox",
+      "director": "Wes Anderson",
+      "year": 2009
+    },
+    {
+      "id": 569,
+      "frenchTitle": "Decision to Leave",
+      "director": "Park Chan-wook",
+      "year": 2022
+    },
+    {
+      "id": 570,
+      "frenchTitle": "La Commune (Paris 1871)",
+      "director": "Peter Watkins",
+      "year": 2000
+    },
+    {
+      "id": 571,
+      "frenchTitle": "Copie conforme",
+      "director": "Abbas Kiarostami",
+      "year": 2010
+    },
+    {
+      "id": 572,
+      "frenchTitle": "Hors jeu",
+      "director": "Jafar Panahi",
+      "year": 2006
+    },
+    {
+      "id": 573,
+      "frenchTitle": "Lingui - Les liens sacrés",
+      "director": "Mahamat-Saleh Haroun",
+      "year": 2021
+    },
+    {
+      "id": 574,
+      "frenchTitle": "Démineurs",
+      "director": "Kathryn Bigelow",
+      "year": 2008
+    },
+    {
+      "id": 575,
+      "frenchTitle": "Toni Erdmann",
+      "director": "Maren Ade",
+      "year": 2016
+    },
+    {
+      "id": 576,
+      "frenchTitle": "No",
+      "director": "Pablo Larraín",
+      "year": 2012
+    },
+    {
+      "id": 577,
+      "frenchTitle": "Norte, la fin de l'histoire",
+      "director": "Lav Diaz",
+      "year": 2013
+    },
+    {
+      "id": 578,
+      "frenchTitle": "Winter's Bone",
+      "director": "Debra Granik",
+      "year": 2010
+    },
+    {
+      "id": 579,
+      "frenchTitle": "Margaret",
+      "director": "Kenneth Lonergan",
+      "year": 2011
+    },
+    {
+      "id": 580,
+      "frenchTitle": "Nashville",
+      "director": "Robert Altman",
+      "year": 1975
+    },
+    {
+      "id": 581,
+      "frenchTitle": "Persona",
+      "director": "Ingmar Bergman",
+      "year": 1966
+    },
+    {
+      "id": 582,
+      "frenchTitle": "L'Impossible Monsieur Bébé",
+      "director": "Howard Hawks",
+      "year": 1938
+    },
+    {
+      "id": 583,
+      "frenchTitle": "Bonnie and Clyde",
+      "director": "Arthur Penn",
+      "year": 1967
+    },
+    {
+      "id": 584,
+      "frenchTitle": "Les Lumières de la ville",
+      "director": "Charlie Chaplin",
+      "year": 1931
+    },
+    {
+      "id": 585,
+      "frenchTitle": "La Chevauchée fantastique",
+      "director": "John Ford",
+      "year": 1939
+    },
+    {
+      "id": 586,
+      "frenchTitle": "Shoah",
+      "director": "Claude Lanzmann",
+      "year": 1985
+    },
+    {
+      "id": 587,
+      "frenchTitle": "La Leçon de piano",
+      "director": "Jane Campion",
+      "year": 1993
+    },
+    {
+      "id": 588,
+      "frenchTitle": "Le Mécano de la Générale",
+      "director": "Clyde Bruckman, Buster Keaton",
+      "year": 1926
+    },
+    {
+      "id": 589,
+      "frenchTitle": "La Complainte du sentier",
+      "director": "Satyajit Ray",
+      "year": 1955
+    },
+    {
+      "id": 590,
+      "frenchTitle": "Sans toit ni loi",
+      "director": "Agnès Varda",
+      "year": 1985
+    },
+    {
+      "id": 591,
+      "frenchTitle": "La Passion de Jeanne d'Arc",
+      "director": "Carl Theodor Dreyer",
+      "year": 1928
+    },
+    {
+      "id": 592,
+      "frenchTitle": "Bambi",
+      "director": "David Hand",
+      "year": 1942
+    },
+    {
+      "id": 593,
+      "frenchTitle": "Paris Is Burning",
+      "director": "Jennie Livingston",
+      "year": 1990
+    },
+    {
+      "id": 594,
+      "frenchTitle": "Beau Travail",
+      "director": "Claire Denis",
+      "year": 1999
+    },
+    {
+      "id": 595,
+      "frenchTitle": "Le Mariage de mon meilleur ami",
+      "director": "P. J. Hogan",
+      "year": 1997
+    },
+    {
+      "id": 596,
+      "frenchTitle": "Breaking the Waves",
+      "director": "Lars von Trier",
+      "year": 1996
+    },
+    {
+      "id": 597,
+      "frenchTitle": "Intolérance",
+      "director": "D. W. Griffith",
+      "year": 1916
+    },
+    {
+      "id": 598,
+      "frenchTitle": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
+      "director": "Chantal Akerman",
+      "year": 1975
+    },
+    {
+      "id": 599,
+      "frenchTitle": "Waiting for Guffman",
+      "director": "Christopher Guest",
+      "year": 1996
+    },
+    {
+      "id": 600,
+      "frenchTitle": "Pixote - La loi du plus faible",
+      "director": "Héctor Babenco",
+      "year": 1981
+    },
+    {
+      "id": 601,
+      "frenchTitle": "Kramer contre Kramer",
+      "director": "Robert Benton",
+      "year": 1979
+    },
+    {
+      "id": 602,
+      "frenchTitle": "Close-Up",
+      "director": "Abbas Kiarostami",
+      "year": 1990
+    },
+    {
+      "id": 603,
+      "frenchTitle": "La Mélodie du bonheur",
+      "director": "Robert Wise",
+      "year": 1965
+    },
+    {
+      "id": 604,
+      "frenchTitle": "Malcolm X",
+      "director": "Spike Lee",
+      "year": 1992
+    },
+    {
+      "id": 605,
+      "frenchTitle": "Belle de jour",
+      "director": "Luis Buñuel",
+      "year": 1967
+    },
+    {
+      "id": 606,
+      "frenchTitle": "Scènes de la vie conjugale",
+      "director": "Ingmar Bergman",
+      "year": 1974
+    },
+    {
+      "id": 607,
+      "frenchTitle": "Pink Flamingos",
+      "director": "John Waters",
+      "year": 1972
+    },
+    {
+      "id": 608,
+      "frenchTitle": "Mes meilleures amies",
+      "director": "Paul Feig",
+      "year": 2011
+    },
+    {
+      "id": 609,
+      "frenchTitle": "Femmes au bord de la crise de nerfs",
+      "director": "Pedro Almodóvar",
+      "year": 1988
+    },
+    {
+      "id": 610,
+      "frenchTitle": "Carlos",
+      "director": "Olivier Assayas",
+      "year": 2010
+    },
+    {
+      "id": 611,
+      "frenchTitle": "Les Glaneurs et la Glaneuse",
+      "director": "Agnès Varda",
+      "year": 2000
+    },
+    {
+      "id": 612,
+      "frenchTitle": "White Material",
+      "director": "Claire Denis",
+      "year": 2009
+    },
+    {
+      "id": 613,
+      "frenchTitle": "Moonrise Kingdom",
+      "director": "Wes Anderson",
+      "year": 2012
+    },
+    {
+      "id": 614,
+      "frenchTitle": "Morse",
+      "director": "Tomas Alfredson",
+      "year": 2008
+    },
+    {
+      "id": 615,
+      "frenchTitle": "Dans ses yeux",
+      "director": "Juan José Campanella",
+      "year": 2009
+    },
+    {
+      "id": 616,
+      "frenchTitle": "Le Pianiste",
+      "director": "Roman Polanski",
+      "year": 2002
+    },
+    {
+      "id": 617,
+      "frenchTitle": "La Femme sans tête",
+      "director": "Lucrecia Martel",
+      "year": 2008
+    },
+    {
+      "id": 618,
+      "frenchTitle": "Spotlight",
+      "director": "Tom McCarthy",
+      "year": 2015
+    },
+    {
+      "id": 619,
+      "frenchTitle": "A Serious Man",
+      "director": "Joel Coen, Ethan Coen",
+      "year": 2009
+    },
+    {
+      "id": 620,
+      "frenchTitle": "Shame",
+      "director": "Steve McQueen",
+      "year": 2011
+    },
+    {
+      "id": 621,
+      "frenchTitle": "Le Loup de Wall Street",
+      "director": "Martin Scorsese",
+      "year": 2013
+    },
+    {
+      "id": 622,
+      "frenchTitle": "Le Scaphandre et le Papillon",
+      "director": "Julian Schnabel",
+      "year": 2007
+    },
+    {
+      "id": 623,
+      "frenchTitle": "Inherent Vice",
+      "director": "Paul Thomas Anderson",
+      "year": 2014
+    },
+    {
+      "id": 624,
+      "frenchTitle": "Only Lovers Left Alive",
+      "director": "Jim Jarmusch",
+      "year": 2013
+    },
+    {
+      "id": 625,
+      "frenchTitle": "Tabou",
+      "director": "Miguel Gomes",
+      "year": 2012
+    },
+    {
+      "id": 626,
+      "frenchTitle": "Stories We Tell",
+      "director": "Sarah Polley",
+      "year": 2012
+    },
+    {
+      "id": 627,
+      "frenchTitle": "Printemps, été, automne, hiver... et printemps",
+      "director": "Kim Ki-duk",
+      "year": 2003
+    },
+    {
+      "id": 628,
+      "frenchTitle": "Fish Tank",
+      "director": "Andrea Arnold",
+      "year": 2009
+    },
+    {
+      "id": 629,
+      "frenchTitle": "La grande bellezza",
+      "director": "Paolo Sorrentino",
+      "year": 2013
+    },
+    {
+      "id": 630,
+      "frenchTitle": "Le Cheval de Turin",
+      "director": "Béla Tarr, Ágnes Hranitzky",
+      "year": 2011
+    },
+    {
+      "id": 631,
+      "frenchTitle": "Syndromes and a Century",
+      "director": "Apichatpong Weerasethakul",
+      "year": 2006
+    },
+    {
+      "id": 632,
+      "frenchTitle": "Moolaadé",
+      "director": "Ousmane Sembène",
+      "year": 2004
+    },
+    {
+      "id": 633,
+      "frenchTitle": "Zero Dark Thirty",
+      "director": "Kathryn Bigelow",
+      "year": 2012
+    },
+    {
+      "id": 634,
+      "frenchTitle": "Les Harmonies Werckmeister",
+      "director": "Béla Tarr, Ágnes Hranitzky",
+      "year": 2000
+    },
+    {
+      "id": 635,
+      "frenchTitle": "Ida",
+      "director": "Paweł Pawlikowski",
+      "year": 2013
+    },
+    {
+      "id": 636,
+      "frenchTitle": "Il était une fois en Anatolie",
+      "director": "Nuri Bilge Ceylan",
+      "year": 2011
+    },
+    {
+      "id": 637,
+      "frenchTitle": "Tropical Malady",
+      "director": "Apichatpong Weerasethakul",
+      "year": 2004
+    },
+    {
+      "id": 638,
+      "frenchTitle": "Inception",
+      "director": "Christopher Nolan",
+      "year": 2010
+    },
+    {
+      "id": 639,
+      "frenchTitle": "The Assassin",
+      "director": "Hou Hsiao-hsien",
+      "year": 2015
+    },
+    {
+      "id": 640,
+      "frenchTitle": "Adieu au langage",
+      "director": "Jean-Luc Godard",
+      "year": 2014
+    },
+    {
+      "id": 641,
+      "frenchTitle": "Brooklyn",
+      "director": "John Crowley",
+      "year": 2015
+    },
+    {
+      "id": 642,
+      "frenchTitle": "Léviathan",
+      "director": "Andrey Zvyagintsev",
+      "year": 2014
+    },
+    {
+      "id": 643,
+      "frenchTitle": "La Vie d'Adèle : Chapitres 1 et 2",
+      "director": "Abdellatif Kechiche",
+      "year": 2013
+    },
+    {
+      "id": 644,
+      "frenchTitle": "Melancholia",
+      "director": "Lars von Trier",
+      "year": 2011
+    },
+    {
+      "id": 645,
+      "frenchTitle": "Amour",
+      "director": "Michael Haneke",
+      "year": 2012
+    },
+    {
+      "id": 646,
+      "frenchTitle": "Vice-versa",
+      "director": "Pete Docter",
+      "year": 2015
+    },
+    {
+      "id": 647,
+      "frenchTitle": "Le Nouveau Monde",
+      "director": "Terrence Malick",
+      "year": 2005
+    },
+    {
+      "id": 648,
+      "frenchTitle": "Timbuktu",
+      "director": "Abderrahmane Sissako",
+      "year": 2014
+    },
+    {
+      "id": 649,
+      "frenchTitle": "Le Fils de Saul",
+      "director": "László Nemes",
+      "year": 2015
+    },
+    {
+      "id": 650,
+      "frenchTitle": "Parle avec elle",
+      "director": "Pedro Almodóvar",
+      "year": 2002
+    },
+    {
+      "id": 651,
+      "frenchTitle": "Synecdoche, New York",
+      "director": "Charlie Kaufman",
+      "year": 2008
+    },
+    {
+      "id": 652,
+      "frenchTitle": "Holy Motors",
+      "director": "Leos Carax",
+      "year": 2012
     }
   ]
 };
-const CLASSIC_MOVIES = MOVIE_DATASET.movies;
+window.CLASSIC_MOVIES = window.MOVIE_DATASET.movies;
