@@ -1,7 +1,7 @@
 // Films displayed in the 'Film du jour' section.
 // French title, director, release year and sequential ID only.
 window.MOVIE_DATASET = {
-  "total": 652,
+  "total": 679,
   "movies": [
     {
       "id": 1,
@@ -3914,6 +3914,168 @@ window.MOVIE_DATASET = {
       "frenchTitle": "Holy Motors",
       "director": "Leos Carax",
       "year": 2012
+    },
+    {
+      "id": 653,
+      "frenchTitle": "A Ghost Story",
+      "director": "David Lowery",
+      "year": 2017
+    },
+    {
+      "id": 654,
+      "frenchTitle": "Fanny et Alexandre",
+      "director": "Ingmar Bergman",
+      "year": 1982
+    },
+    {
+      "id": 655,
+      "frenchTitle": "Toy Story 3",
+      "director": "Lee Unkrich",
+      "year": 2010
+    },
+    {
+      "id": 656,
+      "frenchTitle": "Premier Contact",
+      "director": "Denis Villeneuve",
+      "year": 2016
+    },
+    {
+      "id": 657,
+      "frenchTitle": "Joker",
+      "director": "Todd Phillips",
+      "year": 2019
+    },
+    {
+      "id": 658,
+      "frenchTitle": "Les Parapluies de Cherbourg",
+      "director": "Jacques Demy",
+      "year": 1964
+    },
+    {
+      "id": 659,
+      "frenchTitle": "El Topo",
+      "director": "Alejandro Jodorowsky",
+      "year": 1970
+    },
+    {
+      "id": 660,
+      "frenchTitle": "Dancer in the Dark",
+      "director": "Lars von Trier",
+      "year": 2000
+    },
+    {
+      "id": 661,
+      "frenchTitle": "Avengers: Endgame",
+      "director": "Anthony Russo, Joe Russo",
+      "year": 2019
+    },
+    {
+      "id": 662,
+      "frenchTitle": "3 Billboards : Les Panneaux de la vengeance",
+      "director": "Martin McDonagh",
+      "year": 2017
+    },
+    {
+      "id": 663,
+      "frenchTitle": "Chungking Express",
+      "director": "Wong Kar-wai",
+      "year": 1994
+    },
+    {
+      "id": 664,
+      "frenchTitle": "Les Temps modernes",
+      "director": "Charlie Chaplin",
+      "year": 1936
+    },
+    {
+      "id": 665,
+      "frenchTitle": "Où est la maison de mon ami ?",
+      "director": "Abbas Kiarostami",
+      "year": 1987
+    },
+    {
+      "id": 666,
+      "frenchTitle": "Pierrot le Fou",
+      "director": "Jean-Luc Godard",
+      "year": 1965
+    },
+    {
+      "id": 667,
+      "frenchTitle": "La vie est belle",
+      "director": "Roberto Benigni",
+      "year": 1997
+    },
+    {
+      "id": 668,
+      "frenchTitle": "Gran Torino",
+      "director": "Clint Eastwood",
+      "year": 2008
+    },
+    {
+      "id": 669,
+      "frenchTitle": "Nostalghia",
+      "director": "Andrei Tarkovsky",
+      "year": 1983
+    },
+    {
+      "id": 670,
+      "frenchTitle": "Le Miroir",
+      "director": "Andrei Tarkovsky",
+      "year": 1975
+    },
+    {
+      "id": 671,
+      "frenchTitle": "L'Année dernière à Marienbad",
+      "director": "Alain Resnais",
+      "year": 1961
+    },
+    {
+      "id": 672,
+      "frenchTitle": "Billy Elliot",
+      "director": "Stephen Daldry",
+      "year": 2000
+    },
+    {
+      "id": 673,
+      "frenchTitle": "Bohemian Rhapsody",
+      "director": "Bryan Singer",
+      "year": 2018
+    },
+    {
+      "id": 674,
+      "frenchTitle": "La La Land",
+      "director": "Damien Chazelle",
+      "year": 2016
+    },
+    {
+      "id": 675,
+      "frenchTitle": "Underground",
+      "director": "Emir Kusturica",
+      "year": 1995
+    },
+    {
+      "id": 676,
+      "frenchTitle": "La strada",
+      "director": "Federico Fellini",
+      "year": 1954
+    },
+    {
+      "id": 677,
+      "frenchTitle": "Whiplash",
+      "director": "Damien Chazelle",
+      "year": 2014
+    },
+    {
+      "id": 678,
+      "frenchTitle": "Memories of Murder",
+      "director": "Bong Joon-ho",
+      "year": 2003
+    },
+    {
+      "id": 679,
+      "frenchTitle": "Interstellar",
+      "director": "Christopher Nolan",
+      "year": 2014
     }
   ]
 };
