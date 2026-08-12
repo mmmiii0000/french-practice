@@ -14,7 +14,6 @@
       --muted: #707887;
       --paper: #fffdf8;
       --cream: #f5f0e8;
-      --cream-2: #ece4d8;
       --blue: #355d9d;
       --red: #b84a4a;
       --gold: #b88b4a;
@@ -159,10 +158,10 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      border: 1px solid rgba(20,33,61,.12);
       text-decoration: none;
       white-space: nowrap;
     }
-
 
 
     .site-disclaimer {
@@ -570,166 +569,50 @@
     }
 
 
-    .daily-quote-card {
+    .daily-quote-card,
+    .daily-movie-card {
       position: relative;
       overflow: hidden;
-      margin-top: 30px;
       padding: 30px 32px 28px;
-      border: 1px solid rgba(20,33,61,.10);
       border-radius: 24px;
+      box-shadow: 0 18px 46px rgba(26,34,54,.10);
+    }
+
+    .daily-quote-card {
+      margin-top: 30px;
+      border: 1px solid rgba(20,33,61,.10);
       background:
         radial-gradient(circle at 92% 12%, rgba(184,139,74,.11), transparent 28%),
         linear-gradient(145deg, rgba(255,253,248,.92), rgba(239,233,223,.82));
-      box-shadow: 0 18px 46px rgba(26,34,54,.10);
+    }
+
+    .daily-movie-card {
+      margin-top: 22px;
+      border: 1px solid rgba(20,33,61,.11);
+      background:
+        radial-gradient(circle at 92% 15%, rgba(53,93,157,.12), transparent 30%),
+        linear-gradient(145deg, rgba(248,250,253,.94), rgba(236,239,245,.88));
+    }
+
+    .daily-quote-card::before,
+    .daily-movie-card::before {
+      position: absolute;
+      pointer-events: none;
+      user-select: none;
     }
 
     .daily-quote-card::before {
       content: "“";
-      position: absolute;
       top: -20px;
       right: 24px;
       color: rgba(20,33,61,.055);
       font-family: Georgia, "Times New Roman", serif;
       font-size: 9rem;
       line-height: 1;
-      pointer-events: none;
-      user-select: none;
-    }
-
-    .daily-quote-head {
-      position: relative;
-      z-index: 1;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 18px;
-      margin-bottom: 22px;
-    }
-
-    .daily-quote-heading {
-      min-width: 0;
-    }
-
-    .daily-quote-kicker {
-      display: block;
-      margin-bottom: 4px;
-      color: var(--gold);
-      font-size: .66rem;
-      font-weight: 900;
-      letter-spacing: .16em;
-      text-transform: uppercase;
-    }
-
-    .daily-quote-title {
-      margin: 0;
-      color: var(--navy);
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 1.22rem;
-      font-weight: 600;
-      letter-spacing: .02em;
-    }
-
-    .quote-refresh-btn {
-      flex: 0 0 auto;
-      min-height: 38px;
-      border: 1px solid rgba(20,33,61,.11);
-      border-radius: 999px;
-      padding: 0 14px;
-      color: var(--navy);
-      background: rgba(255,255,255,.70);
-      font-size: .74rem;
-      font-weight: 800;
-      cursor: pointer;
-      transition: transform .15s ease, box-shadow .18s ease,
-                  background .18s ease, border-color .18s ease;
-    }
-
-    .quote-refresh-btn:hover {
-      transform: translateY(-1px);
-      border-color: rgba(53,93,157,.28);
-      background: rgba(255,255,255,.94);
-      box-shadow: 0 7px 18px rgba(20,33,61,.08);
-    }
-
-    .daily-quote-body {
-      position: relative;
-      z-index: 1;
-    }
-
-    .daily-quote-text {
-      margin: 0;
-      color: var(--navy);
-      font-family:
-        "Iowan Old Style", "Palatino Linotype", "Book Antiqua",
-        Georgia, "Times New Roman", serif;
-      font-size: clamp(1.18rem, 3vw, 1.52rem);
-      font-weight: 400;
-      line-height: 1.68;
-      letter-spacing: .005em;
-      overflow-wrap: anywhere;
-    }
-
-
-    .daily-quote-meta {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 14px;
-      margin-top: 16px;
-    }
-
-    .daily-quote-meta .daily-quote-author {
-      margin: 0;
-    }
-
-    .daily-quote-number {
-      flex: 0 0 auto;
-      color: #8b8378;
-      font-size: .7rem;
-      font-weight: 800;
-      letter-spacing: .04em;
-    }
-
-    .daily-quote-author {
-      margin: 16px 0 0;
-      color: #6e665b;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: .88rem;
-      font-style: italic;
-      line-height: 1.55;
-    }
-
-    .daily-quote-author::before {
-      content: "— ";
-    }
-
-    .daily-quote-card.quote-changing .daily-quote-text,
-    .daily-quote-card.quote-changing .daily-quote-author {
-      animation: quoteFade .28s ease both;
-    }
-
-    @keyframes quoteFade {
-      from { opacity: .18; transform: translateY(4px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-
-    .daily-movie-card {
-      position: relative;
-      overflow: hidden;
-      margin-top: 22px;
-      padding: 30px 32px 28px;
-      border: 1px solid rgba(20,33,61,.11);
-      border-radius: 24px;
-      background:
-        radial-gradient(circle at 92% 15%, rgba(53,93,157,.12), transparent 30%),
-        linear-gradient(145deg, rgba(248,250,253,.94), rgba(236,239,245,.88));
-      box-shadow: 0 18px 46px rgba(26,34,54,.10);
     }
 
     .daily-movie-card::before {
       content: "FILM";
-      position: absolute;
       top: 18px;
       right: 24px;
       color: rgba(20,33,61,.045);
@@ -738,10 +621,9 @@
       font-weight: 700;
       letter-spacing: .08em;
       line-height: 1;
-      pointer-events: none;
-      user-select: none;
     }
 
+    .daily-quote-head,
     .daily-movie-head {
       position: relative;
       z-index: 1;
@@ -752,20 +634,25 @@
       margin-bottom: 22px;
     }
 
+    .daily-quote-heading,
     .daily-movie-heading {
       min-width: 0;
     }
 
+    .daily-quote-kicker,
     .daily-movie-kicker {
       display: block;
       margin-bottom: 4px;
-      color: var(--blue);
       font-size: .66rem;
       font-weight: 900;
       letter-spacing: .16em;
       text-transform: uppercase;
     }
 
+    .daily-quote-kicker { color: var(--gold); }
+    .daily-movie-kicker { color: var(--blue); }
+
+    .daily-quote-title,
     .daily-movie-title-label {
       margin: 0;
       color: var(--navy);
@@ -775,6 +662,7 @@
       letter-spacing: .02em;
     }
 
+    .quote-refresh-btn,
     .movie-refresh-btn {
       flex: 0 0 auto;
       min-height: 38px;
@@ -782,7 +670,6 @@
       border-radius: 999px;
       padding: 0 14px;
       color: var(--navy);
-      background: rgba(255,255,255,.72);
       font-size: .74rem;
       font-weight: 800;
       cursor: pointer;
@@ -790,41 +677,84 @@
                   background .18s ease, border-color .18s ease;
     }
 
+    .quote-refresh-btn { background: rgba(255,255,255,.70); }
+    .movie-refresh-btn { background: rgba(255,255,255,.72); }
+
+    .quote-refresh-btn:hover,
     .movie-refresh-btn:hover {
       transform: translateY(-1px);
-      border-color: rgba(53,93,157,.30);
-      background: rgba(255,255,255,.96);
       box-shadow: 0 7px 18px rgba(20,33,61,.08);
     }
 
+    .quote-refresh-btn:hover {
+      border-color: rgba(53,93,157,.28);
+      background: rgba(255,255,255,.94);
+    }
+
+    .movie-refresh-btn:hover {
+      border-color: rgba(53,93,157,.30);
+      background: rgba(255,255,255,.96);
+    }
+
+    .daily-quote-body,
     .daily-movie-body {
       position: relative;
       z-index: 1;
     }
 
+    .daily-quote-text,
     .daily-movie-title {
       margin: 0;
       color: var(--navy);
       font-family:
         "Iowan Old Style", "Palatino Linotype", "Book Antiqua",
         Georgia, "Times New Roman", serif;
+      overflow-wrap: anywhere;
+    }
+
+    .daily-quote-text {
+      font-size: clamp(1.18rem, 3vw, 1.52rem);
+      font-weight: 400;
+      line-height: 1.68;
+      letter-spacing: .005em;
+    }
+
+    .daily-movie-title {
       font-size: clamp(1.42rem, 3.6vw, 2rem);
       font-weight: 500;
       line-height: 1.4;
       letter-spacing: -.012em;
-      overflow-wrap: anywhere;
     }
 
-
+    .daily-quote-meta,
     .daily-movie-meta {
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
+    }
+
+    .daily-quote-meta {
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .daily-movie-meta {
       gap: 16px;
       margin-top: 18px;
       padding-top: 16px;
       border-top: 1px solid rgba(20,33,61,.09);
     }
+
+    .daily-quote-author {
+      margin: 0;
+      color: #6e665b;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: .88rem;
+      font-style: italic;
+      line-height: 1.55;
+    }
+
+    .daily-quote-author::before { content: "— "; }
 
     .daily-movie-credit {
       margin: 0;
@@ -833,23 +763,28 @@
       line-height: 1.6;
     }
 
-    .daily-movie-credit strong {
-      color: var(--navy);
-      font-weight: 800;
-    }
-
+    .daily-quote-number,
     .daily-movie-number {
       flex: 0 0 auto;
-      color: #7b8390;
       font-size: .7rem;
       font-weight: 800;
       letter-spacing: .04em;
     }
 
+    .daily-quote-number { color: #8b8378; }
+    .daily-movie-number { color: #7b8390; }
+
+    .daily-quote-card.quote-changing .daily-quote-text,
+    .daily-quote-card.quote-changing .daily-quote-author,
     .daily-movie-card.movie-changing .daily-movie-title,
     .daily-movie-card.movie-changing .daily-movie-credit,
     .daily-movie-card.movie-changing .daily-movie-number {
       animation: quoteFade .28s ease both;
+    }
+
+    @keyframes quoteFade {
+      from { opacity: .18; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     .footer-note {
@@ -942,23 +877,29 @@
         line-height: 1.48;
       }
 
-      .daily-quote-card {
-        margin-top: 24px;
+      .daily-quote-card,
+      .daily-movie-card {
         padding: 24px 20px 22px;
         border-radius: 20px;
       }
 
-      .daily-quote-head {
+      .daily-quote-card { margin-top: 24px; }
+      .daily-movie-card { margin-top: 18px; }
+
+      .daily-quote-head,
+      .daily-movie-head {
         align-items: flex-start;
         gap: 12px;
         margin-bottom: 18px;
       }
 
-      .daily-quote-title {
+      .daily-quote-title,
+      .daily-movie-title-label {
         font-size: 1.08rem;
       }
 
-      .quote-refresh-btn {
+      .quote-refresh-btn,
+      .movie-refresh-btn {
         min-height: 36px;
         padding: 0 12px;
         font-size: .7rem;
@@ -969,46 +910,15 @@
         line-height: 1.65;
       }
 
-      .daily-quote-meta {
-        align-items: flex-start;
-        gap: 10px;
-      }
+      .daily-movie-title { font-size: 1.34rem; }
 
-      .daily-quote-number {
-        font-size: .66rem;
-      }
-
-      .daily-movie-card {
-        margin-top: 18px;
-        padding: 24px 20px 22px;
-        border-radius: 20px;
-      }
-
-      .daily-movie-head {
-        align-items: flex-start;
-        gap: 12px;
-        margin-bottom: 18px;
-      }
-
-      .daily-movie-title-label {
-        font-size: 1.08rem;
-      }
-
-      .movie-refresh-btn {
-        min-height: 36px;
-        padding: 0 12px;
-        font-size: .7rem;
-      }
-
-      .daily-movie-title {
-        font-size: 1.34rem;
-      }
-
+      .daily-quote-meta,
       .daily-movie-meta {
         align-items: flex-start;
         gap: 10px;
       }
 
+      .daily-quote-number,
       .daily-movie-number {
         font-size: .66rem;
       }
@@ -1024,10 +934,6 @@
 
     .view-panel[hidden] {
       display: none !important;
-    }
-
-    .omake-link {
-      border: 1px solid rgba(20,33,61,.12);
     }
 
     .direction-toggle.active {
@@ -1068,13 +974,6 @@
       letter-spacing: -.025em;
     }
 
-    .conj-lead {
-      max-width: 590px;
-      margin: 9px 0 0;
-      color: var(--muted);
-      font-size: .86rem;
-      line-height: 1.75;
-    }
 
     .conj-count {
       flex: 0 0 auto;
@@ -1424,126 +1323,123 @@
     </header>
 
     <section id="translationView" class="view-panel">
-    <section class="shell">
-      <div class="toolbar">
-        <div>
-          <span id="levelFieldLabel" class="field-label">難易度を選択</span>
-          <div class="level-group" role="radiogroup" aria-label="難易度">
-            <div class="level-option jpfr-only" data-directions="jpfr" style="display:none;">
-              <input id="levelA1" type="radio" name="level" value="A1">
-              <label for="levelA1"><strong>A1</strong><span>入門</span></label>
-            </div>
-            <div class="level-option" data-directions="frjp jpfr">
-              <input id="levelA2" type="radio" name="level" value="A2">
-              <label for="levelA2"><strong>A2</strong><span>基礎</span></label>
-            </div>
-            <div class="level-option" data-directions="frjp jpfr">
-              <input id="levelB1" type="radio" name="level" value="B1">
-              <label for="levelB1"><strong>B1</strong><span>中級</span></label>
-            </div>
-            <div class="level-option" data-directions="frjp jpfr">
-              <input id="levelB2" type="radio" name="level" value="B2" checked>
-              <label for="levelB2"><strong>B2</strong><span>中上級</span></label>
-            </div>
-            <div class="level-option" data-directions="frjp">
-              <input id="levelC1" type="radio" name="level" value="C1">
-              <label for="levelC1"><strong>C1</strong><span>上級</span></label>
-            </div>
-          </div>
-        </div>
-        <button id="drawBtn" class="primary-btn" type="button">出題する</button>
-      </div>
-
-      <div class="content">
-        <div id="emptyState" class="empty-state">
-          <div class="empty-icon">fr</div>
-          <h2>Une phrase vous attend.</h2>
-          <p>難易度を選んで「出題する」を押してください。<br>400問からランダムに1問表示します。</p>
-        </div>
-
-        <section id="quiz" class="quiz" aria-live="polite">
-          <div class="meta">
-            <span id="levelPill" class="pill level">B2</span>
-            <span id="categoryPill" class="pill"></span>
-            <span id="registerPill" class="pill register" style="display:none;"></span>
-            <span id="questionNumber" class="pill"></span>
-          </div>
-
-          <p id="questionLabel" class="question-label">Traduisez en japonais</p>
-          <p id="promptText" class="french" lang="fr"></p>
-
-          <div class="divider"></div>
-
-          <div class="translation-box">
-            <label for="userTranslation">
-              <span id="translationLabelText" class="translation-label-main">自分の和訳</span>
-              <span>ここは保存されません</span>
-            </label>
-            <textarea id="userTranslation" placeholder="フランス語を日本語に訳してみましょう。"></textarea>
-          </div>
-
-          <div class="actions">
-            <button id="answerBtn" class="secondary-btn" type="button">模範解答を表示</button>
-            <button id="nextBtn" class="ghost-btn" type="button">次の問題 →</button>
-          </div>
-
-          <div id="answerBox" class="answer">
-            <p class="answer-label">Modèle de traduction</p>
-            <p id="answerText" class="answer-jp"></p>
-
-            <div id="pointsBox" class="points">
-              <p class="points-title">POINT</p>
-              <ul id="pointsList"></ul>
+      <section class="shell">
+        <div class="toolbar">
+          <div>
+            <span id="levelFieldLabel" class="field-label">難易度を選択</span>
+            <div class="level-group" role="radiogroup" aria-label="難易度">
+              <div class="level-option jpfr-only" data-directions="jpfr" style="display:none;">
+                <input id="levelA1" type="radio" name="level" value="A1">
+                <label for="levelA1"><strong>A1</strong><span>入門</span></label>
+              </div>
+              <div class="level-option" data-directions="frjp jpfr">
+                <input id="levelA2" type="radio" name="level" value="A2">
+                <label for="levelA2"><strong>A2</strong><span>基礎</span></label>
+              </div>
+              <div class="level-option" data-directions="frjp jpfr">
+                <input id="levelB1" type="radio" name="level" value="B1">
+                <label for="levelB1"><strong>B1</strong><span>中級</span></label>
+              </div>
+              <div class="level-option" data-directions="frjp jpfr">
+                <input id="levelB2" type="radio" name="level" value="B2" checked>
+                <label for="levelB2"><strong>B2</strong><span>中上級</span></label>
+              </div>
+              <div class="level-option" data-directions="frjp">
+                <input id="levelC1" type="radio" name="level" value="C1">
+                <label for="levelC1"><strong>C1</strong><span>上級</span></label>
+              </div>
             </div>
           </div>
-        </section>
-      </div>
-    </section>
-
-    <p class="footer-note">
-      「模範解答」は一例です。自然な訳し方は複数あります。<br>　
-      <span class="kbd">Enter</span> 出題 / 次へ　
-      <span class="kbd">Space</span> 解答表示
-    </p>
-
-    <section id="dailyQuoteCard" class="daily-quote-card" aria-live="polite">
-      <div class="daily-quote-head">
-        <div class="daily-quote-heading">
-          <span class="daily-quote-kicker">Citation du jour</span>
-          <h2 class="daily-quote-title">本日の名言</h2>
-        </div>
-        <button id="quoteRefreshBtn" class="quote-refresh-btn" type="button">名言を更新 ↻</button>
-      </div>
-
-      <div class="daily-quote-body">
-        <p id="dailyQuoteText" class="daily-quote-text" lang="fr"></p>
-        <div class="daily-quote-meta">
-          <p id="dailyQuoteAuthor" class="daily-quote-author"></p>
-          <span id="dailyQuoteNumber" class="daily-quote-number">No. — / —</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="dailyMovieCard" class="daily-movie-card" aria-live="polite">
-      <div class="daily-movie-head">
-        <div class="daily-movie-heading">
-          <span class="daily-movie-kicker">Film du jour</span>
-          <h2 class="daily-movie-title-label">本日の名作映画</h2>
-        </div>
-        <button id="movieRefreshBtn" class="movie-refresh-btn" type="button">映画を更新 ↻</button>
-      </div>
-
-      <div class="daily-movie-body">
-        <h3 id="dailyMovieTitle" class="daily-movie-title" lang="fr"></h3>
-
-        <div class="daily-movie-meta">
-          <p id="dailyMovieCredit" class="daily-movie-credit"></p>
-          <span id="dailyMovieNumber" class="daily-movie-number">No. — / —</span>
+          <button id="drawBtn" class="primary-btn" type="button">出題する</button>
         </div>
 
-      </div>
-    </section>
+        <div class="content">
+          <div id="emptyState" class="empty-state">
+            <div class="empty-icon">fr</div>
+            <h2>Une phrase vous attend.</h2>
+            <p>難易度を選んで「出題する」を押してください。<br>400問からランダムに1問表示します。</p>
+          </div>
 
+          <section id="quiz" class="quiz" aria-live="polite">
+            <div class="meta">
+              <span id="levelPill" class="pill level">B2</span>
+              <span id="categoryPill" class="pill"></span>
+              <span id="registerPill" class="pill register" style="display:none;"></span>
+              <span id="questionNumber" class="pill"></span>
+            </div>
+
+            <p id="questionLabel" class="question-label">Traduisez en japonais</p>
+            <p id="promptText" class="french" lang="fr"></p>
+
+            <div class="divider"></div>
+
+            <div class="translation-box">
+              <label for="userTranslation">
+                <span id="translationLabelText" class="translation-label-main">自分の和訳</span>
+                <span>ここは保存されません</span>
+              </label>
+              <textarea id="userTranslation" placeholder="フランス語を日本語に訳してみましょう。"></textarea>
+            </div>
+
+            <div class="actions">
+              <button id="answerBtn" class="secondary-btn" type="button">模範解答を表示</button>
+              <button id="nextBtn" class="ghost-btn" type="button">次の問題 →</button>
+            </div>
+
+            <div id="answerBox" class="answer">
+              <p class="answer-label">Modèle de traduction</p>
+              <p id="answerText" class="answer-jp"></p>
+
+              <div id="pointsBox" class="points">
+                <p class="points-title">POINT</p>
+                <ul id="pointsList"></ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <p class="footer-note">
+        「模範解答」は一例です。自然な訳し方は複数あります。<br>　
+        <span class="kbd">Enter</span> 出題 / 次へ　
+        <span class="kbd">Space</span> 解答表示
+      </p>
+
+      <section id="dailyQuoteCard" class="daily-quote-card" aria-live="polite">
+        <div class="daily-quote-head">
+          <div class="daily-quote-heading">
+            <span class="daily-quote-kicker">Citation du jour</span>
+            <h2 class="daily-quote-title">本日の名言</h2>
+          </div>
+          <button id="quoteRefreshBtn" class="quote-refresh-btn" type="button">名言を更新 ↻</button>
+        </div>
+
+        <div class="daily-quote-body">
+          <p id="dailyQuoteText" class="daily-quote-text" lang="fr"></p>
+          <div class="daily-quote-meta">
+            <p id="dailyQuoteAuthor" class="daily-quote-author"></p>
+            <span id="dailyQuoteNumber" class="daily-quote-number">No. — / —</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="dailyMovieCard" class="daily-movie-card" aria-live="polite">
+        <div class="daily-movie-head">
+          <div class="daily-movie-heading">
+            <span class="daily-movie-kicker">Film du jour</span>
+            <h2 class="daily-movie-title-label">本日の名作映画</h2>
+          </div>
+          <button id="movieRefreshBtn" class="movie-refresh-btn" type="button">映画を更新 ↻</button>
+        </div>
+
+        <div class="daily-movie-body">
+          <h3 id="dailyMovieTitle" class="daily-movie-title" lang="fr"></h3>
+          <div class="daily-movie-meta">
+            <p id="dailyMovieCredit" class="daily-movie-credit"></p>
+            <span id="dailyMovieNumber" class="daily-movie-number">No. — / —</span>
+          </div>
+        </div>
+      </section>
     </section>
 
     <section id="omakeView" class="view-panel" hidden>
@@ -1553,7 +1449,7 @@
             <div>
               <span class="conj-kicker">Les conjugaisons</span>
               <h2 class="conj-title">活用を確認する</h2>
-                          </div>
+            </div>
             <span id="conjCount" class="conj-count"></span>
           </div>
 
@@ -1567,7 +1463,6 @@
           <div id="noResults" class="no-results">該当する動詞がありません。</div>
         </div>
       </section>
-
     </section>
 
     <p class="site-disclaimer">内容に誤りがある場合は、作成者まで直接連絡してください。</p>
@@ -1612,6 +1507,25 @@
   </script>
 
   <script>
+    const byId = id => document.getElementById(id);
+    const randomItem = items => items[Math.floor(Math.random() * items.length)];
+
+    function replayAnimation(element, className) {
+      element.classList.remove(className);
+      void element.offsetWidth;
+      element.classList.add(className);
+    }
+
+    function pickDifferent(items, isSame, maxTries = 30) {
+      let chosen = randomItem(items);
+      let tries = 0;
+      while (items.length > 1 && isSame(chosen) && tries < maxTries) {
+        chosen = randomItem(items);
+        tries++;
+      }
+      return chosen;
+    }
+
     const FRJP_BANK = {
       A2: typeof A2_QUESTIONS !== "undefined" ? A2_QUESTIONS : [],
       B1: typeof B1_QUESTIONS !== "undefined" ? B1_QUESTIONS : [],
@@ -1626,69 +1540,69 @@
       B2: typeof B2_JPFR_QUESTIONS !== "undefined" ? B2_JPFR_QUESTIONS : []
     };
 
-    const levelInputs = [...document.querySelectorAll('input[name="level"]')];
-    const levelOptions = [...document.querySelectorAll('.level-option[data-directions]')];
+    const levelInputs = Array.from(document.querySelectorAll('input[name="level"]'));
+    const levelOptions = Array.from(document.querySelectorAll('.level-option[data-directions]'));
 
     let currentView = "translation";
     let currentDirection = "frjp";
     let currentLevel = "B2";
     const lastLevelByDirection = { frjp: "B2", jpfr: "A1" };
 
-    const omakeToggle = document.getElementById("omakeToggle");
-    const translationView = document.getElementById("translationView");
-    const omakeView = document.getElementById("omakeView");
-    const directionToggle = document.getElementById("directionToggle");
-    const countBadge = document.getElementById("countBadge");
-    const brandSubtitle = document.getElementById("brandSubtitle");
+    const omakeToggle = byId("omakeToggle");
+    const translationView = byId("translationView");
+    const omakeView = byId("omakeView");
+    const directionToggle = byId("directionToggle");
+    const countBadge = byId("countBadge");
+    const brandSubtitle = byId("brandSubtitle");
     const levelGroup = document.querySelector(".level-group");
-    const drawBtn = document.getElementById("drawBtn");
-    const emptyState = document.getElementById("emptyState");
-    const quiz = document.getElementById("quiz");
+    const drawBtn = byId("drawBtn");
+    const emptyState = byId("emptyState");
+    const quiz = byId("quiz");
 
-    const levelPill = document.getElementById("levelPill");
-    const categoryPill = document.getElementById("categoryPill");
-    const registerPill = document.getElementById("registerPill");
-    const questionNumber = document.getElementById("questionNumber");
-    const questionLabel = document.getElementById("questionLabel");
-    const promptText = document.getElementById("promptText");
-    const userTranslation = document.getElementById("userTranslation");
-    const translationLabelText = document.getElementById("translationLabelText");
+    const levelPill = byId("levelPill");
+    const categoryPill = byId("categoryPill");
+    const registerPill = byId("registerPill");
+    const questionNumber = byId("questionNumber");
+    const questionLabel = byId("questionLabel");
+    const promptText = byId("promptText");
+    const userTranslation = byId("userTranslation");
+    const translationLabelText = byId("translationLabelText");
 
-    const answerBtn = document.getElementById("answerBtn");
-    const nextBtn = document.getElementById("nextBtn");
-    const answerBox = document.getElementById("answerBox");
-    const answerText = document.getElementById("answerText");
-    const pointsBox = document.getElementById("pointsBox");
-    const pointsList = document.getElementById("pointsList");
+    const answerBtn = byId("answerBtn");
+    const nextBtn = byId("nextBtn");
+    const answerBox = byId("answerBox");
+    const answerText = byId("answerText");
+    const pointsBox = byId("pointsBox");
+    const pointsList = byId("pointsList");
 
-    const dailyQuoteCard = document.getElementById("dailyQuoteCard");
-    const dailyQuoteText = document.getElementById("dailyQuoteText");
-    const dailyQuoteAuthor = document.getElementById("dailyQuoteAuthor");
-    const dailyQuoteNumber = document.getElementById("dailyQuoteNumber");
-    const quoteRefreshBtn = document.getElementById("quoteRefreshBtn");
+    const dailyQuoteCard = byId("dailyQuoteCard");
+    const dailyQuoteText = byId("dailyQuoteText");
+    const dailyQuoteAuthor = byId("dailyQuoteAuthor");
+    const dailyQuoteNumber = byId("dailyQuoteNumber");
+    const quoteRefreshBtn = byId("quoteRefreshBtn");
 
-    const dailyMovieCard = document.getElementById("dailyMovieCard");
-    const dailyMovieTitle = document.getElementById("dailyMovieTitle");
-    const dailyMovieCredit = document.getElementById("dailyMovieCredit");
-    const dailyMovieNumber = document.getElementById("dailyMovieNumber");
-    const movieRefreshBtn = document.getElementById("movieRefreshBtn");
+    const dailyMovieCard = byId("dailyMovieCard");
+    const dailyMovieTitle = byId("dailyMovieTitle");
+    const dailyMovieCredit = byId("dailyMovieCredit");
+    const dailyMovieNumber = byId("dailyMovieNumber");
+    const movieRefreshBtn = byId("movieRefreshBtn");
 
 
     const conjugationData = Array.isArray(window.CONJUGATION_DATA?.entries)
       ? window.CONJUGATION_DATA.entries
       : [];
-    const verbSections = document.getElementById("verbSections");
-    const conjCount = document.getElementById("conjCount");
-    const conjSearch = document.getElementById("conjSearch");
-    const noResults = document.getElementById("noResults");
-    const conjModal = document.getElementById("conjModal");
-    const conjBackdrop = document.getElementById("conjBackdrop");
-    const conjClose = document.getElementById("conjClose");
-    const conjDialogTitle = document.getElementById("conjDialogTitle");
-    const conjDialogNumber = document.getElementById("conjDialogNumber");
-    const conjDialogSubtitle = document.getElementById("conjDialogSubtitle");
-    const moodGrid = document.getElementById("moodGrid");
-    const conjNote = document.getElementById("conjNote");
+    const verbSections = byId("verbSections");
+    const conjCount = byId("conjCount");
+    const conjSearch = byId("conjSearch");
+    const noResults = byId("noResults");
+    const conjModal = byId("conjModal");
+    const conjBackdrop = byId("conjBackdrop");
+    const conjClose = byId("conjClose");
+    const conjDialogTitle = byId("conjDialogTitle");
+    const conjDialogNumber = byId("conjDialogNumber");
+    const conjDialogSubtitle = byId("conjDialogSubtitle");
+    const moodGrid = byId("moodGrid");
+    const conjNote = byId("conjNote");
 
     let conjugationListRendered = false;
     let lastConjFocused = null;
@@ -1704,69 +1618,49 @@
 
     let currentQuoteKey = null;
 
-    function quoteKey(q) {
-      return `${q.text}|||${q.author}`;
+    function getQuoteBank() {
+      return typeof DAILY_QUOTES !== "undefined" && Array.isArray(DAILY_QUOTES)
+        ? DAILY_QUOTES
+        : [];
     }
 
-    function renderQuote(q) {
-      if (!q) {
+    function quoteKey(quote) {
+      return `${quote.text}|||${quote.author}`;
+    }
+
+    function renderQuote(quote) {
+      if (!quote) {
         dailyQuoteText.textContent = "名言データを読み込めませんでした。";
         dailyQuoteAuthor.textContent = "";
         dailyQuoteNumber.textContent = "No. — / —";
         return;
       }
 
-      currentQuoteKey = quoteKey(q);
-      dailyQuoteText.textContent = `« ${q.text} »`;
-      dailyQuoteAuthor.textContent = q.author || "";
-
-      const quoteBankLength =
-        typeof DAILY_QUOTES !== "undefined" && Array.isArray(DAILY_QUOTES)
-          ? DAILY_QUOTES.length
-          : 0;
+      const bankLength = getQuoteBank().length;
+      currentQuoteKey = quoteKey(quote);
+      dailyQuoteText.textContent = `« ${quote.text} »`;
+      dailyQuoteAuthor.textContent = quote.author || "";
       dailyQuoteNumber.textContent =
-        q.id && quoteBankLength ? `No. ${q.id} / ${quoteBankLength}` : "No. — / —";
+        quote.id && bankLength ? `No. ${quote.id} / ${bankLength}` : "No. — / —";
 
-      dailyQuoteCard.classList.remove("quote-changing");
-      void dailyQuoteCard.offsetWidth;
-      dailyQuoteCard.classList.add("quote-changing");
+      replayAnimation(dailyQuoteCard, "quote-changing");
     }
 
     function showDailyQuote() {
-      const bank = typeof DAILY_QUOTES !== "undefined" && Array.isArray(DAILY_QUOTES)
-        ? DAILY_QUOTES
-        : [];
-
-      if (!bank.length) {
-        renderQuote(null);
-        return;
-      }
-
-      const chosen = bank[Math.floor(Math.random() * bank.length)];
-      renderQuote(chosen);
+      const bank = getQuoteBank();
+      renderQuote(bank.length ? randomItem(bank) : null);
     }
 
     function refreshQuote() {
-      const bank = typeof DAILY_QUOTES !== "undefined" && Array.isArray(DAILY_QUOTES)
-        ? DAILY_QUOTES
-        : [];
-
+      const bank = getQuoteBank();
       if (!bank.length) {
         renderQuote(null);
         return;
       }
 
-      let chosen = bank[Math.floor(Math.random() * bank.length)];
-
-      if (bank.length > 1) {
-        let guard = 0;
-        while (quoteKey(chosen) === currentQuoteKey && guard < 30) {
-          chosen = bank[Math.floor(Math.random() * bank.length)];
-          guard++;
-        }
-      }
-
-      renderQuote(chosen);
+      renderQuote(
+        pickDifferent(bank, quote => quoteKey(quote) === currentQuoteKey)
+      );
     }
 
     let currentMovieId = null;
@@ -1811,9 +1705,7 @@
           ? `No. ${movie.id} / ${movieBankLength}`
           : "No. — / —";
 
-      dailyMovieCard.classList.remove("movie-changing");
-      void dailyMovieCard.offsetWidth;
-      dailyMovieCard.classList.add("movie-changing");
+      replayAnimation(dailyMovieCard, "movie-changing");
     }
 
     function randomMovie() {
@@ -1830,16 +1722,7 @@
         return;
       }
 
-      let chosen = bank[Math.floor(Math.random() * bank.length)];
-      if (bank.length > 1) {
-        let guard = 0;
-        while (chosen.id === currentMovieId && guard < 30) {
-          chosen = bank[Math.floor(Math.random() * bank.length)];
-          guard++;
-        }
-      }
-
-      renderMovie(chosen);
+      renderMovie(pickDifferent(bank, movie => movie.id === currentMovieId));
     }
 
     function activeBank() {
@@ -1866,7 +1749,7 @@
       const modeKey = `${currentDirection}:${level}`;
       let chosen;
       do {
-        chosen = bank[Math.floor(Math.random() * bank.length)];
+        chosen = randomItem(bank);
       } while (
         bank.length > 1 &&
         lastQuestionIdByMode[modeKey] === chosen.id
