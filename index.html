@@ -1021,6 +1021,383 @@
         transition-duration: .01ms !important;
       }
     }
+
+    .view-panel[hidden] {
+      display: none !important;
+    }
+
+    .omake-link {
+      border: 1px solid rgba(20,33,61,.12);
+    }
+
+    .direction-toggle.active {
+      color: #fff;
+      border-color: var(--navy);
+      background: linear-gradient(135deg, var(--navy), var(--navy-2));
+      box-shadow: 0 8px 20px rgba(20,33,61,.16);
+    }
+
+    .conj-shell {
+      padding: 31px 30px 34px;
+    }
+
+    .conj-intro {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 22px;
+      margin-bottom: 24px;
+    }
+
+    .conj-kicker {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--gold);
+      font-size: .68rem;
+      font-weight: 900;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .conj-title {
+      margin: 0;
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.8rem, 5vw, 2.55rem);
+      font-weight: 500;
+      letter-spacing: -.025em;
+    }
+
+    .conj-lead {
+      max-width: 590px;
+      margin: 9px 0 0;
+      color: var(--muted);
+      font-size: .86rem;
+      line-height: 1.75;
+    }
+
+    .conj-count {
+      flex: 0 0 auto;
+      color: #82796d;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: .76rem;
+      font-style: italic;
+    }
+
+    .conj-tools {
+      position: relative;
+      margin-bottom: 24px;
+    }
+
+    .conj-search {
+      width: 100%;
+      min-height: 48px;
+      border: 1px solid rgba(20,33,61,.11);
+      border-radius: 15px;
+      padding: 0 17px;
+      color: var(--ink);
+      background: rgba(255,255,255,.72);
+      outline: none;
+      font: inherit;
+      transition: border-color .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+
+    .conj-search:focus {
+      border-color: rgba(53,93,157,.42);
+      background: #fff;
+      box-shadow: 0 0 0 4px rgba(53,93,157,.07);
+    }
+
+    .verb-section + .verb-section {
+      margin-top: 28px;
+    }
+
+    .verb-section-title {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      margin: 0 0 12px;
+      color: #7d766c;
+      font-size: .7rem;
+      font-weight: 900;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .verb-section-title::after {
+      content: "";
+      height: 1px;
+      flex: 1;
+      background: rgba(20,33,61,.09);
+    }
+
+    .verb-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 9px;
+    }
+
+    .verb-card {
+      min-width: 0;
+      border: 1px solid rgba(20,33,61,.10);
+      border-radius: 14px;
+      padding: 13px 13px 12px;
+      color: var(--navy);
+      background: rgba(255,255,255,.67);
+      text-align: left;
+      cursor: pointer;
+      transition: transform .15s ease, border-color .18s ease,
+                  box-shadow .18s ease, background .18s ease;
+    }
+
+    .verb-card:hover {
+      transform: translateY(-1px);
+      border-color: rgba(53,93,157,.28);
+      background: rgba(255,255,255,.94);
+      box-shadow: 0 8px 20px rgba(20,33,61,.07);
+    }
+
+    .verb-name {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.03rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .verb-meta {
+      display: block;
+      margin-top: 5px;
+      color: #91897e;
+      font-size: .64rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+    }
+
+    .no-results {
+      display: none;
+      padding: 36px 12px;
+      color: var(--muted);
+      text-align: center;
+      font-size: .85rem;
+    }
+
+    .conj-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 28px;
+    }
+
+    .conj-modal.open {
+      display: flex;
+    }
+
+    .conj-backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(15,24,43,.34);
+      backdrop-filter: blur(8px);
+      animation: modalBackdrop .22s ease both;
+    }
+
+    .conj-dialog {
+      position: relative;
+      z-index: 1;
+      width: min(920px, 100%);
+      max-height: min(88vh, 850px);
+      overflow: auto;
+      border: 1px solid rgba(255,255,255,.8);
+      border-radius: 26px;
+      background: #fffdf9;
+      box-shadow: 0 28px 90px rgba(15,24,43,.28);
+      animation: modalPop .3s cubic-bezier(.2,.8,.2,1) both;
+    }
+
+    @keyframes modalBackdrop {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes modalPop {
+      from { opacity: 0; transform: translateY(12px) scale(.955); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .conj-dialog-head {
+      position: sticky;
+      top: 0;
+      z-index: 4;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 24px 26px 20px;
+      border-bottom: 1px solid rgba(20,33,61,.09);
+      background: rgba(255,253,249,.94);
+      backdrop-filter: blur(12px);
+    }
+
+    .conj-number {
+      display: inline-block;
+      margin-bottom: 5px;
+      color: var(--blue);
+      font-size: .67rem;
+      font-weight: 900;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .conj-dialog-title {
+      margin: 0;
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.65rem, 5vw, 2.25rem);
+      font-weight: 500;
+      letter-spacing: -.025em;
+    }
+
+    .conj-dialog-subtitle {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: .75rem;
+      line-height: 1.55;
+    }
+
+    .conj-close {
+      flex: 0 0 auto;
+      width: 38px;
+      height: 38px;
+      border: 1px solid rgba(20,33,61,.10);
+      border-radius: 50%;
+      color: var(--navy);
+      background: #f4efe7;
+      font-size: 1.25rem;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .conj-dialog-body {
+      padding: 24px 26px 28px;
+    }
+
+    .mood-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      align-items: start;
+    }
+
+    .mood-card {
+      overflow: hidden;
+      border: 1px solid rgba(20,33,61,.10);
+      border-radius: 17px;
+      background: #fff;
+    }
+
+    .mood-title {
+      margin: 0;
+      padding: 11px 14px;
+      color: var(--navy);
+      background: #f3eee6;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: .88rem;
+      font-weight: 700;
+      letter-spacing: .03em;
+    }
+
+    .tense-row {
+      display: grid;
+      grid-template-columns: 112px minmax(0, 1fr);
+      gap: 13px;
+      padding: 11px 14px;
+      border-top: 1px solid rgba(20,33,61,.075);
+    }
+
+    .tense-name {
+      color: #8a8174;
+      font-size: .68rem;
+      font-weight: 800;
+      line-height: 1.55;
+      text-transform: lowercase;
+    }
+
+    .tense-forms {
+      min-width: 0;
+      color: #303847;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: .9rem;
+      line-height: 1.62;
+    }
+
+    .tense-forms span {
+      display: block;
+      overflow-wrap: anywhere;
+    }
+
+    .conj-note {
+      margin: 17px 1px 0;
+      padding: 14px 16px;
+      border-left: 3px solid rgba(184,139,74,.55);
+      border-radius: 0 12px 12px 0;
+      color: #726a5f;
+      background: rgba(239,233,223,.58);
+      font-size: .72rem;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 760px) {
+      .conj-shell {
+        padding: 24px 20px 28px;
+      }
+
+      .conj-intro {
+        display: block;
+      }
+
+      .conj-count {
+        display: block;
+        margin-top: 10px;
+      }
+
+      .verb-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .conj-modal {
+        align-items: flex-end;
+        padding: 10px;
+      }
+
+      .conj-dialog {
+        max-height: 91vh;
+        border-radius: 23px 23px 18px 18px;
+      }
+
+      .conj-dialog-head {
+        padding: 20px 18px 16px;
+      }
+
+      .conj-dialog-body {
+        padding: 18px 16px 22px;
+      }
+
+      .mood-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .tense-row {
+        grid-template-columns: 92px minmax(0, 1fr);
+        gap: 10px;
+        padding: 10px 12px;
+      }
+    }
+
   </style>
 </head>
 
@@ -1037,7 +1414,7 @@
         </div>
       </div>
       <div class="brand-actions">
-        <a class="direction-toggle omake-link" href="omake.html">omake</a>
+        <button id="omakeToggle" class="direction-toggle omake-link" type="button" aria-pressed="false">omake</button>
         <button id="directionToggle" class="direction-toggle" type="button"
                 aria-label="翻訳方向を切り替える" aria-pressed="false">
           仏 → 和 <span aria-hidden="true">⇄</span>
@@ -1046,6 +1423,7 @@
       </div>
     </header>
 
+    <section id="translationView" class="view-panel">
     <section class="shell">
       <div class="toolbar">
         <div>
@@ -1166,8 +1544,53 @@
       </div>
     </section>
 
+    </section>
+
+    <section id="omakeView" class="view-panel" hidden>
+      <section class="shell">
+        <div class="conj-shell">
+          <div class="conj-intro">
+            <div>
+              <span class="conj-kicker">Les conjugaisons</span>
+              <h2 class="conj-title">活用を確認する</h2>
+                          </div>
+            <span id="conjCount" class="conj-count"></span>
+          </div>
+
+          <div class="conj-tools">
+            <input id="conjSearch" class="conj-search" type="search"
+                   placeholder="動詞を検索  ex. aller, prendre, être"
+                   autocomplete="off" spellcheck="false" aria-label="動詞を検索">
+          </div>
+
+          <div id="verbSections"></div>
+          <div id="noResults" class="no-results">該当する動詞がありません。</div>
+        </div>
+      </section>
+
+    </section>
+
     <p class="site-disclaimer">内容に誤りがある場合は、作成者まで直接連絡してください。</p>
   </main>
+
+  <div id="conjModal" class="conj-modal" aria-hidden="true">
+    <div id="conjBackdrop" class="conj-backdrop"></div>
+    <section class="conj-dialog" role="dialog" aria-modal="true" aria-labelledby="conjDialogTitle">
+      <header class="conj-dialog-head">
+        <div>
+          <span id="conjDialogNumber" class="conj-number"></span>
+          <h2 id="conjDialogTitle" class="conj-dialog-title"></h2>
+          <p id="conjDialogSubtitle" class="conj-dialog-subtitle"></p>
+        </div>
+        <button id="conjClose" class="conj-close" type="button" aria-label="閉じる">×</button>
+      </header>
+      <div class="conj-dialog-body">
+        <div id="moodGrid" class="mood-grid"></div>
+        <p id="conjNote" class="conj-note" style="display:none;"></p>
+      </div>
+    </section>
+  </div>
+
 
   <!-- 問題データ：index.html と同じフォルダに置いてください -->
   <script src="a2_french_translation_400.js"></script>
@@ -1182,6 +1605,10 @@
   <script
     src="./movies.js?v=20260812-1"
     onerror="window.MOVIES_SCRIPT_LOAD_FAILED = true;">
+  </script>
+  <script
+    src="./conjugaisons.js?v=20260812-2"
+    onerror="window.CONJUGATION_LOAD_FAILED = true;">
   </script>
 
   <script>
@@ -1202,10 +1629,14 @@
     const levelInputs = [...document.querySelectorAll('input[name="level"]')];
     const levelOptions = [...document.querySelectorAll('.level-option[data-directions]')];
 
+    let currentView = "translation";
     let currentDirection = "frjp";
     let currentLevel = "B2";
     const lastLevelByDirection = { frjp: "B2", jpfr: "A1" };
 
+    const omakeToggle = document.getElementById("omakeToggle");
+    const translationView = document.getElementById("translationView");
+    const omakeView = document.getElementById("omakeView");
     const directionToggle = document.getElementById("directionToggle");
     const countBadge = document.getElementById("countBadge");
     const brandSubtitle = document.getElementById("brandSubtitle");
@@ -1241,6 +1672,26 @@
     const dailyMovieCredit = document.getElementById("dailyMovieCredit");
     const dailyMovieNumber = document.getElementById("dailyMovieNumber");
     const movieRefreshBtn = document.getElementById("movieRefreshBtn");
+
+
+    const conjugationData = Array.isArray(window.CONJUGATION_DATA?.entries)
+      ? window.CONJUGATION_DATA.entries
+      : [];
+    const verbSections = document.getElementById("verbSections");
+    const conjCount = document.getElementById("conjCount");
+    const conjSearch = document.getElementById("conjSearch");
+    const noResults = document.getElementById("noResults");
+    const conjModal = document.getElementById("conjModal");
+    const conjBackdrop = document.getElementById("conjBackdrop");
+    const conjClose = document.getElementById("conjClose");
+    const conjDialogTitle = document.getElementById("conjDialogTitle");
+    const conjDialogNumber = document.getElementById("conjDialogNumber");
+    const conjDialogSubtitle = document.getElementById("conjDialogSubtitle");
+    const moodGrid = document.getElementById("moodGrid");
+    const conjNote = document.getElementById("conjNote");
+
+    let conjugationListRendered = false;
+    let lastConjFocused = null;
 
     let currentQuestion = null;
     let lastQuestionIdByMode = {};
@@ -1440,13 +1891,173 @@
         `「出題する」を押すと400問からランダムに1問表示します。`;
     }
 
+    function directionButtonMarkup() {
+      return currentDirection === "jpfr"
+        ? '和 → 仏 <span aria-hidden="true">⇄</span>'
+        : '仏 → 和 <span aria-hidden="true">⇄</span>';
+    }
+
+    function sectionLabel(entry) {
+      if (entry.number == null) return "Modèles de base";
+      if (entry.number <= 10) return "Conjugaisons 1 — 10";
+      if (entry.number <= 25) return "Conjugaisons 11 — 25";
+      if (entry.number <= 39) return "Conjugaisons 26 — 39";
+      return "Conjugaisons 40 — 61";
+    }
+
+    function renderConjugationList(filter = "") {
+      const needle = filter.trim().toLocaleLowerCase("fr");
+      const visible = conjugationData.filter(entry =>
+        entry.infinitive.toLocaleLowerCase("fr").includes(needle)
+      );
+
+      const grouped = new Map();
+      visible.forEach(entry => {
+        const key = sectionLabel(entry);
+        if (!grouped.has(key)) grouped.set(key, []);
+        grouped.get(key).push(entry);
+      });
+
+      verbSections.innerHTML = "";
+      grouped.forEach((items, label) => {
+        const section = document.createElement("section");
+        section.className = "verb-section";
+
+        const title = document.createElement("h3");
+        title.className = "verb-section-title";
+        title.textContent = label;
+        section.appendChild(title);
+
+        const grid = document.createElement("div");
+        grid.className = "verb-grid";
+
+        items.forEach(entry => {
+          const btn = document.createElement("button");
+          btn.className = "verb-card";
+          btn.type = "button";
+          btn.dataset.infinitive = entry.infinitive;
+
+          const name = document.createElement("span");
+          name.className = "verb-name";
+          name.textContent = entry.display;
+
+          const meta = document.createElement("span");
+          meta.className = "verb-meta";
+          meta.textContent =
+            entry.number == null ? entry.subtitle : `Conj. ${entry.number}`;
+
+          btn.append(name, meta);
+          btn.addEventListener("click", () => openConjugation(entry, btn));
+          grid.appendChild(btn);
+        });
+
+        section.appendChild(grid);
+        verbSections.appendChild(section);
+      });
+
+      if (!conjugationData.length && window.CONJUGATION_LOAD_FAILED) {
+        noResults.textContent = "conjugaisons.js を読み込めませんでした。";
+        noResults.style.display = "block";
+        conjCount.textContent = "—";
+      } else {
+        noResults.textContent = "該当する動詞がありません。";
+        noResults.style.display = visible.length ? "none" : "block";
+        conjCount.textContent = `${visible.length} verbes`;
+      }
+
+      conjugationListRendered = true;
+    }
+
+    function openConjugation(entry, trigger) {
+      lastConjFocused = trigger || document.activeElement;
+      conjDialogTitle.textContent = entry.display;
+      conjDialogNumber.textContent =
+        entry.number == null ? "Modèle de conjugaison" : `Conjugaison ${entry.number}`;
+      conjDialogSubtitle.textContent = entry.subtitle || "";
+
+      moodGrid.innerHTML = "";
+      entry.groups.forEach(group => {
+        const card = document.createElement("section");
+        card.className = "mood-card";
+
+        const title = document.createElement("h3");
+        title.className = "mood-title";
+        title.textContent = group.mood;
+        card.appendChild(title);
+
+        group.rows.forEach(row => {
+          const item = document.createElement("div");
+          item.className = "tense-row";
+
+          const tense = document.createElement("div");
+          tense.className = "tense-name";
+          tense.textContent = row.tense || "—";
+
+          const forms = document.createElement("div");
+          forms.className = "tense-forms";
+          row.forms.forEach(form => {
+            const line = document.createElement("span");
+            line.textContent = form;
+            forms.appendChild(line);
+          });
+
+          item.append(tense, forms);
+          card.appendChild(item);
+        });
+
+        moodGrid.appendChild(card);
+      });
+
+      if (entry.notes) {
+        conjNote.textContent = entry.notes;
+        conjNote.style.display = "block";
+      } else {
+        conjNote.textContent = "";
+        conjNote.style.display = "none";
+      }
+
+      conjModal.classList.add("open");
+      conjModal.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+      requestAnimationFrame(() => conjClose.focus());
+    }
+
+    function closeConjugation() {
+      conjModal.classList.remove("open");
+      conjModal.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
+      if (lastConjFocused) lastConjFocused.focus({ preventScroll: true });
+    }
+
+    function showOmakeView() {
+      currentView = "omake";
+      translationView.hidden = true;
+      omakeView.hidden = false;
+      omakeToggle.classList.add("active");
+      omakeToggle.setAttribute("aria-pressed", "true");
+      directionToggle.innerHTML = directionButtonMarkup();
+      directionToggle.setAttribute("aria-label", "翻訳練習に戻る");
+      brandSubtitle.textContent = "CONJUGATION REFERENCE";
+      countBadge.textContent = "Conjugaisons";
+      if (!conjugationListRendered) renderConjugationList();
+      window.scrollTo(0, 0);
+    }
+
+    function showTranslationView() {
+      currentView = "translation";
+      omakeView.hidden = true;
+      translationView.hidden = false;
+      omakeToggle.classList.remove("active");
+      omakeToggle.setAttribute("aria-pressed", "false");
+      directionToggle.setAttribute("aria-label", "翻訳方向を切り替える");
+      applyDirectionUI();
+      window.scrollTo(0, 0);
+    }
+
     function applyDirectionUI() {
       const isJpFr = currentDirection === "jpfr";
 
-      directionToggle.innerHTML =
-        isJpFr
-          ? '和 → 仏 <span aria-hidden="true">⇄</span>'
-          : '仏 → 和 <span aria-hidden="true">⇄</span>';
+      directionToggle.innerHTML = directionButtonMarkup();
       directionToggle.setAttribute("aria-pressed", String(isJpFr));
 
       brandSubtitle.textContent =
@@ -1578,9 +2189,22 @@
     });
 
     directionToggle.addEventListener("click", () => {
+      if (currentView === "omake") {
+        showTranslationView();
+        return;
+      }
+
       currentDirection = currentDirection === "frjp" ? "jpfr" : "frjp";
       applyDirectionUI();
     });
+
+    omakeToggle.addEventListener("click", () => {
+      if (currentView !== "omake") showOmakeView();
+    });
+
+    conjSearch.addEventListener("input", () => renderConjugationList(conjSearch.value));
+    conjClose.addEventListener("click", closeConjugation);
+    conjBackdrop.addEventListener("click", closeConjugation);
 
     quoteRefreshBtn.addEventListener("click", refreshQuote);
     movieRefreshBtn.addEventListener("click", randomMovie);
@@ -1589,6 +2213,13 @@
     randomMovie();
 
     document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && conjModal.classList.contains("open")) {
+        closeConjugation();
+        return;
+      }
+
+      if (currentView !== "translation") return;
+
       const active = document.activeElement;
       const isTyping = active === userTranslation;
 
