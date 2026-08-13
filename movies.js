@@ -1,7 +1,7 @@
 // Films displayed in the 'Film du jour' section.
 // French title, director, release year and sequential ID only.
 window.MOVIE_DATASET = {
-  "total": 679,
+  "total": 768,
   "movies": [
     {
       "id": 1,
@@ -4076,6 +4076,540 @@ window.MOVIE_DATASET = {
       "frenchTitle": "Interstellar",
       "director": "Christopher Nolan",
       "year": 2014
+    },
+    {
+      "id": 680,
+      "frenchTitle": "Hara-kiri",
+      "director": "Masaki Kobayashi",
+      "year": 1962
+    },
+    {
+      "id": 681,
+      "frenchTitle": "Intouchables",
+      "director": "Olivier Nakache, Éric Toledano",
+      "year": 2011
+    },
+    {
+      "id": 682,
+      "frenchTitle": "Le Tombeau des lucioles",
+      "director": "Isao Takahata",
+      "year": 1988
+    },
+    {
+      "id": 683,
+      "frenchTitle": "Django Unchained",
+      "director": "Quentin Tarantino",
+      "year": 2012
+    },
+    {
+      "id": 684,
+      "frenchTitle": "Le Dictateur",
+      "director": "Charlie Chaplin",
+      "year": 1940
+    },
+    {
+      "id": 685,
+      "frenchTitle": "Avengers: Infinity War",
+      "director": "Anthony Russo, Joe Russo",
+      "year": 2018
+    },
+    {
+      "id": 686,
+      "frenchTitle": "Témoin à charge",
+      "director": "Billy Wilder",
+      "year": 1957
+    },
+    {
+      "id": 687,
+      "frenchTitle": "Spider-Man: New Generation",
+      "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+      "year": 2018
+    },
+    {
+      "id": 688,
+      "frenchTitle": "The Dark Knight Rises",
+      "director": "Christopher Nolan",
+      "year": 2012
+    },
+    {
+      "id": 689,
+      "frenchTitle": "Coco",
+      "director": "Lee Unkrich, Adrian Molina",
+      "year": 2017
+    },
+    {
+      "id": 690,
+      "frenchTitle": "Top Gun: Maverick",
+      "director": "Joseph Kosinski",
+      "year": 2022
+    },
+    {
+      "id": 691,
+      "frenchTitle": "Your Name.",
+      "director": "Makoto Shinkai",
+      "year": 2016
+    },
+    {
+      "id": 692,
+      "frenchTitle": "3 Idiots",
+      "director": "Rajkumar Hirani",
+      "year": 2009
+    },
+    {
+      "id": 693,
+      "frenchTitle": "Capharnaüm",
+      "director": "Nadine Labaki",
+      "year": 2018
+    },
+    {
+      "id": 694,
+      "frenchTitle": "La Chasse",
+      "director": "Thomas Vinterberg",
+      "year": 2012
+    },
+    {
+      "id": 695,
+      "frenchTitle": "Hamilton",
+      "director": "Thomas Kail",
+      "year": 2020
+    },
+    {
+      "id": 696,
+      "frenchTitle": "Incendies",
+      "director": "Denis Villeneuve",
+      "year": 2010
+    },
+    {
+      "id": 697,
+      "frenchTitle": "Là-haut",
+      "director": "Pete Docter",
+      "year": 2009
+    },
+    {
+      "id": 698,
+      "frenchTitle": "Metropolis",
+      "director": "Fritz Lang",
+      "year": 1927
+    },
+    {
+      "id": 699,
+      "frenchTitle": "Taare Zameen Par",
+      "director": "Aamir Khan",
+      "year": 2007
+    },
+    {
+      "id": 700,
+      "frenchTitle": "1917",
+      "director": "Sam Mendes",
+      "year": 2019
+    },
+    {
+      "id": 701,
+      "frenchTitle": "Et pour quelques dollars de plus",
+      "director": "Sergio Leone",
+      "year": 1965
+    },
+    {
+      "id": 702,
+      "frenchTitle": "Dangal",
+      "director": "Nitesh Tiwari",
+      "year": 2016
+    },
+    {
+      "id": 703,
+      "frenchTitle": "Le Kid",
+      "director": "Charlie Chaplin",
+      "year": 1921
+    },
+    {
+      "id": 704,
+      "frenchTitle": "The Father",
+      "director": "Florian Zeller",
+      "year": 2020
+    },
+    {
+      "id": 705,
+      "frenchTitle": "Green Book : Sur les routes du Sud",
+      "director": "Peter Farrelly",
+      "year": 2018
+    },
+    {
+      "id": 706,
+      "frenchTitle": "Jugement à Nuremberg",
+      "director": "Stanley Kramer",
+      "year": 1961
+    },
+    {
+      "id": 707,
+      "frenchTitle": "Un homme d'exception",
+      "director": "Ron Howard",
+      "year": 2001
+    },
+    {
+      "id": 708,
+      "frenchTitle": "Spider-Man: No Way Home",
+      "director": "Jon Watts",
+      "year": 2021
+    },
+    {
+      "id": 709,
+      "frenchTitle": "Shutter Island",
+      "director": "Martin Scorsese",
+      "year": 2010
+    },
+    {
+      "id": 710,
+      "frenchTitle": "Arnaques, Crimes et Botanique",
+      "director": "Guy Ritchie",
+      "year": 1998
+    },
+    {
+      "id": 711,
+      "frenchTitle": "Le Crime était presque parfait",
+      "director": "Alfred Hitchcock",
+      "year": 1954
+    },
+    {
+      "id": 712,
+      "frenchTitle": "Warrior",
+      "director": "Gavin O'Connor",
+      "year": 2011
+    },
+    {
+      "id": 713,
+      "frenchTitle": "Prisoners",
+      "director": "Denis Villeneuve",
+      "year": 2013
+    },
+    {
+      "id": 714,
+      "frenchTitle": "Arrête-moi si tu peux",
+      "director": "Steven Spielberg",
+      "year": 2002
+    },
+    {
+      "id": 715,
+      "frenchTitle": "Million Dollar Baby",
+      "director": "Clint Eastwood",
+      "year": 2004
+    },
+    {
+      "id": 716,
+      "frenchTitle": "Les Enfants du ciel",
+      "director": "Majid Majidi",
+      "year": 1997
+    },
+    {
+      "id": 717,
+      "frenchTitle": "Harry Potter et les Reliques de la Mort, partie 2",
+      "director": "David Yates",
+      "year": 2011
+    },
+    {
+      "id": 718,
+      "frenchTitle": "Les Fraises sauvages",
+      "director": "Ingmar Bergman",
+      "year": 1957
+    },
+    {
+      "id": 719,
+      "frenchTitle": "Gone Girl",
+      "director": "David Fincher",
+      "year": 2014
+    },
+    {
+      "id": 720,
+      "frenchTitle": "Au nom du père",
+      "director": "Jim Sheridan",
+      "year": 1993
+    },
+    {
+      "id": 721,
+      "frenchTitle": "Barry Lyndon",
+      "director": "Stanley Kubrick",
+      "year": 1975
+    },
+    {
+      "id": 722,
+      "frenchTitle": "Klaus",
+      "director": "Sergio Pablos",
+      "year": 2019
+    },
+    {
+      "id": 723,
+      "frenchTitle": "Tu ne tueras point",
+      "director": "Mel Gibson",
+      "year": 2016
+    },
+    {
+      "id": 724,
+      "frenchTitle": "Monsieur Smith au Sénat",
+      "director": "Frank Capra",
+      "year": 1939
+    },
+    {
+      "id": 725,
+      "frenchTitle": "Sherlock Junior",
+      "director": "Buster Keaton",
+      "year": 1924
+    },
+    {
+      "id": 726,
+      "frenchTitle": "Les Nouveaux Sauvages",
+      "director": "Damián Szifrón",
+      "year": 2014
+    },
+    {
+      "id": 727,
+      "frenchTitle": "Room",
+      "director": "Lenny Abrahamson",
+      "year": 2015
+    },
+    {
+      "id": 728,
+      "frenchTitle": "Mary et Max",
+      "director": "Adam Elliot",
+      "year": 2009
+    },
+    {
+      "id": 729,
+      "frenchTitle": "Dragons",
+      "director": "Chris Sanders, Dean DeBlois",
+      "year": 2010
+    },
+    {
+      "id": 730,
+      "frenchTitle": "Le Cercle des poètes disparus",
+      "director": "Peter Weir",
+      "year": 1989
+    },
+    {
+      "id": 731,
+      "frenchTitle": "Hotel Rwanda",
+      "director": "Terry George",
+      "year": 2004
+    },
+    {
+      "id": 732,
+      "frenchTitle": "Le Mans 66",
+      "director": "James Mangold",
+      "year": 2019
+    },
+    {
+      "id": 733,
+      "frenchTitle": "Logan",
+      "director": "James Mangold",
+      "year": 2017
+    },
+    {
+      "id": 734,
+      "frenchTitle": "Rush",
+      "director": "Ron Howard",
+      "year": 2013
+    },
+    {
+      "id": 735,
+      "frenchTitle": "Jeux dangereux",
+      "director": "Ernst Lubitsch",
+      "year": 1942
+    },
+    {
+      "id": 736,
+      "frenchTitle": "Hatchi",
+      "director": "Lasse Hallström",
+      "year": 2009
+    },
+    {
+      "id": 737,
+      "frenchTitle": "Jai Bhim",
+      "director": "T. J. Gnanavel",
+      "year": 2021
+    },
+    {
+      "id": 738,
+      "frenchTitle": "Mon père et mon fils",
+      "director": "Çağan Irmak",
+      "year": 2005
+    },
+    {
+      "id": 739,
+      "frenchTitle": "Les Raisins de la colère",
+      "director": "John Ford",
+      "year": 1940
+    },
+    {
+      "id": 740,
+      "frenchTitle": "Everything Everywhere All at Once",
+      "director": "Daniel Kwan, Daniel Scheinert",
+      "year": 2022
+    },
+    {
+      "id": 741,
+      "frenchTitle": "Mademoiselle",
+      "director": "Park Chan-wook",
+      "year": 2016
+    },
+    {
+      "id": 742,
+      "frenchTitle": "Dersou Ouzala",
+      "director": "Akira Kurosawa",
+      "year": 1975
+    },
+    {
+      "id": 743,
+      "frenchTitle": "La Couleur des sentiments",
+      "director": "Tate Taylor",
+      "year": 2011
+    },
+    {
+      "id": 744,
+      "frenchTitle": "Le Géant de fer",
+      "director": "Brad Bird",
+      "year": 1999
+    },
+    {
+      "id": 745,
+      "frenchTitle": "Gandhi",
+      "director": "Richard Attenborough",
+      "year": 1982
+    },
+    {
+      "id": 746,
+      "frenchTitle": "La Barbe à papa",
+      "director": "Peter Bogdanovich",
+      "year": 1973
+    },
+    {
+      "id": 747,
+      "frenchTitle": "Procès de singe",
+      "director": "Stanley Kramer",
+      "year": 1960
+    },
+    {
+      "id": 748,
+      "frenchTitle": "L'enfer est à lui",
+      "director": "Raoul Walsh",
+      "year": 1949
+    },
+    {
+      "id": 749,
+      "frenchTitle": "L'Homme qui tua Liberty Valance",
+      "director": "John Ford",
+      "year": 1962
+    },
+    {
+      "id": 750,
+      "frenchTitle": "Le Temps d'un week-end",
+      "director": "Martin Brest",
+      "year": 1992
+    },
+    {
+      "id": 751,
+      "frenchTitle": "Soul",
+      "director": "Pete Docter",
+      "year": 2020
+    },
+    {
+      "id": 752,
+      "frenchTitle": "Lion",
+      "director": "Garth Davis",
+      "year": 2016
+    },
+    {
+      "id": 753,
+      "frenchTitle": "Le Chant de la mer",
+      "director": "Tomm Moore",
+      "year": 2014
+    },
+    {
+      "id": 754,
+      "frenchTitle": "Dune",
+      "director": "Denis Villeneuve",
+      "year": 2021
+    },
+    {
+      "id": 755,
+      "frenchTitle": "Slumdog Millionaire",
+      "director": "Danny Boyle",
+      "year": 2008
+    },
+    {
+      "id": 756,
+      "frenchTitle": "Imitation Game",
+      "director": "Morten Tyldum",
+      "year": 2014
+    },
+    {
+      "id": 757,
+      "frenchTitle": "Le Discours d'un roi",
+      "director": "Tom Hooper",
+      "year": 2010
+    },
+    {
+      "id": 758,
+      "frenchTitle": "Black Swan",
+      "director": "Darren Aronofsky",
+      "year": 2010
+    },
+    {
+      "id": 759,
+      "frenchTitle": "Zootopie",
+      "director": "Byron Howard, Rich Moore",
+      "year": 2016
+    },
+    {
+      "id": 760,
+      "frenchTitle": "Qui a peur de Virginia Woolf ?",
+      "director": "Mike Nichols",
+      "year": 1966
+    },
+    {
+      "id": 761,
+      "frenchTitle": "Seul sur Mars",
+      "director": "Ridley Scott",
+      "year": 2015
+    },
+    {
+      "id": 762,
+      "frenchTitle": "Dunkerque",
+      "director": "Christopher Nolan",
+      "year": 2017
+    },
+    {
+      "id": 763,
+      "frenchTitle": "Nausicaä de la Vallée du Vent",
+      "director": "Hayao Miyazaki",
+      "year": 1984
+    },
+    {
+      "id": 764,
+      "frenchTitle": "Les Nuits de Cabiria",
+      "director": "Federico Fellini",
+      "year": 1957
+    },
+    {
+      "id": 765,
+      "frenchTitle": "Les Diaboliques",
+      "director": "Henri-Georges Clouzot",
+      "year": 1955
+    },
+    {
+      "id": 766,
+      "frenchTitle": "Infernal Affairs",
+      "director": "Andrew Lau, Alan Mak",
+      "year": 2002
+    },
+    {
+      "id": 767,
+      "frenchTitle": "The Fabelmans",
+      "director": "Steven Spielberg",
+      "year": 2022
+    },
+    {
+      "id": 768,
+      "frenchTitle": "Les Banshees d'Inisherin",
+      "director": "Martin McDonagh",
+      "year": 2022
     }
   ]
 };
